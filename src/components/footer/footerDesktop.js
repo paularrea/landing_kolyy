@@ -1,8 +1,20 @@
 import React from "react";
 import Logo from "../header/components/logo";
 import { Link } from "gatsby";
-import "./footer.scss"
-// import * as styles from "../../styles/footer.module.scss";
+import {
+  big_container,
+  container,
+  flex_container,
+  logo_text,
+  hr,
+  contact,
+  contact_div,
+  contact_icons,
+  follow_container,
+  media_list,
+  copyright,
+  flex_footer_lang,
+} from "./footer.module.scss";
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 
 import LinkedInIcon from "../../images/svg/Linkedin_icon.svg";
@@ -21,10 +33,10 @@ const FooterDesktop = () => {
     require("smooth-scroll")('a[href*="#"]');
   }
   return (
-    <div className="big_container">
-      <div className="container">
-        <div className="flex_container">
-          <div className="logo_text">
+    <div className={big_container}>
+      <div className={container}>
+        <div className={flex_container}>
+          <div className={logo_text}>
             <Link to="/">
               <Logo />
             </Link>
@@ -32,12 +44,12 @@ const FooterDesktop = () => {
               <FormattedMessage id="footer.text" />
             </p>
           </div>
-          <div className="contact">
+          <div className={contact}>
             <h3>
               <FormattedMessage id="footer.title" />
             </h3>
-            <div className="contact_div">
-              <div className="contact_icons">
+            <div className={contact_div}>
+              <div className={contact_icons}>
                 <LocationIcon />
               </div>
               <div>
@@ -50,8 +62,8 @@ const FooterDesktop = () => {
                 </a>
               </div>
             </div>
-            <div className="contact_div">
-              <div className="contact_icons">
+            <div className={contact_div}>
+              <div className={contact_icons}>
                 <PhoneIcon />
               </div>
               <div>
@@ -60,8 +72,8 @@ const FooterDesktop = () => {
                 </a>
               </div>
             </div>
-            <div className="contact_div">
-              <div className="contact_icons">
+            <div className={contact_div}>
+              <div className={contact_icons}>
                 <MailIcon />
               </div>
               <div>
@@ -76,10 +88,10 @@ const FooterDesktop = () => {
             </div>
           </div>
         </div>
-        <hr className="hr" />
-        <div className="flex_container">
-          <div className="follow_container">
-            <ul className="media_list">
+        <hr className={hr} />
+        <div className={flex_container}>
+          <div className={follow_container}>
+            <ul className={media_list}>
               <li>
                 <a
                   href="https://www.instagram.com/victoryswitzerland/?hl=es"
@@ -127,9 +139,9 @@ const FooterDesktop = () => {
               </li>
             </ul>
           </div>
-          <div className="flex_footer_lang">
+          <div className={flex_footer_lang}>
             <Language />
-            <div className="copyright">
+            <div className={copyright}>
               <p><FormattedMessage id="footer.copyright" /></p>
             </div>
           </div>

@@ -2,7 +2,15 @@ import React from "react";
 import Logo from "../header/components/logo";
 import MediaQuery from "react-responsive";
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
-import "./footer.scss"
+import {
+  container,
+  contact,
+  contact_div,
+  contact_icons,
+  follow_container,
+  media_list,
+  copyright,
+} from "./footer.module.scss";
 
 import LinkedInIcon from "../../images/svg/Linkedin_icon.svg";
 import FacebookIcon from "../../images/svg/Facebook_icon.svg";
@@ -21,17 +29,17 @@ const Footer = () => {
   return (
     <>
       <MediaQuery maxWidth={800}>
-        <div className='container'>
+        <div className={container}>
           <Logo />
           <p>
             <FormattedMessage id="footer.text" />
           </p>
-          <div className='contact'>
+          <div className={contact}>
             <h3>
               <FormattedMessage id="footer.title" />
             </h3>
-            <div className="contact_div">
-              <div className="contact_icons">
+            <div className={contact_div}>
+              <div className={contact_icons}>
                 <LocationIcon />
               </div>
               <div>
@@ -44,18 +52,16 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="contact_div">
-              <div className="contact_icons">
+            <div className={contact_div}>
+              <div className={contact_icons}>
                 <PhoneIcon />
               </div>
               <div>
-                <a href="tel:+41313019439">
-                  +41 31 301 94 39
-                </a>
+                <a href="tel:+41313019439">+41 31 301 94 39</a>
               </div>
             </div>
-            <div className="contact_div">
-              <div className="contact_icons">
+            <div className={contact_div}>
+              <div className={contact_icons}>
                 <MailIcon />
               </div>
               <div>
@@ -70,11 +76,13 @@ const Footer = () => {
             </div>
           </div>
           <hr />
-            <Language />
+          <Language />
           <hr />
-          <div className="follow_container">
-            <h3><FormattedMessage id="footer.media" /></h3>
-            <ul className="media_list">
+          <div className={follow_container}>
+            <h3>
+              <FormattedMessage id="footer.media" />
+            </h3>
+            <ul className={media_list}>
               <li>
                 <a
                   href="https://www.instagram.com/victoryswitzerland/?hl=es"
@@ -122,7 +130,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="copyright">
+          <div className={copyright}>
             <p>© Alle Rechte vorbehalten</p>
           </div>
         </div>

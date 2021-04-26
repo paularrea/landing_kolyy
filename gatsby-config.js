@@ -5,17 +5,7 @@ module.exports = {
     author: `Pau Larrea`,
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-sass',
-      options: {
-        cssLoaderOptions: {
-          esModule: false,
-          modules: {
-            namedExport: false,
-          }
-        }
-      }
-  },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-scroll-reveal`,
     {

@@ -1,17 +1,15 @@
-import * as React from "react"
-import { Link } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import Layout from "../components/layout/layout";
+import Seo from "../components/seo";
 
-import Layout from "../components/layout/layout"
-import Seo from "../components/seo"
-
+import { container } from "../styles/home.module.scss";
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <div>
-      Home Page
+    <div className={container}>
+      <h1>Home Page</h1>
     </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

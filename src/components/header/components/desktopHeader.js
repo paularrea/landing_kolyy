@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import Link from "../../Link";
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
-import "../header.scss"
+import {navBar, logo_nav_container, } from "../header.module.scss"
 import Logo from "./logo";
 // import GoTopHover from "../../../images/svg/gototop2.svg";
 
@@ -47,8 +47,8 @@ const DesktopHeader = () => {
 
   return (
     <header>
-      <div className="navBar">
-        <nav className="logo_nav_container">
+      <div className={navBar}>
+        <nav className={logo_nav_container}>
           <Link id="logo" to="/">
             <Logo />
           </Link>

@@ -1,18 +1,18 @@
 
 import React, { useRef } from "react";
-import './App.css';
+import './sequence.css';
 
 import { Controller, Scene } from "react-scrollmagic";
 import Sequence from "./Sequence";
 
-const App = () => {
+const RenderSequence = () => {
   const ref = useRef();
   return (
     <div className="App">
       <Controller>
         <Scene duration="200%" triggerHook="onLeave" pin>
           {progress => (
-            <div style={{ height: "100vh", position: "relative" }}>
+            <div style={{ height: "600px", position: "relative" }}>
               <Sequence ref={ref} progress={progress} />
             </div>
           )}
@@ -22,4 +22,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default RenderSequence;
