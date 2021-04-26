@@ -1,0 +1,148 @@
+{
+    "title": "Victory Switzerland",
+    "seo":{
+        "home":"Home",
+        "services":"Services",
+        "productDesign":"Design Produit",
+        "production":"Production",
+        "import":"Importation",
+        "logistic":"service Logistique",
+        "success" : "Entreprise à succès",
+        "about":"À propos de nous"
+    },
+    "nav": {
+        "home":"HOME",
+        "mobileServices" : "SERVICES",
+        "services":"+ SERVICE",
+        "productDesign":"DESIGN PRODUIT",
+        "production":"PRODUCTION",
+        "import":"IMPORTATION",
+        "logistic":"LOGISTIQUE",
+        "about":"À PROPOS DE NOUS",
+        "shop" : "VICTORY BOUTIQUE"
+    },
+    "intro": {
+        "title": "ENTREPRISE B2B SUR LE MARCHÉ SUISSE",
+        "subtitle" : "Nous vendons des solutions spécifiques.",
+        "button1" : "APPELEZ-NOUS",
+        "button2" : "VISITEZ LA BOUTIQUE"  
+    },
+    "productDesign": {
+        "title": "DESIGN PRODUIT",
+        "subtitle" : "Concept Non-Food",
+        "subtitle2" : "Une vente à succès commence avec un bon design. Victory Switzerland mène votre produit direct sur le marché.",
+        "bigText" : "Nous vous soutenons de A à Z et transformons votre idée en un produit tangible. Suivez le processus étape par étape. Vous amenez la folie, nous apportons la technique.",
+        "text1" : "Notre communauté de designers est capable de travailler d’après une simple feuille de papier ou d'après un concept plus élaboré pour le développement de votre produit." ,
+        "text2" : "Avez-vous découvert un produit tendance sur le marché ? Faites mieux et dépassez vos concurrents.",
+        "button" : "DÉBUTER LA PLANIFICATION"
+    },
+    "production": {
+        "title": "PRODUCTION",
+        "subtitle" : "Développer le produit parfait est un défi que nous aimons, car nous mettons tout en œuvre pour le relever.",
+        "text1" : "Nous trouvons la fabrique adéquate au milieu d’un choix international et utilisons notre expérience et influence afin de vous offrir un meilleur prix que votre entreprise aurait obtenu seule." ,
+        "text2" : "En investissant dans nos services, économisez du temp et de l’argent. Votre CFO va nous aimer.",
+        "text3" : "Aujourd’hui vous avez accès à des possibilités infinies pour développer un produit à la qualité et au prix voulus. L’offre est si vaste qu’on peut facilement s’y perdre. Une raison supplémentaire de travailler avec nous.",
+        "button" : "DÉBUTER LA PRODUCTION"
+    },
+    "import": {
+        "title": "IMPORTATION",
+        "subtitle" : "Il existe beaucoup de possibilités de transporter votre produit du point A au point B. La vraie question: Est-ce que votre transporteur le fait de manière efficace et efficiente? Nous faisons ce qu’il faut pour optimiser chaque livraison.",
+        "text1" : "Si vous importez de la marchandise en Suisse ou ailleurs, elle doit être réglementée selon la législation locale. Il y a donc un risque qu’elle reste bloquée à la douane." ,
+        "text2" : "Pour éviter ce problème, nous nous assurons avant le chargement qu’elle est conforme aux réglementations.",
+        "button" : "GÉRER L'IMPORTATION"
+    },
+    "logistic": {
+        "title": "LOGISTIQUE",
+        "subtitle" : "Nous offrons un service logistique de qualité. Notre équipe se base sur vos besoins et propose des offres sur mesure au meilleur prix. Notre travail se termine, lorsque le client reçoit sa commande et ressens la victoire!",
+        "container" : {
+            "title" : "Nous garantissons:" ,
+            "bullet1" : {
+                "title" : "Conservation",
+                "description" : "Sur demande, nous stockons la marchandise dans nos locaux jusqu’à la date de livraison souhaitée."
+            },
+            "bullet2" : {
+                "title" : "Marquage",
+                "description" : "Transmet des données pertinentes sur les caractéristiques et qualités du produit ainsi que sa manipulation, réduisant ainsi les risques d'usure ou de perte."
+            },
+            "bullet3" : {
+                "title" : "Emballage",
+                "description" : "Facilite le comptage, la distribution et le transport des colis."
+            },
+            "bullet4" : {
+                "title" : "Gestion des stocks",
+                "description" : "Nous disposons d'entrepôts où nous stockons et organisons votre approvisionnement. Cette gestion est convenue avec notre client selon les besoins."
+            },
+            "bullet5" : {
+                "title" : "Cycle d'approvisionnement efficace",
+                "description" : "Il en résulte une plus-value influençant positivement sur le prix du produit et client final. Notre équipe sera heureuse de vous proposer une solution sur mesure."
+            }
+        },
+        "button" : "DEMANDER CONSEIL"
+    },
+    "fuhlen": {
+        "title": "RESSENTEZ LA VICTOIRE ",
+        "title2" : "LE JOYAU DE LA COURONNE",
+        "subtitle" : "Pour les clients, qui ne veulent pas développer leur propre collection, nous avons également une solution." ,
+        "text1" : "Victory Shop est une plateforme digitale, sur laquelle se côtoient les plus importants grossistes européens. Le meilleur de leurs produits dans le même panier. Il vous suffit de cliquer.",
+        "button" : "VICTORY SHOP"
+    },
+    "contact": {
+        "title": "Enregistrez-vous pour de plus amples informations sur notre liste de prix.",
+        "subtitle" : "Nous traiterons votre demande et vous contacterons dès que possible.",
+        "name" : "Nom" ,
+        "surname" : "Prénom",
+        "company" : "Entreprise",
+        "subject": {
+            "name" : "Concerne",
+            "productDesign": "Débuter la planification",
+            "production": "Débuter la production",
+            "import": "Gérer l'importation",
+            "logistic": "Demander conseil"
+        },
+        "phone" : "Téléphone",
+        "email" : "E-mail",
+        "button" : "ENVOYER LE FORMULAIRE"
+    },
+    "blog": {
+        "title": "VIKTOR BLOG",
+        "subtitle" : "",
+        "text1" : "" ,
+        "text2" : "",
+        "text3" : "",
+        "button" : ""
+    },
+    "footer": {
+        "text": "Victory Switzerland Sàrl fondée en 2012, est un importateur/grossiste. Nous effectuons des achats dans le monde entier pour nos clients. En raison de la diversité de ceux-ci, notre gamme de produits est constamment élargie ; nous importons plus de 1000 articles différents chaque année.",
+        "title" : "Avez-vous des questions?",
+        "copyright" : "© Tous droits réservés",
+        "media" : "Suivez nous"
+    },
+    "about": {
+        "videoText" : "NOUS OFFRONS DES SOLUTIONS B2B PERSONNALISÉES.",
+        "videoSubtext" : "Laissez votre entreprise grandir.",
+        "title": "À PROPOS DE NOUS",
+        "subtitle" : "Chers clients, nous aimerions vous donner un aperçu de notre activité et de nos compétences.",
+        "text1" : "Victory Switzerland GmbH est depuis sa fondation en 2012 actif en tant qu’importateur / grossiste et achète pour ses clients à l’international. En raison de la diversité de ceux-ci, notre assortiment est toujours élargi.",
+        "text2" : "Notre équipe internationale travaille en synergie, ce qui enrichit nos processus. Notre différence culturelle ne nous sépare pas mais au contraire nous rend plus fort. Nous sommes attachés aux valeurs éthiques et morales qui déterminent notre philosophie de travail et de vie.",
+        "position1" : "CEO FONDATEUR",
+        "position2" : "IMPORT - EXPORT",
+        "position3" : "IT",
+        "position4" : "ADMIN - VENTE - MARKETING",
+        "position5" : "VENTE EXTERNE",
+        "position6" : "LOGISTIQUE - VENTE EXTERNE",
+        "position7" : "VENTE EXTERNE",
+        "position8" : "SÉCURITÉ ET MASCOTTE",
+        "contactBtn" : "DEMANDE DE CONTACT"
+    },
+    "submission" : {
+        "thankyou" : {
+            "title" : "Contacter",
+            "text" : "Merci pour votre soumission!"
+        },
+        "callyou" : {
+            "title" : "Contacter",
+            "text" : "Merci pour votre soumission! Nous vous rappellerons."
+        },
+        "button" : "RETOUR AU SITE"
+    }
+}

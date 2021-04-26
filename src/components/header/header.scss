@@ -1,0 +1,226 @@
+.white{
+    color: white;
+}
+.yellow{
+    color: yellow;
+}
+header{
+    background-color: #9597a5;
+    height: auto;
+    width: 100vw;
+    padding: 1.5rem 2rem;
+    position: fixed;
+    z-index: 99999;
+    box-shadow: 0px 1px 30px #1D252D1A;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+.burger{
+    padding-bottom: 1rem;
+}
+.logo{
+    width: 8.5rem;
+    height: auto;
+}
+.icon{
+    width: 36px;
+    height: 36px;
+}
+// Desktop Header
+@media (min-width: 870px) {
+    header{
+        width: 100%;
+        padding: 2rem 2rem;
+        position: fixed;
+    }
+    .navBar{
+        .logo_nav_container{
+            display: flex;
+            width: 450px;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                outline: none !important;
+                outline-color: transparent;
+                text-decoration: none;
+                font-weight: 100;
+                width: fit-content;
+                color: #FED880;
+                font-size: 14px;
+                &:hover{
+                    color: white;
+                }
+            }
+            .active{
+                color: white;
+            }
+            .disabled{
+                color: #FED880;
+            }
+        }
+        button{
+            margin: 0;
+        }
+        .drop_down{
+            position: relative;
+            display: inline-block;
+            &:hover .drop_down_content{
+                max-height: 500px;
+                opacity: 1;
+                transition: opacity 0.5s ease-in;
+            }
+            .drop_down_content{
+            padding: 0.5rem;
+            position: absolute;
+            background-color: #1D1F2A;
+            min-width: 160px;
+            z-index: 1;
+            max-height: 0;
+            opacity: 0;
+            transition: opacity 0.35s ease-out;
+            overflow: hidden;
+            a{
+                color: #FBD872;
+                width: 100%;
+                padding: 0;
+                padding-top: 1rem;
+                text-decoration: none;
+                display: block;
+                &:hover{
+                    color: white;
+                }
+            }
+        } 
+        }
+    }
+}
+.go_top_button{
+    position: absolute;
+    top: 60vh;
+    right: 7vw;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.7;
+    transition: all .4s ease-out;
+    svg:hover{
+        transform: scale(1.05);
+    }
+}
+.go_top_button_disabled{
+    display: none;
+}
+
+@media (min-width: 900px) {
+    header{
+        padding: 2rem 4rem; 
+    }
+}
+@media (min-width: 950px) {
+    header{
+        padding: 2rem 6rem; 
+    }
+}
+@media (min-width: 1100px) {
+    header{
+        padding: 2rem 10rem; 
+    }
+}
+@media (min-width: 1300px) {
+    header{
+        padding: 2rem 15rem; 
+    }
+}
+@media (min-width: 1600px) {
+    header{
+        padding: 2rem 20rem; 
+    }
+}
+@media (min-width: 1800px) {
+    header{
+        padding: 2rem 25rem; 
+    }
+}
+@media (min-width: 2000px) {
+    header{
+        padding: 2rem 30rem; 
+    }
+}
+@media (min-width: 2200px) {
+    header{
+        padding: 2rem 35rem; 
+    }
+}
+@media (min-width: 2400px) {
+    header{
+        padding: 2rem 40rem; 
+    }
+}
+@media (min-width: 2600px) {
+    header{
+        padding: 2rem 50rem; 
+    }
+}
+@media (min-width: 2800px) {
+    header{
+        padding: 2rem 60rem; 
+    }
+}
+@media (min-width: 3000px) {
+    header{
+        padding: 2rem 65rem; 
+    }
+}
+@media (min-width: 3200px) {
+    header{
+        padding: 2rem 70rem; 
+    }
+}
+@media (min-width: 3400px) {
+    header{
+        padding: 2rem 75rem; 
+    }
+}
+@media (min-width: 3600px) {
+    header{
+        padding: 2rem 80rem; 
+    }
+}
+@media (min-width: 3800px) {
+    header{
+        padding: 2rem 85rem; 
+    }
+}
+@media (min-width: 4000px) {
+    header{
+        padding: 2rem 90rem; 
+    }
+}
+@media (min-width: 4200px) {
+    header{
+        padding: 2rem 95rem; 
+    }
+}
+@media (min-width: 4400px) {
+    header{
+        padding: 2rem 100rem; 
+    }
+}
+@media (min-width: 4600px) {
+    header{
+        padding: 2rem 110rem; 
+    }
+}
+@media (min-width: 4800px) {
+    header{
+        padding: 2rem 120rem; 
+    }
+}
+@media (min-width: 5000px) {
+    header{
+        padding: 2rem 125rem; 
+}
+}

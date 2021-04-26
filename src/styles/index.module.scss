@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+html, body{
+  background-color: white;
+  margin: 0;
+}
+button{
+  transition: all .4s ease-out;
+  color: #1D1F2A;
+  background-color: #FBD872;
+  text-transform: uppercase;
+  padding: 7px 15px 9px 15px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  &:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 6px 25px .3px #69696950;
+    -webkit-box-shadow: 0px 6px 25px .3px #69696950;
+    -moz-box-shadow: 0px 6px 25px .3px #69696950;
+  }
+}
+a{
+  text-decoration: none;
+  color: #1D1F2A;
+  &:visited{
+    text-decoration: none;
+  }
+  &:hover{
+    text-decoration: none;
+  }
+  &:focus{
+    text-decoration: none;
+  }
+  &:active{
+    text-decoration: none;
+  }
+}
+.website{
+  overflow-x: hidden;
+}
+
+//animation
+// @keyframes fadeOut {
+//   0%   { opacity:1; }
+//   80%   { opacity:1; }
+//   85%  { opacity:.8; }
+//   90% {opacity: .7;}
+//   100%  { opacity:0; }
+// }
+// @-o-keyframes fadeOut{
+//   0%   { opacity:1; }
+//   80%   { opacity:1; }
+//   85%  { opacity:.8; }
+//   90% {opacity: .7;}
+//   100%  { opacity:0; }
+// }
+// @-moz-keyframes fadeOut{
+//   0%   { opacity:1; }
+//   80%   { opacity:1; }
+//   85%  { opacity:.8; }
+//   90% {opacity: .7;}
+//   100%  { opacity:0; }
+// }
+// @-webkit-keyframes fadeOut{
+//   0%   { opacity:1; }
+//   80%   { opacity:1; }
+//   85%  { opacity:.8; }
+//   90% {opacity: .7;}
+//   100%  { opacity:0; }
+// }
+
+.on_load{
+  // -webkit-animation: fadeOut 2.2s ease-out;
+  // -moz-animation: fadeOut 2.2s ease-out;
+  // -o-animation: fadeOut 2.2s ease-out;
+  //  animation: fadeOut 2.2s ease-out;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#1D1F2A;
+  z-index: 9999999999999999;
+}
+
+.on_load div{
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    img{
+        width: 20rem;
+    }
+}
+
+@media (min-width: 800px) {
+  button{
+    color: #1D1F2A;
+    background-color: #FBD872;
+    text-transform: uppercase;
+    width: auto;
+  }
+}
