@@ -4,14 +4,14 @@
     width: 1.5rem !important;
     height: 1.5rem !important;
   }
-.hideBar{
+/* .hideBar{
     background-color: #1D1F2A;
     position: absolute;
     height: .5rem;
     top: 1;
     width: 1.6rem;
     z-index: 1100;
-}
+} */
 .logo-menu{
   position: absolute;
   top: 1.5rem;
@@ -19,7 +19,7 @@
   outline: none;
 }
   .bm-burger-bars {
-    background: #FBD872;
+    background: #2A343B;
     border-radius: 2px;
     height: 2px !important;
   }
@@ -28,21 +28,16 @@
   }
   .bm-cross-button {
     position: absolute;
-    top: 3rem !important;
+    top: 2rem !important;
     right: 2.5rem !important;
   }
   .bm-cross {
-    background: #FBD872;
+    background: whitesmoke;
     border-radius: 2px;
     width: 20px !important;
     height: 2px !important;
   }
-  #react-burger-cross-btn{
-    top: -10px !important;
-    left: 5px !important;
-    width: 2rem !important;
-    height: 2rem !important;
-  }
+
   .bm-menu-wrap {
     position: fixed;
     width: 100vw !important;

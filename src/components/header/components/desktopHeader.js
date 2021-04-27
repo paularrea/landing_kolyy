@@ -53,7 +53,7 @@ const DesktopHeader = () => {
             <Logo />
           </Link>
 
-          <Link id="about" to="/how-it-works" activeStyle={{ color: "white" }}>
+          <Link id="how-it-works" to="/how-it-works" activeStyle={{ color: "white" }}>
             {/* <FormattedMessage id="nav.about" /> */}
             How it works?
           </Link>
@@ -65,13 +65,14 @@ const DesktopHeader = () => {
         </nav>
         <div>
           <a
-            href="https://www.victoryshop.ch/"
+            href="https://app.kolyy.com/"
             rel="noreferrer"
             target="_blank"
           >
             <button>
               {" "}
-              <FormattedMessage id="nav.shop" />
+              {/* <FormattedMessage id="nav.shop" /> */}
+              Iniciar Sesión
             </button>
           </a>
         </div>

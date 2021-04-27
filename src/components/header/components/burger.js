@@ -26,7 +26,7 @@ const Burger = () => {
 
   return (
     <>
-      <div className="hideBar"></div>
+      {/* <div className="hideBar"></div> */}
       <Menu
         right
         isOpen={menuOpen}
@@ -36,7 +36,7 @@ const Burger = () => {
           <Logo />
         </div>
         <nav className="bm-item-list">
-          <Link id="home" className="menu-item" to="/#home">
+          <Link className="menu-item" id="how-it-works" to="/how-it-works" >
             <div
               role="link"
               className="anchor-div"
@@ -49,11 +49,12 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              <FormattedMessage id="nav.home" />
+              {/* <FormattedMessage id="nav.mobileServices" /> */}
+              How it works?
             </div>
           </Link>
           <hr />
-          <Link className="menu-item" to="/#produktDesign">
+          <Link id="team" to="/team" className="menu-item">
             <div
               role="link"
               className="anchor-div"
@@ -66,24 +67,8 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              <FormattedMessage id="nav.mobileServices" />
-            </div>
-          </Link>
-          <hr />
-          <Link id="about" className="menu-item" to="/about">
-            <div
-              role="link"
-              className="anchor-div"
-              onClick={() => {
-                closeMenu();
-              }}
-              onKeyDown={() => {
-                closeMenu();
-              }}
-              tabIndex={0}
-            >
-              {" "}
-              <FormattedMessage id="nav.about" />
+              {/* <FormattedMessage id="nav.about" /> */}
+              Team
             </div>
           </Link>
           <hr />

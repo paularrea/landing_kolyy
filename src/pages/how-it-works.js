@@ -10,32 +10,32 @@ const HowItWorks = () => {
       <Seo title="Team" />
       <div className={container}>
         <h1>How it works Page</h1>
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
+          voluptatum impedit repudiandae modi exercitationem veritatis fuga
+          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
+          ea cupiditate accusamus explicabo?
+        </div>
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
+          voluptatum impedit repudiandae modi exercitationem veritatis fuga
+          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
+          ea cupiditate accusamus explicabo?
+        </div>
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
+          voluptatum impedit repudiandae modi exercitationem veritatis fuga
+          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
+          ea cupiditate accusamus explicabo?
+        </div>
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
+          voluptatum impedit repudiandae modi exercitationem veritatis fuga
+          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
+          ea cupiditate accusamus explicabo?
+        </div>
         <div className={render_sequence}>
           <RenderSequence />
-        </div>
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
-          voluptatum impedit repudiandae modi exercitationem veritatis fuga
-          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
-          ea cupiditate accusamus explicabo?
-        </div>
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
-          voluptatum impedit repudiandae modi exercitationem veritatis fuga
-          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
-          ea cupiditate accusamus explicabo?
-        </div>
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
-          voluptatum impedit repudiandae modi exercitationem veritatis fuga
-          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
-          ea cupiditate accusamus explicabo?
-        </div>
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
-          voluptatum impedit repudiandae modi exercitationem veritatis fuga
-          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
-          ea cupiditate accusamus explicabo?
         </div>
       </div>
     </Layout>
