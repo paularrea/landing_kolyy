@@ -7,9 +7,13 @@
 }
 
 .render_sequence{
-    width: 600px;
+    width: 90%;
     height: 400px;
     resize: both;
+}
+
+.frase{
+    z-index: 999999 !important;
 }
 
 @media (min-width: 870px) {

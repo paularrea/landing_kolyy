@@ -1,8 +1,12 @@
 import React from "react";
 import Layout from "../components/layout/layout";
+import ScrollText from "../components/scrollText";
 import Seo from "../components/seo";
 import RenderSequence from "../components/Sequence/RenderSequence";
-import {container, render_sequence, } from "../styles/how-it-works.module.scss";
+import {
+  container,
+  render_sequence,
+} from "../styles/how-it-works.module.scss";
 
 const HowItWorks = () => {
   return (
@@ -10,33 +14,24 @@ const HowItWorks = () => {
       <Seo title="Team" />
       <div className={container}>
         <h1>How it works Page</h1>
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
-          voluptatum impedit repudiandae modi exercitationem veritatis fuga
-          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
-          ea cupiditate accusamus explicabo?
-        </div>
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
-          voluptatum impedit repudiandae modi exercitationem veritatis fuga
-          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
-          ea cupiditate accusamus explicabo?
-        </div>
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
-          voluptatum impedit repudiandae modi exercitationem veritatis fuga
-          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
-          ea cupiditate accusamus explicabo?
-        </div>
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque
-          voluptatum impedit repudiandae modi exercitationem veritatis fuga
-          ipsum adipisci ut accusantium optio aperiam dignissimos rerum saepe,
-          ea cupiditate accusamus explicabo?
-        </div>
         <div className={render_sequence}>
           <RenderSequence />
         </div>
+        <ScrollText>
+          This is a very important phrase! <br/> Very good, very nice
+        </ScrollText>
+        <div style={{
+              margin:"50vh 0"
+          }}></div>
+        <ScrollText>
+          This is a very important phrase! <br/> Very good, very nice
+        </ScrollText>
+        <div style={{
+              margin:"30vh 0"
+          }}></div>
+        <ScrollText>
+          This is a very important phrase! <br/> Very good, very nice
+        </ScrollText>
       </div>
     </Layout>
   );

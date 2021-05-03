@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import Link from "../../Link";
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
+// import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import {navBar, logo_nav_container, } from "../header.module.scss"
 import Logo from "./logo";
 // import GoTopHover from "../../../images/svg/gototop2.svg";
@@ -9,26 +10,26 @@ import Logo from "./logo";
 const DesktopHeader = () => {
   // const [goTopApear, setGoTopApear] = useState(false);
   // const [hover, setHover] = useState(false);
-  const [homeActive, setHomeActive] = useState(false);
-  const [servicesActive, setServicesActive] = useState(false);
+  // const [homeActive, setHomeActive] = useState(false);
+  // const [servicesActive, setServicesActive] = useState(false);
 
-  useEffect(() => {
-    const setActiveStyle = () => {
-      if (window.location.href.indexOf("/about") === -1) {
-        if (window.scrollY < (75 * window.innerHeight) / 100) {
-          setHomeActive(true);
-          setServicesActive(false);
-        } else if (window.scrollY > (75 * window.innerHeight) / 100) {
-          setHomeActive(false);
-          setServicesActive(true);
-        }
-      } else if (window.location.href.indexOf("/about") > -1) {
-        setHomeActive(false);
-        setServicesActive(false);
-      }
-    };
-    window.addEventListener("scroll", setActiveStyle);
-  }, []);
+  // useEffect(() => {
+  //   const setActiveStyle = () => {
+  //     if (window.location.href.indexOf("/about") === -1) {
+  //       if (window.scrollY < (75 * window.innerHeight) / 100) {
+  //         setHomeActive(true);
+  //         setServicesActive(false);
+  //       } else if (window.scrollY > (75 * window.innerHeight) / 100) {
+  //         setHomeActive(false);
+  //         setServicesActive(true);
+  //       }
+  //     } else if (window.location.href.indexOf("/about") > -1) {
+  //       setHomeActive(false);
+  //       setServicesActive(false);
+  //     }
+  //   };
+  //   window.addEventListener("scroll", setActiveStyle);
+  // }, []);
 
   // useEffect(() => {
   //   const getGoTopButton = () => {
@@ -102,4 +103,4 @@ DesktopHeader.propTypes = {
   siteTitle: PropTypes.string,
 };
 
-export default injectIntl(DesktopHeader);
+export default DesktopHeader;

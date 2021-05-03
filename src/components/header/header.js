@@ -4,7 +4,7 @@ import React from "react";
 import MediaQuery from "react-responsive";
 import DesktopHeader from "./components/desktopHeader";
 
-import {navBar, burger, big_container } from "./header.module.scss"
+import {navBar, burger} from "./header.module.scss"
 import Logo from "./components/logo";
 import Burger from "./components/burger";
 
@@ -25,9 +25,9 @@ const Header = () => (
       </header>
     </MediaQuery>
     <MediaQuery minWidth={870}>
-      <div className={big_container}>
+      {/* <div className={big_container}> */}
           <DesktopHeader />
-      </div>
+      {/* </div> */}
     </MediaQuery>
   </>
 );

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { fallDown as Menu } from "react-burger-menu";
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
+// import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import "./burger.css";
 import Logo from "./logo";
 import Link from "../../Link";
@@ -139,4 +139,4 @@ const Burger = () => {
   );
 };
 
-export default injectIntl(Burger);
+export default Burger;

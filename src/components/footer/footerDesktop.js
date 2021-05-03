@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../header/components/logo";
 import { Link } from "gatsby";
 import {
-  big_container,
+  // big_container,
   container,
   flex_container,
   logo_text,
@@ -33,7 +33,7 @@ const FooterDesktop = () => {
     require("smooth-scroll")('a[href*="#"]');
   }
   return (
-    <div className={big_container}>
+    // <div className={big_container}>
       <div className={container}>
         <div className={flex_container}>
           <div className={logo_text}>
@@ -147,7 +147,7 @@ const FooterDesktop = () => {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 
