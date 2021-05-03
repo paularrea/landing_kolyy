@@ -1,23 +1,11 @@
 .bm-burger-button {
     padding-top: 1rem;
     position: relative;
+    top: 1.6rem !important;
+    right: 2rem !important;
     width: 1.5rem !important;
     height: 1.5rem !important;
   }
-/* .hideBar{
-    background-color: #1D1F2A;
-    position: absolute;
-    height: .5rem;
-    top: 1;
-    width: 1.6rem;
-    z-index: 1100;
-} */
-.logo-menu{
-  position: absolute;
-  top: 1.5rem;
-  left: 2rem;
-  outline: none;
-}
   .bm-burger-bars {
     background: #2A343B;
     border-radius: 2px;
@@ -32,18 +20,17 @@
     right: 2.5rem !important;
   }
   .bm-cross {
-    background: whitesmoke;
+    background: #2D373E;
     border-radius: 2px;
-    width: 20px !important;
+    width: 25px !important;
     height: 2px !important;
   }
-
   .bm-menu-wrap {
     position: fixed;
     width: 100vw !important;
     height: 100vh !important;
     top: 0 !important;
-    background:  #1D1F2A;
+    background:  whitesmoke;
   }
   /* General sidebar styles */
   .bm-menu {
@@ -54,23 +41,25 @@
     height: fit-content !important;
   }
   /* Wrapper for item list */
-  hr{
+  /* hr{
     width: 100%;
     display: block; height: 1px;
-    border: 0; border-top: .1px solid #fed8802f;
+    border: 0; border-top: .1px solid #2d373e41;
     margin: 0; padding: 0;
-  }
+  } */
   .bm-item-list{
     width: 100%;
     height: auto;
+    margin-top: 1rem;
   }
   .bm-item-list a{
+  text-align: center;
     outline: none !important;
     outline-color: transparent;
     text-decoration: none;
     font-weight: 100;
     width: fit-content;
-    color: #FED880;
+    color: #2D373E;
     font-size: 24px;
   }
   .anchor-div{
@@ -87,20 +76,21 @@
   }
   /* language */
   .language-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     outline: none !important;
     margin-top: 1vh;
   }
   .contact-flex{
     margin: 4vh 0;
-    display: flex;
-    justify-content: flex-start;
     width: auto;
-    align-items: center;
   }
   .contact-flex a {
-    color: #FED880;
-    font-size: 18px;
+    color: #2D373E;
+    font-size: 20px;
     font-weight: 100;
   }
   .contact-flex svg {
@@ -121,26 +111,9 @@
     margin: 0;
     font-size: 18px;
   }
-  .media-list{
-    width: 80%;
-    padding: 1rem 0;
-    padding-bottom: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-start;
-    color: #FBD872;
-    list-style-type: none;
-  }
-  .media-list li{
-    margin-right: .5rem;
-    width: 36px;
-    height: 36px;
-    text-align: center; 
-  }
   .bm-overlay{
    display: none;
   }
-
 
   @media (max-height:600px) and (max-width:370px) {
     .follow-container{

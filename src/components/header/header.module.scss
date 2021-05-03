@@ -1,17 +1,14 @@
-.white{
-    color: white;
-}
-.yellow{
-    color: yellow;
-}
 header{
     background-color:whitesmoke;
-    height: auto;
+    height: 70px;
     width: 100vw;
-    padding: 1rem 2rem;
-    position: fixed;
     z-index: 99999;
-    box-shadow: 0px 1px 30px #1D252D1A;
+    position: fixed;
+    // box-shadow: 0px 1px 30px #1D252D1A;
+}
+.header_out{
+    transform: translateY(-36px);
+    transition: transform .5s ease-out; 
 }
 .navBar{
     display: flex;
@@ -19,12 +16,40 @@ header{
     align-items: center;
     background-color: transparent;
 }
+.menu_fijo{
+    display: flex;
+    background-color:#2D373E;
+    justify-content: flex-end;
+    padding: .5rem 2rem;
+    height: 36px;
+    align-items: center;
+        a{
+            color: whitesmoke;
+            padding-left: 1rem;
+        }
+
+}
+.menu_fijo_out{
+    display: flex;
+    background-color:#2D373E;
+    justify-content: flex-end;
+    padding: .5rem 2rem;
+    height: 36px;
+    align-items: center;
+        a{
+            color: whitesmoke;
+            padding-left: 1rem;
+        }
+}
 .burger{
     padding-bottom: 1rem;
 }
 .logo{
-    width: 8.5rem;
-    height: auto;
+    width: 6rem;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    outline: none;
 }
 .icon{
     width: 36px;
@@ -34,8 +59,14 @@ header{
 @media (min-width: 870px) {
     header{
         width: 100%;
-        padding: 1rem 2rem;
-        position: fixed;
+        height: auto;
+    }
+    .logo{
+        width: 6rem;
+        position: initial;
+    }
+    .menu_fijo{
+        padding: .5rem 2rem;
     }
     .navBar{
         .logo_nav_container{
@@ -48,7 +79,6 @@ header{
                 outline-color: transparent;
                 text-decoration: none;
                 font-weight: 400;
-                padding-bottom: .5rem;
                 width: fit-content;
                 color: #2A343B;
                 font-size: 18px;
@@ -99,129 +129,114 @@ header{
         }
     }
 }
-.go_top_button{
-    position: absolute;
-    top: 60vh;
-    right: 7vw;
-    cursor: pointer;
-    outline: none;
-    opacity: 0.7;
-    transition: all .4s ease-out;
-    svg:hover{
-        transform: scale(1.05);
-    }
-}
-.go_top_button_disabled{
-    display: none;
-}
 
 @media (min-width: 900px) {
-    header{
-        padding: 1rem 4rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 4rem; 
     }
 }
 @media (min-width: 950px) {
-    header{
-        padding: 1rem 6rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 6rem; 
     }
 }
 @media (min-width: 1100px) {
-    header{
-        padding: 1rem 10rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 10rem; 
     }
 }
 @media (min-width: 1300px) {
-    header{
-        padding: 1rem 15rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 15rem; 
     }
 }
 @media (min-width: 1600px) {
-    header{
-        padding: 1rem 20rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 20rem; 
     }
 }
 @media (min-width: 1800px) {
-    header{
-        padding: 1rem 25rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 25rem; 
     }
 }
 @media (min-width: 2000px) {
-    header{
-        padding: 1rem 30rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 30rem; 
     }
 }
 @media (min-width: 2200px) {
-    header{
-        padding: 1rem 35rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 35rem; 
     }
 }
 @media (min-width: 2400px) {
-    header{
-        padding: 1rem 40rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 40rem; 
     }
 }
 @media (min-width: 2600px) {
-    header{
-        padding: 1rem 50rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 50rem; 
     }
 }
 @media (min-width: 2800px) {
-    header{
-        padding: 1rem 60rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 60rem; 
     }
 }
 @media (min-width: 3000px) {
-    header{
-        padding: 1rem 65rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 65rem; 
     }
 }
 @media (min-width: 3200px) {
-    header{
-        padding: 1rem 70rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 70rem; 
     }
 }
 @media (min-width: 3400px) {
-    header{
-        padding: 1rem 75rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 75rem; 
     }
 }
 @media (min-width: 3600px) {
-    header{
-        padding: 1rem 80rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 80rem; 
     }
 }
 @media (min-width: 3800px) {
-    header{
-        padding: 1rem 85rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 85rem; 
     }
 }
 @media (min-width: 4000px) {
-    header{
-        padding: 1rem 90rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 90rem; 
     }
 }
 @media (min-width: 4200px) {
-    header{
-        padding: 1rem 95rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 95rem; 
     }
 }
 @media (min-width: 4400px) {
-    header{
-        padding: 1rem 100rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 100rem; 
     }
 }
 @media (min-width: 4600px) {
-    header{
-        padding: 1rem 110rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 110rem; 
     }
 }
 @media (min-width: 4800px) {
-    header{
-        padding: 1rem 120rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 120rem; 
     }
 }
 @media (min-width: 5000px) {
-    header{
-        padding: 1rem 125rem; 
+    .navBar, .menu_fijo, .menu_fijo_out{
+        padding: 0.5rem 125rem; 
 }
 }

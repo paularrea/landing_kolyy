@@ -2,9 +2,9 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import MediaQuery from "react-responsive";
-import DesktopHeader from "./components/desktopHeader";
+import DesktopHeader from "./components/DesktopHeader";
 
-import {navBar, burger} from "./header.module.scss"
+import { navBar, burger } from "./header.module.scss";
 import Logo from "./components/logo";
 import Burger from "./components/burger";
 
@@ -26,7 +26,7 @@ const Header = () => (
     </MediaQuery>
     <MediaQuery minWidth={870}>
       {/* <div className={big_container}> */}
-          <DesktopHeader />
+      <DesktopHeader />
       {/* </div> */}
     </MediaQuery>
   </>

@@ -6,17 +6,16 @@ import RenderSequence from "../components/Sequence/RenderSequence";
 import {
   container,
   render_sequence,
-} from "../styles/how-it-works.module.scss";
+} from "../styles/collar.module.scss";
 
-const HowItWorks = () => {
+const Collar = () => {
   return (
     <Layout>
-      <Seo title="Team" />
-      <div className={container}>
-        <h1>How it works Page</h1>
+      <Seo title="The Collar" />
         <div className={render_sequence}>
           <RenderSequence />
         </div>
+      <div className={container}>
         <ScrollText>
           This is a very important phrase! <br/> Very good, very nice
         </ScrollText>
@@ -37,4 +36,4 @@ const HowItWorks = () => {
   );
 };
 
-export default HowItWorks;
+export default Collar;

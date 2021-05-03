@@ -25,10 +25,8 @@ const Language = () => {
               onKeyDown={() => changeLocale(language)}
               className={translation_item}
               style={{
-                color: currentLocale === language && `white`,
-                border:
-                  currentLocale === language &&
-                  `1px solid rgba(255, 255, 255, 0.637)`,
+                color: currentLocale === language && `black`,
+                borderBottom: currentLocale === language && `2px solid black`,
                 cursor: `pointer`,
               }}
             >

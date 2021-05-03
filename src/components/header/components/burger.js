@@ -5,13 +5,7 @@ import "./burger.css";
 import Logo from "./logo";
 import Link from "../../Link";
 import Language from "../../language";
-
 import PhoneIcon from "../../../images/svg/PHONE.svg";
-import LinkedInIcon from "../../../images/svg/Linkedin_icon.svg";
-import FacebookIcon from "../../../images/svg/Facebook_icon.svg";
-import YoutubeIcon from "../../../images/svg/Youtube_icon.svg";
-import TwitterIcon from "../../../images/svg/Twitter_icon.svg";
-import InstagramIcon from "../../../images/svg/Instagram_icon.svg";
 
 const Burger = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,7 +30,7 @@ const Burger = () => {
           <Logo />
         </div>
         <nav className="bm-item-list">
-          <Link className="menu-item" id="how-it-works" to="/how-it-works" >
+          <Link className="menu-item" id="collar" to="/collar" >
             <div
               role="link"
               className="anchor-div"
@@ -50,11 +44,11 @@ const Burger = () => {
             >
               {" "}
               {/* <FormattedMessage id="nav.mobileServices" /> */}
-              How it works?
+              The Collar
             </div>
           </Link>
-          <hr />
-          <Link id="team" to="/team" className="menu-item">
+          {/* <hr /> */}
+          <Link id="app" to="/app" className="menu-item">
             <div
               role="link"
               className="anchor-div"
@@ -68,71 +62,92 @@ const Burger = () => {
             >
               {" "}
               {/* <FormattedMessage id="nav.about" /> */}
-              Team
+              The App
             </div>
           </Link>
-          <hr />
+          {/* <hr /> */}
+          <Link id="placas" to="/placas" className="menu-item">
+            <div
+              role="link"
+              className="anchor-div"
+              onClick={() => {
+                closeMenu();
+              }}
+              onKeyDown={() => {
+                closeMenu();
+              }}
+              tabIndex={0}
+            >
+              {" "}
+              {/* <FormattedMessage id="nav.about" /> */}
+              QR Tags
+            </div>
+          </Link>
+          {/* <hr /> */}
+          <Link id="about" to="/about" className="menu-item">
+            <div
+              role="link"
+              className="anchor-div"
+              onClick={() => {
+                closeMenu();
+              }}
+              onKeyDown={() => {
+                closeMenu();
+              }}
+              tabIndex={0}
+            >
+              {" "}
+              {/* <FormattedMessage id="nav.about" /> */}
+              About
+            </div>
+          </Link>
+          {/* <hr /> */}
+          <Link id="blog" to="/blog" className="menu-item">
+            <div
+              role="link"
+              className="anchor-div"
+              onClick={() => {
+                closeMenu();
+              }}
+              onKeyDown={() => {
+                closeMenu();
+              }}
+              tabIndex={0}
+            >
+              {" "}
+              {/* <FormattedMessage id="nav.about" /> */}
+              Blog
+            </div>
+          </Link>
+          {/* <hr /> */}
+          <Link id="questions" to="/questions" className="menu-item">
+            <div
+              role="link"
+              className="anchor-div"
+              onClick={() => {
+                closeMenu();
+              }}
+              onKeyDown={() => {
+                closeMenu();
+              }}
+              tabIndex={0}
+            >
+              {" "}
+              {/* <FormattedMessage id="nav.about" /> */}
+              Questions
+            </div>
+          </Link>
+          {/* <hr /> */}
         </nav>
         <div className="follow-container">
-
         <div className="language-container">
           <Language />
-          <hr />
+          {/* <hr /> */}
           <div className="contact-flex">
             <PhoneIcon />
             <a href="tel:+41313019439" rel="noreferrer" target="_blank">+41 31 301 94 39</a>
           </div>
         </div>
-        
-          <hr />
-          <h3>Folge uns</h3>
-          <ul className="media-list">
-            <li>
-              <a
-                href="https://www.instagram.com/victoryswitzerland/?hl=es"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <InstagramIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/victoryswitzerland/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <FacebookIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/channel/UCl7cknUnSR8FcsinGHRok9Q"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <YoutubeIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/VICTORYSWITZER1"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <TwitterIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/company/victory-switzerland/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <LinkedInIcon />
-              </a>
-            </li>
-          </ul>
         </div>
       </Menu>
     </>

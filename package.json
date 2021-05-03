@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Pau Larrea Llopis",
   "dependencies": {
+    "@n8tb1t/use-scroll-position": "^2.0.3",
     "css-loader": "^5.2.4",
     "gatsby": "^3.3.1",
     "gatsby-image": "^3.3.0",
