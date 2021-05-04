@@ -130,6 +130,22 @@ const Burger = () => {
               <FormattedMessage id="nav.questions" />
             </div>
           </Link>
+          <a href="https://app.kolyy.com/" rel="noreferrer" target="_blank" className="menu-item">
+            <div
+              role="link"
+              className="anchor-div"
+              onClick={() => {
+                closeMenu();
+              }}
+              onKeyDown={() => {
+                closeMenu();
+              }}
+              tabIndex={0}
+            >
+              {" "}
+              <FormattedMessage id="nav.login" />
+            </div>
+          </a>
           {/* <hr /> */}
         </nav>
         <div className="follow-container">
@@ -138,7 +154,7 @@ const Burger = () => {
           {/* <hr /> */}
           <div className="contact-flex">
             <PhoneIcon />
-            <a href="tel:+41313019439" rel="noreferrer" target="_blank">+41 31 301 94 39</a>
+            <a href="tel:+41313019439" rel="noreferrer" target="_blank">+34 66 666 66 66</a>
           </div>
         </div>
         </div>
