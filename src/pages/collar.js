@@ -31,6 +31,12 @@ const Collar = () => {
         <ScrollText>
           This is a very important phrase! <br/> Very good, very nice
         </ScrollText>
+        <div style={{
+              margin:"30vh 0"
+          }}></div>
+        <ScrollText>
+          This is a very important phrase! <br/> Very good, very nice
+        </ScrollText>
       </div>
     </Layout>
   );

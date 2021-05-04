@@ -19,7 +19,6 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 
 import LinkedInIcon from "../../images/svg/Linkedin_icon.svg";
 import FacebookIcon from "../../images/svg/Facebook_icon.svg";
-import YoutubeIcon from "../../images/svg/Youtube_icon.svg";
 import TwitterIcon from "../../images/svg/Twitter_icon.svg";
 import InstagramIcon from "../../images/svg/Instagram_icon.svg";
 
@@ -54,11 +53,11 @@ const FooterDesktop = () => {
               </div>
               <div>
                 <a
-                  href="https://www.google.com/maps/dir//Solothurnstrasse+24C,+3422+Kirchberg,+Suiza/@47.088762,7.5803751,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x478e2e8fb3298e67:0xc936accc2ffb169a!2m2!1d7.5825638!2d47.088762!3e0"
+                  href="https://www.google.es/maps/place/Monestir+de+Sant+Cugat/@41.4711808,2.0774912,14z/data=!4m5!3m4!1s0x12a496c29669f9f3:0x720371f63bb694b7!8m2!3d41.4736491!4d2.0849934"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Solothurnstrasse 24 C, 3422 Kirchberg Bern Schweiz
+                  Sant Cugat, Vallès Occidental, Spain
                 </a>
               </div>
             </div>
@@ -68,7 +67,7 @@ const FooterDesktop = () => {
               </div>
               <div>
                 <a href="tel:+41313019439">
-                  +41 31 301 94 39
+                  +34 66 666 66 66
                 </a>
               </div>
             </div>
@@ -78,11 +77,11 @@ const FooterDesktop = () => {
               </div>
               <div>
                 <a
-                  href="mailto:info@victoryswitzerland.com"
+                  href="mailto:hola@kolyy.com"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  info@victoryswitzerland.com
+                  hola@kolyy.com
                 </a>
               </div>
             </div>
@@ -94,7 +93,7 @@ const FooterDesktop = () => {
             <ul className={media_list}>
               <li>
                 <a
-                  href="https://www.instagram.com/victoryswitzerland/?hl=es"
+                  href="https://www.instagram.com/kolyy_official/"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -112,16 +111,7 @@ const FooterDesktop = () => {
               </li>
               <li>
                 <a
-                  href="https://www.youtube.com/channel/UCl7cknUnSR8FcsinGHRok9Q"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <YoutubeIcon />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/VICTORYSWITZER1"
+                  href="https://twitter.com/Kolyy_official"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -130,7 +120,7 @@ const FooterDesktop = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/company/victory-switzerland/"
+                  href="https://www.linkedin.com/company/petki/"
                   rel="noreferrer"
                   target="_blank"
                 >

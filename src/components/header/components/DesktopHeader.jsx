@@ -17,7 +17,7 @@ const DesktopHeader = () => {
 
   useEffect(() => {
     const changeNavColor = () => {
-      if (window.scrollY < (20 * window.innerHeight) / 100) {
+      if (window.scrollY < (5 * window.innerHeight) / 100) {
         setHideBlackNav(false);
       } else {
         setHideBlackNav(true);
