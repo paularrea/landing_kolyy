@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import Link from "../../Link";
-// import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import {
   header,
   header_out,
@@ -9,6 +9,7 @@ import {
   menu_fijo,
   menu_fijo_out,
   logo_nav_container,
+  login_link,
 } from "../header.module.scss";
 import Logo from "./logo";
 
@@ -31,13 +32,13 @@ const DesktopHeader = () => {
     <header className={hideBlackNav ? header_out : header}>
       <nav className={hideBlackNav ? menu_fijo_out : menu_fijo}>
         <Link id="about" to="/about">
-          Qué es Kolyy?
+          <FormattedMessage id="nav.about" />
         </Link>
         <Link id="blog" to="/blog">
-          Blog
+          <FormattedMessage id="nav.blog" />
         </Link>
         <Link id="questions" to="/questions">
-          Pregúntanos
+          <FormattedMessage id="nav.questions" />
         </Link>
       </nav>
       <div className={navBar}>
@@ -47,26 +48,30 @@ const DesktopHeader = () => {
           </Link>
 
           <Link id="collar" to="/collar" activeStyle={{ color: "white" }}>
-            {/* <FormattedMessage id="nav.about" /> */}
-            Collar
+            <FormattedMessage id="nav.collar" />
           </Link>
 
           <Link id="app" to="/app" activeStyle={{ color: "white" }}>
-            {/* <FormattedMessage id="nav.about" /> */}
-            App
+            <FormattedMessage id="nav.app" />
           </Link>
 
           <Link id="placas" to="/placas" activeStyle={{ color: "white" }}>
-            {/* <FormattedMessage id="nav.about" /> */}
-            Placa QR
+            <FormattedMessage id="nav.placa" />
           </Link>
         </nav>
         <div>
-          <a href="https://app.kolyy.com/" rel="noreferrer" target="_blank">
+          <a className={login_link} href="https://app.kolyy.com/" rel="noreferrer" target="_blank">
+            {" "}
+            <FormattedMessage id="nav.login" />
+          </a>
+          <a
+            href="https://app.kolyy.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <button>
               {" "}
-              {/* <FormattedMessage id="nav.shop" /> */}
-              Iniciar Sesión
+              <FormattedMessage id="nav.book" />
             </button>
           </a>
         </div>
@@ -79,4 +84,4 @@ DesktopHeader.propTypes = {
   siteTitle: PropTypes.string,
 };
 
-export default DesktopHeader;
+export default injectIntl(DesktopHeader);

@@ -11,15 +11,15 @@
         "about":"À propos de nous"
     },
     "nav": {
-        "home":"HOME",
-        "mobileServices" : "SERVICES",
-        "services":"+ SERVICE",
-        "productDesign":"DESIGN PRODUIT",
-        "production":"PRODUCTION",
-        "import":"IMPORTATION",
-        "logistic":"LOGISTIQUE",
-        "about":"À PROPOS DE NOUS",
-        "shop" : "VICTORY BOUTIQUE"
+        "home": "Home",
+        "collar" : "Collar",
+        "app": "App",
+        "placa": "Plaques QR",
+        "about": "Què és Kolyy?",
+        "blog": "Blog",
+        "questions": "Pregunta'ns",
+        "login": "Inicia Sessió",
+        "book": "Comprar"
     },
     "intro": {
         "title": "ENTREPRISE B2B SUR LE MARCHÉ SUISSE",

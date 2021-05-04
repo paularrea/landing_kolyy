@@ -26,7 +26,7 @@
         justify-content: flex-start;
         align-items: center;
         .contact_icons{
-            color:#FBD872;
+            filter:brightness(3) invert(.7);
             margin-right: 2rem;
             cursor: pointer;
             div{
@@ -67,6 +67,7 @@
     justify-content: flex-start;
     color: #000000;
     list-style-type: none;
+    filter:brightness(0) invert(.7);
     li{
         transition: all .4s ease-out;
         margin-right: .5rem;

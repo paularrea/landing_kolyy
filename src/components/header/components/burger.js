@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { fallDown as Menu } from "react-burger-menu";
-// import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
+import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import "./burger.css";
 import Logo from "./logo";
 import Link from "../../Link";
@@ -20,7 +20,6 @@ const Burger = () => {
 
   return (
     <>
-      {/* <div className="hideBar"></div> */}
       <Menu
         right
         isOpen={menuOpen}
@@ -43,8 +42,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              {/* <FormattedMessage id="nav.mobileServices" /> */}
-              The Collar
+              <FormattedMessage id="nav.collar" />
             </div>
           </Link>
           {/* <hr /> */}
@@ -61,8 +59,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              {/* <FormattedMessage id="nav.about" /> */}
-              The App
+              <FormattedMessage id="nav.app" />
             </div>
           </Link>
           {/* <hr /> */}
@@ -79,8 +76,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              {/* <FormattedMessage id="nav.about" /> */}
-              QR Tags
+              <FormattedMessage id="nav.placa" />
             </div>
           </Link>
           {/* <hr /> */}
@@ -97,8 +93,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              {/* <FormattedMessage id="nav.about" /> */}
-              About
+              <FormattedMessage id="nav.about" />
             </div>
           </Link>
           {/* <hr /> */}
@@ -115,8 +110,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              {/* <FormattedMessage id="nav.about" /> */}
-              Blog
+              <FormattedMessage id="nav.blog" />
             </div>
           </Link>
           {/* <hr /> */}
@@ -133,8 +127,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              {/* <FormattedMessage id="nav.about" /> */}
-              Questions
+              <FormattedMessage id="nav.questions" />
             </div>
           </Link>
           {/* <hr /> */}
@@ -154,4 +147,4 @@ const Burger = () => {
   );
 };
 
-export default Burger;
+export default injectIntl(Burger);

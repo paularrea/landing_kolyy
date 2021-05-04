@@ -11,15 +11,15 @@
         "about": "About us"
     },
     "nav": {
-        "home": "HOME",
-        "mobileServices": "SERVICES",
-        "services": "+ SERVICES",
-        "productDesign": "DESIGN A PRODUCT",
-        "production": "PRODUCTION",
-        "import": "IMPORT",
-        "logistic": "LOGISTICS",
-        "about": "ABOUT US",
-        "shop": "VICTORY SHOP"
+        "home": "Home",
+        "collar" : "Collar",
+        "app": "App",
+        "placa": "QR Tags",
+        "about": "What's Kolyy?",
+        "blog": "Blog",
+        "questions": "Any Questions?",
+        "login": "Login",
+        "book": "Buy"
     },
     "intro": {
         "title": "B2B ENTERPRISE IN THE SWISS MARKET",
