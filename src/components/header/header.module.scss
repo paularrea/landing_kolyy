@@ -25,11 +25,19 @@ header{
     padding: .2rem 2rem;
     height: 36px;
     align-items: center;
-        a{
-            font-size: 12px;
-            color: whitesmoke;
-            padding-left: 2rem;
+    .active_white{
+        color: white;
+        font-weight: 600;
+    }
+    a{
+        font-size: 12px;
+        color: whitesmoke;
+        margin-left: 2rem;
+        &:hover{
+            color: white;
+            font-weight: 600;
         }
+    }
 }
 .menu_fijo_out{
     display: flex;
@@ -91,15 +99,19 @@ header{
                 width: fit-content;
                 color: #2A343B;
                 font-size: 16px;
+                transition: 0.1s;
                 &:hover{
                     color: #000000;
+                    font-weight: 600;
                 }
             }
             .active{
-                color: white;
+                color: #000000;
+                font-weight: 600;
             }
             .disabled{
-                color: #FED880;
+                color: #2A343B;
+                font-weight: 400;
             }
         }
         button{

@@ -1,132 +1,159 @@
 .container{
     padding: 4rem 2rem;
-    div{
-        font-size: 20px;
-        margin: 1rem 0;
+    padding-top: 0;
+}
+.bg_img{
+    background-color: rgb(224, 224, 224);
+}
+.text{
+    height: 676px;
+    h1{
+        margin: 0;
     }
-}
-.render_sequence{
-    width: 90%;
-    height: 600px;
-    resize: both;
-}
-
-.frase{
-    z-index: 999999 !important;
+    margin: 0 auto;
+    p{
+        font-size: 22px;
+    }
+    button{
+        width: 300px !important;
+    }
 }
 
 @media (min-width: 870px) {
     .container{
         padding: 4rem 2rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 900px) {
     .container{
         padding: 4rem 4rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 950px) {
     .container{
         padding: 4rem 6rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 1100px) {
     .container{
         padding: 4rem 10rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 1300px) {
     .container{
         padding: 4rem 15rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 1600px) {
     .container{
         padding: 4rem 20rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 1800px) {
     .container{
         padding: 4rem 25rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 2000px) {
     .container{
         padding: 4rem 30rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 2200px) {
     .container{
         padding: 4rem 35rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 2400px) {
     .container{
         padding: 4rem 40rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 2600px) {
     .container{
         padding: 4rem 50rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 2800px) {
     .container{
         padding: 4rem 60rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 3000px) {
     .container{
         padding: 4rem 65rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 3200px) {
     .container{
         padding: 4rem 70rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 3400px) {
     .container{
         padding: 4rem 75rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 3600px) {
     .container{
         padding: 4rem 80rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 3800px) {
     .container{
         padding: 4rem 85rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 4000px) {
     .container{
         padding: 4rem 90rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 4200px) {
     .container{
         padding: 4rem 95rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 4400px) {
     .container{
         padding: 4rem 100rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 4600px) {
     .container{
         padding: 4rem 110rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 4800px) {
     .container{
         padding: 4rem 120rem; 
+        padding-top: 0;
     }
 }
 @media (min-width: 5000px) {
     .container{
         padding: 4rem 125rem; 
+        padding-top: 0;
 }
 }

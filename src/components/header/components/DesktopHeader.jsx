@@ -5,6 +5,8 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import {
   header,
   header_out,
+  active,
+  active_white,
   navBar,
   menu_fijo,
   menu_fijo_out,
@@ -14,6 +16,12 @@ import {
 import Logo from "./logo";
 
 const DesktopHeader = () => {
+  const [activeCollar, setActiveCollar] = useState(false);
+  const [activeApp, setActiveApp] = useState(false);
+  const [activePlacas, setActivePlacas] = useState(false);
+  const [activeAbout, setActiveAbout] = useState(false);
+  const [activeBlog, setActiveBlog] = useState(false);
+  const [activeQuestions, setActiveQuestions] = useState(false);
   const [hideBlackNav, setHideBlackNav] = useState(false);
 
   useEffect(() => {
@@ -24,20 +32,40 @@ const DesktopHeader = () => {
         setHideBlackNav(true);
       }
     };
-
+    const isActive = () => {
+      const currentURL = window.location.href;
+      if (currentURL.indexOf("collar") > -1) {
+        setActiveCollar(true);
+      } else if (currentURL.indexOf("app") > -1) {
+        setActiveApp(true);
+      } else if (currentURL.indexOf("placas") > -1) {
+        setActivePlacas(true);
+      } else if (currentURL.indexOf("about") > -1) {
+        setActiveAbout(true);
+      } else if (currentURL.indexOf("blog") > -1) {
+        setActiveBlog(true);
+      } else if (currentURL.indexOf("questions") > -1) {
+        setActiveQuestions(true);
+      }
+    };
+    isActive();
     window.addEventListener("scroll", changeNavColor);
   }, []);
 
   return (
     <header className={hideBlackNav ? header_out : header}>
       <nav className={hideBlackNav ? menu_fijo_out : menu_fijo}>
-        <Link id="about" to="/about">
+        <Link id="about" to="/about" className={activeAbout && active_white}>
           <FormattedMessage id="nav.about" />
         </Link>
-        <Link id="blog" to="/blog">
+        <Link id="blog" to="/blog" className={activeBlog && active_white}>
           <FormattedMessage id="nav.blog" />
         </Link>
-        <Link id="questions" to="/questions">
+        <Link
+          id="questions"
+          to="/questions"
+          className={activeQuestions && active_white}
+        >
           <FormattedMessage id="nav.questions" />
         </Link>
       </nav>
@@ -47,28 +75,29 @@ const DesktopHeader = () => {
             <Logo />
           </Link>
 
-          <Link id="collar" to="/collar" activeStyle={{ color: "white" }}>
+          <Link id="collar" to="/collar" className={activeCollar && active}>
             <FormattedMessage id="nav.collar" />
           </Link>
 
-          <Link id="app" to="/app" activeStyle={{ color: "white" }}>
+          <Link id="app" to="/app" className={activeApp && active}>
             <FormattedMessage id="nav.app" />
           </Link>
 
-          <Link id="placas" to="/placas" activeStyle={{ color: "white" }}>
+          <Link id="placas" to="/placas" className={activePlacas && active}>
             <FormattedMessage id="nav.placa" />
           </Link>
         </nav>
         <div>
-          <a className={login_link} href="https://app.kolyy.com/" rel="noreferrer" target="_blank">
-            {" "}
-            <FormattedMessage id="nav.login" />
-          </a>
           <a
+            className={login_link}
             href="https://app.kolyy.com/"
             rel="noreferrer"
             target="_blank"
           >
+            {" "}
+            <FormattedMessage id="nav.login" />
+          </a>
+          <a href="https://app.kolyy.com/" rel="noreferrer" target="_blank">
             <button>
               {" "}
               <FormattedMessage id="nav.book" />
