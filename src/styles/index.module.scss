@@ -8,6 +8,20 @@ html, body{
   background-color: white;
   margin: 0;
 }
+h1,h2,h3,h4,h5,p{
+  padding: 0;
+  margin: 0;
+}
+h1{
+  font-size: 48px;
+  line-height: 58.09px;
+}
+p{
+  font-size: 22px;
+}
+h5{
+  font-size: 24px;
+}
 button{
   transition: all .4s ease-out;
   color: whitesmoke;
