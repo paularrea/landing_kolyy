@@ -46,7 +46,7 @@ const Burger = () => {
             </div>
           </Link>
           {/* <hr /> */}
-          <Link id="app" to="/app" className="menu-item">
+          <Link id="app" to="/the-app" className="menu-item">
             <div
               role="link"
               className="anchor-div"

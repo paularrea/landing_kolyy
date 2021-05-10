@@ -25,7 +25,7 @@
     }
 }
 
-//gps Component
+//Features Component
 .container_gps{
     padding: 2rem 0;
     width: 100%;
@@ -70,6 +70,34 @@
         }
     }
 }
+//Book Component
+.book_container{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10rem;
+        .img_bg{
+            margin-top: 2rem;
+            background-color: #c4c4c421;
+            height: 676px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            .img_text{
+                width: 33.333%;
+                margin-bottom: 6rem;
+                button{
+                    height: 48px;
+                    padding: 0 30px;
+                    font-size: 22px;
+                }
+                p{
+                    font-size: 17px;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
 @media (min-width: 870px) {
     .container{
         padding: 2rem 0rem; 

@@ -1,5 +1,6 @@
 import React from "react";
 import ActivityComponent from "../components/collarComponents/activityComponent";
+import BookComponent from "../components/collarComponents/bookComponent";
 import GpsComponent from "../components/collarComponents/gpsComponent";
 import InteligentComponent from "../components/collarComponents/inteligentComponent";
 import LedComponent from "../components/collarComponents/ledComponent";
@@ -31,6 +32,7 @@ const Collar = () => {
         <InteligentComponent />
         <LedComponent />
       </div>
+      <BookComponent/>
     </Layout>
   );
 };

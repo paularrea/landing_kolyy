@@ -1,12 +1,11 @@
 
 .container{
-    border-top: 2px solid #e3e4e5;
-    background-color: #161616;
+    background-color: #c4c4c421;;
     padding: 4rem 2rem;
     position: relative;
     p{
         padding: 1rem 0;
-        color: #FFFFFFB3;
+        color: #120F3D;
         font-size: 16px;
         text-align: left;
     }
@@ -15,9 +14,15 @@
     padding-bottom: 4rem;
     h3{
         padding-top: 2rem;
-        color: white;
-        font-size: 18px;
+        color: #120F3D;
+        font-size: 32px;
+        font-weight: 400;
         margin: 0;
+    }
+    button{
+        margin:1rem 0;
+        padding: 10px 20px;
+        font-size: 22px;
     }
     .contact_div{
         display: flex;
@@ -38,7 +43,7 @@
             width: .7rem !important;
         }
         a{
-            color: white;
+            color: #120F3D;
             margin: 0;
             padding: 0;
             width: 70vw;
@@ -50,14 +55,12 @@
     }
 
 }
-.follow_container{
+.privacity_container{
     padding-top: 2rem;
-    width: 60vw;
-    h3{
-        color: white;
-        margin: 0;
-        font-size: 18px;
-    }
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .media_list{
     width: 100%;
@@ -85,10 +88,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 420px;
+
     .copyright{
         p{
-            color: #FFFFFF;
+            color: #120F3D;
             margin: 0;
             padding: 0;
         }
@@ -115,6 +118,9 @@
                     line-height: 21px;
                     font-weight: 100;
                 }
+                h3{
+                    margin-top: 1rem;
+                }
             }
             .div{
                width: 50%;
@@ -130,18 +136,13 @@
     .hr{
         width: 100%;
         display: block; height: 1px;
-        border: 0; border-top: .1px solid #e3e4e538;
+        border: 0; border-top: .1px solid #120f3d50;
         margin: 0; padding: 0;
     }
-    .follow_container{
+    .privacity_container{
         padding-top: 1rem;
-        width: 15rem;
+        width: 50%;
         bottom: 2vh !important;
-        h3{
-            color: white;
-            margin: 0;
-            font-size: 18px;
-        }
     }
     .copyright{
         padding: 0;

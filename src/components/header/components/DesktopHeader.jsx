@@ -36,7 +36,7 @@ const DesktopHeader = () => {
       const currentURL = window.location.href;
       if (currentURL.indexOf("collar") > -1) {
         setActiveCollar(true);
-      } else if (currentURL.indexOf("app") > -1) {
+      } else if (currentURL.indexOf("the-app") > -1) {
         setActiveApp(true);
       } else if (currentURL.indexOf("placas") > -1) {
         setActivePlacas(true);
@@ -79,7 +79,7 @@ const DesktopHeader = () => {
             <FormattedMessage id="nav.collar" />
           </Link>
 
-          <Link id="app" to="/app" className={activeApp && active}>
+          <Link id="app" to="/the-app" className={activeApp && active}>
             <FormattedMessage id="nav.app" />
           </Link>
 
