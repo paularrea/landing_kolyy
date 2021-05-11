@@ -14,14 +14,14 @@ const Collar = () => {
       <Seo title="The Collar" />
       <div className={bg_img}>
         <div className={text}>
-          <h1>
+          <h2>
             Conoce.
             <br />
             Cuida.
             <br />
             Disfruta.
             <br />
-          </h1>
+          </h2>
           <p>Sé de los primeros en reservar y tendrás un 20% de descuento.</p>
           <button>Reserva</button>
         </div>

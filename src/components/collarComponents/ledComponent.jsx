@@ -18,7 +18,7 @@ const LedComponent = () => {
           <div className={absolute_title}>
             <span>Para no perderlo de vista.</span>
           </div>
-          <h1>Todo lo que necesitas para cuidar de él.</h1>
+          <h2>Todo lo que necesitas para cuidar de él.</h2>
           <p>
             El collar es dogproof. Resistente, sumergible, seguro, con largos
             ciclos de batería y una luz LED visible para la noche.

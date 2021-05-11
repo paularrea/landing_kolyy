@@ -18,7 +18,7 @@ const ActivityComponent = () => {
           <div className={absolute_title}>
             <span>Un perro activo es un perro feliz.</span>
           </div>
-          <h1>Registro de actividad física.</h1>
+          <h2>Registro de actividad física.</h2>
           <p>
             El collar te informa del ejercicio físico, pausas y tiempo tumbado
             de tu perro para mantenerlo en forma.

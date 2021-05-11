@@ -17,7 +17,7 @@ const InteligentComponent = () => {
           <div className={absolute_title}>
             <span>Prevenir antes que curar.</span>
           </div>
-          <h1>Un collar que aprende.</h1>
+          <h2>Un collar que aprende.</h2>
           <p>
             Kolyy es un collar inteligente que aprende los niveles de actividad
             y hábitos de tu perro para informarte de cuando hay una alteración o

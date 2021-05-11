@@ -19,9 +19,9 @@ const Placas = () => {
       <Seo title="Placas QR" />
       <div className={bg_img}>
         <div className={text}>
-          <h1>
+          <h2>
             Placas <br /> identificativas
-          </h1>
+          </h2>
           <p>
             Escanea. Click. Encontrado <br />
             <br />
@@ -33,14 +33,14 @@ const Placas = () => {
       <div className={container}>
         <div className={container_title}>
           <span>Su seguridad. Tu tranquilidad</span>
-          <h1>Cómo funcionan nuestras placas</h1>
+          <h2>Cómo funcionan nuestras placas</h2>
         </div>
 
         <div className={flex_container}>
           <div className={div_img_flex}>
             <div className={img_flex}></div>
             <div className={text_flex}>
-              <h2>Consigue una placa identificativa única</h2>
+              <h3>Consigue una placa identificativa única</h3>
               <p>
                 Cada placa contiene un código QR único para identificar a cada
                 perro. <br /> Consigue la tuya en shop.kolyy.com/
@@ -50,7 +50,7 @@ const Placas = () => {
           <div className={div_img_flex}>
             <div className={img_flex}></div>
             <div className={text_flex}>
-              <h2>Actívala a través de nuestra webapp</h2>
+              <h3>Actívala a través de nuestra webapp</h3>
               <p>
                 Entra en app.kolyy.com y activa tu placa. Puedes activar todas
                 las que tengas.
@@ -60,7 +60,7 @@ const Placas = () => {
           <div className={div_img_flex}>
             <div className={img_flex}></div>
             <div className={text_flex}>
-              <h2>Añade tus datos de contacto</h2>
+              <h3>Añade tus datos de contacto</h3>
               <p>
                 Una vez activada la placa podrás rellenar tu cuenta con tus
                 datos personales.
@@ -72,17 +72,17 @@ const Placas = () => {
         <div>
           <div className={container_title}>
             <span>Una comunidad para ayudarnos.</span>
-            <h1>
+            <h2>
               He perdido a mi perro, <br />
               ¿cómo lo encuentro?
-            </h1>
+            </h2>
             <p>Existen dos formas en las que podemos ayudarte.</p>
           </div>
           <div className={flex_container_2}>
             <div className={div_img_flex}>
               <div className={img_flex}></div>
               <div className={text_flex}>
-                <h2>Mi agenda personal</h2>
+                <h3>Mi agenda personal</h3>
                 <p>
                   Desde tu área personal podrás añadir todas las citas o
                   recordatorios de tu perro. En kolyy te avisaremos cuando
@@ -93,7 +93,7 @@ const Placas = () => {
             <div className={div_img_flex}>
               <div className={img_flex}></div>
               <div className={text_flex}>
-                <h2>Calendario de vacunación</h2>
+                <h3>Calendario de vacunación</h3>
                 <p>
                   Automatizaremos el calendario de vacunas obligatorias teniendo
                   en cuenta la raza y edad de tu perro
@@ -105,14 +105,14 @@ const Placas = () => {
 
         <div className={container_title}>
           <span>Estar al día en todo su cuidado.</span>
-          <h1>¿Qué más puedo hacer en la webapp?</h1>
+          <h2>¿Qué más puedo hacer en la webapp?</h2>
         </div>
 
         <div className={flex_container}>
           <div className={div_img_flex}>
             <div className={img_flex}></div>
             <div className={text_flex}>
-              <h2>Mi agenda personal</h2>
+              <h3>Mi agenda personal</h3>
               <p>
                 Desde tu área personal podrás añadir todas las citas o
                 recordatorios de tu perro. En kolyy te avisaremos cuando llegue
@@ -123,7 +123,7 @@ const Placas = () => {
           <div className={div_img_flex}>
             <div className={img_flex}></div>
             <div className={text_flex}>
-              <h2>Calendario de vacunación</h2>
+              <h3>Calendario de vacunación</h3>
               <p>
                 Automatizaremos el calendario de vacunas obligatorias teniendo
                 en cuenta la raza y edad de tu perro
@@ -133,7 +133,7 @@ const Placas = () => {
           <div className={div_img_flex}>
             <div className={img_flex}></div>
             <div className={text_flex}>
-              <h2>Ayuda a otro kolyer</h2>
+              <h3>Ayuda a otro kolyer</h3>
               <p>
                 Desde la misma webapp podrás ver todos los perros con alerta de
                 pérdida y ayudar en caso de que puedas.
@@ -146,7 +146,7 @@ const Placas = () => {
       <div style={{ margin: "6rem 0" }} className={bg_img}>
         <div style={{ textAlign: "left" }} className={text}>
           <span>Iniciativa 0 perros perdidos</span>
-          <h1 style={{ marginTop: "1rem"}}>Somos más de 10.000</h1>
+          <h2 style={{ marginTop: "1rem"}}>Somos más de 10.000</h2>
           <p style={{ margin: "2rem 0" }}>
             Son muchos los kolyers que ya se han apuntado a esta iniciativa para
             proteger a sus perros y a los de los demás. <br />

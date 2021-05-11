@@ -18,7 +18,7 @@ const App = () => {
       <Seo title="The App" />
       <div className={bg_img}>
         <div className={text}>
-          <h1>Conecta con tu perro en un click</h1>
+          <h2>Conecta con tu perro en un click</h2>
           <p>El collar registra, la app reporta.</p>
         </div>
       </div>
@@ -28,7 +28,7 @@ const App = () => {
             style={{ textAlign: "left", paddingRight: "5rem" }}
             className={text_div}
           >
-            <h1>Todo lo que importa en una misma app.</h1>
+            <h2>Todo lo que importa en una misma app.</h2>
             <p>
               Conoce, aprendre y actúa. <br />
               <br />
@@ -49,7 +49,7 @@ const App = () => {
             style={{ textAlign: "right", paddingLeft: "5rem" }}
             className={text_div}
           >
-            <h1>Todo lo que importa en una misma app.</h1>
+            <h2>Todo lo que importa en una misma app.</h2>
             <p>
               Conoce, aprendre y actúa. <br />
               <br />
@@ -66,7 +66,7 @@ const App = () => {
             style={{ textAlign: "left", paddingRight: "5rem" }}
             className={text_div}
           >
-            <h1>Forma parte de una comunidad única.</h1>
+            <h2>Forma parte de una comunidad única.</h2>
             <p>
               La app estará disponible a principios de 2022. Hasta entonces
               únete a nuestra comunidad en redes sociales.

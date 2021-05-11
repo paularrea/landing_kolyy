@@ -17,7 +17,7 @@ const GpsComponent = () => {
         <div className={absolute_title}>
         <span>Saber dónde está es saber que está bien.</span>
       </div>
-          <h1>Localizador GPS a tiempo real.</h1>
+          <h2>Localizador GPS a tiempo real.</h2>
           <p>
             Kolyy te avisa si tu perro se pierde y te ayuda a encontrarlo.{" "}
             <br /> <br />
