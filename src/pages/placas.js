@@ -11,9 +11,6 @@ import {
   text_flex,
   img_flex,
   container_title,
-  book_container,
-  img_bg,
-  img_text,
 } from "../styles/placas.module.scss";
 
 const Placas = () => {

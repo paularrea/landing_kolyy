@@ -7,15 +7,19 @@ const ScrollText = (props) => {
     <div>
       <Controller>
         <Scene duration="100%" triggerHook={0.4} pin>
-        <Tween from={{ opacity: 0 }} to={{ opacity: 1 }}>
-          <div style={{
-              display:"flex",
-              justifyContent:"center",
-              alignItems:"center",
-              textAlign:"center",
-          }}>
-            <h1>{props.children}</h1>
-          </div>
+          <Tween from={{ opacity: 0 }} to={{ opacity: 1 }}>
+            <div
+              style={{
+                margin: "0 auto",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center",
+                width: "80%",
+              }}
+            >
+              <div>{props.children}</div>
+            </div>
           </Tween>
         </Scene>
       </Controller>
