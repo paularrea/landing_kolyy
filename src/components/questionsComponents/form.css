@@ -1,0 +1,187 @@
+#form-container{
+    background-color: rgba(48, 170, 170, .06); 
+}
+
+#form-container>p{
+    text-align: center;
+    padding: 2rem 0;
+    padding-top: 4rem;
+    font-size: 18px;
+    font-size: 400;
+}
+
+
+#my-hubspot-form{
+    padding: 2rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-columns-2{
+    margin: 0;
+    max-width: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#firstname-662bb340-622d-4d8b-b9c3-94c89d2335ca{
+    width: 23vw;
+}
+#lastname-662bb340-622d-4d8b-b9c3-94c89d2335ca{
+    width: 24.8vw;
+}
+#email-662bb340-622d-4d8b-b9c3-94c89d2335ca{
+    width: 50vw;
+}
+
+
+#my-hubspot-form input{
+    border-radius: 25px !important;
+    padding: 15px;
+    border: transparent;
+    outline: none;
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+#my-hubspot-form textarea{
+    border-radius: 15px !important;
+    border: transparent;
+    outline: none;
+    padding: 15px;
+    height: 250px;
+    width: 50vw;
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.hs-button{
+    background-color: rgb(48, 170, 170);
+    padding: 5px 30px !important;
+    color: white;
+    font-size: 24px;
+}
+
+#my-hubspot-form span{
+color: black;
+font-size: 16px;
+font-weight: 400;
+}
+
+@media (min-width: 870px) {
+    #my-hubspot-form{
+        padding: 2rem; 
+    }
+}
+@media (min-width: 900px) {
+    #my-hubspot-form{
+        padding: 2rem; 
+    }
+}
+@media (min-width: 950px) {
+    #my-hubspot-form{
+        padding: 2rem; 
+    }
+}
+@media (min-width: 1100px) {
+    #my-hubspot-form{
+        padding: 2rem 2rem; 
+    }
+}
+@media (min-width: 1300px) {
+    #my-hubspot-form{
+        padding: 2rem 5rem; 
+    }
+}
+@media (min-width: 1600px) {
+    #my-hubspot-form{
+        padding: 2rem 5rem; 
+    }
+}
+@media (min-width: 1800px) {
+    #my-hubspot-form{
+        padding: 2rem 10rem; 
+    }
+}
+@media (min-width: 2000px) {
+    #my-hubspot-form{
+        padding: 2rem 15rem; 
+    }
+}
+@media (min-width: 2200px) {
+    #my-hubspot-form{
+        padding: 2rem 25rem; 
+    }
+}
+@media (min-width: 2400px) {
+    #my-hubspot-form{
+        padding: 2rem 30rem; 
+    }
+}
+@media (min-width: 2600px) {
+    #my-hubspot-form{
+        padding: 2rem 35rem; 
+    }
+}
+@media (min-width: 2800px) {
+    #my-hubspot-form{
+        padding: 2rem 40rem; 
+    }
+}
+@media (min-width: 3000px) {
+    #my-hubspot-form{
+        padding: 2rem 50rem; 
+    }
+}
+@media (min-width: 3200px) {
+    #my-hubspot-form{
+        padding: 2rem 60rem; 
+    }
+}
+@media (min-width: 3400px) {
+    #my-hubspot-form{
+        padding: 2rem 65rem; 
+    }
+}
+@media (min-width: 3600px) {
+    #my-hubspot-form{
+        padding: 2rem 70rem; 
+    }
+}
+@media (min-width: 3800px) {
+    #my-hubspot-form{
+        padding: 2rem 75rem; 
+    }
+}
+@media (min-width: 4000px) {
+    #my-hubspot-form{
+        padding: 2rem 80rem; 
+    }
+}
+@media (min-width: 4200px) {
+    #my-hubspot-form{
+        padding: 2rem 85rem; 
+    }
+}
+@media (min-width: 4400px) {
+    #my-hubspot-form{
+        padding: 2rem 90rem; 
+    }
+}
+@media (min-width: 4600px) {
+    #my-hubspot-form{
+        padding: 2rem 95rem; 
+    }
+}
+@media (min-width: 4800px) {
+    #my-hubspot-form{
+        padding: 2rem 100rem; 
+    }
+}
+@media (min-width: 5000px) {
+    #my-hubspot-form{
+        padding: 2rem 110rem; 
+}
+}

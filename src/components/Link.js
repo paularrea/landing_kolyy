@@ -8,7 +8,6 @@ const Link = ({ to, language, children, onClick, ...rest }) => (
     {intl => {
       const languageLink = language || intl.language
       const link = intl.routed || language ? `/${languageLink}${to}` : `${to}`
-
       const handleClick = e => {
         if (language) {
           window.localStorage.setItem('gatsby-intl-language', language)
@@ -17,7 +16,6 @@ const Link = ({ to, language, children, onClick, ...rest }) => (
           onClick(e)
         }
       }
-
       return (
         <AnchorLink {...rest} to={link} onClick={handleClick}>
           {children}

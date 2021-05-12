@@ -6,7 +6,7 @@ const DesarrolloText = (props) => {
   return (
     <div>
       <Controller>
-        <Scene duration="120%" triggerHook={0.7} pin>
+        <Scene duration="1230px" triggerHook={0.7} pin>
           <Tween from={{ opacity: 0 }} to={{ opacity: 1 }}>
             <div
               style={{
