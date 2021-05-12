@@ -6,13 +6,11 @@ import {
   container,
   flex_container,
   logo_text,
-  hr,
   contact,
   contact_div,
   contact_icons,
   privacity_container,
   media_list,
-  copyright,
   flex_footer_lang,
 } from "./footer.module.scss";
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
@@ -42,7 +40,7 @@ const FooterDesktop = () => {
           <p>
             <FormattedMessage id="footer.text" />
           </p>
-          <h3>Síguenos en @kolyy_official</h3>
+          <h4>Síguenos en @kolyy_official</h4>
           <ul className={media_list}>
             <li>
               <a

@@ -1,15 +1,4 @@
 {
-    "title": "Victory Switzerland",
-    "seo": {
-        "home": "Home",
-        "services": "Services",
-        "productDesign": "Design a Product",
-        "production": "Production",
-        "import": "Import",
-        "logistic": "Logistical services",
-        "success": "A successful business",
-        "about": "About us"
-    },
     "nav": {
         "home": "Home",
         "collar" : "Collar",
@@ -17,131 +6,14 @@
         "placa": "QR Tags",
         "about": "What's Kolyy?",
         "blog": "Blog",
-        "questions": "Any Questions?",
+        "questions": "Any question?",
         "login": "Login",
-        "book": "Buy"
-    },
-    "intro": {
-        "title": "B2B ENTERPRISE IN THE SWISS MARKET",
-        "subtitle": "We sell specialised solutions",
-        "button1": "CONTACT US",
-        "button2": "VISIT THE SHOP"
-    },
-    "productDesign": {
-        "title": "DESIGN A PRODUCT",
-        "subtitle": "Non-Food Concept",
-        "subtitle2": "A successful sale starts with a great design. Victory Switzerland brings your product straight to the market.",
-        "bigText": "We will support you from A to Z, transforming your idea into a tangible product. Follow the process step by step. You bring the chaos, we'll bring the skill.",
-        "text1": "Our community of designers can work to develop your product either from a single sheet of paper, or from a more elaborated concept.",
-        "text2": "Have you come across a trendy product in the market? Do even better and stick out from your competitors.",
-        "button": "START PLANNING"
-    },
-    "production": {
-        "title": "PRODUCTION",
-        "subtitle": "Developing the perfect product is a challenge we enjoy as we do everything we can to make it work.",
-        "text1": "We'll find the right factory among an international selection and use our experience and influence to offer you a better price than your business would have got alone.",
-        "text2": "Save time and money by investing in our services. Your CFO will love us.",
-        "text3": "Today you have access to infinite possibilities to develop your product at the desired quality and price. This offer is so vast that it's easy to lose yourself. Yet another reason to work with us.",
-        "button": "START PRODUCTION"
-    },
-    "import": {
-        "title": "IMPORT",
-        "subtitle": "There are several ways to transport your product from point A to point B. The real question is, does your transporter work in an effective and efficient way? We do what is needed to optimise each delivery.",
-        "text1": "If you import goods into Switzerland or elsewhere, it needs to be regulated under local legislation. There is therefore a risk of it getting stuck at customs.",
-        "text2": "To avoid this problem, we ensure that your goods conform to regulations before loading.",
-        "button": "MANAGE IMPORT"
-    },
-    "logistic": {
-        "title": "LOGISTICS",
-        "subtitle": "We offer a quality logistical service. Our team depends on your needs and makes bespoke suggestions at the best prices. Our work ends when the customer receives their order and feels the thrill of victory!",
-        "container": {
-            "title": "We guarantee:",
-            "bullet1": {
-                "title": "Maintenance",
-                "description": "Upon request, we stock the goods in our locations until the required delivery date."
-            },
-            "bullet2": {
-                "title": "Labelling",
-                "description": "Relay relevant information about the characteristics and qualities of the product, as well as its handling, reducing the risks of wear and tear or loss."
-            },
-            "bullet3": {
-                "title": "Packaging",
-                "description": "Ease the number, distribution and transporting of packages."
-            },
-            "bullet4": {
-                "title": "Stock management",
-                "description": "We manage warehouses where we stock and organise your supply. This management is convened with our customer based on their needs."
-            },
-            "bullet5": {
-                "title": "Efficient procurement cycle",
-                "description": "This results in an added value, positively influencing the final product price and end customer. Our team will be happy to offer you a bespoke solution."
-            }
-        },
-        "button": "REQUEST ADVICE"
-    },
-    "fuhlen": {
-        "title": "FEEL THE VICTORY",
-        "title2": "THE CROWN JEWEL",
-        "subtitle": "For customers who don't want to create their own collection, we offer an alternative solution.",
-        "text1": "Victory Shop is a digital platform on which the most important European wholesalers stand side by side. All of their best products in one basket. All you need to do is click below.",
-        "button": "VICTORY SHOP"
-    },
-    "contact": {
-        "title": "Sign up for full information on our price lists.",
-        "subtitle": "We will deal with your request and contact you as soon as possible.",
-        "name": "Surname",
-        "surname": "Name",
-        "company": "Business",
-        "subject": {
-            "name" : "Subject",
-            "productDesign": "Start planning",
-            "production": "Start production",
-            "import": "Manage import",
-            "logistic": "Request advice"
-        },
-        "phone": "Phone",
-        "email": "E-mail",
-        "button": "SUBMIT FORM"
-    },
-    "blog": {
-        "title": "VIKTOR BLOG",
-        "subtitle": "",
-        "text1": "",
-        "text2": "",
-        "text3": "",
-        "button": ""
+        "book": "Book"
     },
     "footer": {
-        "text": "Una solución inteligente para cuidar de nuestros perros como lo que son: un miembro más de la familia.",        "title": "Do you have any questions?",
-        "copyright": "© All Rights Reserved",
-        "media": "follow us"
-    },
-    "about": {
-        "videoText": "WE OFFER PERSONALISED B2B SOLUTIONS",
-        "videoSubtext": "Let your business grow.",
-        "title": "ABOUT US",
-        "subtitle": "To our valued customers, we'd like to give you a glimpse of our activities and expertise.",
-        "text1": "Victory Switzerland GmbH has been active since its foundation in 2021 as an importer and wholesaler, and purchases for its international customers. Due to such diversity, our product assortment is constantly expanding.",
-        "text2": "Our international team works in synergy, enriching our processes. Our cultural differences do not separate us but rather make us stronger. We are committed to ethical and moral values which determine our philosophies around work and life.",
-        "position1": "CEO FOUNDER",
-        "position2": "IMPORT / EXPORT",
-        "position3": "IT",
-        "position4": "ADMIN - SALES - MARKETING",
-        "position5": "EXTERNAL SALES",
-        "position6": "LOGISTICS - EXTERNAL SALES",
-        "position7": "EXTERNAL SALES",
-        "position8": "SECURITY AND MASCOT",
-        "contactBtn": "REQUEST CONTACT"
-    },
-    "submission": {
-        "thankyou": {
-            "title": "Contact",
-            "text": "Thank you for your submission!"
-        },
-        "callyou": {
-            "title": "Contact",
-            "text": "Thank you for your submission! We'll call you back."
-        },
-        "button": "BACK TO SITE"
+        "text": "An intelligent solution to take care of our dogs as what they are: one more of the family.",        
+        "title" : "Any question?",
+        "copyright" : "© All rights reserved",
+        "media" : "Follow us"
     }
 }
