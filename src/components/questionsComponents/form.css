@@ -1,23 +1,19 @@
 #form-container{
     background-color: rgba(48, 170, 170, .06); 
 }
-
 #form-container>p{
-    text-align: center;
-    padding: 2rem 0;
+    text-align: left;
+    padding: 1rem;
     padding-top: 4rem;
     font-size: 18px;
     font-size: 400;
 }
-
-
 #my-hubspot-form{
     padding: 2rem; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .form-columns-2{
     margin: 0;
     max-width: none;
@@ -25,18 +21,15 @@
     justify-content: space-between;
 
 }
-
 #firstname-662bb340-622d-4d8b-b9c3-94c89d2335ca{
-    width: 23vw;
+    width: 40vw;
 }
 #lastname-662bb340-622d-4d8b-b9c3-94c89d2335ca{
-    width: 24.8vw;
+    width: 45vw;
 }
 #email-662bb340-622d-4d8b-b9c3-94c89d2335ca{
-    width: 50vw;
+    width: 90vw;
 }
-
-
 #my-hubspot-form input{
     border-radius: 25px !important;
     padding: 15px;
@@ -45,25 +38,28 @@
     margin: 1rem 0;
     margin-bottom: 2rem;
 }
-
 #my-hubspot-form textarea{
     border-radius: 15px !important;
     border: transparent;
     outline: none;
     padding: 15px;
     height: 250px;
-    width: 50vw;
+    width: 90vw;
     margin: 1rem 0;
     margin-bottom: 2rem;
 }
-
 .hs-button{
     background-color: rgb(48, 170, 170);
     padding: 5px 30px !important;
     color: white;
+    margin: 0 auto !important;
     font-size: 24px;
 }
-
+.actions{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 #my-hubspot-form span{
 color: black;
 font-size: 16px;
@@ -74,6 +70,37 @@ font-weight: 400;
     #my-hubspot-form{
         padding: 2rem; 
     }
+    #form-container>p{
+        text-align: center;
+        padding: 2rem 0;
+        padding-top: 4rem;
+        font-size: 18px;
+        font-size: 400;
+    }
+    #firstname-662bb340-622d-4d8b-b9c3-94c89d2335ca{
+        width: 23vw;
+    }
+    #lastname-662bb340-622d-4d8b-b9c3-94c89d2335ca{
+        width: 24.8vw;
+    }
+    #email-662bb340-622d-4d8b-b9c3-94c89d2335ca{
+        width: 50vw;
+    }
+    #my-hubspot-form input{
+        margin: .5rem 0;
+        margin-bottom: 1rem;
+    }
+    #my-hubspot-form textarea{
+        width: 50vw;
+        margin: .5rem 0;
+        margin-bottom: 1rem;
+    }
+    .hs-button{
+        margin: 2rem 0 !important;
+    }
+    .actions{
+        justify-content: flex-start;
+     }
 }
 @media (min-width: 900px) {
     #my-hubspot-form{
