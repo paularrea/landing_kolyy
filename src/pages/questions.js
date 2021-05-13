@@ -7,7 +7,6 @@ import {
   container,
   bg_img,
   content,
-  text,
 } from "../styles/questions.module.scss";
 
 const Questions = () => {
