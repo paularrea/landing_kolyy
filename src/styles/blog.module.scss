@@ -1,9 +1,9 @@
 .container{
-    margin-top: 4rem;
+    margin-top: 5rem;
     padding: 4rem 0;
     text-align: center;     
     .post_flex{
-        margin-top: 3rem;
+        margin-top: 4rem;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -12,6 +12,10 @@
             text-align: left;  
             width: 33.3333%;
             padding: 0 .5rem;
+            height: auto;
+            img:hover{
+                filter: opacity(95%);
+            }
             h5{
                 font-size: 18px;
                 font-weight: 700;
