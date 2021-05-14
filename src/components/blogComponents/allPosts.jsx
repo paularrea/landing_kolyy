@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
+// import 'bootstrap/dist/css/bootstrap.min.css'
+import {Container, Row, Col} from 'react-bootstrap'
 import Img from "gatsby-image";
 import {
   post_flex,
@@ -109,60 +111,84 @@ const AllPosts = () => {
   const allPosts = data.all.edges.map((edge) => {
     const { frontmatter } = edge.node;
     return (
-      <div className={post} key={frontmatter.path}>
-        <Link to={frontmatter.path}>
-          <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
-          <h5>{frontmatter.title}</h5>
-        </Link>
-        <Link to={frontmatter.path}>
-          <button>Leer más</button>
-        </Link>
-      </div>
+      <Container>
+        <Row>
+          <Col md={4} sm={6} xs={6}>
+            <div className={post} key={frontmatter.path}>
+              <Link to={frontmatter.path}>
+                <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+                <h5>{frontmatter.title}</h5>
+              </Link>
+              <Link to={frontmatter.path}>
+                <button>Leer más</button>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     );
   });
 
   const saludPosts = data.salud.edges.map((edge) => {
     const { frontmatter } = edge.node;
     return (
-      <div className={post} key={frontmatter.path}>
-        <Link to={frontmatter.path}>
-          <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
-          <h5>{frontmatter.title}</h5>
-        </Link>
-        <Link to={frontmatter.path}>
-          <button>Leer más</button>
-        </Link>
-      </div>
+      <Container>
+        <Row>
+          <Col md={4} sm={6} xs={6}>
+            <div className={post} key={frontmatter.path}>
+              <Link to={frontmatter.path}>
+                <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+                <h5>{frontmatter.title}</h5>
+              </Link>
+              <Link to={frontmatter.path}>
+                <button>Leer más</button>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     );
   });
 
   const educacionPosts = data.educacion.edges.map((edge) => {
     const { frontmatter } = edge.node;
     return (
-      <div className={post} key={frontmatter.path}>
-        <Link to={frontmatter.path}>
-          <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
-          <h5>{frontmatter.title}</h5>
-        </Link>
-        <Link to={frontmatter.path}>
-          <button>Leer más</button>
-        </Link>
-      </div>
+      <Container>
+        <Row>
+          <Col md={4} sm={6} xs={6}>
+            <div className={post} key={frontmatter.path}>
+              <Link to={frontmatter.path}>
+                <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+                <h5>{frontmatter.title}</h5>
+              </Link>
+              <Link to={frontmatter.path}>
+                <button>Leer más</button>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     );
   });
 
   const curiosidadesPosts = data.curiosidades.edges.map((edge) => {
     const { frontmatter } = edge.node;
     return (
-      <div className={post} key={frontmatter.path}>
-        <Link to={frontmatter.path}>
-          <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
-          <h5>{frontmatter.title}</h5>
-        </Link>
-        <Link to={frontmatter.path}>
-          <button>Leer más</button>
-        </Link>
-      </div>
+      <Container>
+        <Row>
+          <Col md={4} sm={6} xs={6}>
+            <div className={post} key={frontmatter.path}>
+              <Link to={frontmatter.path}>
+                <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
+                <h5>{frontmatter.title}</h5>
+              </Link>
+              <Link to={frontmatter.path}>
+                <button>Leer más</button>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     );
   });
 
@@ -175,7 +201,11 @@ const AllPosts = () => {
           onClick={() => onClickTab(1)}
           onKeyDown={() => onClickTab(1)}
         >
-          <span className={`${tabTitle} ${selected === 1 ? select_style : disabled_style}`}>
+          <span
+            className={`${tabTitle} ${
+              selected === 1 ? select_style : disabled_style
+            }`}
+          >
             Todo
           </span>
         </a>
@@ -185,7 +215,11 @@ const AllPosts = () => {
           onClick={() => onClickTab(2)}
           onKeyDown={() => onClickTab(2)}
         >
-          <span className={`${tabTitle} ${selected === 2 ? select_style : disabled_style}`}>
+          <span
+            className={`${tabTitle} ${
+              selected === 2 ? select_style : disabled_style
+            }`}
+          >
             Salud
           </span>
         </a>
@@ -195,7 +229,11 @@ const AllPosts = () => {
           onClick={() => onClickTab(3)}
           onKeyDown={() => onClickTab(3)}
         >
-          <span className={`${tabTitle} ${selected === 3 ? select_style : disabled_style}`}>
+          <span
+            className={`${tabTitle} ${
+              selected === 3 ? select_style : disabled_style
+            }`}
+          >
             Educación
           </span>
         </a>
@@ -205,7 +243,11 @@ const AllPosts = () => {
           onClick={() => onClickTab(4)}
           onKeyDown={() => onClickTab(4)}
         >
-          <span className={`${tabTitle} ${selected === 4 ? select_style : disabled_style}`}>
+          <span
+            className={`${tabTitle} ${
+              selected === 4 ? select_style : disabled_style
+            }`}
+          >
             Curiosidades
           </span>
         </a>
