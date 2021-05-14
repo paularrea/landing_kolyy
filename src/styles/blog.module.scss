@@ -1,4 +1,7 @@
 .container{
+    .hide {
+        display: none !important;
+    }
     padding: 4rem 0;
     text-align: center;     
     .post_flex{
@@ -38,17 +41,31 @@
         width: 90%;
         justify-content: space-around;
         align-items: center;
-            a{
-            width: 25%;
-            padding-bottom: 1rem;
-            color:#30AAAA;
-            border-bottom: 1px solid #30AAAA;
+            .tab {
+                cursor: pointer;
+                width: 25%;
+                padding-bottom: 1rem;
+                border-bottom: 1px solid #30AAAA;
+                .tabTitle {
+                    width: 100%;
+                    color:#30AAAA;
+                }
+                .tab:hover{
+                    border-bottom: 2px solid #30AAAA;
+                }
+                .tabTitle:hover {
+                    font-weight: 700;
+                }
+                .select_style {
+                    font-weight: 700;
+                }
+                .disabled_style{
+                    font-weight: 400;
+                }
             }
         }
         .posts_content{
             margin-top: 3rem;
-            height: 70vw;
-            background-color: #c4c4c421;
         }  
     }
     

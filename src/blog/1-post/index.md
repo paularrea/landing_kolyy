@@ -2,6 +2,7 @@
 title: La oruga procesionaria
 date: 2019-04-01
 path: /oruga-procesionaria-1
+collection: salud
 featured: true
 featuredImage: ./oruga.jpeg
 tags: ["Curiosidades"]

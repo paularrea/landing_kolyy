@@ -8,11 +8,13 @@ import {
   bg_img,
   content,
 } from "../styles/questions.module.scss";
+import MediaFixed from "../components/questionsComponents/mediaFixed";
 
 const Questions = () => {
   return (
     <Layout>
       <Seo title="Questions" />
+      <MediaFixed/>
       <div className={bg_img}>
         <div className={content}>
           <h2>Estamos conectados</h2>

@@ -10,12 +10,12 @@
     width: 100%;
     margin-bottom: 2rem;
 }
-.actions{
+#form-container-subscribe .actions{
    display: flex;
-   justify-content: center;
+   justify-content: center !important;
    align-items: center;
 }
-.actions>input{
+#form-container-subscribe .actions>input{
     border-radius: 25px !important;
     padding: 15px;
     border: transparent;

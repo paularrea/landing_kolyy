@@ -1,5 +1,6 @@
 import React from "react";
-import "./form.css"
+import "./form.css";
+import Contacts from "../footer/components/contacts";
 
 import { useHubspotForm } from "@aaronhayes/react-use-hubspot-form";
 
@@ -12,8 +13,14 @@ const FormComponent = () => {
 
   return (
     <div id="form-container">
-      <p>Rellena este formulario o ponte en contacto con nosotros a través de nuestro móvil o correo.</p>
+      <p>
+        Rellena este formulario o ponte en contacto con nosotros a través de
+        nuestro móvil o correo.
+      </p>
       <div id="my-hubspot-form"></div>
+      <div className='contact-absolute'>
+        <Contacts />
+      </div>
     </div>
   );
 };
