@@ -64,9 +64,23 @@
                 }
             }
         }
-        .posts_content{
-            margin-top: 3rem;
-        }  
+    }
+    .filter_post{
+        text-align: left !important; 
+        margin-bottom: 3rem;
+        h5{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            margin-top: 1rem;
+        }
+        button{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            padding: .5rem 2rem;
+            margin-top: 1rem;
+        }
     }
     
 }

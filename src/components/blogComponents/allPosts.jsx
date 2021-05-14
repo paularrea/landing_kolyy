@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
-// import 'bootstrap/dist/css/bootstrap.min.css'
-import {Container, Row, Col} from 'react-bootstrap'
+import { Grid, Row, Col } from "react-flexbox-grid";
 import Img from "gatsby-image";
 import {
   post_flex,
-  post,
   filter_menu,
   filter_container,
   posts_content,
@@ -13,8 +11,10 @@ import {
   tabTitle,
   select_style,
   disabled_style,
+  filter_post,
   hide,
 } from "../../styles/blog.module.scss";
+import InstagramPosts from "./instagramPosts";
 
 const AllPosts = () => {
   const [selected, setSelectedTab] = useState(1);
@@ -33,7 +33,7 @@ const AllPosts = () => {
               date(formatString: "YYYY MMMM Do")
               featuredImage {
                 childImageSharp {
-                  fluid(maxWidth: 800) {
+                  fluid(maxWidth: 1000) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -54,7 +54,7 @@ const AllPosts = () => {
               date(formatString: "YYYY MMMM Do")
               featuredImage {
                 childImageSharp {
-                  fluid(maxWidth: 800) {
+                  fluid(maxWidth: 1000) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -75,7 +75,7 @@ const AllPosts = () => {
               date(formatString: "YYYY MMMM Do")
               featuredImage {
                 childImageSharp {
-                  fluid(maxWidth: 800) {
+                  fluid(maxWidth: 1000) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -96,7 +96,7 @@ const AllPosts = () => {
               date(formatString: "YYYY MMMM Do")
               featuredImage {
                 childImageSharp {
-                  fluid(maxWidth: 800) {
+                  fluid(maxWidth: 1000) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -108,89 +108,105 @@ const AllPosts = () => {
     }
   `);
 
-  const allPosts = data.all.edges.map((edge) => {
-    const { frontmatter } = edge.node;
-    return (
-      <Container>
-        <Row>
-          <Col md={4} sm={6} xs={6}>
-            <div className={post} key={frontmatter.path}>
-              <Link to={frontmatter.path}>
-                <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
-                <h5>{frontmatter.title}</h5>
-              </Link>
-              <Link to={frontmatter.path}>
-                <button>Leer más</button>
-              </Link>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    );
-  });
+  const allPosts = (
+    <Grid>
+      <Row>
+        {data.all.edges.map((edge) => {
+          const { frontmatter } = edge.node;
+          return (
+            <Col md={4} sm={6} xs={6}>
+              <div className={filter_post} key={frontmatter.path}>
+                <Link to={frontmatter.path}>
+                  <Img
+                    fluid={frontmatter.featuredImage.childImageSharp.fluid}
+                  />
+                  <h5>{frontmatter.title}</h5>
+                </Link>
+                <Link to={frontmatter.path}>
+                  <button>Leer más</button>
+                </Link>
+              </div>
+            </Col>
+          );
+        })}
+      </Row>
+    </Grid>
+  );
 
-  const saludPosts = data.salud.edges.map((edge) => {
-    const { frontmatter } = edge.node;
-    return (
-      <Container>
-        <Row>
-          <Col md={4} sm={6} xs={6}>
-            <div className={post} key={frontmatter.path}>
-              <Link to={frontmatter.path}>
-                <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
-                <h5>{frontmatter.title}</h5>
-              </Link>
-              <Link to={frontmatter.path}>
-                <button>Leer más</button>
-              </Link>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    );
-  });
+  const saludPosts = (
+    <Grid>
+      <Row>
+        {data.salud.edges.map((edge) => {
+          const { frontmatter } = edge.node;
+          return (
+            <Col md={4} sm={6} xs={6}>
+              <div className={filter_post} key={frontmatter.path}>
+                <Link to={frontmatter.path}>
+                  <Img
+                    fluid={frontmatter.featuredImage.childImageSharp.fluid}
+                  />
+                  <h5>{frontmatter.title}</h5>
+                </Link>
+                <Link to={frontmatter.path}>
+                  <button>Leer más</button>
+                </Link>
+              </div>
+            </Col>
+          );
+        })}
+      </Row>
+    </Grid>
+  );
 
-  const educacionPosts = data.educacion.edges.map((edge) => {
-    const { frontmatter } = edge.node;
-    return (
-      <Container>
-        <Row>
-          <Col md={4} sm={6} xs={6}>
-            <div className={post} key={frontmatter.path}>
-              <Link to={frontmatter.path}>
-                <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
-                <h5>{frontmatter.title}</h5>
-              </Link>
-              <Link to={frontmatter.path}>
-                <button>Leer más</button>
-              </Link>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    );
-  });
+  const educacionPosts = (
+    <Grid>
+      <Row>
+        {data.educacion.edges.map((edge) => {
+          const { frontmatter } = edge.node;
+          return (
+            <Col md={4} sm={6} xs={6}>
+              <div className={filter_post} key={frontmatter.path}>
+                <Link to={frontmatter.path}>
+                  <Img
+                    fluid={frontmatter.featuredImage.childImageSharp.fluid}
+                  />
+                  <h5>{frontmatter.title}</h5>
+                </Link>
+                <Link to={frontmatter.path}>
+                  <button>Leer más</button>
+                </Link>
+              </div>
+            </Col>
+          );
+        })}
+      </Row>
+    </Grid>
+  );
 
-  const curiosidadesPosts = data.curiosidades.edges.map((edge) => {
-    const { frontmatter } = edge.node;
-    return (
-      <Container>
-        <Row>
-          <Col md={4} sm={6} xs={6}>
-            <div className={post} key={frontmatter.path}>
-              <Link to={frontmatter.path}>
-                <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
-                <h5>{frontmatter.title}</h5>
-              </Link>
-              <Link to={frontmatter.path}>
-                <button>Leer más</button>
-              </Link>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    );
-  });
+  const curiosidadesPosts = (
+    <Grid>
+      <Row>
+        {data.curiosidades.edges.map((edge) => {
+          const { frontmatter } = edge.node;
+          return (
+            <Col md={4} sm={6} xs={6}>
+              <div className={filter_post} key={frontmatter.path}>
+                <Link to={frontmatter.path}>
+                  <Img
+                    fluid={frontmatter.featuredImage.childImageSharp.fluid}
+                  />
+                  <h5>{frontmatter.title}</h5>
+                </Link>
+                <Link to={frontmatter.path}>
+                  <button>Leer más</button>
+                </Link>
+              </div>
+            </Col>
+          );
+        })}
+      </Row>
+    </Grid>
+  );
 
   return (
     <div className={filter_container}>
@@ -266,6 +282,7 @@ const AllPosts = () => {
           <div className={post_flex}>{curiosidadesPosts}</div>
         </div>
       </div>
+      <InstagramPosts/>
     </div>
   );
 };
