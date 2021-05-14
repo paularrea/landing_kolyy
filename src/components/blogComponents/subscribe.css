@@ -1,4 +1,4 @@
-#form-container{
+#form-container-subscribe{
     background-color: transparent !important; 
 }
 #tu_correo_electronico-7be89bbb-d47f-430a-938f-105819b43cd6{
@@ -33,8 +33,8 @@ font-weight: 400;
 }
 
 @media (min-width: 870px) {
-    #form-container{
-        margin: 3rem 0;
+    #form-container-subscribe{
+        margin: 3rem 0 !important;
 width: 60%;
     }
 }

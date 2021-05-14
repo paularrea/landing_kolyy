@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { graphql, Link } from "gatsby";
 import SubscribeComponent from "../components/blogComponents/subscribeComponent";
 import Layout from "../components/layout/layout";
@@ -10,11 +10,18 @@ import {
   content,
   post_flex,
   post,
+  filter_menu,
+  filter_container,
+  posts_content
 } from "../styles/blog.module.scss";
 
 const Blog = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
-  console.log(edges, "data");
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Layout>
       <Seo title="Blog" />
@@ -47,6 +54,18 @@ const Blog = ({ data }) => {
               </div>
             );
           })}
+        </div>
+
+        <div className={filter_container}>
+          <div className={filter_menu}>
+            <Link>Todo</Link>
+            <Link>Salud</Link>
+            <Link>Educación</Link>
+            <Link>Curiosidades</Link>
+          </div>
+          <div className={posts_content}>
+
+          </div>
         </div>
       </div>
     </Layout>

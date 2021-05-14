@@ -85,7 +85,7 @@ const FooterDesktop = () => {
             <FormattedMessage id="footer.title" />
           </h3>
           <button>
-            <a href="mailto:hola@kolyy.com" rel="noreferrer" target="_blank">
+            <a style={{color:'white'}} href="mailto:hola@kolyy.com" rel="noreferrer" target="_blank">
               Escríbenos
             </a>
           </button>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout/layout";
 import Img from "gatsby-image";
@@ -13,6 +13,8 @@ import {
   link_container,
   link,
   barra,
+  related_container,
+  related_posts
 } from "./template.module.scss";
 
 const Template = ({ data, pageContext }) => {
@@ -20,8 +22,13 @@ const Template = ({ data, pageContext }) => {
   const { markdownRemark } = data;
   const title = markdownRemark.frontmatter.title;
   const html = markdownRemark.html;
+  const tags = markdownRemark.frontmatter.tags
   let featuredImgFluid =
     markdownRemark.frontmatter.featuredImage.childImageSharp.fluid;
+
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
 
   return (
     <Layout>
@@ -40,9 +47,8 @@ const Template = ({ data, pageContext }) => {
         </div>
         <Img fluid={featuredImgFluid} />
         <div className={go_back}>
-          <Link>
-            <span>{"<"} Volver al Blog</span>
-          </Link>
+        <div><img src={prevIcon} alt="Anterior" /></div>
+        <Link to={"/blog"}>Volver al Blog</Link>
         </div>
 
         <div className={text} dangerouslySetInnerHTML={{ __html: html }}></div>
@@ -58,8 +64,9 @@ const Template = ({ data, pageContext }) => {
             <div><img src={nextIcon} alt="Siguiente" /></div>
           </div>
         </div>
-        <div>
+        <div className={related_container}>
           <h3>También te puede interesar...</h3>
+          <div className={related_posts}></div>
         </div>
       </div>
     </Layout>

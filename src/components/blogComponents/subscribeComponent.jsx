@@ -11,7 +11,7 @@ const SubscribeComponent = () => {
   });
 
   return (
-    <div id="form-container">
+    <div id="form-container-subscribe">
       <div id="subscribe-form"></div>
     </div>
   );
