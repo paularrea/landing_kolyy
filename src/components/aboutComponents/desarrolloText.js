@@ -1,28 +1,36 @@
 import React from "react";
 import { Tween } from "react-gsap";
+import { rotate_div } from "./timeline.module.scss";
 import { Controller, Scene } from "react-scrollmagic";
+import MediaQuery from 'react-responsive'
+
 
 const DesarrolloText = (props) => {
   return (
-    <div>
-      <Controller>
-        <Scene duration="1230px" triggerHook={0.7} pin>
+    <>
+     <MediaQuery minWidth={870}>
+     <Controller>
+        <Scene duration="1130px" triggerHook={0.7} pin>
           <Tween from={{ opacity: 0 }} to={{ opacity: 1 }}>
-            <div
-              style={{
-                marginLeft:'3rem',
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                textAlign: "left",
-              }}
-            >
+            <div className={rotate_div}>
               <div>{props.children}</div>
             </div>
           </Tween>
         </Scene>
       </Controller>
-    </div>
+     </MediaQuery>
+     <MediaQuery maxWidth={870}>
+     <Controller>
+        <Scene duration="1580px" triggerHook={0.7} pin>
+          <Tween from={{ opacity: 0 }} to={{ opacity: 1 }}>
+            <div className={rotate_div}>
+              <div>{props.children}</div>
+            </div>
+          </Tween>
+        </Scene>
+      </Controller>
+     </MediaQuery>
+    </>
   );
 };
 
