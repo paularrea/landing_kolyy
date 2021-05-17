@@ -7,18 +7,13 @@ import {
   logo_text,
   contact,
   privacity_container,
-  media_list,
   flex_footer_lang,
 } from "./footer.module.scss";
 import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 
-import instaIcon from "../../images/icons/insta.png";
-import facebookIcon from "../../images/icons/facebook.png";
-import linkedinIcon from "../../images/icons/linkedin.png";
-import twitterIcon from "../../images/icons/twitter.png";
-
 import Language from "../language";
 import Contacts from "./components/contacts";
+import MediaList from "./components/mediaList";
 
 const FooterDesktop = () => {
   if (typeof window !== "undefined") {
@@ -35,44 +30,7 @@ const FooterDesktop = () => {
             <FormattedMessage id="footer.text" />
           </p>
           <h4>Síguenos en @kolyy_official</h4>
-          <ul className={media_list}>
-            <li>
-              <a
-                href="https://www.instagram.com/kolyy_official/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src={instaIcon} alt="instagram" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/kolyyofficial/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src={facebookIcon} alt="facebook" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/company/petki/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src={linkedinIcon} alt="linkedin" />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/Kolyy_official"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src={twitterIcon} alt="twitter" />
-              </a>
-            </li>
-          </ul>
+          <MediaList />
         </div>
         <div className={contact}>
           <h3>

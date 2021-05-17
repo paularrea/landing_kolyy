@@ -74,8 +74,9 @@ position: relative;
 }
 
 .contact-absolute>div{
-    position: absolute;
-    right: 25%;
+    position: relative;
+    padding-left: 1rem;
+    right: 0;
     bottom: 3rem;
     }
     
@@ -115,6 +116,16 @@ position: relative;
     .actions{
         justify-content: flex-start;
      }
+     .contact-absolute{
+        position: relative;
+        }
+        
+        .contact-absolute>div{
+            position: absolute;
+            right: 25%;
+            bottom: 3rem;
+            }
+            
 }
 @media (min-width: 900px) {
     #my-hubspot-form{

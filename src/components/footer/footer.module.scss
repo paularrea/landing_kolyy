@@ -3,11 +3,19 @@
     background-color: #c4c4c421;;
     padding: 2rem;
     position: relative;
+    img{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
     p{
         padding: 1rem 0;
         color: #120F3D;
         font-size: 16px;
         text-align: left;
+    }
+    .media_container{
+        margin-top: 4rem;
     }
 }
 .contact{
@@ -76,7 +84,6 @@
     list-style-type: none;
     filter:brightness(0);
     li{
-        transition: all .4s ease-out;
         margin-right: .5rem;
         width: 36px;
         height: 36px;
@@ -111,6 +118,9 @@
         padding: 2rem 0; 
         .contact{
             padding-bottom: 2rem;
+        }
+        .media_container{
+            margin-top: 0rem;
         }
         .flex_container{
             width: 100%;

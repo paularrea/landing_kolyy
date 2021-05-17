@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { graphql, Link } from "gatsby";
 import SubscribeComponent from "../components/blogComponents/subscribeComponent";
 import Layout from "../components/layout/layout";
+import { Grid, Row, Col } from "react-flexbox-grid";
 import Seo from "../components/seo";
 import Img from "gatsby-image";
 import {
@@ -10,9 +11,6 @@ import {
   content,
   post_flex,
   post,
-  filter_menu,
-  filter_container,
-  posts_content,
 } from "../styles/blog.module.scss";
 import AllPosts from "../components/blogComponents/allPosts";
 
@@ -39,22 +37,28 @@ const Blog = ({ data }) => {
         <span>Un mundo por descubrir.</span>
         <h2>Últimos artículos</h2>
         <div className={post_flex}>
-          {edges.slice(0, 3).map((edge) => {
-            const { frontmatter } = edge.node;
-            return (
-              <div className={post} key={frontmatter.path}>
-                <Link to={frontmatter.path}>
-                  <Img
-                    fluid={frontmatter.featuredImage.childImageSharp.fluid}
-                  />
-                  <h5>{frontmatter.title}</h5>
-                </Link>
-                <Link to={frontmatter.path}>
-                  <button>Leer más</button>
-                </Link>
-              </div>
-            );
-          })}
+        <Grid>
+          <Row>
+            {edges.slice(0, 3).map((edge) => {
+              const { frontmatter } = edge.node;
+              return (
+                <Col md={4} sm={12} xs={12}>
+                  <div className={post} key={frontmatter.path}>
+                    <Link to={frontmatter.path}>
+                      <Img
+                        fluid={frontmatter.featuredImage.childImageSharp.fluid}
+                      />
+                      <h5>{frontmatter.title}</h5>
+                    </Link>
+                    <Link to={frontmatter.path}>
+                      <button>Leer más</button>
+                    </Link>
+                  </div>
+                </Col>
+              );
+            })}
+          </Row>
+        </Grid>
         </div>
         <AllPosts />
       </div>

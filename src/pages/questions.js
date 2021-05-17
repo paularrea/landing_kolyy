@@ -3,18 +3,17 @@ import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
 import Form from "../components/questionsComponents/formComponent";
 import Faqs from "../components/questionsComponents/faqsComponent";
-import {
-  container,
-  bg_img,
-  content,
-} from "../styles/questions.module.scss";
+import MediaQuery from "react-responsive";
+import { container, bg_img, content } from "../styles/questions.module.scss";
 import MediaFixed from "../components/questionsComponents/mediaFixed";
 
 const Questions = () => {
   return (
     <Layout>
       <Seo title="Questions" />
-      <MediaFixed/>
+      <MediaQuery minWidth={1000}>
+        <MediaFixed />
+      </MediaQuery>
       <div className={bg_img}>
         <div className={content}>
           <h2>Estamos conectados</h2>
@@ -25,7 +24,6 @@ const Questions = () => {
       </div>
       <Form />
       <Faqs />
-      <div className={container}></div>
     </Layout>
   );
 };

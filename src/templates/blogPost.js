@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout/layout";
 import Img from "gatsby-image";
+import MediaQuery from "react-responsive";
 import prevIcon from "../images/icons/prev.png";
 import nextIcon from "../images/icons/next.png";
 import MediaFixed from "../components/questionsComponents/mediaFixed"
@@ -33,7 +34,9 @@ const Template = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <MediaFixed />
+      <MediaQuery minWidth={1000}>
+        <MediaFixed />
+      </MediaQuery>
       <div className={post_container}>
         <h2>{title}</h2>
         <div>
