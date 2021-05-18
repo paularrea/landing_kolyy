@@ -10,7 +10,7 @@ const FeatureSequence = () => {
   return (
     <div className="App">
       <Controller>
-        <Scene duration="40%" triggerHook={0} pin>
+        <Scene duration="100vh" triggerHook={0} pin>
           {progress => (
             <div style={{width:"100%", height: "100vh", position: "relative"}}>
               <Sequence ref={ref} progress={progress} />
