@@ -1,0 +1,22 @@
+.question-collapse {
+    background-color: #F9F9F9;
+    transition: height 1s ease;
+    height:0;
+    padding-left: 2rem;
+    width: 90%;
+    overflow: hidden;
+}
+  .question-collapse.show {
+    height: 150px;
+  }
+
+
+  @media (min-width: 870px) {
+    .question-collapse {
+        width: 90%;
+    }
+    .question-collapse.show {
+        height: 100px;
+      }
+    
+  }
