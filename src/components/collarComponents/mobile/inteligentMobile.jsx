@@ -7,17 +7,15 @@ import {
   title_text,
   features,
   flex_feature,
-} from "../../styles/collar.module.scss";
+} from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
-import FeatureSequence from "../Sequence/FeatureSequence";
-import InteligentMobile from "./mobile/inteligentMobile";
+import FeatureSequence from "../../Sequence/FeatureSequence";
 
-const InteligentComponent = () => {
+const InteligentMobile = () => {
   return (
-    <>
-          <MediaQuery minWidth={600}>
-    <div className={container_gps}>
-      <div className={text_container}>
+    <MediaQuery maxWidth={600}>
+      <div className={container_gps}>
+        <div className={text_container}>
         <div className={title_text}>
           <div className={absolute_title}>
             <span>Prevenir antes que curar.</span>
@@ -29,7 +27,14 @@ const InteligentComponent = () => {
             anomalía.
           </p>
         </div>
-        <div className={features} style={{ marginRight: "2rem" }}>
+        </div>
+      </div>
+      <div className={img_container}>
+        <FeatureSequence />
+      </div>
+      <div className={container_gps}>
+        <div className={text_container}>
+        <div className={features} style={{ marginRight: "0" }}>
           <div className={flex_feature}>
             <div>*</div>
             <h5>Registro de tiempo tumbado.</h5>
@@ -43,13 +48,10 @@ const InteligentComponent = () => {
             <h5>Sensor de rascado.</h5>
           </div>
         </div>
+        </div>
       </div>
-      <div className={img_container}><FeatureSequence/></div>
-    </div>
     </MediaQuery>
-    <InteligentMobile/>
-    </>
   );
 };
 
-export default InteligentComponent;
+export default InteligentMobile;

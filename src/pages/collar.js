@@ -1,19 +1,20 @@
 import React from "react";
 import ActivityComponent from "../components/collarComponents/activityComponent";
+import AppComponent from "../components/collarComponents/appComponent";
 import BookComponent from "../components/collarComponents/bookComponent";
 import GpsComponent from "../components/collarComponents/gpsComponent";
 import InteligentComponent from "../components/collarComponents/inteligentComponent";
 import LedComponent from "../components/collarComponents/ledComponent";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
-import { container, text, bg_img } from "../styles/collar.module.scss";
+import { container, content, bg_img } from "../styles/collar.module.scss";
 
 const Collar = () => {
   return (
     <Layout>
       <Seo title="The Collar" />
       <div className={bg_img}>
-        <div className={text}>
+        <div className={content}>
           <h2>
             Conoce.
             <br />
@@ -22,7 +23,7 @@ const Collar = () => {
             Disfruta.
             <br />
           </h2>
-          <p>Sé de los primeros en reservar y tendrás un 20% de descuento.</p>
+          <p>Asegúrate de que tu amigo tenga el suyo.</p>
           <button>Reserva</button>
         </div>
       </div>
@@ -31,6 +32,7 @@ const Collar = () => {
         <ActivityComponent />
         <InteligentComponent />
         <LedComponent />
+        <AppComponent/>
       </div>
       <BookComponent/>
     </Layout>

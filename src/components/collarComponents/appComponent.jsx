@@ -10,9 +10,9 @@ import {
 } from "../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
 import FeatureSequence from "../Sequence/FeatureSequence";
-import GpsMobile from "./mobile/gpsMobile";
+import AppMobile from "./mobile/appMobile";
 
-const GpsComponent = () => {
+const AppComponent = () => {
   return (
     <>
       <MediaQuery minWidth={600}>
@@ -20,27 +20,27 @@ const GpsComponent = () => {
           <div className={text_container}>
             <div className={title_text}>
               <div className={absolute_title}>
-                <span>Saber dónde está es saber que está bien.</span>
+                <span>Prevenir antes que curar.</span>
               </div>
-              <h2>Localizador GPS a tiempo real.</h2>
+              <h2>Todo en una misma app.</h2>
               <p>
-                Kolyy te avisa si tu perro se pierde y te ayuda a encontrarlo.{" "}
-                <br /> <br />
-                Con el localizador GPS a tiempo real podrás encontrarlo de la
-                forma más rápida y segura en cualquier parte del mundo.
+                Desde la app podrás ver todo lo que está reportando el collar
+                sobre el estado de tu perro. Estés donde estés y a cualquier
+                hora.
               </p>
             </div>
             <div className={features} style={{ marginRight: "2rem" }}>
               <div className={flex_feature}>
                 <div>*</div>
-                <h5>Geolocalización a tiempo real a través de 2G /3G.</h5>
+                <h5>Forma parte de la comunidad y conoce a otros kolyers.</h5>
               </div>
               <div className={flex_feature}>
                 <div>*</div>
-                <h5>
-                  Señal de localización si el perro ha salido de la zona de
-                  seguridad.
-                </h5>
+                <h5>Registro de horas de sueño.</h5>
+              </div>
+              <div className={flex_feature}>
+                <div>*</div>
+                <h5>Todos los datos en una sola plataforma.</h5>
               </div>
             </div>
           </div>
@@ -49,9 +49,9 @@ const GpsComponent = () => {
           </div>
         </div>
       </MediaQuery>
-      <GpsMobile />
+      <AppMobile/>
     </>
   );
 };
 
-export default GpsComponent;
+export default AppComponent;

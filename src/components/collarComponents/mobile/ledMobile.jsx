@@ -7,18 +7,15 @@ import {
   title_text,
   features,
   flex_feature,
-} from "../../styles/collar.module.scss";
+} from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
-import FeatureSequence from "../Sequence/FeatureSequence";
-import LedMobile from "./mobile/ledMobile";
+import FeatureSequence from "../../Sequence/FeatureSequence";
 
-const LedComponent = () => {
+const LedMobile = () => {
   return (
-    <>
-    <MediaQuery minWidth={600}>
-    <div className={container_gps}>
-      <div className={img_container}><FeatureSequence/></div>
-      <div className={text_container}>
+    <MediaQuery maxWidth={600}>
+      <div className={container_gps}>
+        <div className={text_container}>
         <div className={title_text}>
           <div className={absolute_title}>
             <span>Para no perderlo de vista.</span>
@@ -29,7 +26,14 @@ const LedComponent = () => {
             ciclos de batería y una luz LED visible para la noche.
           </p>
         </div>
-        <div className={features} style={{ marginLeft: "2rem" }}>
+        </div>
+      </div>
+      <div className={img_container}>
+        <FeatureSequence />
+      </div>
+      <div className={container_gps}>
+        <div className={text_container}>
+        <div className={features} style={{ marginLeft: "0" }}>
           <div className={flex_feature}>
             <div>*</div>
             <h5>Luz LED visible de noche a 50 metros.</h5>
@@ -43,12 +47,10 @@ const LedComponent = () => {
             <h5>No provoca irritaciones, alergias ni daños.</h5>
           </div>
         </div>
+        </div>
       </div>
-    </div>
     </MediaQuery>
-    <LedMobile/>
-    </>
   );
 };
 
-export default LedComponent;
+export default LedMobile;
