@@ -55,9 +55,7 @@ const DesktopHeader = () => {
   return (
     <header className={hideBlackNav ? header_out : header}>
       <nav className={hideBlackNav ? menu_fijo_out : menu_fijo}>
-        <Link id="about" to="/about" className={activeAbout && active_white}>
-          <FormattedMessage id="nav.about" />
-        </Link>
+ 
         <Link id="blog" to="/blog" className={activeBlog && active_white}>
           <FormattedMessage id="nav.blog" />
         </Link>
@@ -79,13 +77,13 @@ const DesktopHeader = () => {
             <FormattedMessage id="nav.collar" />
           </Link>
 
-          <Link id="app" to="/the-app" className={activeApp && active}>
-            <FormattedMessage id="nav.app" />
-          </Link>
-
           <Link id="placas" to="/placas" className={activePlacas && active}>
             <FormattedMessage id="nav.placa" />
           </Link>
+
+          <Link id="about" to="/about" className={activeAbout && active}>
+          <FormattedMessage id="nav.about" />
+        </Link>
         </nav>
         <div>
           <a

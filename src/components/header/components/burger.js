@@ -45,24 +45,7 @@ const Burger = () => {
               <FormattedMessage id="nav.collar" />
             </div>
           </Link>
-          {/* <hr /> */}
-          <Link id="app" to="/the-app" className="menu-item">
-            <div
-              role="link"
-              className="anchor-div"
-              onClick={() => {
-                closeMenu();
-              }}
-              onKeyDown={() => {
-                closeMenu();
-              }}
-              tabIndex={0}
-            >
-              {" "}
-              <FormattedMessage id="nav.app" />
-            </div>
-          </Link>
-          {/* <hr /> */}
+
           <Link id="placas" to="/placas" className="menu-item">
             <div
               role="link"
@@ -79,7 +62,7 @@ const Burger = () => {
               <FormattedMessage id="nav.placa" />
             </div>
           </Link>
-          {/* <hr /> */}
+
           <Link id="about" to="/about" className="menu-item">
             <div
               role="link"

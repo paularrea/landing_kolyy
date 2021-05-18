@@ -24,7 +24,7 @@ const Template = ({ data, pageContext }) => {
   const { markdownRemark } = data;
   const title = markdownRemark.frontmatter.title;
   const html = markdownRemark.html;
-  const tags = markdownRemark.frontmatter.tags;
+  // const tags = markdownRemark.frontmatter.tags;
   let featuredImgFluid =
     markdownRemark.frontmatter.featuredImage.childImageSharp.fluid;
 

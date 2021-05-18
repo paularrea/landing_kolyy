@@ -4,7 +4,7 @@ import Seo from "../components/seo";
 import Form from "../components/questionsComponents/formComponent";
 import Faqs from "../components/questionsComponents/faqsComponent";
 import MediaQuery from "react-responsive";
-import { container, bg_img, content } from "../styles/questions.module.scss";
+import { bg_img, content } from "../styles/questions.module.scss";
 import MediaFixed from "../components/questionsComponents/mediaFixed";
 
 const Questions = () => {

@@ -3,7 +3,7 @@ import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
 import {
   container,
-  text,
+  content,
   bg_img,
   flex_container,
   flex_container_2,
@@ -18,9 +18,10 @@ const Placas = () => {
     <Layout>
       <Seo title="Placas QR" />
       <div className={bg_img}>
-        <div className={text}>
+        <div className={content}>
           <h2>
-            Placas <br /> identificativas
+            Un reto:
+            <br /> 0 perros perdidos
           </h2>
           <p>
             Escanea. Click. Encontrado <br />
@@ -143,10 +144,10 @@ const Placas = () => {
         </div>
       </div>
 
-      <div style={{ margin: "6rem 0" }} className={bg_img}>
-        <div style={{ textAlign: "left" }} className={text}>
+      <div style={{ marginTop: "6rem" }} className={bg_img}>
+        <div className={content}>
           <span>Iniciativa 0 perros perdidos</span>
-          <h2 style={{ marginTop: "1rem"}}>Somos más de 10.000</h2>
+          <h2 style={{ marginTop: "1rem" }}>Somos más de 10.000</h2>
           <p style={{ margin: "2rem 0" }}>
             Son muchos los kolyers que ya se han apuntado a esta iniciativa para
             proteger a sus perros y a los de los demás. <br />
