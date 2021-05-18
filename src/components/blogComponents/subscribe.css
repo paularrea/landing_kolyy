@@ -20,7 +20,7 @@
     padding: 15px;
     border: transparent;
     outline: none;
-    background-color: rgb(48, 170, 170);
+    background-color: rgb(48, 170, 170) !important;
     padding: 5px 30px !important;
     color: white;
     margin: 0 auto !important;
