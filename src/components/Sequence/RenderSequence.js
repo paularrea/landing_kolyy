@@ -10,9 +10,9 @@ const RenderSequence = () => {
   return (
     <div className="App">
       <Controller>
-        <Scene duration="970%" triggerHook={0.2} pin>
+        <Scene duration="790%" triggerHook={0} pin>
           {progress => (
-            <div style={{width:"100vw", height: "700px", position: "relative"}}>
+            <div style={{width:"100vw", height: "100vh", position: "relative"}}>
               <Sequence ref={ref} progress={progress} />
             </div>
           )}

@@ -4,21 +4,21 @@ import Seo from "../components/seo";
 import ScrollText from "../components/scrollText";
 import RenderSequence from "../components/Sequence/RenderSequence";
 import { render_sequence, container, flex_text } from "../styles/home.module.scss";
+import ScrollTextInicial from "../components/scrollTextInicial";
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+      <ScrollTextInicial>
+      <h1>Revolucionamos la conexión con tu perro.</h1>
+        <div className={flex_text}>
+          <p>Saber lo que necesita nunca había sido tan fácil.</p>
+        </div>
+      </ScrollTextInicial>
     <div className={render_sequence}>
       <RenderSequence />
     </div>
     <div className={container}>
-      <ScrollText>
-        {" "}
-        <h1>Revolucionamos la conexión con tu perro.</h1>
-        <div className={flex_text}>
-          <p>Saber lo que necesita nunca había sido tan fácil.</p>
-        </div>
-      </ScrollText>
       <div
         style={{
           margin: "50vh 0",

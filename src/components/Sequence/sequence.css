@@ -6,9 +6,8 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
-
 .skeleton {
-  background-color: rgba(240, 240, 240, 1);
+  background-color: rgb(255, 255, 255);
   background-image: linear-gradient(
     90deg,
     rgba(240, 240, 240, 1),

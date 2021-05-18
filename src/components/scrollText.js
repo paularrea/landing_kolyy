@@ -1,23 +1,15 @@
 import React from "react";
 import { Tween } from "react-gsap";
+import { scroll_text } from "../styles/home.module.scss";
 import { Controller, Scene } from "react-scrollmagic";
 
 const ScrollText = (props) => {
   return (
     <div>
       <Controller>
-        <Scene duration="100%" triggerHook={0.4} pin>
+        <Scene duration="100%" triggerHook={0.35} pin>
           <Tween from={{ opacity: 0 }} to={{ opacity: 1 }}>
-            <div
-              style={{
-                margin: "0 auto",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                textAlign: "center",
-                width: "80%",
-              }}
-            >
+            <div className={scroll_text}>
               <div>{props.children}</div>
             </div>
           </Tween>

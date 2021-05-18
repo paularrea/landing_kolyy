@@ -1,18 +1,52 @@
-.container{
-    padding: 4rem 2rem;
+.scroll_text_inicial{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
+    max-width: 500px;
+    position: relative;
+    bottom: 40%;
     h1{
-        margin-bottom: 3rem;
-    }
+        margin-bottom: 2rem;
+        width: 100%;
+    } 
     .flex_text{
         display: flex;
         justify-content: center;
         align-items: center;
         p{
-        width: 60%;
+        width: 90%;
     }
     }
+    }
+.container{
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    .scroll_text{
+        padding-bottom: 5rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        h1{
+            margin-bottom: 2rem;
+            width: 100%;
+        }  
+        .flex_text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+            width: 90%;
+        }
+        }
+        }
+ 
     button{
         margin-top: 4rem;
         font-size: 24px;
@@ -21,14 +55,70 @@
     }
 }
 .render_sequence{
-    width: 90%;
+    width: 100%;
     height: 600px;
     resize: both;
 }
 
 @media (min-width: 870px) {
+    .scroll_text_inicial{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        max-width: 900px;
+        position: relative;
+        bottom: 40%;
+        h1{
+            margin-bottom: 2rem;
+            width: 100%;
+        } 
+        .flex_text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+            width: 60%;
+        }
+        }
+        }
     .container{
-        padding: 2rem 2rem; 
+        padding: 2rem;
+        text-align: center;
+        width: 100%;
+        .scroll_text{
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 80%;
+            max-width: 900px;
+            h1{
+                margin-bottom: 3rem;
+            }
+            .flex_text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                width: 60%;
+            }
+            }
+            }
+        button{
+            margin-top: 4rem;
+            font-size: 24px;
+            font-weight: 700;
+            padding: 10px 35px;
+        }
+    }
+    .render_sequence{
+        width: 100%;
+        height: 600px;
+        resize: both;
     }
 }
 @media (min-width: 900px) {
