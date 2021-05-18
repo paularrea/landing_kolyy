@@ -8,6 +8,7 @@ import {
   features,
   flex_feature,
 } from "../../styles/collar.module.scss";
+import FeatureSequence from "../Sequence/FeatureSequence";
 
 const GpsComponent = () => {
   return (
@@ -39,7 +40,7 @@ const GpsComponent = () => {
           </div>
         </div>
       </div>
-      <div className={img_container}></div>
+      <div className={img_container}><FeatureSequence/></div>
     </div>
   );
 };

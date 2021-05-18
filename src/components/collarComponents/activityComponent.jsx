@@ -8,11 +8,12 @@ import {
   features,
   flex_feature,
 } from "../../styles/collar.module.scss";
+import FeatureSequence from "../Sequence/FeatureSequence";
 
 const ActivityComponent = () => {
   return (
     <div className={container_gps}>
-      <div className={img_container}></div>
+      <div className={img_container}><FeatureSequence/></div>
       <div className={text_container}>
         <div className={title_text}>
           <div className={absolute_title}>
