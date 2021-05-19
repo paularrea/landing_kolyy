@@ -13,6 +13,7 @@ import FooterDesktop from "./footerDesktop";
 import Language from "../language";
 import Contacts from "./components/contacts";
 import MediaList from "./components/mediaList";
+import Privacity from "./components/privacity";
 
 const Footer = () => {
   return (
@@ -36,11 +37,7 @@ const Footer = () => {
             </h3>
             <MediaList />
           </div>
-          <div className={copyright}>
-            <p>
-              <FormattedMessage id="footer.copyright" />
-            </p>
-          </div>
+          <Privacity />
         </div>
       </MediaQuery>
       <MediaQuery minWidth={800}>

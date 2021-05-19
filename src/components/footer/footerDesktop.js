@@ -14,6 +14,7 @@ import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import Language from "../language";
 import Contacts from "./components/contacts";
 import MediaList from "./components/mediaList";
+import Privacity from "./components/privacity";
 
 const FooterDesktop = () => {
   if (typeof window !== "undefined") {
@@ -50,22 +51,12 @@ const FooterDesktop = () => {
         </div>
       </div>
       <div className={flex_container}>
-        <div className={privacity_container}>
-          <p>Politica de privacidad</p>
-          <p>Aviso Legal</p>
-          <p>Política de Cookies</p>
-        </div>
+        <Privacity />
         <div className={flex_footer_lang}>
           <Language />
-          {/* <div className={copyright}>
-            <p>
-              <FormattedMessage id="footer.copyright" />
-            </p>
-          </div> */}
         </div>
       </div>
     </div>
-    // </div>
   );
 };
 
