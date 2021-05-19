@@ -1,12 +1,11 @@
 ---
-title: La oruga procesionaria
-date: 2019-04-06
-path: /oruga-procesionaria-2
-collection: educacion
+title: Border collie
+date: 2019-04-11
+path: /border-collie
 featured: true
 featuredImage: ./oruga.jpeg
 tags: ["Curiosidades"]
-type: blog
+type: doggipedia
 ---
 
 Ya está aquí la primavera, una estación un tanto peligrosa para nuestros amigos si no estamos bien alerta de lo que tocan u olfatean cuando salimos a pasear con ellos. En estas épocas en las que empiezan a subir las temperaturas aparece la oruga procesionaria, una larva que supone un auténtico peligro para quien la toque, especialmente para niños y animales.

@@ -29,6 +29,7 @@ const AllPosts = () => {
     query filteredPosts {
       all: allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
+        filter: { frontmatter: { type: { eq: "blog" } } }
       ) {
         edges {
           node {
@@ -49,7 +50,7 @@ const AllPosts = () => {
       }
       salud: allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { frontmatter: { collection: { eq: "salud" } } }
+        filter: { frontmatter: { collection: { eq: "salud" }  type: { eq: "blog" }  }  }
       ) {
         edges {
           node {
@@ -70,7 +71,7 @@ const AllPosts = () => {
       }
       educacion: allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { frontmatter: { collection: { eq: "educacion" } } }
+        filter: { frontmatter: { collection: { eq: "educacion" }  type: { eq: "blog" }  }  }
       ) {
         edges {
           node {
@@ -91,7 +92,7 @@ const AllPosts = () => {
       }
       curiosidades: allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { frontmatter: { collection: { eq: "curiosidades" } } }
+        filter: { frontmatter: { collection: { eq: "curiosidades" }  type: { eq: "blog" }  }  }
       ) {
         edges {
           node {

@@ -21,6 +21,7 @@ const DesktopHeader = () => {
   const [activePlacas, setActivePlacas] = useState(false);
   const [activeAbout, setActiveAbout] = useState(false);
   const [activeBlog, setActiveBlog] = useState(false);
+  const [activeDoggipedia, setActiveDoggipedia] = useState(false);
   const [activeQuestions, setActiveQuestions] = useState(false);
   const [hideBlackNav, setHideBlackNav] = useState(false);
 
@@ -46,6 +47,8 @@ const DesktopHeader = () => {
         setActiveBlog(true);
       } else if (currentURL.indexOf("questions") > -1) {
         setActiveQuestions(true);
+      } else if (currentURL.indexOf("doggipedia") > -1) {
+        setActiveDoggipedia(true);
       }
     };
     isActive();
@@ -55,7 +58,15 @@ const DesktopHeader = () => {
   return (
     <header className={hideBlackNav ? header_out : header}>
       <nav className={hideBlackNav ? menu_fijo_out : menu_fijo}>
- 
+        <Link
+          id="doggipedia"
+          to="/doggipedia"
+          className={activeDoggipedia && active_white}
+        >
+          {/* <FormattedMessage id="nav.blog" /> */}
+          Conoce a tu perro
+        </Link>
+
         <Link id="blog" to="/blog" className={activeBlog && active_white}>
           <FormattedMessage id="nav.blog" />
         </Link>
@@ -82,8 +93,8 @@ const DesktopHeader = () => {
           </Link>
 
           <Link id="about" to="/about" className={activeAbout && active}>
-          <FormattedMessage id="nav.about" />
-        </Link>
+            <FormattedMessage id="nav.about" />
+          </Link>
         </nav>
         <div>
           <a

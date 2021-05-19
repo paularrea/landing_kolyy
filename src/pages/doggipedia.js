@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { graphql, Link } from "gatsby";
-import SubscribeComponent from "../components/blogComponents/subscribeComponent";
 import Layout from "../components/layout/layout";
 import { Grid, Row, Col } from "react-flexbox-grid";
 import Seo from "../components/seo";
@@ -12,9 +11,8 @@ import {
   post_flex,
   post,
 } from "../styles/blog.module.scss";
-import AllPosts from "../components/blogComponents/allPosts";
 
-const Blog = ({ data }) => {
+const Doggipedia = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
 
   useEffect(() => {
@@ -23,23 +21,21 @@ const Blog = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title="Blog" />
-      <div className={bg_img}>
+      <Seo title="Doggipedia" />
+      <div style={{backgroundColor:'transparent', height:'500px'}} className={bg_img}>
         <div className={content}>
-          <h2>Todo lo que necesitas saber para cuidar de él</h2>
+          <h2>¿Conoces la raza de tu perro?</h2>
           <p>
-            Suscríbete a nuestra newsletter y no te pierdas ningún consejo.{" "}
+          Descubre las características y secretos de todas las razas de perros en nuestra Doggipedia.
           </p>
-          <SubscribeComponent />
+          <p>filter bar</p>
         </div>
       </div>
       <div className={container}>
-        <span>Un mundo por descubrir.</span>
-        <h2>Últimos artículos</h2>
         <div className={post_flex}>
           <Grid>
             <Row>
-              {edges.slice(0, 3).map((edge) => {
+              {edges.map((edge) => {
                 const { frontmatter } = edge.node;
                 return (
                   <Col md={4} sm={12} xs={12}>
@@ -62,17 +58,16 @@ const Blog = ({ data }) => {
             </Row>
           </Grid>
         </div>
-        <AllPosts />
       </div>
     </Layout>
   );
 };
 
 export const query = graphql`
-  query blogQuery {
+  query DoggipediaQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { type: { eq: "blog" } } }
+      filter: { frontmatter: { type: { eq: "doggipedia" } } }
     ) {
       edges {
         node {
@@ -94,4 +89,4 @@ export const query = graphql`
   }
 `;
 
-export default Blog;
+export default Doggipedia;

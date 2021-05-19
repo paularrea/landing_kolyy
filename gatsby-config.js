@@ -7,6 +7,19 @@ module.exports = {
   plugins: [
     `gatsby-transformer-remark`,
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+        ]
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
@@ -24,19 +37,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 640,
-            },
-          },
-        ],
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/blog`,
@@ -47,6 +47,13 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/src/blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `doggipedia`,
+        path: `${__dirname}/src/doggipedia`,
       },
     },
     `gatsby-transformer-sharp`,
