@@ -4,8 +4,9 @@ import Layout from "../components/layout/layout";
 import Img from "gatsby-image";
 import MediaQuery from "react-responsive";
 import prevIcon from "../images/icons/prev.png";
+import RelatedPosts from "./components/relatedPosts";
 import nextIcon from "../images/icons/next.png";
-import MediaFixed from "../components/questionsComponents/mediaFixed"
+import MediaFixed from "../components/questionsComponents/mediaFixed";
 import {
   post_container,
   flex_info,
@@ -16,15 +17,16 @@ import {
   link,
   barra,
   related_container,
-  related_posts,
+  flex_just_mobile
 } from "./template.module.scss";
+import ShareComponent from "./components/shareComponent";
 
 const Template = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
   const { markdownRemark } = data;
   const title = markdownRemark.frontmatter.title;
+  const path = markdownRemark.frontmatter.path;
   const html = markdownRemark.html;
-  // const tags = markdownRemark.frontmatter.tags;
   let featuredImgFluid =
     markdownRemark.frontmatter.featuredImage.childImageSharp.fluid;
 
@@ -46,16 +48,25 @@ const Template = ({ data, pageContext }) => {
               <p style={{ fontWeight: 700 }}>{title}</p>
             </div>
             <div>
-              <span>Compártelo en F in Tw</span>
+              <MediaQuery minWidth={870}>
+                <ShareComponent title={title} path={path} />{" "}
+              </MediaQuery>
             </div>
           </div>
         </div>
         <Img fluid={featuredImgFluid} />
-        <div className={go_back}>
-          <div>
-            <img src={prevIcon} alt="Anterior" />
+        <div className={flex_just_mobile}>
+          <div className={go_back}>
+            <div>
+              <img src={prevIcon} alt="Anterior" />
+            </div>
+            <Link to={"/blog"}>Volver al Blog</Link>
           </div>
-          <Link to={"/blog"}>Volver al Blog</Link>
+          <div>
+            <MediaQuery maxWidth={870}>
+              <ShareComponent title={title} path={path} />{" "}
+            </MediaQuery>
+          </div>
         </div>
 
         <div className={text} dangerouslySetInnerHTML={{ __html: html }}></div>
@@ -77,7 +88,7 @@ const Template = ({ data, pageContext }) => {
         </div>
         <div className={related_container}>
           <h3>También te puede interesar...</h3>
-          <div className={related_posts}></div>
+          <RelatedPosts />
         </div>
       </div>
     </Layout>

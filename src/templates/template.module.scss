@@ -90,13 +90,23 @@
         width: 100%;
         text-align: left;
         padding-top: 6rem;
-        .related_posts{
-            margin-top: 3rem;
-            height: 30vw;
-            background-color: #c4c4c421;
+        h3{
+            margin-bottom: 3rem;
         }
     }
-    
+}
+
+.share_component{
+    margin-top: .5rem;
+    img{
+        margin-left: .5rem;
+        width: 17px;
+    }
+}
+.flex_just_mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 @media (min-width: 870px) {
@@ -198,5 +208,14 @@
             }
         }
         
+    }
+}
+.share_component{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    img{
+        margin-left: .5rem;
+        width: 29px;
     }
 }
