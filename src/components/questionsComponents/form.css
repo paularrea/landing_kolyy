@@ -6,16 +6,21 @@
 #form-container>p{
     text-align: left;
     padding: 1rem;
+    padding-left: 2rem;
     padding-top: 4rem;
     font-size: 18px;
     font-size: 400;
 }
 #my-hubspot-form{
-    padding: 2rem 1rem; 
+    padding: 2rem; 
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
+.hs-form-field{
+    text-align: left !important;
+} 
 .form-columns-2{
     margin: 0;
     max-width: none;
@@ -24,14 +29,15 @@
 
 }
 #firstname-662bb340-622d-4d8b-b9c3-94c89d2335ca{
-    width: 40vw;
+    width: 38vw;
 }
 #lastname-662bb340-622d-4d8b-b9c3-94c89d2335ca{
-    width: 45vw;
+    width: 42vw;
 }
 #email-662bb340-622d-4d8b-b9c3-94c89d2335ca{
-    width: 90vw;
+    width: 82vw;
 }
+
 #my-hubspot-form input{
     border-radius: 25px !important;
     padding: 15px;
@@ -45,7 +51,7 @@
     outline: none;
     padding: 15px;
     height: 250px;
-    width: 90vw;
+    width: 82vw;
     margin: 1rem 0;
     margin-bottom: 1rem;
 }
@@ -54,13 +60,13 @@
     padding: 5px 30px !important;
     color: white;
     font-size: 24px;
-    margin: 2rem 0 !important;
     cursor: pointer;
 }
 .actions{
    display: flex;
    justify-content: flex-start !important;
    align-items: center ;
+   margin-left: 0rem;
 }
 #my-hubspot-form span{
 color: black;
@@ -74,7 +80,7 @@ position: relative;
 
 .contact-absolute>div{
     position: relative;
-    padding-left: 1rem;
+    padding-left: 2rem;
     right: 0;
     bottom: 3rem;
     }
