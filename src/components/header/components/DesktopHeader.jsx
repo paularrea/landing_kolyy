@@ -39,7 +39,7 @@ const DesktopHeader = () => {
         setActiveCollar(true);
       } else if (currentURL.indexOf("the-app") > -1) {
         setActiveApp(true);
-      } else if (currentURL.indexOf("placas") > -1) {
+      } else if (currentURL.indexOf("zero-perros-perdidos") > -1) {
         setActivePlacas(true);
       } else if (currentURL.indexOf("about") > -1) {
         setActiveAbout(true);
@@ -88,7 +88,7 @@ const DesktopHeader = () => {
             <FormattedMessage id="nav.collar" />
           </Link>
 
-          <Link id="placas" to="/placas" className={activePlacas && active}>
+          <Link id="zero-perros-perdidos" to="/zero-perros-perdidos" className={activePlacas && active}>
             <FormattedMessage id="nav.placa" />
           </Link>
 

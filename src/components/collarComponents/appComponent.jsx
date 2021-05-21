@@ -20,12 +20,15 @@ const AppComponent = () => {
           <div className={text_container}>
             <div className={title_text}>
               <div className={absolute_title}>
-                <span>Prevenir antes que curar.</span>
+                <span>Está en tus manos.</span>
               </div>
               <h2>Todo en una misma app.</h2>
               <p>
                 Desde la app podrás ver todo lo que está reportando el collar
-                sobre el estado de tu perro. Estés donde estés y a cualquier
+                sobre el estado de tu perro.
+                <br />
+                <br />
+                Toda la información en tu mano, estés donde estés y a cualquier
                 hora.
               </p>
             </div>
@@ -49,7 +52,7 @@ const AppComponent = () => {
           </div>
         </div>
       </MediaQuery>
-      <AppMobile/>
+      <AppMobile />
     </>
   );
 };

@@ -20,10 +20,12 @@ const ActivityMobile = () => {
             <div className={absolute_title}>
               <span>Un perro activo es un perro feliz.</span>
             </div>
-            <h2>Registro de actividad física.</h2>
+            <h2>Mantenlo activo y feliz.</h2>
             <p>
-              El collar te informa del ejercicio físico, pausas y tiempo tumbado
-              de tu perro para mantenerlo en forma.
+              El collar te informa del ejercicio físico que lleva a cabo tu
+              amigo. <br />
+              <br /> Registra los pasos diarios y el tiempo y distancia
+              recorrida para que puedas mantenerlo en forma.
             </p>
           </div>
         </div>

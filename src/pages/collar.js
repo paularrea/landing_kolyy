@@ -23,7 +23,7 @@ const Collar = () => {
             Disfruta.
             <br />
           </h2>
-          <p>Asegúrate de que tu amigo tenga el suyo.</p>
+          <p>Asegúrate de que tu amigo tenga siempre lo mejor.</p>
           <button>Reserva</button>
         </div>
       </div>
@@ -32,9 +32,9 @@ const Collar = () => {
         <ActivityComponent />
         <InteligentComponent />
         <LedComponent />
-        <AppComponent/>
+        <AppComponent />
       </div>
-      <BookComponent/>
+      <BookComponent />
     </Layout>
   );
 };

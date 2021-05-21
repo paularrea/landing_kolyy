@@ -29,7 +29,7 @@ const Burger = () => {
           <Logo />
         </div>
         <nav className="bm-item-list">
-          <Link className="menu-item" id="collar" to="/collar" >
+          <Link className="menu-item" id="collar" to="/collar">
             <div
               role="link"
               className="anchor-div"
@@ -46,7 +46,11 @@ const Burger = () => {
             </div>
           </Link>
 
-          <Link id="placas" to="/placas" className="menu-item">
+          <Link
+            id="zero-perros-perdidos"
+            to="/zero-perros-perdidos"
+            className="menu-item"
+          >
             <div
               role="link"
               className="anchor-div"
@@ -113,7 +117,12 @@ const Burger = () => {
               <FormattedMessage id="nav.questions" />
             </div>
           </Link>
-          <a href="https://app.kolyy.com/" rel="noreferrer" target="_blank" className="menu-item">
+          <a
+            href="https://app.kolyy.com/"
+            rel="noreferrer"
+            target="_blank"
+            className="menu-item"
+          >
             <div
               role="link"
               className="anchor-div"
@@ -132,14 +141,16 @@ const Burger = () => {
           {/* <hr /> */}
         </nav>
         <div className="follow-container">
-        <div className="language-container">
-          <Language />
-          {/* <hr /> */}
-          <div className="contact-flex">
-            <PhoneIcon />
-            <a href="tel:+41313019439" rel="noreferrer" target="_blank">+34 66 666 66 66</a>
+          <div className="language-container">
+            <Language />
+            {/* <hr /> */}
+            <div className="contact-flex">
+              <PhoneIcon />
+              <a href="tel:+41313019439" rel="noreferrer" target="_blank">
+                +34 66 666 66 66
+              </a>
+            </div>
           </div>
-        </div>
         </div>
       </Menu>
     </>
