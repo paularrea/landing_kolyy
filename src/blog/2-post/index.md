@@ -6,7 +6,7 @@ collection: educacion
 featured: true
 featuredImage: ./oruga.jpeg
 tags: ["Curiosidades"]
-type: blog
+type: "blog"
 ---
 
 Ya está aquí la primavera, una estación un tanto peligrosa para nuestros amigos si no estamos bien alerta de lo que tocan u olfatean cuando salimos a pasear con ellos. En estas épocas en las que empiezan a subir las temperaturas aparece la oruga procesionaria, una larva que supone un auténtico peligro para quien la toque, especialmente para niños y animales.

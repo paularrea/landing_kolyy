@@ -8,12 +8,13 @@ import {
     post_flex,
   } from "../../styles/blog.module.scss";
 
-const RelatedPosts = () => {
+const RelatedBlogPosts = () => {
 
   const data = useStaticQuery(graphql`
-    query allPosts {
+    query relatedBlogPosts {
       all: allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
+        filter: { frontmatter: { type: { eq: "blog" } } }
       ) {
         edges {
           node {
@@ -69,4 +70,4 @@ const RelatedPosts = () => {
   );
 };
 
-export default RelatedPosts;
+export default RelatedBlogPosts;

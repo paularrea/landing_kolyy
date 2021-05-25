@@ -1,5 +1,6 @@
 import React from "react";
 import TimelineText from "./timelineText";
+import Future from "./future"
 import {
   flex_container,
   timeline,
@@ -12,13 +13,14 @@ import DesarrolloText from "./desarrolloText";
 
 const Chronology = () => {
   return (
+    <>
     <div className={flex_container}>
-        <div className={desarrollo}>
-            <DesarrolloText>
+      <div className={desarrollo}>
+        <DesarrolloText>
           <h2>Desarrollo del collar</h2>
-      </DesarrolloText>  
-        </div>
-    
+        </DesarrolloText>
+      </div>
+
       <div className={timeline}>
         <TimelineText>
           <div className={timeline_flex}>
@@ -60,7 +62,10 @@ const Chronology = () => {
             </div>
             <div className={text}>
               <h2>El collar</h2>
-              <p>Empezamos a investigar y desarrollar los primeros prototipos del collar inteligente.</p>
+              <p>
+                Empezamos a investigar y desarrollar los primeros prototipos del
+                collar inteligente.
+              </p>
             </div>
           </div>
         </TimelineText>
@@ -104,7 +109,8 @@ const Chronology = () => {
             <div className={text}>
               <h2>5.000 kolyers con placa</h2>
               <p>
-              Conseguimos llegar a las 5.000 placas identificativas repartidas por toda España. 
+                Conseguimos llegar a las 5.000 placas identificativas repartidas
+                por toda España.
               </p>{" "}
             </div>
           </div>
@@ -126,6 +132,8 @@ const Chronology = () => {
         </TimelineText>
       </div>
     </div>
+    <Future/>
+    </>
   );
 };
 

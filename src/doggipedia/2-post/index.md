@@ -1,29 +1,35 @@
 ---
 title: Pastor alemán
-date: 2019-04-06
+date: 2019-04-01
 path: /pastor-aleman
 featured: true
 featuredImage: ./oruga.jpeg
 tags: ["Curiosidades"]
-type: doggipedia
+tamaño: "Grande"
+aseo: "Una vez a la semana"
+pelo: "Largo"
+peso: "30 a 45 kg"
+type: "doggipedia"
 ---
 
-Ya está aquí la primavera, una estación un tanto peligrosa para nuestros amigos si no estamos bien alerta de lo que tocan u olfatean cuando salimos a pasear con ellos. En estas épocas en las que empiezan a subir las temperaturas aparece la oruga procesionaria, una larva que supone un auténtico peligro para quien la toque, especialmente para niños y animales.
+#### Ejercicio:
 
-#### ¿Por qué debemos proteger a nuestros perros de esta oruga?
+El Beagle necesita mucho ejercicio: alrededor de dos horas diarias o más. Debido a su fuerte instinto de cazador, no puede dejarse suelto hasta que esté muy bien adiestrado para regresar cuando se le llame. Un modo de mantener a su perro en forma es permitiéndole utilizar sus talentos naturales para la caza. Las pruebas de campo caninas son populares entre los propietarios de Beagles.
 
-La oruga procesionaria es una larva que puede llegar a ser letal para nuestros perros si la ingieren sin darse cuenta. Se encuentra en los bosques de pinos y es muy común en la cuneca mediterránea, aunque con el aumento de temperaturas se estan colonizando hasta en las zonas más altas de España.
+#### Comportamiento:
 
-Esta oruga segrega una toxina muy venenosa al sentirse atacada, capaz de causar irritaciones en hocico y piel de los perros sólo por el hecho de olerla.
+Los Beagles tienen un buen carácter y, criados para ser animales de grupo, se llevarán bien con la mayoría de perros. Les encantan los niños, pero necesitan estar en contacto con los gatos desde cachorros para poder entablar buenas relaciones con los felinos. El Beagle es un gran perro guardián, que ladrará ante cualquier cosa inusual. Aunque una vez el ladrón haya entrado, el Beagle seguramente preferirá jugar con él.
 
-Si los pelillos de las orugas entran en contacto con las mucosas o con los ojos de los animales, los síntomas suelen ser picores, urticarias y sensación de quemazón y si la tocan suelen comenzar a babear y a rascarse la zona de la boca. En algunas ocasiones la piel se daña y produce ampollas.
+#### Salud:
 
-#### ¿Cómo puedo evitar que mi perro tenga contacto con una procesaria?
+En general, se trata de una raza robusta y sana. Sin embargo, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por tanto, es importante un examen de la cadera de los perros antes de dedicarlos a la crianza. La epilepsia y un tipo de meningitis (síndrome doloroso del Beagle) son enfermedades que se dan con más frecuencia en esta raza.
 
-Estos son algunos de los consejos que pueden ayudarte a evitar esta situación tan peligrosa para tu perro:
-1. Ten controlado a tu perro y evita que investigue los nidos abandonados de las ramas y copas de los árboles.
-2. Fíjate por dónde pisáis: esta oruga no va nunca sola, van todas en fila, una detrás de la otra. Si ves algo parecido a una serpiente en el suelo, probablemente sea una procesión de estas larvas.
+#### Nutrición:
 
-#### ¿Y cómo sé si ha habido contacto?
+Los perros pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo. Los alimentos para razas pequeñas están específicamente ideados con proporciones adecuadas de nutrientes clave y unos granos de pienso de menor tamaño que se adapten a bocas más pequeñas. Esto, además, estimulan la masticación y mejora la digestión.
 
-Si sabes los síntomas que provoca puedes detectarlo con facilidad y sino puedes fijarte en las pisadas de tu perro mientras estés realizando un paseo con él por el bosque. Estas orugas son muy pequeñas y el animal puede pisarlas sin querer.
+#### Origen:
+
+A mediados del siglo XVI aproximadamente, los sabuesos empezaron a ser clasificados por su finalidad, es decir, sabuesos de vista, sabuesos de olfato, etc. En esa época, a un pequeño sabueso, criado para matar conejos y liebres, se le asignó el nombre de "Begles", un término francés que significa "boca grande". Esto hacía referencia a la tendencia de los animales a "aullar", esto es, a ladrar en grupo. La versión anglicanizada, por supuesto, es "Beagle". La raza tiene como antepasados al Foxhound, el Harrier y un pequeño sabueso conocido como "Kerry Beagle".
+
+

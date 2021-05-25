@@ -4,7 +4,6 @@ import Layout from "../components/layout/layout";
 import Img from "gatsby-image";
 import MediaQuery from "react-responsive";
 import prevIcon from "../images/icons/prev.png";
-import RelatedPosts from "./components/relatedPosts";
 import nextIcon from "../images/icons/next.png";
 import MediaFixed from "../components/questionsComponents/mediaFixed";
 import {
@@ -17,11 +16,12 @@ import {
   link,
   barra,
   related_container,
-  flex_just_mobile
+  flex_just_mobile,
 } from "./template.module.scss";
 import ShareComponent from "./components/shareComponent";
+import RelatedDoggipedia from "./components/relatedDoggipedia";
 
-const Template = ({ data, pageContext }) => {
+const DoggipediaPost = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
   const { markdownRemark } = data;
   const title = markdownRemark.frontmatter.title;
@@ -44,7 +44,7 @@ const Template = ({ data, pageContext }) => {
         <div>
           <div className={flex_info}>
             <div className={flex_breadcrumb}>
-              <Link to={"/blog"}>Blog </Link>/
+              <Link to={"/doggipedia"}>Conoce a tu perro </Link>/
               <p style={{ fontWeight: 700 }}>{title}</p>
             </div>
             <div>
@@ -60,7 +60,7 @@ const Template = ({ data, pageContext }) => {
             <div>
               <img src={prevIcon} alt="Anterior" />
             </div>
-            <Link to={"/blog"}>Volver al Blog</Link>
+            <Link to={"/doggipedia"}>Volver a la Doggypedia</Link>
           </div>
           <div>
             <MediaQuery maxWidth={870}>
@@ -88,7 +88,7 @@ const Template = ({ data, pageContext }) => {
         </div>
         <div className={related_container}>
           <h3>También te puede interesar...</h3>
-          <RelatedPosts />
+          <RelatedDoggipedia />
         </div>
       </div>
     </Layout>
@@ -113,4 +113,4 @@ export const query = graphql`
   }
 `;
 
-export default Template;
+export default DoggipediaPost;

@@ -7,7 +7,7 @@ const TimelineText = (props) => {
   return (
     <div>
       <Controller>
-        <Scene duration="15%" triggerHook={0.6} pin>
+        <Scene duration="10%" triggerHook={0.6} pin>
           <Tween from={{ opacity: 0 }} to={{ opacity: 1 }}>
             <div className={timeLineScroll}>
               <div>{props.children}</div>
