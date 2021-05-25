@@ -36,10 +36,10 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
+      <div className={post_container}>
       <MediaQuery minWidth={1000}>
         <MediaFixed />
       </MediaQuery>
-      <div className={post_container}>
         <h2>{title}</h2>
         <div>
           <div className={flex_info}>
