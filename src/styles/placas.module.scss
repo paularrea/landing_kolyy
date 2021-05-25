@@ -200,14 +200,6 @@ span{
         font-weight: 700;
         margin-bottom: 1rem;
     }
-    .bg_img{
-        height:673px;
-        .content{
-            p{
-            width: 20%;
-        }
-        }
-    }
     .clear_blue_container{
         padding: 2rem;
         background-color: rgba(175, 208, 208, 0.35);
@@ -367,10 +359,15 @@ span{
     .bg_img{
         background-color: #c4c4c421;
         height: 676px;
+        .content{
+        float: left;
+        width: 50%; 
+        }
+     
     }
     .text{
         text-align: center;
-        width: 50%;
+        width: 100%;
         padding-left: 12.5%;
         padding-top: 10%;
         h1{

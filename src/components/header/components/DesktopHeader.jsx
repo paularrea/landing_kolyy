@@ -12,6 +12,7 @@ import {
   menu_fijo_out,
   logo_nav_container,
   login_link,
+  button_header,
 } from "../header.module.scss";
 import Logo from "./logo";
 
@@ -88,7 +89,11 @@ const DesktopHeader = () => {
             <FormattedMessage id="nav.collar" />
           </Link>
 
-          <Link id="zero-perros-perdidos" to="/zero-perros-perdidos" className={activePlacas && active}>
+          <Link
+            id="zero-perros-perdidos"
+            to="/zero-perros-perdidos"
+            className={activePlacas && active}
+          >
             <FormattedMessage id="nav.placa" />
           </Link>
 
@@ -106,12 +111,11 @@ const DesktopHeader = () => {
             {" "}
             <FormattedMessage id="nav.login" />
           </a>
-          <a href="https://app.kolyy.com/" rel="noreferrer" target="_blank">
-            <button>
-              {" "}
+          <Link id="book" to="/book">
+            <button className={button_header}>
               <FormattedMessage id="nav.book" />
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </header>

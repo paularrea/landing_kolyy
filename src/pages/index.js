@@ -33,12 +33,11 @@ const IndexPage = () => (
         <div className={flex_text}>
           {" "}
           <p>
-            Lleva incorporado un localizador GPS para que sepas donde está en
-            todo momento y te avisa si tu perro sale de la zona que has marcado
-            como segura. Además, te permite registrar la actividad de tu perro
-            para que pueda alcanzar sus objetivos de ejercicio.
+            Con localizador GPS y registro de actividad para que tu perro pueda
+            alcanzar sus objetivos de ejercicio.
           </p>
         </div>
+        <button>Saber más</button>
       </ScrollText>
       <div
         style={{
@@ -51,10 +50,7 @@ const IndexPage = () => (
         <div className={flex_text}>
           <p>
             Con la app puedes saber en tiempo real todo lo que el collar reporta
-            y anticiparte a cualquier imprevisto. Si tu perro se escapa te
-            avisa. Si no ha alcanzado el objetivo de ejercicio te avisa. Si ha
-            dormido menos de lo habitual o se ha rascado mas de la cuenta te
-            avisa.
+            y anticiparte a cualquier imprevisto.
           </p>
         </div>
       </ScrollText>
@@ -79,12 +75,14 @@ const IndexPage = () => (
         }}
       ></div>
       <ScrollText>
-        <h1>Disponible en 2022. 500 unidades solo para los más doglovers.</h1>{" "}
+        <h1>Disponible en 2022.</h1>{" "}
         <div className={flex_text}>
           {" "}
           <p>
             Kolyy es el primer collar inteligente para perros con un potencial y
-            un recorrido infinito. Paso a paso lo haremos realidad.
+            recorrido infinitos. Este año estamos fabricando solo 500 para los
+            más doglovers. <br />
+            ¿Eres uno de ellos?
           </p>{" "}
         </div>
         <button>Resérvalo</button>
@@ -99,10 +97,10 @@ const IndexPage = () => (
         <div className={flex_text}>
           {" "}
           <p>
-            No esperes hasta 2022, nosotros no lo hacemos. Súmate a nuestra
-            iniciativa 0 perros perdidos con nuestras placas de identificación
-            kolyy y nuestra plataforma web para evitar las fugas o pérdidas de
-            nuestros mejores amigos.
+            No esperes hasta 2022, nosotros no lo hacemos. <br /> Súmate a
+            nuestra iniciativa <b>0 perros perdidos</b> con nuestras placas de
+            identificación kolyy y nuestra plataforma web para evitar las fugas
+            o pérdidas de nuestros mejores amigos.
           </p>{" "}
         </div>
         <button>Súmate al reto</button>
