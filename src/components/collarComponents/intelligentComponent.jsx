@@ -9,8 +9,8 @@ import {
   flex_feature,
 } from "../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
-import FeatureSequence from "../Sequence/FeatureSequence";
-import InteligentMobile from "./mobile/inteligentMobile";
+import IntelligentMobile from "./mobile/intelligentMobile";
+import IntelligentImg from "./img/intelligentImg";
 
 const InteligentComponent = () => {
   return (
@@ -46,11 +46,11 @@ const InteligentComponent = () => {
             </div>
           </div>
           <div className={img_container}>
-            <FeatureSequence />
+            <IntelligentImg />
           </div>
         </div>
       </MediaQuery>
-      <InteligentMobile />
+      <IntelligentMobile />
     </>
   );
 };

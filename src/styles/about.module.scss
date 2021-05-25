@@ -3,7 +3,6 @@
     margin-top: 0rem;
 }
 .bg_img{
-    background-color: #c4c4c421;
     height: 100vh;
     .content{
     display: flex;
@@ -20,7 +19,7 @@
     }
     .text{
     position: absolute;
-    bottom: 15%;
+    bottom: 1rem;
     left:0;
     right:0;
     margin-left: auto;
@@ -29,12 +28,21 @@
     text-align: center;
     h2{
        padding-top: 1rem;
+       color: #ffffff;
     }
     span{
-        color: #30AAAA;
+        color: #ffffff;
         font-size: 18px;
         font-weight: 700;
     }
+    .go_down_arrow{
+    cursor: pointer;
+      img{
+        margin-top: 5rem;
+        width: 25px;
+    }  
+    }
+    
 }  
 }
 }
@@ -43,8 +51,7 @@
         padding: 2rem; 
     }
     .bg_img{
-        background-color: #c4c4c421;
-        height: 673px;
+        height: 800px;
         .content{
         display: flex;
         flex-direction: column;
@@ -71,7 +78,6 @@
            padding-top: 1rem;
         }
         span{
-            color: #30AAAA;
             font-size: 18px;
             font-weight: 700;
         }

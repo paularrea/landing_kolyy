@@ -39,6 +39,7 @@
     .img_container{
         background-color: #c4c4c421;
         width: 100%;
+        overflow: hidden;
     }
     .text_container{
         position: relative;
@@ -103,6 +104,7 @@
                     font-size: 14px;
                     line-height: 17px;
                     margin-top: 1rem;
+                    width: 90%;
                 }
             }
         }
@@ -113,7 +115,7 @@
             padding: 2rem 0;
         }
         .bg_img{
-            height:673px;
+            height: 800px;
             .content{
                 float: left;
                 width: 50%;
@@ -189,8 +191,10 @@
                             font-size: 22px;
                         }
                         p{
-                            font-size: 17px;
+                            padding-top: 1rem;
+                            font-size: 18px;
                             margin-top: 1rem;
+                            line-height: 21.78px;
                         }
                     }
                 }
@@ -270,6 +274,7 @@
                         font-size: 22px;
                     }
                     p{
+                        width: 100%;
                         font-size: 17px;
                         margin-top: 1rem;
                     }

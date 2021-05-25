@@ -10,7 +10,7 @@ import {
 } from "../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
 import ActivityMobile from "./mobile/activityMobile";
-import FeatureSequence from "../Sequence/FeatureSequence";
+import ActiveImg from "./img/activeImg";
 
 const ActivityComponent = () => {
   return (
@@ -18,7 +18,7 @@ const ActivityComponent = () => {
       <MediaQuery minWidth={600}>
         <div className={container_gps}>
           <div className={img_container}>
-            <FeatureSequence />
+            <ActiveImg/>
           </div>
           <div className={text_container}>
             <div className={title_text}>

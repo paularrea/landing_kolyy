@@ -9,9 +9,9 @@ import {
   flex_feature,
 } from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
-import FeatureSequence from "../../Sequence/FeatureSequence";
+import IntelligentImg from "../img/intelligentImg"
 
-const InteligentMobile = () => {
+const IntelligentMobile = () => {
   return (
     <MediaQuery maxWidth={600}>
       <div className={container_gps}>
@@ -31,7 +31,7 @@ const InteligentMobile = () => {
         </div>
       </div>
       <div className={img_container}>
-        <FeatureSequence />
+        <IntelligentImg/>
       </div>
       <div className={container_gps}>
         <div className={text_container}>
@@ -55,4 +55,4 @@ const InteligentMobile = () => {
   );
 };
 
-export default InteligentMobile;
+export default IntelligentMobile;

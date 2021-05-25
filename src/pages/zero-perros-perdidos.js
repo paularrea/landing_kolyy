@@ -18,14 +18,15 @@ import {
   img_flex,
   container_title,
 } from "../styles/placas.module.scss";
-
+import ZeroPPImg from "../components/0perrosPerdidosComponents/0ppBackgroundImg"
 import mockup from "../images/phoneMockup.png";
 
 const zeroPerrosPerdidos = () => {
   return (
     <Layout>
       <Seo title="0 perros perdidos" />
-      <div className={bg_img}>
+      <ZeroPPImg>
+        <div className={bg_img}>
         <div className={content}>
           <h2>
             Un reto:
@@ -34,7 +35,9 @@ const zeroPerrosPerdidos = () => {
           <p>Mantener a tu perro a salvo no cuesta nada.</p>
           <button>Súmate al reto</button>
         </div>
-      </div>
+      </div> 
+      </ZeroPPImg>
+     
 
       <div className={clear_blue_container}>
         <div className={clear_text}>

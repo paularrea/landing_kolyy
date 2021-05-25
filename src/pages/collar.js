@@ -3,7 +3,7 @@ import ActivityComponent from "../components/collarComponents/activityComponent"
 import AppComponent from "../components/collarComponents/appComponent";
 import BookComponent from "../components/collarComponents/bookComponent";
 import GpsComponent from "../components/collarComponents/gpsComponent";
-import InteligentComponent from "../components/collarComponents/inteligentComponent";
+import IntelligentComponent from "../components/collarComponents/intelligentComponent";
 import LedComponent from "../components/collarComponents/ledComponent";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
@@ -30,7 +30,7 @@ const Collar = () => {
       <div className={container}>
         <GpsComponent />
         <ActivityComponent />
-        <InteligentComponent />
+        <IntelligentComponent />
         <LedComponent />
         <AppComponent />
       </div>

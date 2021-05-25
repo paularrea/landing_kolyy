@@ -11,9 +11,9 @@ const BookComponent = () => {
         <h2>¿Cómo puedo conseguirlo?</h2>
         <div className={img_text}>
           <p>
-            Sólo existen 1.000 collares ahora mismo, ¿quieres entrar la en la
-            lista de espera para conseguir el tuyo? Dános tu email y te
-            enviaremos la invitación.
+            Solo se están fabricando 500 collares ahora mismo, ¿quieres entrar
+            en la lista de espera para conseguir el tuyo? <br /> <br />
+            Dános tu email y te enviaremos la invitación.
           </p>
           <button>tu email</button>
         </div>

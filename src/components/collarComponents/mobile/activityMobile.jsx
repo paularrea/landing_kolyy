@@ -9,7 +9,7 @@ import {
   flex_feature,
 } from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
-import FeatureSequence from "../../Sequence/FeatureSequence";
+import ActiveImg from "../img/activeImg"
 
 const ActivityMobile = () => {
   return (
@@ -31,7 +31,7 @@ const ActivityMobile = () => {
         </div>
       </div>
       <div className={img_container}>
-        <FeatureSequence />
+        <ActiveImg/>
       </div>
       <div className={container_gps}>
         <div className={text_container}>

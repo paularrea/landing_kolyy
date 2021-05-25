@@ -13,6 +13,7 @@ import {
   post,
 } from "../styles/blog.module.scss";
 import AllPosts from "../components/blogComponents/allPosts";
+import BlogImg from "../components/blogComponents/blogBackgroundImg";
 
 const Blog = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
@@ -24,15 +25,17 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <Seo title="Blog" />
-      <div className={bg_img}>
-        <div className={content}>
-          <h2>Todo lo que necesitas saber para cuidar de él</h2>
-          <p>
-            Suscríbete a nuestra newsletter y no te pierdas ningún consejo.{" "}
-          </p>
-          <SubscribeComponent />
+      <BlogImg>
+        <div className={bg_img}>
+          <div className={content}>
+            <h2>Todo lo que necesitas saber para cuidar de él</h2>
+            <p>
+              Suscríbete a nuestra newsletter y no te pierdas ningún consejo.{" "}
+            </p>
+            <SubscribeComponent />
+          </div>
         </div>
-      </div>
+      </BlogImg>
       <div className={container}>
         <span>Un mundo por descubrir.</span>
         <h2>Últimos artículos</h2>
