@@ -7,16 +7,18 @@
     position: fixed;
     top: 30%;
     left: 5rem;
-    div{
+    a{
+        width: 39px;
+        max-width: 39px;
         transition: all .4s ease-out;
         cursor: pointer;
         &:hover{
           filter: opacity(80%);  
           transform: scale(1.05);
         }
-    }
-    img{
+        img{
         width: 39px;
         max-width: 39px;
+    }
     }
 }
