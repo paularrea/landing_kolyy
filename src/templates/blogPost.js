@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 import MediaQuery from "react-responsive";
 import prevIcon from "../images/icons/prev.png";
 import nextIcon from "../images/icons/next.png";
-import MediaFixed from "../components/questionsComponents/mediaFixed";
+import MediaFixed from "./components/mediaFixed";
 import {
   post_container,
   flex_info,
@@ -37,9 +37,6 @@ const BlogPost = ({ data, pageContext }) => {
   return (
     <Layout>
       <div className={post_container}>
-      <MediaQuery minWidth={1000}>
-        <MediaFixed />
-      </MediaQuery>
         <h2>{title}</h2>
         <div>
           <div className={flex_info}>
@@ -50,6 +47,7 @@ const BlogPost = ({ data, pageContext }) => {
             <div>
               <MediaQuery minWidth={870}>
                 <ShareComponent title={title} path={path} />{" "}
+                <MediaFixed/>
               </MediaQuery>
             </div>
           </div>
