@@ -13,13 +13,27 @@ import {
   div_img_flex,
   mockup_container,
   mockup_text,
+  logo_container,
   mockup_img,
   text_flex,
   img_flex,
   container_title,
 } from "../styles/placas.module.scss";
-import ZeroPPImg from "../components/0perrosPerdidosComponents/0ppBackgroundImg"
+import ZeroPPImg from "../components/0perrosPerdidosComponents/0ppBackgroundImg";
 import mockup from "../images/phoneMockup.png";
+
+import PlacaIcon from "../components/0perrosPerdidosComponents/placaIcon";
+import CommunityIcon from "../components/0perrosPerdidosComponents/communityIcon";
+
+import IconOne from "../components/0perrosPerdidosComponents/iconOne";
+import IconTwo from "../components/0perrosPerdidosComponents/iconTwo";
+import IconThree from "../components/0perrosPerdidosComponents/iconThree";
+import IconFour from "../components/0perrosPerdidosComponents/iconFour";
+import IconFive from "../components/0perrosPerdidosComponents/iconFive";
+import IconSix from "../components/0perrosPerdidosComponents/iconSix";
+import IconSeven from "../components/0perrosPerdidosComponents/iconSeven";
+import IconEight from "../components/0perrosPerdidosComponents/iconEight";
+import IconNine from "../components/0perrosPerdidosComponents/iconNine";
 
 const zeroPerrosPerdidos = () => {
   return (
@@ -27,17 +41,16 @@ const zeroPerrosPerdidos = () => {
       <Seo title="0 perros perdidos" />
       <ZeroPPImg>
         <div className={bg_img}>
-        <div className={content}>
-          <h2>
-            Un reto:
-            <br /> 0 perros perdidos
-          </h2>
-          <p>Mantener a tu perro a salvo no cuesta nada.</p>
-          <button>Súmate al reto</button>
+          <div className={content}>
+            <h2>
+              Un reto:
+              <br /> 0 perros perdidos
+            </h2>
+            <p>Mantener a tu perro a salvo no cuesta nada.</p>
+            <button>Súmate al reto</button>
+          </div>
         </div>
-      </div> 
       </ZeroPPImg>
-     
 
       <div className={clear_blue_container}>
         <div className={clear_text}>
@@ -78,7 +91,9 @@ const zeroPerrosPerdidos = () => {
           </div>
           <div className={flex_container_2}>
             <div className={div_img_flex}>
-              <div className={img_flex}></div>
+              <div className={img_flex}>
+                <PlacaIcon />
+              </div>
               <div className={text_flex}>
                 <h3>La placa</h3>
                 <p>
@@ -90,7 +105,9 @@ const zeroPerrosPerdidos = () => {
               </div>
             </div>
             <div className={div_img_flex}>
-              <div className={img_flex}></div>
+              <div className={img_flex}>
+                <CommunityIcon />
+              </div>
               <div className={text_flex}>
                 <h3>La comunidad</h3>
                 <p>
@@ -114,7 +131,7 @@ const zeroPerrosPerdidos = () => {
             Tanto si tienes una placa y quieres activarla como si quieres darte
             de alta únicamente en la comunidad entrarás en nuestra plataforma{" "}
             <a href="https://app.kolyy.com/">app.kolyy.com</a>, un canal
-            habilitado para lograr nuestra misión: conseguir los{' '}
+            habilitado para lograr nuestra misión: conseguir los{" "}
             <b>#0perrosperdidos.</b>
           </p>
           <a href="https://app.kolyy.com/">
@@ -133,7 +150,9 @@ const zeroPerrosPerdidos = () => {
 
         <div className={flex_container}>
           <div className={div_img_flex}>
-            <div className={img_flex}></div>
+            <div className={logo_container}>
+              <IconOne />
+            </div>
             <div className={text_flex}>
               <h3>Consigue una placa identificativa única</h3>
               <p>
@@ -144,7 +163,9 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-            <div className={img_flex}></div>
+            <div className={logo_container}>
+              <IconTwo />
+            </div>
             <div className={text_flex}>
               <h3>Actívala a través de nuestra plataforma</h3>
               <p>
@@ -156,7 +177,9 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-            <div className={img_flex}></div>
+            <div className={logo_container}>
+              <IconThree />
+            </div>
             <div className={text_flex}>
               <h3>Asegúrate de que todo está bien</h3>
               <p>
@@ -174,7 +197,9 @@ const zeroPerrosPerdidos = () => {
 
         <div className={flex_container}>
           <div className={div_img_flex}>
-            <div className={img_flex}></div>
+          <div className={logo_container}>
+              <IconFour />
+            </div>
             <div className={text_flex}>
               <h3>
                 Regístrate gratis en{" "}
@@ -189,7 +214,9 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-            <div className={img_flex}></div>
+          <div className={logo_container}>
+              <IconFive />
+            </div>
             <div className={text_flex}>
               <h3>Crea una alerta y pide ayuda a la comunidad</h3>
               <p>
@@ -200,7 +227,9 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-            <div className={img_flex}></div>
+          <div className={logo_container}>
+              <IconSix />
+            </div>
             <div className={text_flex}>
               <h3>Kolyy avisa a los kolyers que puedan ayudarte</h3>
               <p>
@@ -218,7 +247,9 @@ const zeroPerrosPerdidos = () => {
 
         <div className={flex_container}>
           <div className={div_img_flex}>
-            <div className={img_flex}></div>
+          <div className={logo_container}>
+              <IconSeven />
+            </div>
             <div className={text_flex}>
               <h3>Mi agenda perruna</h3>
               <p>
@@ -229,7 +260,9 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-            <div className={img_flex}></div>
+          <div className={logo_container}>
+              <IconEight />
+            </div>
             <div className={text_flex}>
               <h3>Calendario de citas automatizadas</h3>
               <p>
@@ -240,7 +273,9 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-            <div className={img_flex}></div>
+          <div className={logo_container}>
+              <IconNine />
+            </div>
             <div className={text_flex}>
               <h3>Ayuda a otro kolyer</h3>
               <p>

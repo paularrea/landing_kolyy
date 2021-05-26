@@ -109,45 +109,24 @@ span{
            line-height: 24px;
        }
    }
-    .flex_container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        .div_img_flex{
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-bottom: 100%;
-            margin-bottom: 8rem;
-            .img_flex{
-                position: absolute;
-                top: 0;
-                right: 0;
-                background-color: #c4c4c421;
-                width: 100%;
-                height: 90%;
+    
+   .flex_container{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       .div_img_flex{
+           width: 95%;
+           margin-bottom: 4rem;
+            .logo_container{
+                margin: 0 auto;
+                width: auto;
+                max-width: 300px;
+                height: auto;
             }
-            .text_flex{
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                display: flex;
-                flex-direction: column;
-                height: 40%;
-                align-items: flex-start;
-                h3,p{
-                    width: 90%;
-                }
-                p{
-                    margin-top: 2rem;
-                    font-size: 18px;
-                    font-weight: 400;
-                    line-height: 22px;
-                }
-            }
-        }
-    }
+       }
+   }
+
     .flex_container_2{
         display: flex;
         flex-direction: column;
@@ -275,45 +254,25 @@ span{
                line-height: 24px;
            }
        }
-        .flex_container{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            .div_img_flex{
-                position: relative;
-                width: 31%;
-                height: 0;
-                padding-bottom: 31%;
-                margin-bottom: 0rem;
-                .img_flex{
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    background-color: #c4c4c421;
-                    width: 90%;
-                    height: 90%;
-                }
-                .text_flex{
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    display: flex;
-                    flex-direction: column;
-                    height: 40%;
-                    align-items: flex-start;
-                    h3,p{
-                        width: 70%;
-                    }
-                    p{
-                        margin-top: 2rem;
-                        font-size: 18px;
-                        font-weight: 400;
-                        line-height: 22px;
-                    }
-                }
-            }
+        
+       .flex_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .div_img_flex{
+            width: 30%;
+            margin-bottom: 0;
+             .logo_container{
+                 margin: 0 auto;
+                 width: auto;
+                 max-width: 300px;
+                 height: auto;
+             }
         }
+    }
+
+
         .flex_container_2{
             display: flex;
             flex-direction: row;
@@ -321,23 +280,16 @@ span{
             align-items: center;
             .div_img_flex{
                 margin: 0 4rem;
-                position: relative;
                 width: 33.3333%;
                 height: 0;
                 padding-bottom: 33.3333%;
                 margin-bottom: 10rem;
                 .img_flex{
-                    position: absolute;
-                    top: 0;
-                    right: 0;
                     background-color: #c4c4c421;
                     width: 90%;
                     height: 90%;
                 }
                 .text_flex{
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
                     display: flex;
                     flex-direction: column;
                     height: 40%;
