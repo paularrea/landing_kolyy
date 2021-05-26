@@ -16,7 +16,6 @@ import {
 import searchIcon from "../images/icons/search.png";
 
 const Doggipedia = ({ data }) => {
-  const { edges } = data.allMarkdownRemark;
   const [state, setState] = useState({
     filteredPosts: [],
     query: "",
@@ -46,7 +45,7 @@ const Doggipedia = ({ data }) => {
     <Layout>
       <Seo title="Doggipedia" />
       <div
-        style={{ backgroundColor: "transparent", height: "500px" }}
+        style={{ backgroundColor: "transparent", height:'50vh', paddingTop:'3rem'}}
         className={bg_img}
       >
         <div className={content}>

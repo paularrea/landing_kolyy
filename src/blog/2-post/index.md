@@ -1,5 +1,5 @@
 ---
-title: La oruga procesionaria
+title: La visión de los perros
 date: 2019-04-06
 path: /oruga-procesionaria-2
 collection: educacion

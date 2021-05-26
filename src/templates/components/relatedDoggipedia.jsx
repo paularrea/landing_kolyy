@@ -42,7 +42,7 @@ const RelatedDoggipedia = () => {
             {data.all.edges.map((edge) => {
               const { frontmatter } = edge.node;
               return (
-                <Col md={4} sm={6} xs={6}>
+                <Col md={3} sm={6} xs={6}>
                   <div className={filter_post} key={frontmatter.path}>
                     <Link to={frontmatter.path}>
                       <Img
@@ -51,7 +51,6 @@ const RelatedDoggipedia = () => {
                       <h5>{frontmatter.title}</h5>
                     </Link>
                     <Link to={frontmatter.path}>
-                      <button>Leer más</button>
                     </Link>
                   </div>
                 </Col>

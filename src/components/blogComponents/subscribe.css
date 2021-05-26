@@ -1,8 +1,13 @@
 #form-container-subscribe{
     background-color: transparent !important; 
+    margin: 0 auto;
 }
-#tu_correo_electronico-7be89bbb-d47f-430a-938f-105819b43cd6{
-    border-radius: 25px !important;
+
+#hbspt-form-1622033678071-6788206543 input{
+    border-radius: 100px !important;
+}
+#tu_correo_electronico-42b27745-051b-4380-b452-8e01c18c5b07{
+    border-radius: 50px !important;
     padding: 15px;
     border: transparent;
     outline: none;
@@ -16,7 +21,7 @@
    align-items: center;
 }
 #form-container-subscribe .actions>input{
-    border-radius: 25px !important;
+    border-radius: 50px !important;
     padding: 15px;
     border: transparent;
     outline: none;
@@ -35,7 +40,7 @@ font-weight: 400;
 @media (min-width: 870px) {
     #form-container-subscribe{
         margin: 3rem 0 !important;
-width: 60%;
+        width: 60%;
     }
 }
 @media (min-width: 900px) {
