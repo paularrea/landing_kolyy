@@ -4,6 +4,7 @@ import {
   absolute_title,
   text_container,
   img_container,
+  img_sticky,
   title_text,
   features,
   flex_feature,
@@ -45,7 +46,9 @@ const GpsComponent = () => {
             </div>
           </div>
           <div className={img_container}>
+            <div className={img_sticky}>
             <GpsImg/>
+            </div>
           </div>
         </div>
       </MediaQuery>

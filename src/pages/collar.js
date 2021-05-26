@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import ActivityComponent from "../components/collarComponents/activityComponent";
 import AppComponent from "../components/collarComponents/appComponent";
 import BookComponent from "../components/collarComponents/bookComponent";
@@ -9,7 +9,10 @@ import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
 import { container, content, bg_img } from "../styles/collar.module.scss";
 
+
+
 const Collar = () => {
+
   return (
     <Layout>
       <Seo title="The Collar" />

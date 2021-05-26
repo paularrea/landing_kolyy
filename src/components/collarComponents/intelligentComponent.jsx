@@ -4,6 +4,7 @@ import {
   absolute_title,
   text_container,
   img_container,
+  img_sticky,
   title_text,
   features,
   flex_feature,
@@ -46,7 +47,9 @@ const InteligentComponent = () => {
             </div>
           </div>
           <div className={img_container}>
-            <IntelligentImg />
+            <div className={img_sticky}>
+              <IntelligentImg />
+            </div>
           </div>
         </div>
       </MediaQuery>

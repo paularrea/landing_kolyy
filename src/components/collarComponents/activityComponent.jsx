@@ -4,6 +4,7 @@ import {
   absolute_title,
   text_container,
   img_container,
+  img_sticky,
   title_text,
   features,
   flex_feature,
@@ -18,7 +19,9 @@ const ActivityComponent = () => {
       <MediaQuery minWidth={600}>
         <div className={container_gps}>
           <div className={img_container}>
-            <ActiveImg/>
+            <div className={img_sticky}>
+              <ActiveImg />
+            </div>
           </div>
           <div className={text_container}>
             <div className={title_text}>
