@@ -1,13 +1,8 @@
 #form-container-subscribe{
     background-color: transparent !important; 
-    margin: 0 auto;
-}
-
-#hbspt-form-1622033678071-6788206543 input{
-    border-radius: 100px !important;
 }
 #tu_correo_electronico-42b27745-051b-4380-b452-8e01c18c5b07{
-    border-radius: 50px !important;
+    border-radius: 25px !important;
     padding: 15px;
     border: transparent;
     outline: none;
@@ -21,15 +16,15 @@
    align-items: center;
 }
 #form-container-subscribe .actions>input{
-    border-radius: 50px !important;
+    border-radius: 25px !important;
     padding: 15px;
     border: transparent;
     outline: none;
     background-color: rgb(48, 170, 170) !important;
-    padding: 5px 30px !important;
-    color: white;
+    padding: 8px 30px !important;
+    color: #F9F9F9;
     margin: 0 auto !important;
-    font-size: 24px;
+    font-size: 22px;
 }
 #my-hubspot-form span{
 color: black;
@@ -39,8 +34,8 @@ font-weight: 400;
 
 @media (min-width: 870px) {
     #form-container-subscribe{
-        margin: 3rem 0 !important;
-        width: 60%;
+        margin: 1rem 0 !important;
+        width: 40%;
     }
 }
 @media (min-width: 900px) {
@@ -61,6 +56,9 @@ font-weight: 400;
 @media (min-width: 1300px) {
     #my-hubspot-form{
         padding: 2rem 5rem; 
+    }
+    #form-container-subscribe{
+        width: 30%;
     }
 }
 @media (min-width: 1600px) {

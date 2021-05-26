@@ -84,28 +84,41 @@
         }
     }
 }
+// Despiece
+.text_despiece{
+    padding: 4rem 0;
+    h2{
+        padding: 2rem 0;
+    }
+    p{
+        width: 90%;
+    }
+
+}
 //Book Component
 .book_container{
     width: 100%;
     text-align: left;
-        .img_bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+        .img_container{
+        width: 100%
+        }
+        .text_container{
+            text-align: center;
             margin-top: 2rem;
-            background-color: #c4c4c421;
+            background-color: transparent;
             height: 676px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             padding-left: 2rem;
-            .img_text{
+            .text{
                 width: 100%;
                 margin-bottom: 6rem;
-                button{
-                    height: 48px;
-                    padding: 0 30px;
-                    font-size: 22px;
-                    margin-top: 1rem;
-                }
                 p{
                     font-size: 14px;
                     line-height: 17px;
@@ -126,6 +139,16 @@
                 float: left;
                 width: 50%;
             }
+        }
+        .text_despiece{
+            padding: 4rem 0;
+            h2{
+                padding: 2rem 0;
+            }
+            p{
+                width: 50%;
+            }
+        
         }
         //Features Component
         .container_gps{
@@ -177,34 +200,40 @@
             }
         }
         //Book Component
-        .book_container{
-            width: 100%;
-            text-align: center;
-                .img_bg{
-                    margin-top: 2rem;
-                    background-color: #c4c4c421;
-                    height: 476px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    .img_text{
-                        width: 33.333%;
-                        margin-bottom: 6rem;
-                        button{
-                            height: 48px;
-                            padding: 0 30px;
-                            font-size: 22px;
-                        }
-                        p{
-                            padding-top: 1rem;
-                            font-size: 18px;
-                            margin-top: 1rem;
-                            line-height: 21.78px;
-                        }
-                    }
+.book_container{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+        .img_container{
+        width: 60%;
+        max-width:650px;
+        }
+        .text_container{
+            margin-top: 2rem;
+            background-color: transparent;
+            height: 676px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 2rem;
+            .text{
+                padding-top: 2rem;
+                text-align: center;
+                width: 60%;
+                p{
+                    font-size: 14px;
+                    line-height: 17px;
+                    margin-top: 1rem;
+                    width: 100%;
                 }
             }
+        }
+    }
+
     }
 @media (min-width: 1200px) {
     .container{
@@ -259,34 +288,7 @@
             }
         }
     }
-    //Book Component
-    .book_container{
-        width: 100%;
-        text-align: center;
-            .img_bg{
-                margin-top: 2rem;
-                background-color: #c4c4c421;
-                height: 676px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                .img_text{
-                    width: 33.333%;
-                    margin-bottom: 6rem;
-                    button{
-                        height: 48px;
-                        padding: 0 30px;
-                        font-size: 22px;
-                    }
-                    p{
-                        width: 100%;
-                        font-size: 17px;
-                        margin-top: 1rem;
-                    }
-                }
-            }
-        }
+     
 }
 @media (min-width: 900px) {
     .container{

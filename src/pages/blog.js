@@ -55,7 +55,9 @@ const Blog = ({ data }) => {
       <BlogImg>
         <div className={bg_img}>
           <div className={content}>
-            <h2>Todo lo que necesitas saber para cuidar de él</h2>
+            <h2>
+              Todo lo que necesitas <br /> para cuidar de él
+            </h2>
             <p>
               Suscríbete a nuestra newsletter y no te pierdas ningún consejo.{" "}
             </p>

@@ -1,18 +1,15 @@
-import React, {useRef} from "react";
+import React from "react";
 import ActivityComponent from "../components/collarComponents/activityComponent";
-import AppComponent from "../components/collarComponents/appComponent";
 import BookComponent from "../components/collarComponents/bookComponent";
+import CommunityComponent from "../components/collarComponents/communityComponent";
+import DespieceComponent from "../components/collarComponents/despieceComponent";
 import GpsComponent from "../components/collarComponents/gpsComponent";
 import IntelligentComponent from "../components/collarComponents/intelligentComponent";
-import LedComponent from "../components/collarComponents/ledComponent";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
 import { container, content, bg_img } from "../styles/collar.module.scss";
 
-
-
 const Collar = () => {
-
   return (
     <Layout>
       <Seo title="The Collar" />
@@ -34,8 +31,8 @@ const Collar = () => {
         <GpsComponent />
         <ActivityComponent />
         <IntelligentComponent />
-        <LedComponent />
-        <AppComponent />
+        <CommunityComponent/>
+        <DespieceComponent/>
       </div>
       <BookComponent />
     </Layout>
