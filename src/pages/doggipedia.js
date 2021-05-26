@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout/layout";
 import { Grid, Row, Col } from "react-flexbox-grid";
@@ -9,36 +9,72 @@ import {
   bg_img,
   content,
   post_flex,
+  search_container,
   post,
 } from "../styles/blog.module.scss";
 
+import searchIcon from "../images/icons/search.png";
+
 const Doggipedia = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
+  const [state, setState] = useState({
+    filteredPosts: [],
+    query: "",
+  });
+
+  const allPosts = data.allMarkdownRemark.edges;
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleInputChange = (event) => {
+    const query = event.target.value;
+    const filteredPosts = allPosts.filter((post) => {
+      const { title } = post.node.frontmatter;
+      return title.toLowerCase().includes(query.toLowerCase());
+    });
+    setState({
+      query,
+      filteredPosts,
+    });
+  };
+
+  const posts = state.query ? state.filteredPosts : allPosts;
+
   return (
     <Layout>
       <Seo title="Doggipedia" />
-      <div style={{backgroundColor:'transparent', height:'500px'}} className={bg_img}>
+      <div
+        style={{ backgroundColor: "transparent", height: "500px" }}
+        className={bg_img}
+      >
         <div className={content}>
           <h2>¿Conoces la raza de tu perro?</h2>
           <p>
-          Descubre las características y secretos de todas las razas de perros en nuestra Doggipedia.
+            Descubre las características y secretos de todas las razas de perros
+            en nuestra Doggipedia.
           </p>
-          <p>filter bar</p>
+          <div className={search_container}>
+            <input
+              type="text"
+              aria-label="Buscar"
+              placeholder="Buscar"
+              value={state.query}
+              onChange={handleInputChange}
+            />
+            <img src={searchIcon} alt="search" />
+          </div>
         </div>
       </div>
       <div className={container}>
         <div className={post_flex}>
           <Grid>
             <Row>
-              {edges.map((edge) => {
+              {posts.map((edge) => {
                 const { frontmatter } = edge.node;
                 return (
-                  <Col md={4} sm={12} xs={12}>
+                  <Col md={3} sm={6} xs={6}>
                     <div className={post} key={frontmatter.path}>
                       <Link to={frontmatter.path}>
                         <Img
@@ -48,9 +84,7 @@ const Doggipedia = ({ data }) => {
                         />
                         <h5>{frontmatter.title}</h5>
                       </Link>
-                      <Link to={frontmatter.path}>
-                        <button>Leer más</button>
-                      </Link>
+                      <Link to={frontmatter.path}></Link>
                     </div>
                   </Col>
                 );

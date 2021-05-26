@@ -3,10 +3,8 @@ const path = require("path");
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   return new Promise((resolve, reject) => {
-    const doggipediaPostTemplate = path.resolve(
-      "src/templates/doggipediaPost.js"
-    );
     const blogPostTemplate = path.resolve("src/templates/blogPost.js");
+    const doggipediaPostTemplate = path.resolve("src/templates/doggipediaPost.js");
     resolve(
       graphql(`
         query {
@@ -19,6 +17,7 @@ exports.createPages = ({ graphql, actions }) => {
                   path
                   title
                   tags
+                  type
                 }
               }
             }
@@ -29,28 +28,16 @@ exports.createPages = ({ graphql, actions }) => {
 
         posts.forEach(({ node }, index) => {
           const path = node.frontmatter.path;
-          if (node.frontmatter.type === "doggipedia") {
-            createPage({
-              path,
-              component: doggipediaPostTemplate,
-              context: {
-                pathSlug: path,
-                prev: index === 0 ? null : posts[index - 1].node,
-                next: index === posts.length - 1 ? null : posts[index + 1].node,
-              },
-            });
-            resolve();
-          } else {
-            createPage({
-              path,
-              component: blogPostTemplate,
-              context: {
-                pathSlug: path,
-                prev: index === 0 ? null : posts[index - 1].node,
-                next: index === posts.length - 1 ? null : posts[index + 1].node,
-              },
-            });
-          }
+          createPage({
+            path,
+            component: node.frontmatter.type === "blog" ? blogPostTemplate : doggipediaPostTemplate,
+            context: {
+              pathSlug: path,
+              prev: index === 0 ? null : posts[index - 1].node,
+              next: index === posts.length - 1 ? null : posts[index + 1].node,
+            },
+          });
+          resolve();
         });
       })
     );

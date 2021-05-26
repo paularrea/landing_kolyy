@@ -13,7 +13,21 @@
         margin-bottom: 2rem;
     }
     p{
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
+    }
+    .search_container{
+        background-color: rgba(217, 218, 221, .33);
+        display: flex;
+        width: 200px;
+        border-radius: 100px;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        input{
+            border: none;
+            background-color: transparent;
+            outline: none;
+        }
     }
 }
 }
@@ -136,7 +150,7 @@
             margin-bottom: 2rem;
         }
         p{
-            margin-bottom: 1rem;
+            margin-bottom: 4rem;
         }
     }
     }
