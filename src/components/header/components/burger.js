@@ -5,7 +5,7 @@ import "./burger.css";
 import Logo from "./logo";
 import Link from "../../Link";
 import Language from "../../language";
-import PhoneIcon from "../../../images/svg/PHONE.svg";
+import menuArrow from "../../../images/icons/menuArrow.png";
 
 const Burger = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,6 +28,11 @@ const Burger = () => {
         <div className="logo-menu">
           <Logo />
         </div>
+
+        <div className='flex-btns'>
+          <button>Reserva</button>
+          <button className='gray'>Iniciar sesión</button>
+        </div>
         <nav className="bm-item-list">
           <Link className="menu-item" id="collar" to="/collar">
             <div
@@ -43,6 +48,7 @@ const Burger = () => {
             >
               {" "}
               <FormattedMessage id="nav.collar" />
+              <img src={menuArrow} alt="Collar" />
             </div>
           </Link>
 
@@ -64,6 +70,7 @@ const Burger = () => {
             >
               {" "}
               <FormattedMessage id="nav.placa" />
+              <img src={menuArrow} alt="#0perrosPerdidos" />
             </div>
           </Link>
 
@@ -81,9 +88,26 @@ const Burger = () => {
             >
               {" "}
               <FormattedMessage id="nav.about" />
+              <img src={menuArrow} alt="About" />
             </div>
           </Link>
-          {/* <hr /> */}
+          <Link id="doggipedia" to="/doggipedia" className="menu-item">
+            <div
+              role="link"
+              className="anchor-div"
+              onClick={() => {
+                closeMenu();
+              }}
+              onKeyDown={() => {
+                closeMenu();
+              }}
+              tabIndex={0}
+            >
+              {" "}
+              <FormattedMessage id="nav.doggipedia" />
+              <img src={menuArrow} alt="doggipedia" />
+            </div>
+          </Link>
           <Link id="blog" to="/blog" className="menu-item">
             <div
               role="link"
@@ -98,9 +122,9 @@ const Burger = () => {
             >
               {" "}
               <FormattedMessage id="nav.blog" />
+              <img src={menuArrow} alt="blog" />
             </div>
           </Link>
-          {/* <hr /> */}
           <Link id="questions" to="/questions" className="menu-item">
             <div
               role="link"
@@ -115,9 +139,10 @@ const Burger = () => {
             >
               {" "}
               <FormattedMessage id="nav.questions" />
+              <img src={menuArrow} alt="contact" />
             </div>
           </Link>
-          <a
+          {/* <a
             href="https://app.kolyy.com/"
             rel="noreferrer"
             target="_blank"
@@ -137,21 +162,11 @@ const Burger = () => {
               {" "}
               <FormattedMessage id="nav.login" />
             </div>
-          </a>
-          {/* <hr /> */}
+          </a> */}
         </nav>
-        <div className="follow-container">
           <div className="language-container">
             <Language />
-            {/* <hr /> */}
-            <div className="contact-flex">
-              <PhoneIcon />
-              <a href="tel:+41313019439" rel="noreferrer" target="_blank">
-                +34 66 666 66 66
-              </a>
-            </div>
           </div>
-        </div>
       </Menu>
     </>
   );

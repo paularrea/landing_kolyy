@@ -2,124 +2,98 @@
     padding-top: 1rem;
     position: relative;
     top: .6rem !important;
-    right: 2rem !important;
-    width: 1.5rem !important;
-    height: 1.5rem !important;
+    right: 1.5rem !important;
+    width: 18px !important;
+    height: 15px !important;
   }
   .bm-burger-bars {
-    background: #2A343B;
-    border-radius: 2px;
-    height: 2px !important;
-  }
-  .bm-burger-bars-hover {
-    background: var(--btn-hover);
+    background: #999999;
+    border-radius: 1px;
+    height: 1px !important;
   }
   .bm-cross-button {
     position: absolute;
-    top: 2rem !important;
-    right: 2.5rem !important;
+    top: .8rem !important;
+    right: 1.5rem !important;
   }
   .bm-cross {
-    background: #2D373E;
-    border-radius: 2px;
-    width: 25px !important;
-    height: 2px !important;
+    background: #999999;
+    border-radius: 1px;
+    width: 15px !important;
+    height: 1px !important;
   }
   .bm-menu-wrap {
     position: fixed;
     width: 100vw !important;
     height: 100vh !important;
     top: 0 !important;
-    background:  whitesmoke;
+    background:  rgb(255, 255, 255);
+  }
+  .logo-menu img{
+    width: 49px;
+  }
+  .anchor-div{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#1F1F1F;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 600;
+    margin: 2rem auto;
+  }
+  .anchor-div img{
+    width: 6.71px;
+    height: 10.48px;
+  }
+  .flex-btns{
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8vh;
+  }
+  .flex-btns button{
+    margin: 0;
+    width: 163px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    border-radius: 100px;
+  }
+  .flex-btns .gray{
+    background-color:#D9DADD;
+    color: #1F1F1F;
   }
   /* General sidebar styles */
   .bm-menu {
     display: flex;
-    margin: 0 2.5rem;
-    margin-top: 15vh;
+    margin: 0 1rem;
+    margin-top: 12vh;
     width: auto;
     height: fit-content !important;
   }
-  /* Wrapper for item list */
-  /* hr{
-    width: 100%;
-    display: block; height: 1px;
-    border: 0; border-top: .1px solid #2d373e41;
-    margin: 0; padding: 0;
-  } */
   .bm-item-list{
     width: 100%;
     height: auto;
   }
-  .bm-item-list a{
-    text-align: center;
-    outline: none !important;
-    outline-color: transparent;
-    text-decoration: none;
-    font-weight: 100;
-    width: fit-content;
-    color: #2D373E;
-    font-size: 24px;
-  }
-  .anchor-div{
-    margin-top: 1rem !important;
-    margin-bottom: 1.5rem !important;
-  }
-  .button_burger{
-    padding: 0;
-    outline: none !important;
-    outline-color: transparent;
-    color: white !important;
-    font-size: 1.5rem;
-    margin-bottom: .5rem;
-  }
   /* language */
   .language-container{
     display: flex;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     outline: none !important;
-    margin-top: 1vh;
-  }
-  .contact-flex{
-    margin: 4vh 0;
-    width: auto;
-  }
-  .contact-flex a {
-    color: #2D373E;
-    font-size: 20px;
-    font-weight: 100;
-  }
-  .contact-flex svg {
-    filter:brightness(3) invert(.7);
-    margin: 0 .7rem;
-  }
-  /* follow and media  */
-  .follow-container{
+    bottom: 2rem;
+    width: 200px;
     position: absolute;
-    padding-right: 5rem;
-    width: 100%;
-    text-decoration: none;
-    outline: none !important;
-    bottom: 10vh;
+    left: 50%;
+    margin-left: -100px
   }
-  .follow-container h3{
-    color: white;
-    padding-top: 2rem;
-    margin: 0;
-    font-size: 18px;
-  }
-  .bm-overlay{
-   display: none;
-  }
-
-  @media (max-height:600px) and (max-width:370px) {
-    .follow-container{
-      bottom: 5vh;
-    }
-    .follow-container h3{
-      padding-top: 1rem;
-    }
+  .language-container div{
+    margin: 0 auto;
   }

@@ -4,7 +4,7 @@ import React from "react";
 import MediaQuery from "react-responsive";
 import DesktopHeader from "./components/DesktopHeader";
 
-import { navBar, burger } from "./header.module.scss";
+import { navBar, burger, flex_nav_btn } from "./header.module.scss";
 import Logo from "./components/logo";
 import Burger from "./components/burger";
 
@@ -18,8 +18,11 @@ const Header = () => (
               <Logo />
             </Link>
           </div>
-          <div className={burger}>
-            <Burger />
+          <div className={flex_nav_btn}>
+            <button>Reserva</button>
+            <div className={burger}>
+              <Burger />
+            </div>
           </div>
         </div>
       </header>

@@ -6,7 +6,7 @@ import {
   content,
   bg_img,
   flex_container,
-  flex_container_2,
+  less_with_container,
   clear_blue_container,
   clear_text,
   clear_logo,
@@ -16,7 +16,6 @@ import {
   logo_container,
   mockup_img,
   text_flex,
-  img_flex,
   container_title,
 } from "../styles/placas.module.scss";
 import ZeroPPImg from "../components/0perrosPerdidosComponents/0ppBackgroundImg";
@@ -80,7 +79,7 @@ const zeroPerrosPerdidos = () => {
       </div>
 
       <div className={container}>
-        <div>
+        <div className={less_with_container}>
           <div className={container_title}>
             <span>Vive sin miedo.</span>
             <h2>
@@ -89,9 +88,9 @@ const zeroPerrosPerdidos = () => {
             </h2>
             <p>Existen dos formas en las que podemos ayudarte.</p>
           </div>
-          <div className={flex_container_2}>
+          <div className={flex_container}>
             <div className={div_img_flex}>
-              <div className={img_flex}>
+              <div className={logo_container}>
                 <PlacaIcon />
               </div>
               <div className={text_flex}>
@@ -105,7 +104,7 @@ const zeroPerrosPerdidos = () => {
               </div>
             </div>
             <div className={div_img_flex}>
-              <div className={img_flex}>
+              <div className={logo_container}>
                 <CommunityIcon />
               </div>
               <div className={text_flex}>
@@ -197,7 +196,7 @@ const zeroPerrosPerdidos = () => {
 
         <div className={flex_container}>
           <div className={div_img_flex}>
-          <div className={logo_container}>
+            <div className={logo_container}>
               <IconFour />
             </div>
             <div className={text_flex}>
@@ -214,7 +213,7 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-          <div className={logo_container}>
+            <div className={logo_container}>
               <IconFive />
             </div>
             <div className={text_flex}>
@@ -227,7 +226,7 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-          <div className={logo_container}>
+            <div className={logo_container}>
               <IconSix />
             </div>
             <div className={text_flex}>
@@ -247,7 +246,7 @@ const zeroPerrosPerdidos = () => {
 
         <div className={flex_container}>
           <div className={div_img_flex}>
-          <div className={logo_container}>
+            <div className={logo_container}>
               <IconSeven />
             </div>
             <div className={text_flex}>
@@ -260,7 +259,7 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-          <div className={logo_container}>
+            <div className={logo_container}>
               <IconEight />
             </div>
             <div className={text_flex}>
@@ -273,7 +272,7 @@ const zeroPerrosPerdidos = () => {
             </div>
           </div>
           <div className={div_img_flex}>
-          <div className={logo_container}>
+            <div className={logo_container}>
               <IconNine />
             </div>
             <div className={text_flex}>

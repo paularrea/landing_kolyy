@@ -18,21 +18,21 @@ span{
         h2{
         text-align: center;
         margin-bottom: 0rem;
-    }
-    p{
+        }
+        p{
         text-align: center;
         font-size: 18px;
         line-height: 22px;
         margin: 1rem;
         width: 80%;
-    }
-    button{
+        }
+        button{
         margin-top: 2rem;
         height: 48px;
         padding: 0 30px;
         font-size: 22px;
+        }
     }
-}
 }
 .clear_blue_container{
     padding: 2rem;
@@ -45,13 +45,13 @@ span{
         padding: 3rem 0;
         width: 100%;
         p{
-            width: auto;
-           font-size: 18px;
-            line-height: 21.78px;
-            font-weight: 400; 
+        width: auto;
+        font-size: 18px;
+        line-height: 21.78px;
+        font-weight: 400; 
         }
         button{
-            margin-top: 3rem;
+        margin-top: 3rem;
         }  
     }
     .clear_logo{
@@ -87,9 +87,9 @@ span{
         display: flex;
         justify-content: center;
         align-items: center;
-      img{
-      width: 100%;
-    }  
+        img{
+        width: 100%;
+        }  
     }   
 }
 .container{
@@ -108,13 +108,21 @@ span{
            font-size: 20px;
            line-height: 24px;
        }
-   }
-    
+   } 
+   .less_with_container{
+    width: 100%;
+    margin: 0 auto;
+    h3{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 43.57px;
+    }
+    }
    .flex_container{
        display: flex;
        flex-direction: column;
        justify-content: space-between;
-       align-items: center;
+       align-items: flex-start;
        .div_img_flex{
            width: 95%;
            margin-bottom: 4rem;
@@ -124,52 +132,19 @@ span{
                 max-width: 300px;
                 height: auto;
             }
-       }
-   }
-
-    .flex_container_2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .div_img_flex{
-            margin: 2rem 4rem;
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-bottom: 100%;
-            margin-bottom: 10rem;
-            .img_flex{
-                position: absolute;
-                top: 0;
-                right: 0;
-                background-color: #c4c4c421;
-                width: 90%;
-                height: 90%;
-            }
             .text_flex{
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                display: flex;
-                flex-direction: column;
-                height: 40%;
-                align-items: flex-start;
-                h3,p{
-                    width: 90%;
+                width: 100%;
+                h3{
+                    margin-bottom: 2rem;
                 }
                 p{
-                    margin-top: 2rem;
-                    font-size: 18px;
-                    font-weight: 400;
-                    line-height: 22px;
+                    margin-bottom: 2rem;
+                    font-size: 16px;
+                    line-height: 19.36px;
                 }
             }
-            button{
-                margin-top: 2rem;
-            }
-        }
-    }
+       }
+   }
 }
 
 @media (min-width: 700px) {
@@ -190,18 +165,18 @@ span{
             padding: 6rem 0;
             width: 60%;
             p{
-                width: 70%;
-               font-size: 18px;
-                line-height: 21.78px;
-                font-weight: 400; 
+            width: 70%;
+            font-size: 18px;
+            line-height: 21.78px;
+            font-weight: 400; 
             }
             button{
-                margin-top: 3rem;
+            margin-top: 3rem;
             }  
         }
         .clear_logo{
-            width: 40%;
-            text-align: center;
+        width: 40%;
+        text-align: center;
         }
     }
     .mockup_container{
@@ -214,27 +189,27 @@ span{
         background-color: #AFD0D0;
         .mockup_text{
             a{
-                color: #30AAAA;
+            color: #30AAAA;
             }
             h2{
             width: 80%;
             margin-bottom: 2rem;
             }
             p{
-                width: 60%;
-               font-size: 18px;
-                line-height: 21.78px;
-                font-weight: 400; 
-                margin-bottom: 2rem;
+            width: 60%;
+            font-size: 18px;
+            line-height: 21.78px;
+            font-weight: 400; 
+            margin-bottom: 2rem;
             }
         }
         .mockup_img{
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
           img{
           width: 80%;  
-        }  
+            }  
         }   
     }
 
@@ -245,8 +220,7 @@ span{
            flex-direction: column;
            justify-content: center;
            align-items: center;
-           margin: 6rem 0;
-           margin-top: 8rem;
+           margin-bottom: 0;
            p{
                 margin-top: 2rem;
                font-weight: 500;
@@ -254,56 +228,31 @@ span{
                line-height: 24px;
            }
        }
-        
        .flex_container{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
+        margin: 4rem 0;
+        margin-bottom: 8rem;
         .div_img_flex{
-            width: 30%;
+            width: 25%;
             margin-bottom: 0;
              .logo_container{
                  margin: 0 auto;
                  width: auto;
                  max-width: 300px;
                  height: auto;
-             }
-        }
-    }
-
-
-        .flex_container_2{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            .div_img_flex{
-                margin: 0 4rem;
-                width: 33.3333%;
-                height: 0;
-                padding-bottom: 33.3333%;
-                margin-bottom: 10rem;
-                .img_flex{
-                    background-color: #c4c4c421;
-                    width: 90%;
-                    height: 90%;
                 }
-                .text_flex{
-                    display: flex;
-                    flex-direction: column;
-                    height: 40%;
-                    align-items: flex-start;
-                    margin-bottom: .5vw;
-                    h3,p{
-                        width: 90%;
-                    }
-                    p{
-                        margin-top: 2rem;
-                        font-size: 18px;
-                        font-weight: 400;
-                        line-height: 22px;
-                    }
+            }
+        }
+        .less_with_container{
+            width: 75%;
+            margin: 0 auto;
+            .div_img_flex{
+                width: 45%;
+                p{
+                    width: 70%;
                 }
             }
         }

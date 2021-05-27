@@ -7,7 +7,7 @@ import {
 
 const languageName = {
   en: "EN",
-  ca: "CA",
+  ca: "CAT",
   es: "ES",
 };
 
@@ -26,7 +26,8 @@ const Language = () => {
               className={translation_item}
               style={{
                 color: currentLocale === language && `black`,
-                borderBottom: currentLocale === language && `2px solid black`,
+                fontWeight: currentLocale === language && `700`,
+                // borderBottom: currentLocale === language && `2px solid black`,
                 cursor: `pointer`,
               }}
             >
