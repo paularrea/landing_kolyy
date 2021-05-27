@@ -129,7 +129,7 @@ span{
             .logo_container{
                 margin: 0 auto;
                 width: auto;
-                max-width: 300px;
+                max-width: 200px;
                 height: auto;
             }
             .text_flex{
@@ -139,8 +139,9 @@ span{
                 }
                 p{
                     margin-bottom: 2rem;
-                    font-size: 16px;
-                    line-height: 19.36px;
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: 400;
                 }
             }
        }
@@ -233,7 +234,8 @@ span{
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        margin: 4rem 0;
+        margin: 4rem auto;
+        width: 100%;
         margin-bottom: 8rem;
         .div_img_flex{
             width: 25%;
@@ -243,6 +245,18 @@ span{
                  width: auto;
                  max-width: 300px;
                  height: auto;
+                }
+            }
+            .text_flex{
+                width: 100%;
+                h3{
+                    margin-bottom: 2rem;
+                }
+                p{
+                    margin-bottom: 2rem;
+                    font-size: 16px !important;
+                    line-height: 19.36px !important;
+                    font-weight: 400;
                 }
             }
         }
@@ -298,22 +312,22 @@ span{
 }
 @media (min-width: 1100px) {
     .container, .clear_blue_container, .mockup_container{
-        padding: 2rem 2rem; 
+        padding: 2rem 5rem; 
     }
 }
 @media (min-width: 1300px) {
     .container, .clear_blue_container, .mockup_container{
-        padding: 2rem 5rem; 
+        padding: 2rem 10rem; 
     }
 }
 @media (min-width: 1600px) {
     .container, .clear_blue_container, .mockup_container{
-        padding: 2rem 5rem; 
+        padding: 2rem 10rem; 
     }
 }
 @media (min-width: 1800px) {
     .container, .clear_blue_container, .mockup_container{
-        padding: 2rem 10rem; 
+        padding: 2rem 15rem; 
     }
 }
 @media (min-width: 2000px) {
