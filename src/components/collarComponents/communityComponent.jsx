@@ -10,10 +10,9 @@ import {
   flex_feature,
 } from "../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
-import ActivityMobile from "./mobile/activityMobile";
-import ActiveImg from "./img/activeImg";
 import CommunityMobile from "./mobile/communityMobile";
 import CommunityImg from "./img/communityImg";
+import star from "../../images/icons/star.png"
 
 const CommunityComponent = () => {
   return (
@@ -41,11 +40,11 @@ const CommunityComponent = () => {
             </div>
             <div className={features} style={{ marginLeft: "2rem" }}>
               <div className={flex_feature}>
-                <div>*</div>
+              <div><img src={star} alt="star point" /></div>
                 <h5>Forma parte de la comunidad y conoce a otros kolyers.</h5>
               </div>
               <div className={flex_feature}>
-                <div>*</div>
+              <div><img src={star} alt="star point" /></div>
                 <h5>Todos los datos en una sola plataforma.</h5>
               </div>
             </div>

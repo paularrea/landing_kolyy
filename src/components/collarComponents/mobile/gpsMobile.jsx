@@ -9,7 +9,8 @@ import {
   flex_feature,
 } from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
-import GpsImg from "../img/gpsImg"
+import GpsImg from "../img/gpsImg";
+import star from "../../../images/icons/star.png";
 
 const GpsMobile = () => {
   return (
@@ -31,17 +32,21 @@ const GpsMobile = () => {
         </div>
       </div>
       <div className={img_container}>
-        <GpsImg/>
+        <GpsImg />
       </div>
       <div className={container_gps}>
         <div className={text_container}>
           <div className={features} style={{ marginRight: "0" }}>
             <div className={flex_feature}>
-              <div>*</div>
+              <div>
+                <img src={star} alt="star point" />
+              </div>
               <h5>Geolocalización a tiempo real a través de 2G /3G.</h5>
             </div>
             <div className={flex_feature}>
-              <div>*</div>
+              <div>
+                <img src={star} alt="star point" />
+              </div>
               <h5>
                 Señal de localización si el perro ha salido de la zona de
                 seguridad.

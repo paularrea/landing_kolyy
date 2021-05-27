@@ -10,6 +10,7 @@ import {
 } from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
 import ActiveImg from "../img/activeImg"
+import star from "../../../images/icons/star.png"
 
 const ActivityMobile = () => {
   return (
@@ -37,19 +38,19 @@ const ActivityMobile = () => {
         <div className={text_container}>
           <div className={features} style={{ marginLeft: "0" }}>
             <div className={flex_feature}>
-              <div>*</div>
+     <div><img src={star} alt="star point" /></div>
               <h5>Sensor de movimiento y actividad.</h5>
             </div>
             <div className={flex_feature}>
-              <div>*</div>
+     <div><img src={star} alt="star point" /></div>
               <h5>Contador de pasos.</h5>
             </div>
             <div className={flex_feature}>
-              <div>*</div>
+     <div><img src={star} alt="star point" /></div>
               <h5>Registro de distancia recorrida.</h5>
             </div>
             <div className={flex_feature}>
-              <div>*</div>
+     <div><img src={star} alt="star point" /></div>
               <h5>Registro de tiempo de paseos.</h5>
             </div>
           </div>

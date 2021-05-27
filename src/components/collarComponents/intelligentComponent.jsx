@@ -12,6 +12,7 @@ import {
 import MediaQuery from "react-responsive";
 import IntelligentMobile from "./mobile/intelligentMobile";
 import IntelligentImg from "./img/intelligentImg";
+import star from "../../images/icons/star.png"
 
 const InteligentComponent = () => {
   return (
@@ -33,15 +34,15 @@ const InteligentComponent = () => {
             </div>
             <div className={features} style={{ marginRight: "2rem" }}>
               <div className={flex_feature}>
-                <div>*</div>
+                <div><img src={star} alt="star point" /></div>
                 <h5>Registro de tiempo tumbado.</h5>
               </div>
               <div className={flex_feature}>
-                <div>*</div>
+                <div><img src={star} alt="star point" /></div>
                 <h5>Registro de horas de sueño.</h5>
               </div>
               <div className={flex_feature}>
-                <div>*</div>
+              <div><img src={star} alt="star point" /></div>
                 <h5>Sensor de rascado.</h5>
               </div>
             </div>
