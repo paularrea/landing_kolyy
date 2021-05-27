@@ -20,11 +20,11 @@ const Header = () => (
             </Link>
           </div>
           <div className={flex_nav_btn}>
-            <Link id="book" to="/book">
               <button>
+            <Link id="book" to="/book">
                 <FormattedMessage id="nav.book" />
-              </button>
             </Link>
+              </button>
             <div className={burger}>
               <Burger />
             </div>
