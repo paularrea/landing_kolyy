@@ -41,7 +41,6 @@
     display: flex;
     flex-direction: column;
     .img_container{
-        background-color: #c4c4c421;
         width: 100%;
         .img_sticky{
             height: 100vh;
@@ -76,7 +75,6 @@
             }
         }
         .features{
-            margin-bottom: 2rem;
             background-color: #c4c4c421;
             padding: 2rem;
             .flex_feature{
@@ -276,7 +274,6 @@
                     padding: 1rem;
                     .flex_feature{
                         display: flex;
-                        margin-bottom: 2rem;
                         justify-content: flex-start;
                         align-items: flex-start;
                     }
@@ -337,9 +334,24 @@
                     line-height: 17px;
                     margin-top: 1rem;
                     width: 100%;
-                    margin-bottom: 2rem;
                 }
             }
+        }
+    }
+}
+@media only screen 
+and (max-device-height : 1370px) 
+and (max-device-width : 1025px)
+{
+    .container_gps{
+        .img_container{
+                .img_sticky{
+                    height: 100%;
+                    overflow: hidden;
+                    position: -webkit-sticky;
+                    position: sticky;
+                    top: 0;
+                }
         }
     }
 }

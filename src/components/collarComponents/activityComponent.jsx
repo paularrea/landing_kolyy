@@ -12,7 +12,7 @@ import {
 import MediaQuery from "react-responsive";
 import ActivityMobile from "./mobile/activityMobile";
 import ActiveImg from "./img/activeImg";
-import star from "../../images/icons/star.png"
+import star from "../../images/icons/star.png";
 
 const ActivityComponent = () => {
   return (
@@ -21,7 +21,8 @@ const ActivityComponent = () => {
         <div className={container_gps}>
           <div className={img_container}>
             <div className={img_sticky}>
-              <ActiveImg />
+              <ActiveImg
+              />
             </div>
           </div>
           <div className={text_container}>
@@ -39,19 +40,27 @@ const ActivityComponent = () => {
             </div>
             <div className={features} style={{ marginLeft: "2rem" }}>
               <div className={flex_feature}>
-              <div><img src={star} alt="star point" /></div>
+                <div>
+                  <img src={star} alt="star point" />
+                </div>
                 <h5>Sensor de movimiento y actividad.</h5>
               </div>
               <div className={flex_feature}>
-                <div><img src={star} alt="star point" /></div>
+                <div>
+                  <img src={star} alt="star point" />
+                </div>
                 <h5>Contador de pasos.</h5>
               </div>
               <div className={flex_feature}>
-              <div><img src={star} alt="star point" /></div>
+                <div>
+                  <img src={star} alt="star point" />
+                </div>
                 <h5>Registro de distancia recorrida.</h5>
               </div>
               <div className={flex_feature}>
-              <div><img src={star} alt="star point" /></div>
+                <div>
+                  <img src={star} alt="star point" />
+                </div>
                 <h5>Registro de tiempo de paseos.</h5>
               </div>
             </div>
