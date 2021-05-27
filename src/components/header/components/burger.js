@@ -25,13 +25,22 @@ const Burger = () => {
         isOpen={menuOpen}
         onStateChange={(state) => handleStateChange(state)}
       >
-        <div className="logo-menu">
-          <Logo />
-        </div>
-
-        <div className='flex-btns'>
-          <button>Reserva</button>
-          <button className='gray'>Iniciar sesión</button>
+        <Link id="home" to="/">
+          <div className="logo-menu">
+            <Logo />
+          </div>
+        </Link>
+        <div className="flex-btns">
+          <Link id="book" to="/book">
+            <button>
+              <FormattedMessage id="nav.book" />
+            </button>
+          </Link>
+          <a href="https://app.kolyy.com/" rel="noreferrer" target="_blank">
+            <button className="gray">
+              <FormattedMessage id="nav.login" />
+            </button>
+          </a>
         </div>
         <nav className="bm-item-list">
           <Link className="menu-item" id="collar" to="/collar">
@@ -142,31 +151,10 @@ const Burger = () => {
               <img src={menuArrow} alt="contact" />
             </div>
           </Link>
-          {/* <a
-            href="https://app.kolyy.com/"
-            rel="noreferrer"
-            target="_blank"
-            className="menu-item"
-          >
-            <div
-              role="link"
-              className="anchor-div"
-              onClick={() => {
-                closeMenu();
-              }}
-              onKeyDown={() => {
-                closeMenu();
-              }}
-              tabIndex={0}
-            >
-              {" "}
-              <FormattedMessage id="nav.login" />
-            </div>
-          </a> */}
         </nav>
-          <div className="language-container">
-            <Language />
-          </div>
+        <div className="language-container">
+          <Language />
+        </div>
       </Menu>
     </>
   );

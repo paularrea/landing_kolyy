@@ -7,7 +7,7 @@ import Img from "gatsby-image";
 import {
   container,
   bg_img,
-  content,
+  content_doggi,
   post_flex,
   search_container,
   post,
@@ -48,8 +48,8 @@ const Doggipedia = ({ data }) => {
         style={{ backgroundColor: "transparent", height:'50vh', paddingTop:'3rem'}}
         className={bg_img}
       >
-        <div className={content}>
-          <h2>¿Conoces la raza de tu perro?</h2>
+        <div className={content_doggi}>
+          <h2 style={{color:'black'}}>¿Conoces la raza de tu perro?</h2>
           <p>
             Descubre las características y secretos de todas las razas de perros
             en nuestra Doggipedia.
