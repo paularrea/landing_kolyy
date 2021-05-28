@@ -22,10 +22,13 @@ const BookComponent = () => {
             <h2>¿Cómo puedo conseguirlo?</h2>
             <div className={text}>
               <p>
-                Solo se están fabricando 500 collares ahora mismo, ¿quieres
-                entrar en la lista de espera para conseguir el tuyo? <br />{" "}
+                Kolyy es el primer collar para perros con un potencial y
+                recorrido infinitos. Este año estamos fabricando 500 collares
+                disponibles para 2022.
                 <br />
-                Dános tu email y te enviaremos la invitación.
+                ¿Quieres asegurarte uno? <br />
+                <br />
+                Déjanos tu correo electrónico y te enviaremos una invitación.
               </p>
               {/* <SubscribeComponent /> */}
             </div>

@@ -4,11 +4,9 @@
 }
 button{
     -webkit-appearance: none !important;
-    border-radius: 0 !important;
   }
 input[type=text], input[type=button] {
     -webkit-appearance: none;
-    border-radius: 0;
 }
 #tu_correo_electronico-42b27745-051b-4380-b452-8e01c18c5b07{
     border-radius: 25px !important;
