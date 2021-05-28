@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
   }
 html, body{
   background-color: white;
@@ -13,8 +14,12 @@ h1,h2,h3,h4,h5,p{
   margin: 0;
 }
 button{
+  -webkit-appearance: none !important;
+  border-radius: 0 !important;
+}
+input[type=text], input[type=button] {
   -webkit-appearance: none;
-  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 h1{
   font-size: 40px;

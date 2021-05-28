@@ -1,8 +1,5 @@
 .bm-burger-button {
-    padding-top: 1rem;
     position: relative;
-    top: .6rem !important;
-    right: 1.5rem !important;
     width: 18px !important;
     height: 15px !important;
   }
@@ -13,8 +10,8 @@
   }
   .bm-cross-button {
     position: absolute;
-    top: .8rem !important;
-    right: 1.5rem !important;
+    top: 1rem !important;
+    right: 2rem !important;
   }
   .bm-cross {
     background: #999999;

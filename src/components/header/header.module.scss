@@ -54,14 +54,13 @@ header{
         }
 }
 .burger{
-    padding-bottom: 1rem;
+    padding: 1rem 2rem;
 }
 .flex_nav_btn{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     button{
-    margin-right: 3rem;
       font-size: 12px;
       font-weight: 300;
       padding: 0.3rem 1rem;  

@@ -70,13 +70,13 @@
         width: .7rem !important;
     }
     a{
-        color: #120F3D;
+        color: #1F1F1F;
         margin: 0;
         padding: 0;
         font-size: 20px;
         line-height: 24px;
     }&:hover{
-        text-decoration: underline;
+        transform: scale(1.05);
     }
 }
 .privacity_container{
@@ -135,6 +135,13 @@
             padding-bottom: 2rem;
             h3{
                 font-size: 32px;
+            }
+        }
+        .contact_div{
+            div{
+                a{
+                   font-size: 14px !important;   
+                } 
             }
         }
         .media_container{

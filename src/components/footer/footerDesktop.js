@@ -37,7 +37,7 @@ const FooterDesktop = () => {
           <h3>
             <FormattedMessage id="footer.title" />
           </h3>
-          <button>
+          <button style={{fontSize:'13px'}}>
             <a
               style={{ color: "white" }}
               href="mailto:hola@kolyy.com"

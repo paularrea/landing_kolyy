@@ -1,8 +1,9 @@
 .dropdown-collapse {
-  background-color: #c4c4c421;
+  background-color: #d8d8d821;
   margin: 0 1.5rem;
     transition: height 1s ease;
     height:0;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

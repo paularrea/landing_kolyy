@@ -1,5 +1,14 @@
 #form-container-subscribe{
     background-color: transparent !important; 
+    width: 90%;
+}
+button{
+    -webkit-appearance: none !important;
+    border-radius: 0 !important;
+  }
+input[type=text], input[type=button] {
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 #tu_correo_electronico-42b27745-051b-4380-b452-8e01c18c5b07{
     border-radius: 25px !important;
@@ -31,6 +40,18 @@ color: black;
 font-size: 16px;
 font-weight: 400;
 }
+
+/* tablet */
+ @media only screen 
+ and (max-device-height : 1370px) 
+ and (max-device-width : 1025px)
+ and (min-device-width : 500px)
+ {
+    #form-container-subscribe{
+        margin: 1rem 0 !important;
+        width: 60%;
+    }
+ }
 
 @media (min-width: 870px) {
     #form-container-subscribe{

@@ -70,7 +70,8 @@
     .post_flex{
         width: 100%;
         text-align: left; 
-        padding: 0 1rem;
+        padding: 1rem;
+        padding-top: 2rem;
         .post{
             text-align: left;  
             height: auto;
@@ -130,9 +131,11 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                background-color: #c4c4c421;
+                border-radius: 20px 20px 0 0;
+                background-color: #d8d8d821;
                 margin: 0 1.5rem;
                 padding: 1rem;
+                max-width: 400px;
                 img{
                     width: 12px;
                 }
@@ -289,6 +292,7 @@
         }
     }
 }
+
 @media (min-width: 900px) {
     .search_absolute{
         right: 2rem;

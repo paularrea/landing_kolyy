@@ -19,7 +19,7 @@ const Contacts = () => {
             rel="noreferrer"
             target="_blank"
           >
-            Sant Cugat, Vallès Occidental, Spain
+            Made with love in Barcelona.
           </a>
         </div>
       </div>
