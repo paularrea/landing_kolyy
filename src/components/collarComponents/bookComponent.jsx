@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'gatsby'
 import {
   book_container,
   img_container,
@@ -46,7 +47,9 @@ const BookComponent = () => {
                 de identificación kolyy y nuestra plataforma web para evitar las
                 fugas o pérdidas de nuestros mejores amigos.
               </p>
-              <button>Botón</button>
+              <Link to="/zero-perros-perdidos">
+              <button>Saber más</button>
+            </Link>
             </div>
           </div>
         </div>

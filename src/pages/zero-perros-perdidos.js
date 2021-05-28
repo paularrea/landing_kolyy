@@ -11,6 +11,8 @@ import {
   clear_text,
   clear_logo,
   div_img_flex,
+  hashtag_container,
+  flex_hash,
   mockup_container,
   mockup_text,
   logo_container,
@@ -37,13 +39,13 @@ import IconNine from "../components/0perrosPerdidosComponents/iconNine";
 const zeroPerrosPerdidos = () => {
   return (
     <Layout>
-      <Seo title="0 perros perdidos" />
+      <Seo title="#0perrosperdidos" />
       <ZeroPPImg>
         <div className={bg_img}>
           <div className={content}>
             <h2>
               Un reto:
-              <br /> 0 perros perdidos
+              <br /> #0perrosperdidos
             </h2>
             <p>Mantener a tu perro a salvo no cuesta nada.</p>
             <button>Súmate al reto</button>
@@ -58,7 +60,7 @@ const zeroPerrosPerdidos = () => {
             ver más fotos en redes sociales de perros perdidos o carteles
             colgados en árboles con un “Se busca” y una recompensa, por eso
             hemos lanzado una iniciativa con el fin de conseguir los{" "}
-            <b>0 perros perdidos.</b>
+            <b>#0perrosperdidos.</b>
             <br />
             <br />
             <i>¿Y cómo lo vamos a hacer?</i> <br /> Con una plataforma, una
@@ -72,7 +74,7 @@ const zeroPerrosPerdidos = () => {
         </div>
         <div className={clear_logo}>
           <h2>
-            Iniciativa <br /> 0 perros perdidos
+            Iniciativa <br /> #0perrosperdidos
           </h2>{" "}
           <br /> <h2>(logo)</h2>
         </div>
@@ -141,6 +143,18 @@ const zeroPerrosPerdidos = () => {
           <img src={mockup} alt="phone mockup" />
         </div>
       </div>
+      <div className={hashtag_container}>
+        {" "}
+        <h2>Ya somos más de 10.000</h2>
+        <div className={flex_hash}>
+          <div>
+            <p>
+              Forma parte de la comunidad <b>#0perrosperdidos.</b>{" "}
+            </p>
+          </div>
+          <button>Seguir hashtag</button>
+        </div>
+      </div>
       <div className={container}>
         <div className={container_title}>
           <span>Su seguridad. Tu tranquilidad</span>
@@ -157,7 +171,12 @@ const zeroPerrosPerdidos = () => {
               <p>
                 Cada placa contiene un código QR único para identificar a cada
                 perro. <br /> Consigue la tuya en{" "}
-                <a href="https://shop.kolyy.com/">shop.kolyy.com/</a>
+                <a
+                  style={{ color: "#30AAAA", fontWeight: "700" }}
+                  href="https://shop.kolyy.com/"
+                >
+                  shop.kolyy.com/
+                </a>
               </p>
             </div>
           </div>
@@ -168,10 +187,22 @@ const zeroPerrosPerdidos = () => {
             <div className={text_flex}>
               <h3>Actívala a través de nuestra plataforma</h3>
               <p>
-                Entra en <a href="https://app.kolyy.com/">app.kolyy.com</a> o
-                haz click en el botón de{" "}
-                <a href="https://app.kolyy.com/">iniciar sesión</a> y activa tu
-                placa. Podrás activar varias en caso de tener más de un perro.
+                Entra en{" "}
+                <a
+                  style={{ color: "#30AAAA", fontWeight: "700" }}
+                  href="https://app.kolyy.com/"
+                >
+                  app.kolyy.com
+                </a>{" "}
+                o haz click en el botón de{" "}
+                <a
+                  style={{ color: "#30AAAA", fontWeight: "700" }}
+                  href="https://app.kolyy.com/"
+                >
+                  iniciar sesión
+                </a>{" "}
+                y activa tu placa. Podrás activar varias en caso de tener más de
+                un perro.
               </p>
             </div>
           </div>
@@ -289,7 +320,7 @@ const zeroPerrosPerdidos = () => {
       <div style={{ marginTop: "6rem" }} className={bg_img}>
         <div className={content}>
           <span>
-            Iniciativa <i>0 perros perdidos</i>{" "}
+            Iniciativa <i>#0perrosperdidos</i>{" "}
           </span>
           <h2 style={{ marginTop: "1rem" }}>Somos más de 10.000</h2>
           <p style={{ margin: "2rem 0" }}>
