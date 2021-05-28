@@ -25,7 +25,7 @@ const Future = () => {
               <p></p>
             </div>
             <div className={text}>
-              <h5>PRÓXIMOS PASOS</h5>
+              <h5 style={{fontWeight:'400'}}>PRÓXIMOS PASOS</h5>
               <h2>Primeros prototipos del collar</h2>
             </div>
           </div>
