@@ -1,7 +1,7 @@
 ---
-title: Labrador
+title: Mestizo pastor
 date: 2020-03-01
-path: /labrador
+path: /mestizo-pastor
 featured: true
 featuredImage: ./labrador.png
 tags: ["Curiosidades"]

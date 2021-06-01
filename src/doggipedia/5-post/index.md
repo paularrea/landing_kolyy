@@ -1,6 +1,6 @@
 ---
 title: Bulldog Inglés
-date: 2019-04-01
+date: 2019-04-10
 path: /bulldog-ingles
 featured: true
 featuredImage: ./bulldog_ingles.png

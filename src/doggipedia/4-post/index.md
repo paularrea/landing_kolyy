@@ -1,6 +1,6 @@
 ---
 title: Labrador
-date: 2019-04-01
+date: 2019-04-06
 path: /labrador
 featured: true
 featuredImage: ./labrador.png

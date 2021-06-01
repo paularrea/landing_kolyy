@@ -1,14 +1,14 @@
 ---
-title: Beagle
+title: Bollero australiano
 date: 2019-04-01
-path: /beagle
+path: /bollero-australiano
 featured: true
 featuredImage: ./beagle.png
 tags: ["Curiosidades"]
-tamaño: "Pequeño"
+tamaño: "Grande"
 aseo: "Una vez a la semana"
-pelo: "Corto"
-peso: "10 a 11 kg"
+pelo: "Largo"
+peso: "30 a 45 kg"
 type: "doggipedia"
 ---
 

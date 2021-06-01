@@ -3,8 +3,13 @@ import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
 import ScrollText from "../components/scrollText";
 // import RenderSequence from "../components/Sequence/RenderSequence";
+// import {
+//   render_sequence,
+//   container,
+//   flex_text,
+//   big_button,
+// } from "../styles/home.module.scss";
 import {
-  render_sequence,
   container,
   flex_text,
   big_button,

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
-import loadable from '@loadable/component'
+import loadable from "@loadable/component";
 import MediaQuery from "react-responsive";
 import {
   container,
@@ -14,7 +14,9 @@ import {
 import searchIcon from "../images/icons/search.png";
 import MobileCarousel from "../components/doggipediaComponents/mobileCarousel";
 
-const DesktopCarousel = loadable(() => import('../components/doggipediaComponents/desktopCarousel'))
+const DesktopCarousel = loadable(() =>
+  import("../components/doggipediaComponents/desktopCarousel")
+);
 
 const Doggipedia = ({ data }) => {
   const [state, setState] = useState({
@@ -72,11 +74,11 @@ const Doggipedia = ({ data }) => {
         </div>
       </div>
       <div className={container}>
-      <MediaQuery minWidth={751}>
-        <DesktopCarousel posts={posts}/>
-      </MediaQuery>
-      <MediaQuery maxWidth={750}>
-        <MobileCarousel posts={posts} />
+        <MediaQuery minWidth={751}>
+          <DesktopCarousel posts={posts} />
+        </MediaQuery>
+        <MediaQuery maxWidth={750}>
+          <MobileCarousel posts={posts}  />
         </MediaQuery>
       </div>
     </Layout>
