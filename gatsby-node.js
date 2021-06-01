@@ -4,10 +4,22 @@ exports.onCreateWebpackConfig = ({ actions }) => {
   const { setWebpackConfig } = actions;
   setWebpackConfig({
     externals: {
-      jquery: "jQuery", // important: 'Q' capitalized
+      jquery: "jQuery",
     },
   });
 };
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+   resolve: {
+      fallback: {
+        "crypto": false,
+        "stream": false,
+        "path": false,
+      },
+    },
+  })
+}
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;

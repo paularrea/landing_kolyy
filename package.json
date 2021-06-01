@@ -75,10 +75,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "browser": {
-    "crypto": false,
-    "stream": false,
-    "path": false
   }
 }
