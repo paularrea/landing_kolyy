@@ -1,7 +1,7 @@
 const path = require("path");
 
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-  if (stage === "build-html") {
+exports.onCreateWebpackConfig = ({ loaders, actions }) => {
+  if (typeof window !== `undefined`) {
     actions.setWebpackConfig({
       module: {
         rules: [
