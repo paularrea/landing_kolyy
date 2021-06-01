@@ -1,25 +1,31 @@
 const path = require("path");
 
-exports.onCreateWebpackConfig = ({ actions }) => {
-  const { setWebpackConfig } = actions;
-  setWebpackConfig({
-    externals: {
-      jquery: "jQuery",
-    },
-  });
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+  if (stage === "build-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            jquery: "jQuery",
+            use: loaders.null(),
+          },
+        ],
+      },
+    });
+  }
 };
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
-   resolve: {
+    resolve: {
       fallback: {
-        "crypto": false,
-        "stream": false,
-        "path": false,
+        crypto: false,
+        stream: false,
+        path: false,
       },
     },
-  })
-}
+  });
+};
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
