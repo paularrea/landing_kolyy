@@ -3,7 +3,7 @@ title: Labrador
 date: 2019-04-01
 path: /labrador
 featured: true
-featuredImage: ./oruga.jpeg
+featuredImage: ./labrador.png
 tags: ["Curiosidades"]
 tamaño: "Mediano"
 aseo: "Una vez a la semana"

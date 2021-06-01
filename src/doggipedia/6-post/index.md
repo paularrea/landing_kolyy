@@ -1,14 +1,14 @@
 ---
-title: Retriever
-date: 2019-04-01
-path: /retriever
+title: Labrador
+date: 2020-03-01
+path: /labrador
 featured: true
-featuredImage: ./retriever.png
+featuredImage: ./labrador.png
 tags: ["Curiosidades"]
-tamaño: "Grande"
+tamaño: "Mediano"
 aseo: "Una vez a la semana"
-pelo: "Largo"
-peso: "30 a 45 kg"
+pelo: "Corto"
+peso: "30 a 35 kg"
 type: "doggipedia"
 ---
 

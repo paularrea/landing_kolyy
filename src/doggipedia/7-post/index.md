@@ -1,14 +1,14 @@
 ---
-title: Retriever
-date: 2019-04-01
-path: /retriever
+title: Beagle
+date: 2020-04-01
+path: /beagle
 featured: true
-featuredImage: ./retriever.png
+featuredImage: ./beagle.png
 tags: ["Curiosidades"]
-tamaño: "Grande"
+tamaño: "Pequeño"
 aseo: "Una vez a la semana"
-pelo: "Largo"
-peso: "30 a 45 kg"
+pelo: "Corto"
+peso: "10 a 11 kg"
 type: "doggipedia"
 ---
 

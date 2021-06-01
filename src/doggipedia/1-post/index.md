@@ -3,7 +3,7 @@ title: Beagle
 date: 2019-04-01
 path: /beagle
 featured: true
-featuredImage: ./oruga.jpeg
+featuredImage: ./beagle.png
 tags: ["Curiosidades"]
 tamaño: "Pequeño"
 aseo: "Una vez a la semana"

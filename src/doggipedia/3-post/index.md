@@ -3,7 +3,7 @@ title: Border collie
 date: 2019-04-01
 path: /border-collie
 featured: true
-featuredImage: ./oruga.jpeg
+featuredImage: ./border_collie.png
 tags: ["Curiosidades"]
 tamaño: "Mediano"
 aseo: "Una vez a la semana"

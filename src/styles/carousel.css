@@ -1,0 +1,33 @@
+
+.owl-carousel{
+    position: relative;
+    margin: 0 auto;
+}
+.owl-next:before{
+   content:url("../images/icons/next_carousel.png") !important;
+   border-left: 0 !important;
+    }
+.owl-prev:before{
+    content:url("../images/icons/prev_carousel.png") !important;
+    border-right: 0 !important;
+        }
+button.owl-next:hover, button.owl-next:hover{
+background-color: transparent !important;
+transform: scale(1.1);
+}
+.owl-nav span{
+    display: none;
+}
+.owl-stage-outer{
+    margin: 0 auto;
+    width: 90%;
+}
+.owl-nav{
+    margin: 0 auto;
+    z-index: 999999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 45%;
+}

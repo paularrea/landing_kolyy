@@ -59,8 +59,31 @@
         width: 15px;
     }
 }
+
 .container{
     overflow-x: hidden;
+    .carousel{
+        -ms-overflow-style: none;
+        scrollbar-width: none; 
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        overflow-y: scroll;
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        .doggi_card{
+            height: auto;
+            margin-right: 1rem;
+            div{
+                width: 250px !important;
+                img{
+                    width: fit-content;
+                }
+            }
+        }
+    }
     .hide {
         display: none !important;
     }
