@@ -1,19 +1,22 @@
 const path = require("path");
+const crypto = require.resolve("crypto-browserify");
 
 exports.onCreateWebpackConfig = ({ actions }) => {
-  const { setWebpackConfig } = actions
+  const { setWebpackConfig } = actions;
   setWebpackConfig({
     externals: {
-      jquery: 'jQuery', // important: 'Q' capitalized
+      jquery: "jQuery", // important: 'Q' capitalized
     },
-  })
-}
+  });
+};
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
   return new Promise((resolve, reject) => {
     const blogPostTemplate = path.resolve("src/templates/blogPost.js");
-    const doggipediaPostTemplate = path.resolve("src/templates/doggipediaPost.js");
+    const doggipediaPostTemplate = path.resolve(
+      "src/templates/doggipediaPost.js"
+    );
     resolve(
       graphql(`
         query {
@@ -39,7 +42,10 @@ exports.createPages = ({ graphql, actions }) => {
           const path = node.frontmatter.path;
           createPage({
             path,
-            component: node.frontmatter.type === "blog" ? blogPostTemplate : doggipediaPostTemplate,
+            component:
+              node.frontmatter.type === "blog"
+                ? blogPostTemplate
+                : doggipediaPostTemplate,
             context: {
               pathSlug: path,
               prev: index === 0 ? null : posts[index - 1].node,
