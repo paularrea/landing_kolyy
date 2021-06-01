@@ -1,5 +1,4 @@
 const path = require("path");
-const crypto = require.resolve("crypto-browserify");
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   const { setWebpackConfig } = actions;
