@@ -113,15 +113,15 @@ const AirpodsArray = () => {
   const [AA99, AA99S] = useImage(AirPods[99]);
 
   const [AA100, AA100S] = useImage(AirPods[100]);
-  const [AA101, AA101S] = useImage(AirPods[101]);
-  const [AA102, AA102S] = useImage(AirPods[102]);
-  const [AA103, AA103S] = useImage(AirPods[103]);
-  const [AA104, AA104S] = useImage(AirPods[104]);
-  const [AA105, AA105S] = useImage(AirPods[105]);
-  const [AA106, AA106S] = useImage(AirPods[106]);
-  const [AA107, AA107S] = useImage(AirPods[107]);
-  const [AA108, AA108S] = useImage(AirPods[108]);
-  const [AA109, AA109S] = useImage(AirPods[109]);
+  // const [AA101, AA101S] = useImage(AirPods[101]);
+  // const [AA102, AA102S] = useImage(AirPods[102]);
+  // const [AA103, AA103S] = useImage(AirPods[103]);
+  // const [AA104, AA104S] = useImage(AirPods[104]);
+  // const [AA105, AA105S] = useImage(AirPods[105]);
+  // const [AA106, AA106S] = useImage(AirPods[106]);
+  // const [AA107, AA107S] = useImage(AirPods[107]);
+  // const [AA108, AA108S] = useImage(AirPods[108]);
+  // const [AA109, AA109S] = useImage(AirPods[109]);
 
   // const [AA110, AA110S] = useImage(AirPods[110]);
   // const [AA111, AA111S] = useImage(AirPods[111]);
@@ -307,15 +307,15 @@ const AirpodsArray = () => {
     [AA99, AA99S],
 
     [AA100, AA100S],
-    [AA101, AA101S],
-    [AA102, AA102S],
-    [AA103, AA103S],
-    [AA104, AA104S],
-    [AA105, AA105S],
-    [AA106, AA106S],
-    [AA107, AA107S],
-    [AA108, AA108S],
-    [AA109, AA109S],
+    // [AA101, AA101S],
+    // [AA102, AA102S],
+    // [AA103, AA103S],
+    // [AA104, AA104S],
+    // [AA105, AA105S],
+    // [AA106, AA106S],
+    // [AA107, AA107S],
+    // [AA108, AA108S],
+    // [AA109, AA109S],
 
     // [AA110, AA110S],
     // [AA111, AA111S],

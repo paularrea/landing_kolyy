@@ -29,7 +29,7 @@ const IndexPage = () => (
     <div className={container}>
       <div
         style={{
-          margin: "50vh 0",
+          margin: "200vh 0",
         }}
       ></div>
       <ScrollText>
@@ -43,7 +43,7 @@ const IndexPage = () => (
       </ScrollText>
       <div
         style={{
-          margin: "50vh 0",
+          margin: "200vh 0",
         }}
       ></div>
       <ScrollText>
@@ -55,7 +55,7 @@ const IndexPage = () => (
       </ScrollText>
       <div
         style={{
-          margin: "50vh 0",
+          margin: "600vh 0",
         }}
       ></div>
       <ScrollText>
@@ -65,6 +65,11 @@ const IndexPage = () => (
           <p>Haz click y revoluciona la conexión con tu perro.</p>{" "}
         </div>
       </ScrollText>
+      <div
+        style={{
+          margin: "50vh 0",
+        }}
+      ></div>
     </div>
   </Layout>
 );
