@@ -7,7 +7,7 @@ const ScrollTextInicial = (props) => {
   return (
     <div>
       <Controller>
-      <Scene duration="100%" triggerHook={0.35} pin>
+      <Scene duration="100%" triggerHook={0.45} pin>
           <Tween from={{ opacity: 1 }} to={{ opacity: 1 }}>
             <div className={scroll_text_inicial}>
               <div>{props.children}</div>

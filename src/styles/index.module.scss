@@ -77,6 +77,33 @@ a{
   }
 }
 
+.on_load{
+  // -webkit-animation: fadeOut 2.2s ease-out;
+  // -moz-animation: fadeOut 2.2s ease-out;
+  // -o-animation: fadeOut 2.2s ease-out;
+  //  animation: fadeOut 2.2s ease-out;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#D1E8E9;
+  z-index: 9999999999999999;
+}
+
+.on_load div{
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    img{
+        width: 10rem;
+    }
+}
+
 @media (min-width: 1200px) {
   h1{
     font-size: 70px;
