@@ -2,14 +2,13 @@ import * as React from "react";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
 import ScrollText from "../components/scrollText";
-// import RenderSequence from "../components/Sequence/RenderSequence";
-// import {
-//   render_sequence,
-//   container,
-//   flex_text,
-//   big_button,
-// } from "../styles/home.module.scss";
-import { container, flex_text, big_button } from "../styles/home.module.scss";
+import RenderSequence from "../components/Sequence/RenderSequence";
+import {
+  render_sequence,
+  container,
+  flex_text,
+  big_button,
+} from "../styles/home.module.scss";
 import ScrollTextInicial from "../components/scrollTextInicial";
 
 const IndexPage = () => (
@@ -24,9 +23,9 @@ const IndexPage = () => (
         </p>
       </div>
     </ScrollTextInicial>
-    {/* <div className={render_sequence}>
+    <div className={render_sequence}>
       <RenderSequence />
-    </div> */}
+    </div>
     <div className={container}>
       <div
         style={{

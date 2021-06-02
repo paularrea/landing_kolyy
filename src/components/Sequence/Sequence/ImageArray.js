@@ -123,79 +123,79 @@ const AirpodsArray = () => {
   const [AA108, AA108S] = useImage(AirPods[108]);
   const [AA109, AA109S] = useImage(AirPods[109]);
 
-  const [AA110, AA110S] = useImage(AirPods[110]);
-  const [AA111, AA111S] = useImage(AirPods[111]);
-  const [AA112, AA112S] = useImage(AirPods[112]);
-  const [AA113, AA113S] = useImage(AirPods[113]);
-  const [AA114, AA114S] = useImage(AirPods[114]);
-  const [AA115, AA115S] = useImage(AirPods[115]);
-  const [AA116, AA116S] = useImage(AirPods[116]);
-  const [AA117, AA117S] = useImage(AirPods[117]);
-  const [AA118, AA118S] = useImage(AirPods[118]);
-  const [AA119, AA119S] = useImage(AirPods[119]);
+  // const [AA110, AA110S] = useImage(AirPods[110]);
+  // const [AA111, AA111S] = useImage(AirPods[111]);
+  // const [AA112, AA112S] = useImage(AirPods[112]);
+  // const [AA113, AA113S] = useImage(AirPods[113]);
+  // const [AA114, AA114S] = useImage(AirPods[114]);
+  // const [AA115, AA115S] = useImage(AirPods[115]);
+  // const [AA116, AA116S] = useImage(AirPods[116]);
+  // const [AA117, AA117S] = useImage(AirPods[117]);
+  // const [AA118, AA118S] = useImage(AirPods[118]);
+  // const [AA119, AA119S] = useImage(AirPods[119]);
 
-  const [AA120, AA120S] = useImage(AirPods[120]);
-  const [AA121, AA121S] = useImage(AirPods[121]);
-  const [AA122, AA122S] = useImage(AirPods[122]);
-  const [AA123, AA123S] = useImage(AirPods[123]);
-  const [AA124, AA124S] = useImage(AirPods[124]);
-  const [AA125, AA125S] = useImage(AirPods[125]);
-  const [AA126, AA126S] = useImage(AirPods[126]);
-  const [AA127, AA127S] = useImage(AirPods[127]);
-  const [AA128, AA128S] = useImage(AirPods[128]);
-  const [AA129, AA129S] = useImage(AirPods[129]);
+  // const [AA120, AA120S] = useImage(AirPods[120]);
+  // const [AA121, AA121S] = useImage(AirPods[121]);
+  // const [AA122, AA122S] = useImage(AirPods[122]);
+  // const [AA123, AA123S] = useImage(AirPods[123]);
+  // const [AA124, AA124S] = useImage(AirPods[124]);
+  // const [AA125, AA125S] = useImage(AirPods[125]);
+  // const [AA126, AA126S] = useImage(AirPods[126]);
+  // const [AA127, AA127S] = useImage(AirPods[127]);
+  // const [AA128, AA128S] = useImage(AirPods[128]);
+  // const [AA129, AA129S] = useImage(AirPods[129]);
 
-  const [AA130, AA130S] = useImage(AirPods[130]);
-  const [AA131, AA131S] = useImage(AirPods[131]);
-  const [AA132, AA132S] = useImage(AirPods[132]);
-  const [AA133, AA133S] = useImage(AirPods[133]);
-  const [AA134, AA134S] = useImage(AirPods[134]);
-  const [AA135, AA135S] = useImage(AirPods[135]);
-  const [AA136, AA136S] = useImage(AirPods[136]);
-  const [AA137, AA137S] = useImage(AirPods[137]);
-  const [AA138, AA138S] = useImage(AirPods[138]);
-  const [AA139, AA139S] = useImage(AirPods[139]);
+  // const [AA130, AA130S] = useImage(AirPods[130]);
+  // const [AA131, AA131S] = useImage(AirPods[131]);
+  // const [AA132, AA132S] = useImage(AirPods[132]);
+  // const [AA133, AA133S] = useImage(AirPods[133]);
+  // const [AA134, AA134S] = useImage(AirPods[134]);
+  // const [AA135, AA135S] = useImage(AirPods[135]);
+  // const [AA136, AA136S] = useImage(AirPods[136]);
+  // const [AA137, AA137S] = useImage(AirPods[137]);
+  // const [AA138, AA138S] = useImage(AirPods[138]);
+  // const [AA139, AA139S] = useImage(AirPods[139]);
 
-  const [AA140, AA140S] = useImage(AirPods[140]);
-  const [AA141, AA141S] = useImage(AirPods[141]);
-  const [AA142, AA142S] = useImage(AirPods[142]);
-  const [AA143, AA143S] = useImage(AirPods[143]);
-  const [AA144, AA144S] = useImage(AirPods[144]);
-  const [AA145, AA145S] = useImage(AirPods[145]);
-  const [AA146, AA146S] = useImage(AirPods[146]);
-  const [AA147, AA147S] = useImage(AirPods[147]);
-  const [AA148, AA148S] = useImage(AirPods[148]);
-  const [AA149, AA149S] = useImage(AirPods[149]);
+  // const [AA140, AA140S] = useImage(AirPods[140]);
+  // const [AA141, AA141S] = useImage(AirPods[141]);
+  // const [AA142, AA142S] = useImage(AirPods[142]);
+  // const [AA143, AA143S] = useImage(AirPods[143]);
+  // const [AA144, AA144S] = useImage(AirPods[144]);
+  // const [AA145, AA145S] = useImage(AirPods[145]);
+  // const [AA146, AA146S] = useImage(AirPods[146]);
+  // const [AA147, AA147S] = useImage(AirPods[147]);
+  // const [AA148, AA148S] = useImage(AirPods[148]);
+  // const [AA149, AA149S] = useImage(AirPods[149]);
 
-  const [AA150, AA150S] = useImage(AirPods[150]);
-  const [AA151, AA151S] = useImage(AirPods[151]);
-  const [AA152, AA152S] = useImage(AirPods[152]);
-  const [AA153, AA153S] = useImage(AirPods[153]);
-  const [AA154, AA154S] = useImage(AirPods[154]);
-  const [AA155, AA155S] = useImage(AirPods[155]);
-  const [AA156, AA156S] = useImage(AirPods[156]);
-  const [AA157, AA157S] = useImage(AirPods[157]);
-  const [AA158, AA158S] = useImage(AirPods[158]);
-  const [AA159, AA159S] = useImage(AirPods[159]);
+  // const [AA150, AA150S] = useImage(AirPods[150]);
+  // const [AA151, AA151S] = useImage(AirPods[151]);
+  // const [AA152, AA152S] = useImage(AirPods[152]);
+  // const [AA153, AA153S] = useImage(AirPods[153]);
+  // const [AA154, AA154S] = useImage(AirPods[154]);
+  // const [AA155, AA155S] = useImage(AirPods[155]);
+  // const [AA156, AA156S] = useImage(AirPods[156]);
+  // const [AA157, AA157S] = useImage(AirPods[157]);
+  // const [AA158, AA158S] = useImage(AirPods[158]);
+  // const [AA159, AA159S] = useImage(AirPods[159]);
 
-  const [AA160, AA160S] = useImage(AirPods[160]);
-  const [AA161, AA161S] = useImage(AirPods[161]);
-  const [AA162, AA162S] = useImage(AirPods[162]);
-  const [AA163, AA163S] = useImage(AirPods[163]);
-  const [AA164, AA164S] = useImage(AirPods[164]);
-  const [AA165, AA165S] = useImage(AirPods[165]);
-  const [AA166, AA166S] = useImage(AirPods[166]);
-  const [AA167, AA167S] = useImage(AirPods[167]);
-  const [AA168, AA168S] = useImage(AirPods[168]);
-  const [AA169, AA169S] = useImage(AirPods[169]);
+  // const [AA160, AA160S] = useImage(AirPods[160]);
+  // const [AA161, AA161S] = useImage(AirPods[161]);
+  // const [AA162, AA162S] = useImage(AirPods[162]);
+  // const [AA163, AA163S] = useImage(AirPods[163]);
+  // const [AA164, AA164S] = useImage(AirPods[164]);
+  // const [AA165, AA165S] = useImage(AirPods[165]);
+  // const [AA166, AA166S] = useImage(AirPods[166]);
+  // const [AA167, AA167S] = useImage(AirPods[167]);
+  // const [AA168, AA168S] = useImage(AirPods[168]);
+  // const [AA169, AA169S] = useImage(AirPods[169]);
 
-  const [AA170, AA170S] = useImage(AirPods[170]);
-  const [AA171, AA171S] = useImage(AirPods[171]);
-  const [AA172, AA172S] = useImage(AirPods[172]);
-  const [AA173, AA173S] = useImage(AirPods[173]);
-  const [AA174, AA174S] = useImage(AirPods[174]);
-  const [AA175, AA175S] = useImage(AirPods[175]);
-  const [AA176, AA176S] = useImage(AirPods[176]);
+  // const [AA170, AA170S] = useImage(AirPods[170]);
+  // const [AA171, AA171S] = useImage(AirPods[171]);
+  // const [AA172, AA172S] = useImage(AirPods[172]);
+  // const [AA173, AA173S] = useImage(AirPods[173]);
+  // const [AA174, AA174S] = useImage(AirPods[174]);
+  // const [AA175, AA175S] = useImage(AirPods[175]);
+  // const [AA176, AA176S] = useImage(AirPods[176]);
 
   const newImages = Array.of(
     [AA0, AA0S],
@@ -317,79 +317,79 @@ const AirpodsArray = () => {
     [AA108, AA108S],
     [AA109, AA109S],
 
-    [AA110, AA110S],
-    [AA111, AA111S],
-    [AA112, AA112S],
-    [AA113, AA113S],
-    [AA114, AA114S],
-    [AA115, AA115S],
-    [AA116, AA116S],
-    [AA117, AA117S],
-    [AA118, AA118S],
-    [AA119, AA119S],
+    // [AA110, AA110S],
+    // [AA111, AA111S],
+    // [AA112, AA112S],
+    // [AA113, AA113S],
+    // [AA114, AA114S],
+    // [AA115, AA115S],
+    // [AA116, AA116S],
+    // [AA117, AA117S],
+    // [AA118, AA118S],
+    // [AA119, AA119S],
 
-    [AA120, AA120S],
-    [AA121, AA121S],
-    [AA122, AA122S],
-    [AA123, AA123S],
-    [AA124, AA124S],
-    [AA125, AA125S],
-    [AA126, AA126S],
-    [AA127, AA127S],
-    [AA128, AA128S],
-    [AA129, AA129S],
+    // [AA120, AA120S],
+    // [AA121, AA121S],
+    // [AA122, AA122S],
+    // [AA123, AA123S],
+    // [AA124, AA124S],
+    // [AA125, AA125S],
+    // [AA126, AA126S],
+    // [AA127, AA127S],
+    // [AA128, AA128S],
+    // [AA129, AA129S],
 
-    [AA130, AA130S],
-    [AA131, AA131S],
-    [AA132, AA132S],
-    [AA133, AA133S],
-    [AA134, AA134S],
-    [AA135, AA135S],
-    [AA136, AA136S],
-    [AA137, AA137S],
-    [AA138, AA138S],
-    [AA139, AA139S],
+    // [AA130, AA130S],
+    // [AA131, AA131S],
+    // [AA132, AA132S],
+    // [AA133, AA133S],
+    // [AA134, AA134S],
+    // [AA135, AA135S],
+    // [AA136, AA136S],
+    // [AA137, AA137S],
+    // [AA138, AA138S],
+    // [AA139, AA139S],
 
-    [AA140, AA140S],
-    [AA141, AA141S],
-    [AA142, AA142S],
-    [AA143, AA143S],
-    [AA144, AA144S],
-    [AA145, AA145S],
-    [AA146, AA146S],
-    [AA147, AA147S],
-    [AA148, AA148S],
-    [AA149, AA149S],
+    // [AA140, AA140S],
+    // [AA141, AA141S],
+    // [AA142, AA142S],
+    // [AA143, AA143S],
+    // [AA144, AA144S],
+    // [AA145, AA145S],
+    // [AA146, AA146S],
+    // [AA147, AA147S],
+    // [AA148, AA148S],
+    // [AA149, AA149S],
 
-    [AA150, AA150S],
-    [AA151, AA151S],
-    [AA152, AA152S],
-    [AA153, AA153S],
-    [AA154, AA154S],
-    [AA155, AA155S],
-    [AA156, AA156S],
-    [AA157, AA157S],
-    [AA158, AA158S],
-    [AA159, AA159S],
+    // [AA150, AA150S],
+    // [AA151, AA151S],
+    // [AA152, AA152S],
+    // [AA153, AA153S],
+    // [AA154, AA154S],
+    // [AA155, AA155S],
+    // [AA156, AA156S],
+    // [AA157, AA157S],
+    // [AA158, AA158S],
+    // [AA159, AA159S],
 
-    [AA160, AA160S],
-    [AA161, AA161S],
-    [AA162, AA162S],
-    [AA163, AA163S],
-    [AA164, AA164S],
-    [AA165, AA165S],
-    [AA166, AA166S],
-    [AA167, AA167S],
-    [AA168, AA168S],
-    [AA169, AA169S],
+    // [AA160, AA160S],
+    // [AA161, AA161S],
+    // [AA162, AA162S],
+    // [AA163, AA163S],
+    // [AA164, AA164S],
+    // [AA165, AA165S],
+    // [AA166, AA166S],
+    // [AA167, AA167S],
+    // [AA168, AA168S],
+    // [AA169, AA169S],
 
-    [AA170, AA170S],
-    [AA171, AA171S],
-    [AA172, AA172S],
-    [AA173, AA173S],
-    [AA174, AA174S],
-    [AA175, AA175S],
-    [AA176, AA176S]
+    // [AA170, AA170S],
+    // [AA171, AA171S],
+    // [AA172, AA172S],
+    // [AA173, AA173S],
+    // [AA174, AA174S],
+    // [AA175, AA175S],
+    // [AA176, AA176S]
   );
   return newImages;
 };

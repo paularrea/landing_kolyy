@@ -18,6 +18,7 @@ const ImageSequence = forwardRef(({ progress }, ref) => {
           style={{
             display: i !== index ? "none" : "block",
             height: "100%",
+            margin:"0 auto",
             width: "100%",
             backgroundImage: `url('${item[0] ? item[0].src : null}')`,
             backgroundSize: "cover",
