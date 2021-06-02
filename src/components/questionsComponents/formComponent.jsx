@@ -13,12 +13,12 @@ const FormComponent = () => {
 
   return (
     <div id="form-container">
-      <p>
+      <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
         Rellena este formulario o ponte en contacto con nosotros a través de
         nuestro móvil o correo.
       </p>
-      <div id="my-hubspot-form"></div>
-      <div className='contact-absolute'>
+      <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" id="my-hubspot-form"></div>
+      <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className='contact-absolute'>
         <Contacts />
       </div>
     </div>

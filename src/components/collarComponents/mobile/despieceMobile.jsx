@@ -13,16 +13,16 @@ const DespieceMobile = () => {
   return (
     <MediaQuery maxWidth={600}>
       <div style={{ paddingLeft: "2rem" }} className={text_despiece}>
-        <span>Devolver todo lo que nos dan.</span>
-        <h2>Regálale lo mejor.</h2>
-        <p>
+        <span data-sal="fade" data-sal-delay="100" data-sal-duration="1000">Devolver todo lo que nos dan.</span>
+        <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Regálale lo mejor.</h2>
+        <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
           El collar es dogproof. Resistente, sumergible, seguro y muy duradero.
           Como si estuviera hecho para tu perro.
         </p>
       </div>
       <DespieceMobileImg />
       <div className={despiece_features_container}>
-      <div className={feature}>
+      <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={feature}>
           <div className={number}>1</div>
           <div className={text}>
             <h5>Sistema de luces para conocer su estado rápidamente.</h5>
@@ -31,14 +31,14 @@ const DespieceMobile = () => {
             </p>
           </div>
         </div>
-        <div className={feature}>
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={feature}>
           <div className={number}>2</div>
           <div className={text}>
             <h5>Ciclo de carga de la batería único en el mercado.</h5>
             <p>Carga con sistema USB y duración de la batería de 20-30 días.</p>
           </div>
         </div>
-        <div className={feature}>
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={feature}>
           <div className={number}>3</div>
           <div className={text}>
             <h5>
@@ -51,7 +51,7 @@ const DespieceMobile = () => {
             </p>
           </div>
         </div>
-        <div className={feature}>
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={feature}>
           <div className={number}>4</div>
           <div className={text}>
             <h5>Personalizable en varios modelos.</h5>

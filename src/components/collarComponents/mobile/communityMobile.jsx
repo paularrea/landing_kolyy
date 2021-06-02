@@ -19,10 +19,10 @@ const CommunityMobile = () => {
         <div className={text_container}>
           <div className={title_text}>
             <div className={absolute_title}>
-              <span>Está en tus manos.</span>
+              <span data-sal="fade" data-sal-delay="100" data-sal-duration="1000">Está en tus manos.</span>
             </div>
-            <h2>Cuídalo estés donde estés.</h2>
-            <p>
+            <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Cuídalo estés donde estés.</h2>
+            <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
               Con la app puedes saber en tiempo real todo lo que el collar
               reporta y anticiparte a cualquier imprevisto. <br />
               <br /> Si tu perro se escapa te avisa. Si no ha alcanzado el
@@ -38,11 +38,11 @@ const CommunityMobile = () => {
       <div className={container_gps}>
         <div className={text_container}>
           <div className={features} style={{ marginLeft: "0" }}>
-            <div className={flex_feature}>
+            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
   <div><img src={star} alt="star point" /></div>
               <h5>Forma parte de la comunidad y conoce a otros kolyers.</h5>
             </div>
-            <div className={flex_feature}>
+            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
   <div><img src={star} alt="star point" /></div>
               <h5>Todos los datos en una sola plataforma.</h5>
             </div>

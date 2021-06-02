@@ -34,6 +34,8 @@ const DoggipediaPost = ({ data, pageContext }) => {
     window.scrollTo(0, 0);
   }, []);
 
+  console.log(data)
+
   return (
     <Layout>
       <MediaQuery minWidth={1000}>

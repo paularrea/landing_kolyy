@@ -9,11 +9,7 @@ import ScrollText from "../components/scrollText";
 //   flex_text,
 //   big_button,
 // } from "../styles/home.module.scss";
-import {
-  container,
-  flex_text,
-  big_button,
-} from "../styles/home.module.scss";
+import { container, flex_text, big_button } from "../styles/home.module.scss";
 import ScrollTextInicial from "../components/scrollTextInicial";
 
 const IndexPage = () => (
@@ -64,7 +60,7 @@ const IndexPage = () => (
         }}
       ></div>
       <ScrollText>
-          <button className={big_button}>Te interesa.</button>
+        <button className={big_button}>Te interesa.</button>
         <div className={flex_text}>
           {" "}
           <p>Haz click y revoluciona la conexión con tu perro.</p>{" "}

@@ -11,7 +11,7 @@ const Book = () => {
       <Seo title="Reserva" />
       <BookImg>
         <div className={bg_img}>
-          <div className={content}>
+          <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={content}>
             <h2>
               Lo mejor <br /> para tu perro. <br /> Lo mejor para ti.
             </h2>
@@ -19,7 +19,7 @@ const Book = () => {
           </div>
         </div>
       </BookImg>
-      <FormComponent />
+      <FormComponent data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" />
     </Layout>
   );
 };

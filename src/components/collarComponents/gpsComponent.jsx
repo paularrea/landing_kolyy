@@ -22,10 +22,10 @@ const GpsComponent = () => {
           <div className={text_container}>
             <div className={title_text}>
               <div className={absolute_title}>
-                <span>Saber dónde está es saber que está bien.</span>
+                <span data-sal="fade" data-sal-delay="100" data-sal-duration="1000">Saber dónde está es saber que está bien.</span>
               </div>
-              <h2>No vuelvas a perderlo.</h2>
-              <p>
+              <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">No vuelvas a perderlo.</h2>
+              <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
                 Kolyy te avisa si tu perro se pierde y te ayuda a encontrarlo.{" "}
                 <br /> <br />
                 Con el localizador GPS a tiempo real podrás encontrarlo de la
@@ -33,11 +33,11 @@ const GpsComponent = () => {
               </p>
             </div>
             <div className={features} style={{ marginRight: "2rem" }}>
-              <div className={flex_feature}>
+              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
               <div><img src={star} alt="star point" /></div>
                 <h5>Geolocalización a tiempo real a través de 2G /3G.</h5>
               </div>
-              <div className={flex_feature}>
+              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
               <div><img src={star} alt="star point" /></div>
                 <h5>
                   Señal de localización si el perro ha salido de la zona de

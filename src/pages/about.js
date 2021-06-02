@@ -22,7 +22,7 @@ const About = () => {
         <AboutImg>
       <div className={bg_img}>
           <div className={content}>
-            <div className={text}>
+            <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={text}>
               <span>Nuestra historia.</span>
               <h2>Somos lo que hacemos</h2>
               <div role='button' className={go_down_arrow} onClick={goDown}>

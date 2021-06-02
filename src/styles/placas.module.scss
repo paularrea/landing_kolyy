@@ -41,6 +41,7 @@ span{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    flex-flow: column-reverse;
     .clear_text{
         padding: 3rem 0;
         width: 100%;
@@ -144,6 +145,9 @@ span{
                     line-height: 17px;
                     font-weight: 400;
                 }
+                button{
+                    margin-top: 2rem;
+                }
             }
        }
    }
@@ -166,7 +170,6 @@ span{
         }
         button{
             margin-top: 2rem;
-            margin-left: 2rem;
             background-color:rgba(48, 170, 170, 0.46);
         }
     }

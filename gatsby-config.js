@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-transformer-remark`,
+    `gatsby-plugin-scroll-reveal`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

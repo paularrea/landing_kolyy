@@ -17,7 +17,7 @@ const Collar = () => {
       <Seo title="The Collar" />
       <BgCollar>
         <div className={bg_img}>
-          <div className={content}>
+          <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={content}>
             <h2>Disfruta al máximo de él.</h2>
             <p>Asegúrate de que tu amigo tenga siempre lo mejor.</p>
             <Link to="/book">

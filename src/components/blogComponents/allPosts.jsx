@@ -18,7 +18,6 @@ import {
   hide,
   flex_filtration_mobile
 } from "../../styles/blog.module.scss";
-import InstagramPosts from "./instagramPosts";
 
 const AllPosts = () => {
   const [selected, setSelectedTab] = useState(1);
@@ -121,7 +120,7 @@ const AllPosts = () => {
           const { frontmatter } = edge.node;
           return (
             <Col md={4} sm={6} xs={6}>
-              <div className={filter_post} key={frontmatter.path}>
+              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_post} key={frontmatter.path}>
                 <Link to={frontmatter.path}>
                   <Img
                     fluid={frontmatter.featuredImage.childImageSharp.fluid}
@@ -146,7 +145,7 @@ const AllPosts = () => {
           const { frontmatter } = edge.node;
           return (
             <Col md={4} sm={6} xs={6}>
-              <div className={filter_post} key={frontmatter.path}>
+              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_post} key={frontmatter.path}>
                 <Link to={frontmatter.path}>
                   <Img
                     fluid={frontmatter.featuredImage.childImageSharp.fluid}
@@ -171,7 +170,7 @@ const AllPosts = () => {
           const { frontmatter } = edge.node;
           return (
             <Col md={4} sm={6} xs={6}>
-              <div className={filter_post} key={frontmatter.path}>
+              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_post} key={frontmatter.path}>
                 <Link to={frontmatter.path}>
                   <Img
                     fluid={frontmatter.featuredImage.childImageSharp.fluid}
@@ -196,7 +195,7 @@ const AllPosts = () => {
           const { frontmatter } = edge.node;
           return (
             <Col md={4} sm={6} xs={6}>
-              <div className={filter_post} key={frontmatter.path}>
+              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_post} key={frontmatter.path}>
                 <Link to={frontmatter.path}>
                   <Img
                     fluid={frontmatter.featuredImage.childImageSharp.fluid}
@@ -219,7 +218,7 @@ const AllPosts = () => {
       {/* Filter mobile */}
       <MediaQuery maxWidth={870}>
         <div className={filter_menu} onClick={() => setDropdown(!dropdown)}>
-          <div className={flex_filtration_mobile}>
+          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_filtration_mobile}>
             <h4 style={{ textAlign: "left", fontSize:'18px'}}>
               Filtrar post por...
             </h4>
@@ -288,7 +287,7 @@ const AllPosts = () => {
       </MediaQuery>
       {/* Desktop version */}
       <MediaQuery minWidth={870}>
-        <div className={filter_menu}>
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_menu}>
           <a
             aria-hidden="true"
             className={tab}
@@ -362,7 +361,6 @@ const AllPosts = () => {
           <div className={post_flex}>{curiosidadesPosts}</div>
         </div>
       </div>
-      <InstagramPosts />
     </div>
   );
 };

@@ -1,15 +1,18 @@
 import React from "react";
-import { Grid, Row, Col } from "react-flexbox-grid";
-import { Link, graphql, useStaticQuery } from "gatsby";
-import Img from "gatsby-image";
+import { graphql, useStaticQuery } from "gatsby";
+import loadable from "@loadable/component";
 import {
-    filter_post,
-    posts_content,
-    post_flex,
-  } from "../../styles/blog.module.scss";
+  posts_content,
+  post_flex,
+} from "../../styles/blog.module.scss";
+import MediaQuery from "react-responsive";
+import MobileCarousel from "../../components/doggipediaComponents/mobileCarousel";
+
+const DesktopCarousel = loadable(() =>
+  import("../../components/doggipediaComponents/desktopCarousel")
+);
 
 const RelatedDoggipedia = () => {
-
   const data = useStaticQuery(graphql`
     query relatedDoggipediaPosts {
       all: allMarkdownRemark(
@@ -36,34 +39,20 @@ const RelatedDoggipedia = () => {
     }
   `);
 
-    const allPosts = (
-        <Grid>
-          <Row>
-            {data.all.edges.map((edge) => {
-              const { frontmatter } = edge.node;
-              return (
-                <Col md={3} sm={6} xs={6}>
-                  <div className={filter_post} key={frontmatter.path}>
-                    <Link to={frontmatter.path}>
-                      <Img
-                        fluid={frontmatter.featuredImage.childImageSharp.fluid}
-                      />
-                      <h5>{frontmatter.title}</h5>
-                    </Link>
-                    <Link to={frontmatter.path}>
-                    </Link>
-                  </div>
-                </Col>
-              );
-            })}
-          </Row>
-        </Grid>
-      );
-      
+  const posts = data.all.edges;
+
+
   return (
     <div>
       <div className={posts_content}>
-        <div className={post_flex}>{allPosts}</div>
+        <div className={post_flex}>
+        <MediaQuery minWidth={751}>
+          <DesktopCarousel posts={posts} />
+        </MediaQuery>
+        <MediaQuery maxWidth={750}>
+          <MobileCarousel posts={posts}  />
+        </MediaQuery>
+          </div>
       </div>
     </div>
   );

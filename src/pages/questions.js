@@ -17,7 +17,7 @@ const Questions = () => {
       </MediaQuery>
       <ContactImg>
         <div className={bg_img}>
-          <div className={content}>
+          <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={content}>
             <h2>Estamos conectados</h2>
             <p>
               No dudes en ponerte en contacto con nosotros para cualquier duda.

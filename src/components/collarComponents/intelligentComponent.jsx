@@ -22,10 +22,10 @@ const InteligentComponent = () => {
           <div className={text_container}>
             <div className={title_text}>
               <div className={absolute_title}>
-                <span>Prevenir antes que curar.</span>
+                <span data-sal="fade" data-sal-delay="100" data-sal-duration="1000">Prevenir antes que curar.</span>
               </div>
-              <h2>Anticípate a los problemas.</h2>
-              <p>
+              <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Anticípate a los problemas.</h2>
+              <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
                 Kolyy es un collar inteligente que aprende los niveles de
                 actividad y hábitos de tu perro para que puedas controlar si hay
                 una alteración o anomalía y tomar la mejor decisión antes de que
@@ -33,15 +33,15 @@ const InteligentComponent = () => {
               </p>
             </div>
             <div className={features} style={{ marginRight: "2rem" }}>
-              <div className={flex_feature}>
+              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
                 <div><img src={star} alt="star point" /></div>
                 <h5>Registro de tiempo tumbado.</h5>
               </div>
-              <div className={flex_feature}>
+              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
                 <div><img src={star} alt="star point" /></div>
                 <h5>Registro de horas de sueño.</h5>
               </div>
-              <div className={flex_feature}>
+              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
               <div><img src={star} alt="star point" /></div>
                 <h5>Sensor de rascado.</h5>
               </div>

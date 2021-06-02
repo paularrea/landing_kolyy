@@ -54,7 +54,7 @@ const Blog = ({ data }) => {
       <Seo title="Blog" />
       <BlogImg>
         <div className={bg_img}>
-          <div className={content}>
+          <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={content}>
             <h2>
               Todo lo que necesitas <br /> para cuidar de él
             </h2>
@@ -78,8 +78,8 @@ const Blog = ({ data }) => {
             <img src={searchIcon} alt="search" />
           </div>
         </div>
-        <span>Un mundo por descubrir.</span>
-        <h2>Últimos artículos</h2>
+        <span data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Un mundo por descubrir.</span>
+        <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Últimos artículos</h2>
         <div className={post_flex}>
           <Grid>
             <Row>
@@ -87,7 +87,7 @@ const Blog = ({ data }) => {
                 const { frontmatter } = edge.node;
                 return (
                   <Col md={4} sm={12} xs={12}>
-                    <div className={post} key={frontmatter.path}>
+                    <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={post} key={frontmatter.path}>
                       <Link to={frontmatter.path}>
                         <Img
                           fluid={

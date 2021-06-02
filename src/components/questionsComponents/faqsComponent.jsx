@@ -10,9 +10,9 @@ const FaqsComponent = () => {
 
   return (
     <div className={faq_container}>
-      <span>Quédate completamente tranquilo.</span>
-      <h2>Preguntas frecuentes</h2>
-        <div className={question} onClick={() => setActive1(!active1)}>
+      <span data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Quédate completamente tranquilo.</span>
+      <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Preguntas frecuentes</h2>
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={question} onClick={() => setActive1(!active1)}>
           <h4>¿Cómo registro mis perros en la webapp?</h4>
           <p className={`question-collapse ${active1 ? 'show' : ''}`}>
             Para registrar tus perros deberás ir a, símbolo de configuración y
@@ -21,7 +21,7 @@ const FaqsComponent = () => {
           </p>
         </div>
 
-        <div className={question} onClick={() => setActive2(!active2)}>
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={question} onClick={() => setActive2(!active2)}>
           <h4>¿Puedo localizar a mi perro a través de la webapp?</h4>
           <p className={`question-collapse ${active2 ? 'show' : ''}`}>
             Para registrar tus perros deberás ir a símbolo de configuración y
@@ -30,7 +30,7 @@ const FaqsComponent = () => {
           </p>
         </div>
 
-        <div className={question} onClick={() => setActive3(!active3)}>
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={question} onClick={() => setActive3(!active3)}>
           <h4>
             ¿Puedo pagar una suscripción por el collar sin el pago inicial?
           </h4>
@@ -41,7 +41,7 @@ const FaqsComponent = () => {
           </p>
         </div>
 
-        <div className={question} onClick={() => setActive4(!active4)}>
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={question} onClick={() => setActive4(!active4)}>
           <h4>¿Cómo puedo desactivar las alertas de los perros perdidos?</h4>
           <p className={`question-collapse ${active4 ? 'show' : ''}`}>
             Para registrar tus perros deberás ir a símbolo de configuración y

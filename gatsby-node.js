@@ -57,10 +57,11 @@ exports.createPages = ({ graphql, actions }) => {
 
         posts.forEach(({ node }, index) => {
           const path = node.frontmatter.path;
+          const type = node.frontmatter.type
           createPage({
             path,
             component:
-              node.frontmatter.type === "blog"
+              type === "blog"
                 ? blogPostTemplate
                 : doggipediaPostTemplate,
             context: {
