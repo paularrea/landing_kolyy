@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 
 import BackgroundImage from "gatsby-background-image";
 
-const BgDoggy = (props) => {
+const BgCollarTypes = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -31,4 +31,4 @@ const BgDoggy = (props) => {
   );
 };
 
-export default BgDoggy;
+export default BgCollarTypes;

@@ -50,10 +50,16 @@
             justify-content: flex-start;
             align-items: flex-start;
             p{
-                margin-top: 1rem;
+                margin-top: .5rem;
                 font-size: 17px;
                 line-height: 22px;
                 font-weight: 200;
+            }
+            h2{
+                margin-top: .5rem;
+                font-size: 30px;
+                line-height: 32px;
+                font-weight: 700; 
             }
             .text{
             width: 90%;
@@ -129,10 +135,16 @@
                 color: #BEBEBE;
             }
             p{
-                margin-top: 1rem;
+                margin-top: .5rem;
                 font-size: 17px;
                 line-height: 22px;
                 font-weight: 200;
+            }
+            h2{
+                margin-top: .5rem;
+                font-size: 30px;
+                line-height: 32px;
+                font-weight: 700; 
             }
             .text{
             width: 90%;
@@ -215,7 +227,7 @@
             h2{
                 padding-right: 2rem;
                 margin-left: 0rem;
-                font-size: 48px;
+                font-size: 40px;
                 width:100%;
                 text-align: right;
                 color: #30AAAA;
@@ -246,8 +258,13 @@
                     line-height: 22px;
                     font-weight: 200;
                 }
+                h2{
+                    margin-top: 1rem;
+                    font-size: 40px;
+                    line-height: 42px;
+                    font-weight: 700; 
+                }
                 .text{
-
                 width: 70%;
                 }
                 .date{
@@ -325,6 +342,12 @@
                 font-size: 18px;
                 line-height: 22px;
                 font-weight: 200;
+            }
+            h2{
+                margin-top: 1rem;
+                font-size: 40px;
+                line-height: 42px;
+                font-weight: 700; 
             }
             .text{
             width: 70%;
