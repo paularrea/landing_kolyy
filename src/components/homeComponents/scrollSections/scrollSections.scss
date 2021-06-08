@@ -16,6 +16,7 @@
   align-items: center;
   width: 90%;
   .text-div{
+      margin-left: 0;
       width: 300px;
       p{
       margin: 1rem 0 2rem 0;
@@ -57,6 +58,7 @@
 .section-scroll .fixed {
   overflow: hidden;
   position: fixed;
+  width: 100%;
   top: 50%;
   left: 50%;
 }
@@ -74,7 +76,7 @@
 }
 .section-scroll:nth-child(2) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #c2850a;
+  background-color: #30AAAA;
   color: #fff;
   top: 100vh;
   z-index: 2;
@@ -84,8 +86,8 @@
 }
 .section-scroll:nth-child(3) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
-  background-color: #475EA1;
-  color: #fff;
+  background-color: #2E2E38;
+  color: #30AAAA;
   top: 200vh;
   z-index: 3;
 }
@@ -134,6 +136,9 @@
 }
 
 @media (min-width: 870px) {
+  .section-scroll .fixed {
+    width: 80%;
+  }
   .flex-container{
     display: flex;
     margin: 0 auto;

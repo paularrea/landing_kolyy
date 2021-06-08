@@ -27,6 +27,7 @@ const SectionScroll = () => {
                 ofreciendo lo mismo.
               </p>
               <button>Saber más</button>
+              <button>Reserva</button>
             </div>
           </div>
         </div>
@@ -42,7 +43,6 @@ const SectionScroll = () => {
                 Tu perro lo daría todo por ti, con el collar kolyy le estarás
                 ofreciendo lo mismo.
               </p>
-              <button>Saber más</button>
             </div>
           </div>
         </div>
@@ -58,7 +58,6 @@ const SectionScroll = () => {
                 Tu perro lo daría todo por ti, con el collar kolyy le estarás
                 ofreciendo lo mismo.
               </p>
-              <button>Saber más</button>
             </div>
           </div>
         </div>
