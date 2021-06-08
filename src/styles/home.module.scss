@@ -2,21 +2,24 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    flex-flow: column-reverse;
     align-items: center;
+    margin: 3rem 2rem;
     .text{
         text-align: center;
+        padding: 1rem 0;
+        p{
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+        }
     }
-}
-.container_flex_placas{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    .text{
-        text-align: center;
+    img{
+        margin: 0 2rem;
+        width: 300px;
     }
 }
 .container_collection{
+    padding: 3rem 2rem;
     background-color: #F8F8F8;
     height: auto;
     z-index: 7;
@@ -25,8 +28,11 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    button{
+        margin-bottom: 3rem;
+    }
     p{
-    margin: 2rem 0;
+    margin: 1rem 0 2rem 0;
     }
     .flex_collection{
         display: flex;
@@ -36,6 +42,25 @@
         img{
             width: 300px;
         }
+    }
+}
+.container_flex_placas{
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .text{
+        text-align: center;
+        p{
+            margin-top: 1rem;
+        }
+        button{
+            margin-top: 2rem;
+        }
+    }
+    img{
+        width: 300px;
     }
 }
 @media (min-width: 870px) {
@@ -53,6 +78,16 @@
         }
         img{
             width: 567px;
+        }
+    }
+    .container_collection{
+        height: 700px;
+        .flex_collection{
+            flex-direction: row;
+            width: 100%;
+            img{
+                width: 400px;
+            }
         }
     }
     .container_flex_placas{
@@ -75,16 +110,6 @@
         }
         img{
             width: 500px;
-        }
-    }
-    .container_collection{
-        height: 700px;
-        .flex_collection{
-            flex-direction: row;
-            width: 100%;
-            img{
-                width: 400px;
-            }
         }
     }
 }
