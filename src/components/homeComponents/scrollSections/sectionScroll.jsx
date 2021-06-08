@@ -26,7 +26,9 @@ const SectionScroll = () => {
                 Tu perro lo daría todo por ti, con el collar kolyy le estarás
                 ofreciendo lo mismo.
               </p>
-              <button>Saber más</button>
+              <button style={{ backgroundColor: "#D9DADD", color: "black" }}>
+                Saber más
+              </button>{" "}
               <button>Reserva</button>
             </div>
           </div>

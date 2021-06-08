@@ -11,11 +11,11 @@ const CollarCollection = () => {
   return (
       <div className={container_collection}>
         <div>
-          <h2>Diseñado para todos los perros</h2>
-          <p>Sea como sea tu perro este es el collar que necesita.</p>
-          <button>Descubre más</button>
+          <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Diseñado para todos los perros</h2>
+          <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Sea como sea tu perro este es el collar que necesita.</p>
+          <button data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Descubre más</button>
         </div>
-        <div className={flex_collection}>
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_collection}>
           <img src={blackCollar} alt="collar negro" />
           <img src={yellowCollar} alt="collar amarillo" />
           <img src={blueCollar} alt="collar azul" />

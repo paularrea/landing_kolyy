@@ -15,7 +15,8 @@
     }
     img{
         margin: 0 2rem;
-        width: 300px;
+        width: 80vw;
+        max-width: 300px;
     }
 }
 .container_collection{
@@ -36,9 +37,11 @@
     }
     .flex_collection{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        overflow-x: scroll;
+        width: auto;
         img{
             width: 300px;
         }
@@ -53,6 +56,7 @@
     .text{
         text-align: center;
         p{
+            max-width: auto;
             margin-top: 1rem;
         }
         button{
@@ -69,7 +73,8 @@
         flex-direction: row;
         .text{
             margin: 0 auto;
-            width: 550px;
+            width: auto;
+            max-width: 550px;
             p{
                 margin: 0 auto;
                 margin-top: 3rem;
@@ -77,7 +82,8 @@
             }
         }
         img{
-            width: 567px;
+            width: 40vw;
+            max-width: 567px;;
         }
     }
     .container_collection{
@@ -86,7 +92,7 @@
             flex-direction: row;
             width: 100%;
             img{
-                width: 400px;
+                width: 450px;
             }
         }
     }
@@ -102,6 +108,7 @@
             margin: 0 auto;
             width: auto;
             p{
+                max-width: 40vw;
                 margin: 0 auto;
                 margin-top: 3rem;
                 width: 500px;

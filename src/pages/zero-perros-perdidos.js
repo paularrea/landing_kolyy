@@ -42,10 +42,10 @@ const zeroPerrosPerdidos = () => {
       <FollowersKolyy>
         <div className={follow_container}>
           <div className={text}>
-            <h2>Ya somos más de 10.000</h2>
+            <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Ya somos más de 10.000</h2>
             <div className={flex}>
-              <p>Forma parte de la comunidad #0perrosperdidos.</p>{" "}
-              <button>Sigue nuestro hashtag</button>
+              <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Forma parte de la comunidad #0perrosperdidos.</p>{" "}
+              <button data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Sigue nuestro hashtag</button>
             </div>
           </div>
         </div>

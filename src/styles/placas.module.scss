@@ -32,7 +32,7 @@
 .container_intro{
     margin: 0 auto;
     text-align: center;
-    width: 70%;
+    width: 90%;
     height: 470px;
     display: flex;
     flex-direction: column;
@@ -47,11 +47,11 @@
 }
 .flex_container{
     display: flex;
-    margin-top: 6rem;
-    height: 100vh;
-    padding: 2rem;
+    text-align: center;
+    height: auto;
+    padding: 2rem 0;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     .text{
         a{
@@ -82,25 +82,27 @@
     padding: 2rem 2rem;
 }
 .follow_container{
-    height: 720px;
+    height: 100vh;
     .text{
         padding: 2rem 0;
         margin: 0 auto;
         text-align: center;
-        height: 470px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         background-color: rgba(255, 255, 255, 0.95);
-        height: 238px;
         .flex{
             margin-top: 2rem;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
         }
         button{
-            margin-left: 2rem;
+            background-color: #92D2D2;
+            margin-top: 2rem;
+            margin-left: 0;
             width: auto;
         }
     }
@@ -114,13 +116,15 @@
         float: left;
         width: 50%; 
         }
-     
+    }
+    .container_intro{
+        width: 60%;
     }
     .flex_container{
+        text-align: left;
         display: flex;
-        height: 600px;
-        margin-top: 6rem;
-        padding: 2rem;
+        height: auto;
+        padding: 4rem 2rem;
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
@@ -130,7 +134,8 @@
             margin-bottom: 2rem;
             }
             p{
-            width: 60%;
+            width: 80%;
+            max-width: 900px;
             font-size: 18px;
             line-height: 21.78px;
             font-weight: 400; 
@@ -143,118 +148,137 @@
         align-items: flex-end;
         img{
             height: auto;
-            width: 500px;
+            width: 50vw;
+            max-width: 500px;
         }
         }   
     }
+    .follow_container{
+        height: 720px;
+        .text{
+            padding: 2rem 0;
+            text-align: center;
+            display: flex;
+            height: 238px;
+            .flex{
+                margin-top: 2rem;
+                flex-direction: row;
+            }
+            button{
+                margin-top: 0;
+                margin-left: 2rem;
+                width: auto;
+            }
+        }
+    }
 }
 @media (min-width: 900px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem; 
     }
 }
 @media (min-width: 950px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem; 
     }
 }
 @media (min-width: 1100px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 5rem; 
     }
 }
 @media (min-width: 1300px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 10rem; 
     }
 }
 @media (min-width: 1600px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 10rem; 
     }
 }
 @media (min-width: 1800px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 15rem; 
     }
 }
 @media (min-width: 2000px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 15rem; 
     }
 }
 @media (min-width: 2200px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 25rem; 
     }
 }
 @media (min-width: 2400px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 30rem; 
     }
 }
 @media (min-width: 2600px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 35rem; 
     }
 }
 @media (min-width: 2800px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 40rem; 
     }
 }
 @media (min-width: 3000px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 50rem; 
     }
 }
 @media (min-width: 3200px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 60rem; 
     }
 }
 @media (min-width: 3400px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 65rem; 
     }
 }
 @media (min-width: 3600px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 70rem; 
     }
 }
 @media (min-width: 3800px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 75rem; 
     }
 }
 @media (min-width: 4000px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 80rem; 
     }
 }
 @media (min-width: 4200px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 85rem; 
     }
 }
 @media (min-width: 4400px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 90rem; 
     }
 }
 @media (min-width: 4600px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 95rem; 
     }
 }
 @media (min-width: 4800px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 100rem; 
     }
 }
 @media (min-width: 5000px) {
-    .container, .clear_blue_container, .mockup_container{
+    .container{
         padding: 2rem 110rem; 
 }
 }

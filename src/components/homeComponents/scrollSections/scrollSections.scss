@@ -12,11 +12,12 @@
   height: 100vh;
   flex-direction: column;
   flex-flow: column-reverse;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 90%;
   .text-div{
       margin-left: 0;
+      margin-bottom: 5rem;
       width: 300px;
       p{
       margin: 1rem 0 2rem 0;
@@ -135,7 +136,7 @@
   transform: translate(-50%, -50%);
 }
 
-@media (min-width: 870px) {
+@media (min-width: 1025px) {
   .section-scroll .fixed {
     width: 80%;
   }
@@ -145,10 +146,11 @@
     margin-top: 0;
     height: 100vh;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     .text-div{
+      margin-bottom: 0;
         width: 450px;
         p{
         margin: 1rem 0 2rem 0;
