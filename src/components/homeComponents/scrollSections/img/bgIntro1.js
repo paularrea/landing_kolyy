@@ -1,13 +1,12 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-
 import BackgroundImage from "gatsby-background-image";
 
-const ZeroPPImg = (props) => {
+const BgIntro1 = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "0perrosperdidos.png" }) {
+        placeholderImage: file(relativePath: { eq: "bg-intro-1.png" }) {
           childImageSharp {
             fluid(maxWidth: 1360, quality: 90, webpQuality: 90) {
               ...GatsbyImageSharpFluid
@@ -24,10 +23,11 @@ const ZeroPPImg = (props) => {
     <BackgroundImage
       Tag="section"
       fluid={imageData}
+      backgroundColor={`#040e18`}
     >
       <div>{props.children}</div>
     </BackgroundImage>
   );
 };
 
-export default ZeroPPImg;
+export default BgIntro1;
