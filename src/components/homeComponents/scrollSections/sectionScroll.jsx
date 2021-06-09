@@ -18,8 +18,8 @@ const SectionScroll = () => {
       <div className="section-scroll">
         <div className="fixed">
           <div className="flex-container">
-            <img src={blueCollar} alt="" />
-            <div className="text-div">
+            <img data-sal="fade" data-sal-delay="100" data-sal-duration="1000" src={blueCollar} alt="" />
+            <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className="text-div">
               {" "}
               <h1>Dale lo que se merece.</h1>
               <p>

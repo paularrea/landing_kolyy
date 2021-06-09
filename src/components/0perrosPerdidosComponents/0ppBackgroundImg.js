@@ -7,7 +7,7 @@ const ZeroPPImg = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "0perrosperdidos.png" }) {
+        placeholderImage: file(relativePath: { eq: "0perrosperdidos.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1360, quality: 90, webpQuality: 90) {
               ...GatsbyImageSharpFluid

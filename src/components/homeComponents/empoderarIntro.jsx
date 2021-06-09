@@ -1,5 +1,5 @@
 import React from "react";
-import empoderar from "../../images/empoderar.png";
+import empoderar from "../../images/empoderar.jpg";
 import {
   container_flex, container, text
 } from "../../styles/home.module.scss";

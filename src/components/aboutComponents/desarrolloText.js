@@ -10,7 +10,7 @@ const DesarrolloText = (props) => {
     <>
      <MediaQuery minWidth={870}>
      <Controller>
-        <Scene duration="1130px" triggerHook={0.7} pin>
+        <Scene duration="830px" triggerHook={0.6} pin>
           <Tween from={{ opacity: 0 }} to={{ opacity: 1 }}>
             <div className={rotate_div}>
               <div>{props.children}</div>
@@ -21,7 +21,7 @@ const DesarrolloText = (props) => {
      </MediaQuery>
      <MediaQuery maxWidth={870}>
      <Controller>
-        <Scene duration="1580px" triggerHook={0.7} pin>
+        <Scene duration="1380px" triggerHook={0.7} pin>
           <Tween from={{ opacity: 0 }} to={{ opacity: 1 }}>
             <div className={rotate_div}>
               <div>{props.children}</div>

@@ -7,7 +7,7 @@ const BookImg = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "reserva.png" }) {
+        placeholderImage: file(relativePath: { eq: "reserva.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1360, quality: 90, webpQuality: 90) {
               ...GatsbyImageSharpFluid

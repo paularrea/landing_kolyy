@@ -7,7 +7,7 @@ const ContactImg = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "contact.png" }) {
+        placeholderImage: file(relativePath: { eq: "contact.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1360, quality: 90, webpQuality: 90) {
               ...GatsbyImageSharpFluid

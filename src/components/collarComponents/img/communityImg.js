@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 const CommunityImg = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "cuida.png" }) {
+      placeholderImage: file(relativePath: { eq: "cuida.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1360, quality: 90, webpQuality: 90) {
             ...GatsbyImageSharpFluid
