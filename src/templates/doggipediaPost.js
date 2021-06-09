@@ -12,6 +12,7 @@ import {
   flex_breadcrumb,
   go_back,
   text,
+  img,
   link_container,
   link,
   barra,
@@ -38,9 +39,6 @@ const DoggipediaPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <MediaQuery minWidth={1000}>
-        <MediaFixed />
-      </MediaQuery>
       <div className={post_container}>
         <h2>{title}</h2>
         <div>
@@ -50,20 +48,16 @@ const DoggipediaPost = ({ data, pageContext }) => {
               <p style={{ fontWeight: 700 }}>{title}</p>
             </div>
             <div>
-              <MediaQuery minWidth={870}>
+            <MediaQuery minWidth={870}>
                 <ShareComponent title={title} path={path} />{" "}
+                <MediaFixed/>
               </MediaQuery>
             </div>
           </div>
         </div>
-        <Img fluid={featuredImgFluid} />
+        <div className={img}> <Img fluid={featuredImgFluid} /></div>
+       
         <div className={flex_just_mobile}>
-          <div className={go_back}>
-            <div>
-              <img src={prevIcon} alt="Anterior" />
-            </div>
-            <Link to={"/doggipedia"}>Volver a la Doggypedia</Link>
-          </div>
           <div>
             <MediaQuery maxWidth={870}>
               <ShareComponent title={title} path={path} />{" "}

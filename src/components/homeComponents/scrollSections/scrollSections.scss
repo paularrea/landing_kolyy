@@ -15,9 +15,12 @@
   justify-content: center;
   align-items: center;
   width: 90%;
+  img{
+    width: 450px;
+  }
   .text-div{
       margin-left: 0;
-      margin-bottom: 5rem;
+      margin-bottom: 10vh;
       width: 300px;
       p{
       margin: 1rem 0 2rem 0;
@@ -149,6 +152,10 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    img{
+      width: 50vw;
+      max-width: 650px;
+    }
     .text-div{
       margin-bottom: 0;
         width: 450px;
