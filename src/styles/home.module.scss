@@ -63,7 +63,8 @@
         }
     }
     img{
-        width: auto;
+        margin-top: 2rem;
+        width: 100%;
     }
 }
 @media (min-width: 870px) {
@@ -116,6 +117,7 @@
             }
         }
         img{
+            margin-top: 0;
             width: 50vw;
             max-width: 800px;
         }
