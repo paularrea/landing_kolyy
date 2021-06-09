@@ -5,7 +5,8 @@ path: /beagle
 featured: true
 featuredImage: ./beagle.png
 tags: ["Curiosidades"]
-tamaño: "Pequeño"
+intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
+size: "Pequeño"
 aseo: "Una vez a la semana"
 pelo: "Corto"
 peso: "10 a 11 kg"

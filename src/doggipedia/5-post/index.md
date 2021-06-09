@@ -5,7 +5,8 @@ path: /bulldog-ingles
 featured: true
 featuredImage: ./bulldog_ingles.png
 tags: ["Curiosidades"]
-tamaño: "Mediano"
+intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
+size: "Mediano"
 aseo: "Una vez a la semana"
 pelo: "Largo"
 peso: "15 o 25 kg"

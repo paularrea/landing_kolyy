@@ -45,8 +45,13 @@ exports.createPages = ({ graphql, actions }) => {
                 frontmatter {
                   path
                   title
+                  intro
                   tags
                   type
+                  size
+                  pelo
+                  peso
+                  aseo
                 }
               }
             }

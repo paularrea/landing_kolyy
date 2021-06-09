@@ -5,14 +5,16 @@ import Img from "gatsby-image";
 import MediaQuery from "react-responsive";
 import prevIcon from "../images/icons/prev.png";
 import nextIcon from "../images/icons/next.png";
-import MediaFixed from "../components/questionsComponents/mediaFixed";
+import MediaFixed from "./components/mediaFixed";
 import {
   post_container,
   flex_info,
   flex_breadcrumb,
-  go_back,
   text,
   img,
+  flex_img_post,
+  features_dog,
+  intro_text,
   link_container,
   link,
   barra,
@@ -26,6 +28,11 @@ const DoggipediaPost = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
   const { markdownRemark } = data;
   const title = markdownRemark.frontmatter.title;
+  const intro = markdownRemark.frontmatter.intro;
+  const size = markdownRemark.frontmatter.size;
+  const aseo = markdownRemark.frontmatter.aseo;
+  const pelo = markdownRemark.frontmatter.pelo;
+  const peso = markdownRemark.frontmatter.peso;
   const path = markdownRemark.frontmatter.path;
   const html = markdownRemark.html;
   let featuredImgFluid =
@@ -35,37 +42,58 @@ const DoggipediaPost = ({ data, pageContext }) => {
     window.scrollTo(0, 0);
   }, []);
 
-  console.log(data)
+  console.log(markdownRemark.frontmatter, "frontmatter");
 
   return (
     <Layout>
       <div className={post_container}>
-        <h2>{title}</h2>
         <div>
-          <div className={flex_info}>
+          <div style={{marginTop:'2rem'}} className={flex_info}>
             <div className={flex_breadcrumb}>
               <Link to={"/doggipedia"}>Conoce a tu perro </Link>/
               <p style={{ fontWeight: 700 }}>{title}</p>
             </div>
             <div>
-            <MediaQuery minWidth={870}>
-                <ShareComponent title={title} path={path} />{" "}
-                <MediaFixed/>
+              <MediaQuery minWidth={870}>
+                <ShareComponent title={title} path={path} /> <MediaFixed />
               </MediaQuery>
             </div>
           </div>
         </div>
-        <div className={img}> <Img fluid={featuredImgFluid} /></div>
-       
-        <div className={flex_just_mobile}>
-          <div>
-            <MediaQuery maxWidth={870}>
-              <ShareComponent title={title} path={path} />{" "}
-            </MediaQuery>
+          <h2 style={{margin:'1rem 0 0 0'}}>{title}</h2>
+          <div style={{paddingTop:'0'}} className={text}>
+          <div className={flex_img_post}>
+            <div className={features_dog}>
+              <p className={intro_text}>{intro}</p>
+              <b>Tamaño:</b>
+              <br />
+              <p>{size}</p>
+              <b>Aseo:</b>
+              <br />
+              <p>{aseo}</p>
+              <b>Pelo:</b>
+              <br />
+              <p>{pelo}</p>
+              <b>Peso:</b>
+              <br />
+              <p>{peso}</p>
+            </div>
+            <div className={img}>
+              {" "}
+              <Img fluid={featuredImgFluid} />
+          <div className={flex_just_mobile}>
+            <div>
+              <MediaQuery maxWidth={870}>
+                <ShareComponent title={title} path={path} />{" "}
+              </MediaQuery>
+            </div>
           </div>
+            </div>
+          </div>
+          <div>
+          <div dangerouslySetInnerHTML={{ __html: html }}></div>
         </div>
-
-        <div className={text} dangerouslySetInnerHTML={{ __html: html }}></div>
+        </div>
 
         <div className={link_container}>
           <div className={link}>
@@ -97,6 +125,11 @@ export const query = graphql`
       html
       frontmatter {
         title
+        size
+        pelo
+        peso
+        aseo
+        intro
         featuredImage {
           childImageSharp {
             fluid(maxWidth: 800) {

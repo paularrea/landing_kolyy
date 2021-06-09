@@ -1,5 +1,5 @@
 import React from "react";
-import placas from "../../images/placas.png";
+import placas from "../../images/placas.jpg";
 import {
   container_flex_placas,
   container,
@@ -8,15 +8,8 @@ import {
 
 const PlacaIntro = () => {
   return (
-    <div className={container} style={{ backgroundColor: "#AFD0D0" }}>
+    <div className={container} style={{ backgroundColor: "#ECECEC" }}>
       <div className={container_flex_placas}>
-        <img
-          data-sal="slide-up"
-          data-sal-delay="100"
-          data-sal-duration="1000"
-          src={placas}
-          alt=""
-        />
         <div className={text}>
           {" "}
           <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
@@ -35,6 +28,13 @@ const PlacaIntro = () => {
             Saber más
           </button>
         </div>
+        <img
+          data-sal="slide-up"
+          data-sal-delay="100"
+          data-sal-duration="1000"
+          src={placas}
+          alt=""
+        />
       </div>
     </div>
   );

@@ -5,7 +5,8 @@ path: /mestizo-pastor
 featured: true
 featuredImage: ./labrador.png
 tags: ["Curiosidades"]
-tamaño: "Mediano"
+intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
+size: "Mediano"
 aseo: "Una vez a la semana"
 pelo: "Corto"
 peso: "30 a 35 kg"

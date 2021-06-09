@@ -1,6 +1,10 @@
 .post_container{
-    padding: 2rem 1rem;
+    padding: 2rem;
     text-align: left;
+    .img{
+        margin-top: 1rem;
+        width: 100%;
+    }
     h2{
         margin: 2rem 0 1rem 0;
         width: 90%;
@@ -76,9 +80,8 @@
         img{
             width: 10px;
         }
-       
         a{
-            padding: 0 2rem;
+            padding: 0 1rem;
             color: #30AAAA;
             font-size: 18px;
             font-weight: 400;
@@ -95,6 +98,23 @@
         }
     }
 }
+.flex_img_post{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    .features_dog{
+        p{
+            margin: .5rem 0 1rem 0;
+        }
+        padding-top: 0;
+        .intro_text{
+            margin-bottom: 2rem;
+        }
+        width: 100%;
+    }
+}
 
 .share_component{
     margin-top: .5rem;
@@ -105,18 +125,30 @@
 }
 .flex_just_mobile{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-start;
 }
-
+@media (min-width: 700px) {
+    .flex_img_post{
+        flex-direction: row;
+        .features_dog{
+            padding-top: 2rem;
+            .intro_text{
+                margin-bottom: 2rem;
+            }
+            width: 40%;
+        }
+    }
+    .post_container{
+        .img{
+            width: 50vw;
+            max-width: 400px;
+        }
+    }
+}
 @media (min-width: 870px) {
     .post_container{
-        padding: 6rem 10rem;
         text-align: center;
-        .img{
-            width: 500px;
-            margin: 0 auto;
-        }
         h2{
             margin: 4rem 0;
         }
@@ -213,7 +245,9 @@
         }
         
     }
+   
 }
+
 .share_component{
     display: flex;
     justify-content: flex-end;
@@ -221,5 +255,11 @@
     img{
         margin-left: .5rem;
         width: 29px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .post_container{
+        padding: 6rem 10rem;
     }
 }

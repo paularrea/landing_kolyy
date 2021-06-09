@@ -5,11 +5,11 @@ import {
   text,
   img,
 } from "../../styles/placas.module.scss";
-import placa from "../../images/placas_2.png";
+import placa from "../../images/placas.jpg";
 
 const Placa = () => {
   return (
-    <div className={container} style={{ backgroundColor: "#DFF0F0" }}>
+    <div className={container} style={{ backgroundColor: "#ECECEC" }}>
       <div className={flex_container}>
         <div className={text}>
           <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">

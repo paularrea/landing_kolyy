@@ -63,7 +63,7 @@
         }
     }
     img{
-        width: 300px;
+        width: auto;
     }
 }
 @media (min-width: 870px) {
@@ -116,7 +116,8 @@
             }
         }
         img{
-            width: 500px;
+            width: 50vw;
+            max-width: 800px;
         }
     }
 }

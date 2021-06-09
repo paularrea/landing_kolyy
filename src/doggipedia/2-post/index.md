@@ -5,7 +5,8 @@ path: /retriever
 featured: true
 featuredImage: ./retriever.png
 tags: ["Curiosidades"]
-tamaño: "Grande"
+intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
+size: "Grande"
 aseo: "Una vez a la semana"
 pelo: "Largo"
 peso: "30 a 45 kg"

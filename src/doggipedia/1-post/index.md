@@ -4,8 +4,9 @@ date: 2019-04-01
 path: /bollero-australiano
 featured: true
 featuredImage: ./beagle.png
+intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
 tags: ["Curiosidades"]
-tamaño: "Grande"
+size: "Grande"
 aseo: "Una vez a la semana"
 pelo: "Largo"
 peso: "30 a 45 kg"
