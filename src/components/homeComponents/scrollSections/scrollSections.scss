@@ -158,10 +158,21 @@
     }
     .text-div{
       margin-bottom: 0;
-        width: 450px;
+      width: 700px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
         p{
-        margin: 1rem 0 2rem 0;
+       text-align: center;
+        width: 450px;
+        margin: 5rem 0 2rem 0;
       }
+      .buttons{
+        flex-direction: row;
+      }
+      
+
     }
   }
   .flex-container-bg{

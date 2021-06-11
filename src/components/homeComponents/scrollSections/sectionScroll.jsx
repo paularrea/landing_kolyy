@@ -21,15 +21,17 @@ const SectionScroll = () => {
             <img data-sal="fade" data-sal-delay="100" data-sal-duration="1000" src={blueCollar} alt="" />
             <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className="text-div">
               {" "}
-              <h1>Dale lo que se merece.</h1>
+              <h1>Una conexión única, nuevos límites.</h1>
               <p>
-                Tu perro lo daría todo por ti, con el collar kolyy le estarás
-                ofreciendo lo mismo.
+              Potencia el estilo de vida de tu perro 
+y atrévete a experimentar nuevos límites.
               </p>
+              <div className='buttons'>
               <button style={{ backgroundColor: "#D9DADD", color: "black" }}>
                 Saber más
               </button>{" "}
               <button>Reserva</button>
+              </div>
             </div>
           </div>
         </div>
@@ -40,10 +42,9 @@ const SectionScroll = () => {
             <img src={blackCollar} alt="" />
             <div className="text-div">
               {" "}
-              <h1>Dale lo que se merece.</h1>
+              <h1>Desde cualquier lugar siempre conectado a ti.</h1>
               <p>
-                Tu perro lo daría todo por ti, con el collar kolyy le estarás
-                ofreciendo lo mismo.
+              Que la distancia no te aleje de estar cerca de tu perro.
               </p>
             </div>
           </div>
@@ -55,10 +56,11 @@ const SectionScroll = () => {
             <img src={yellowCollar} alt="" />
             <div className="text-div">
               {" "}
-              <h1>Dale lo que se merece.</h1>
+              <h1>Un collar para 
+una vida activa 
+y saludable</h1>
               <p>
-                Tu perro lo daría todo por ti, con el collar kolyy le estarás
-                ofreciendo lo mismo.
+              Conviértete en su entrenador personal y mide su actividad.
               </p>
             </div>
           </div>
@@ -72,10 +74,9 @@ const SectionScroll = () => {
                 {" "}
                 <h1>No lo pierdas.</h1>
                 <p>
-                  Localizador GPS para saber donde está en todo momento y alerta
-                  por si tu perro sale de la zona que has marcado como segura.
+                Localizador GPS para saber donde está en todo momento 
+y alerta por si tu perro sale de la zona que has marcado como segura.
                 </p>
-                <button>Saber más</button>
               </div>
             </div>
           </BgIntro1>
@@ -92,7 +93,6 @@ const SectionScroll = () => {
                   Registro de actividad para que tu perro alcance sus objetivos
                   de ejercicio.
                 </p>
-                <button>Saber más</button>
               </div>
             </div>
           </BgIntro2>
@@ -109,7 +109,6 @@ const SectionScroll = () => {
                   Registro de sus hábitos cotidianos para anticiparte a futuros
                   problemas de salud.
                 </p>
-                <button>Saber más</button>
               </div>
             </div>
           </BgIntro3>
