@@ -14,6 +14,7 @@ import Language from "../language";
 import Contacts from "./components/contacts";
 import MediaList from "./components/mediaList";
 import Privacity from "./components/privacity";
+import PageLinks from "./components/pageLinks";
 
 const Footer = () => {
   return (
@@ -22,18 +23,22 @@ const Footer = () => {
         <div className={container}>
           <Logo />
           <p>
-            <FormattedMessage id="footer.text" />
+            {/* <FormattedMessage id="footer.text" /> */}
+            Revoluciona la conexión con tu perro.
           </p>
+          <PageLinks/>
           <div className={contact}>
             <h3>
-              <FormattedMessage id="footer.title" />
+              {/* <FormattedMessage id="footer.title" /> */}
+              ¿Tienes alguna pregunta?
             </h3>
             <Contacts />
           </div>
           <Language />
           <div className={media_container}>
             <h3>
-              <FormattedMessage id="footer.media" />
+              {/* <FormattedMessage id="footer.media" /> */}
+              Síguenos en <b>@kolyy_official</b>
             </h3>
             <MediaList />
           </div>

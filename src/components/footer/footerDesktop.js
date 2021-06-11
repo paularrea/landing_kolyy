@@ -6,15 +6,15 @@ import {
   flex_container,
   logo_text,
   contact,
-  privacity_container,
+  intro,
   flex_footer_lang,
 } from "./footer.module.scss";
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 
 import Language from "../language";
 import Contacts from "./components/contacts";
 import MediaList from "./components/mediaList";
 import Privacity from "./components/privacity";
+import PageLinks from "./components/pageLinks";
 
 const FooterDesktop = () => {
   if (typeof window !== "undefined") {
@@ -24,20 +24,24 @@ const FooterDesktop = () => {
     <div className={container}>
       <div className={flex_container}>
         <div className={logo_text}>
-          <Link to="/">
-            <Logo />
-          </Link>
-          <p>
-            <FormattedMessage id="footer.text" />
-          </p>
-          <h4>Síguenos en @kolyy_official</h4>
-          <MediaList />
+          <div className={intro}>
+            <Link to="/">
+              <Logo />
+            </Link>
+            <p>
+              {/* <FormattedMessage id="footer.text" /> */}
+              Revoluciona la conexión con tu perro.
+            </p>
+          </div>
+          <PageLinks />
         </div>
+
         <div className={contact}>
-          <h3>
-            <FormattedMessage id="footer.title" />
-          </h3>
-          <button style={{fontSize:'13px'}}>
+          <h4>
+            {/* <FormattedMessage id="footer.title" /> */}
+            ¿Tienes alguna pregunta?
+          </h4>
+          <button style={{ fontSize: "13px" }}>
             <a
               style={{ color: "white" }}
               href="mailto:hola@kolyy.com"
@@ -48,8 +52,13 @@ const FooterDesktop = () => {
             </a>
           </button>
           <Contacts />
+          <p style={{ marginTop: "3rem", padding: 0 }}>
+            Síguenos en <b>@kolyy_official</b>
+          </p>
+          <MediaList />
         </div>
       </div>
+
       <div className={flex_container}>
         <Privacity />
         <div className={flex_footer_lang}>
@@ -60,4 +69,4 @@ const FooterDesktop = () => {
   );
 };
 
-export default injectIntl(FooterDesktop);
+export default FooterDesktop;

@@ -69,7 +69,7 @@
             padding: 0rem;
             padding-bottom: 0rem;
             p{
-                margin: 4rem 0;
+                margin: 2rem 0;
                 margin-top: 2rem;
                 margin-right: 2rem;
             }
@@ -206,11 +206,12 @@
         .bg_img{
             height: 800px;
             .content{
+                padding-top: 6rem;
                 float: left;
                 width: 50%;
                 h2{
                     width: 50%;
-                    min-width: 300px;
+                    min-width: 400px;
                 }
                 p{
                     width: 30%;
@@ -250,7 +251,7 @@
                     position: absolute;
                     padding-bottom: 0;
                     top: 0;
-                    width: 80%;
+                    width: 300px;
                     margin: auto;
                     color: #30AAAA;
                     font-size: 18px;
@@ -377,7 +378,6 @@ and (max-device-width : 1025px)
                 padding-bottom: 0;
                 top: 0;
                 margin: auto;
-                width: 100%;
                 color: #30AAAA;
                 font-size: 18px;
                 font-weight:700;
@@ -386,8 +386,8 @@ and (max-device-width : 1025px)
                 padding: 4rem;
                 padding-bottom: 4rem;
                 p{
-                    margin: 4rem 0;
-                    margin-top: 4rem;
+                    margin: 3vw 0;
+                    margin-top: 3vw;
                     margin-right: 2rem;
                 }
             }
@@ -419,11 +419,6 @@ and (max-device-width : 1025px)
 @media (min-width: 1100px) {
     .container, .book_container{
         padding: 2rem 5rem; 
-    }
-}
-@media (min-width: 1300px) {
-    .container, .book_container{
-        padding: 2rem 10rem; 
     }
 }
 @media (min-width: 1600px) {

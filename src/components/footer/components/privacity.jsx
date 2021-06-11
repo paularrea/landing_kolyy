@@ -1,14 +1,32 @@
 import React from "react";
-import {Link} from "gatsby";
+import { Link } from "gatsby";
 import { privacity_container } from "../footer.module.scss";
+import MediaQuery from "react-responsive";
 
 const Privacity = () => {
   return (
-    <div className={privacity_container}>
-      <Link to='/'>Política de privacidad</Link>
-      <Link to='/'>Aviso legal</Link>
-      <Link to='/'>Política de cookies</Link>
-    </div>
+    <>
+      <MediaQuery minWidth={800}>
+        <section>
+          <h5>©Petki Labs S.L</h5>
+          <div className={privacity_container}>
+            <Link to="/">Política de privacidad</Link> |
+            <Link to="/">Política de cookies</Link> |
+            <Link to="/">Aviso legal</Link>
+          </div>
+        </section>
+      </MediaQuery>
+      <MediaQuery maxWidth={800}>
+        <section>
+          <h5>©Petki Labs S.L</h5>
+          <div className={privacity_container}>
+            <Link to="/">Política de privacidad</Link>
+            <Link to="/">Política de cookies</Link>
+            <Link to="/">Aviso legal</Link>
+          </div>
+        </section>
+      </MediaQuery>
+    </>
   );
 };
 
