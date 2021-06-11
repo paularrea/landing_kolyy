@@ -1,15 +1,10 @@
 import React from "react";
-import { Link } from "gatsby";
 import {
   book_container,
-  img_container,
   text_container,
   text,
-  now_what,
 } from "../../styles/collar.module.scss";
-import CollarImg from "./img/collarImg";
 // import SubscribeComponent from "../blogComponents/subscribeComponent";
-import BgDoggy from "./img/bgDoggy";
 import BgCollarTypes from "./img/bgCollarTypes";
 
 const BookComponent = () => {
@@ -45,36 +40,6 @@ const BookComponent = () => {
           </div>
         </div>
       </BgCollarTypes>
-
-      <BgDoggy>
-        <div className={now_what}>
-          <div className={text_container}>
-            <h2
-              data-sal="slide-up"
-              data-sal-delay="100"
-              data-sal-duration="1000"
-            >
-              ¿Hasta entonces qué?
-            </h2>
-            <div
-              data-sal="slide-up"
-              data-sal-delay="100"
-              data-sal-duration="1000"
-              className={text}
-            >
-              <p>
-                No esperes hasta 2022, nosotros no lo hacemos. <br /> Súmate a
-                nuestra iniciativa <b>#0perrosperdidos</b> con nuestras placas
-                de identificación kolyy y nuestra plataforma web para evitar las
-                fugas o pérdidas de nuestros mejores amigos.
-              </p>
-              <Link to="/zero-perros-perdidos">
-                <button>Saber más</button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </BgDoggy>
     </>
   );
 };

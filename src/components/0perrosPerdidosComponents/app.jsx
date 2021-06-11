@@ -25,7 +25,7 @@ const App = () => {
             data-sal-duration="1000"
             href="https://app.kolyy.com/"
           >
-            <button>Entra</button>
+            <button> <a style={{color:'white'}} rel="noopener noreferrer" target="​_blank" href="https://app.kolyy.com/">Entra</a></button>
           </a>
         </div>
         <div

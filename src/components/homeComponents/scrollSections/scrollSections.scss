@@ -77,6 +77,7 @@
 }
 .section-scroll:nth-child(1) .fixed {
   transform: translate(-50%, -50%);
+  width: 100vw;
 }
 .section-scroll:nth-child(2) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
@@ -87,6 +88,7 @@
 }
 .section-scroll:nth-child(2) .fixed {
   transform: translate(-50%, -50%);
+  width: 100vw;
 }
 .section-scroll:nth-child(3) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
@@ -97,6 +99,7 @@
 }
 .section-scroll:nth-child(3) .fixed {
   transform: translate(-50%, -50%);
+  width: 100vw;
 }
 .section-scroll:nth-child(4) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
@@ -107,6 +110,7 @@
 }
 .section-scroll:nth-child(4) .fixed {
   transform: translate(-50%, -50%);
+  width: 100vw;
 }
 .section-scroll:nth-child(5) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
@@ -117,6 +121,7 @@
 }
 .section-scroll:nth-child(5) .fixed {
   transform: translate(-50%, -50%);
+  width: 100vw;
 }
 .section-scroll:nth-child(6) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
@@ -127,6 +132,7 @@
 }
 .section-scroll:nth-child(6) .fixed {
   transform: translate(-50%, -50%);
+  width: 100vw;
 }
 .section-scroll-last:nth-child(7) {
   box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
@@ -137,6 +143,7 @@
 }
 .section-scroll-last:nth-child(7) .fixed {
   transform: translate(-50%, -50%);
+  width: 100vw;
 }
 
 @media (min-width: 1025px) {
@@ -149,12 +156,12 @@
     margin-top: 0;
     height: 100vh;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
     img{
       width: 50vw;
-      max-width: 650px;
+      max-width: 600px;
     }
     .text-div{
       margin-bottom: 0;

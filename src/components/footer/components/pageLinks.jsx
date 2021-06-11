@@ -23,7 +23,7 @@ const PageLinks = () => {
           <Link to="/zero-perros-perdidos">#0perrosperdidos</Link>
         </p>
         <p>
-          <a href="https://app.kolyy.com/">Iniciar sesión</a>
+          <a rel="noopener noreferrer" target="​_blank" href="https://app.kolyy.com/">Iniciar sesión</a>
         </p>
       </div>
       <div>

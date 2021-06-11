@@ -50,12 +50,17 @@ const Doggipedia = ({ data }) => {
       <div
         style={{
           backgroundColor: "transparent",
-          height: "50vh",
-          paddingTop: "3rem",
+          height: "auto",
+          paddingTop: "5rem",
         }}
         className={bg_img}
       >
-        <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={content_doggi}>
+        <div
+          data-sal="fade"
+          data-sal-delay="100"
+          data-sal-duration="1000"
+          className={content_doggi}
+        >
           <h2 style={{ color: "black" }}>¿Conoces la raza de tu perro?</h2>
           <p>
             Descubre las características y secretos de todas las razas de perros
@@ -73,12 +78,23 @@ const Doggipedia = ({ data }) => {
           </div>
         </div>
       </div>
-      <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={container}>
+      <div
+        data-sal="fade"
+        data-sal-delay="100"
+        data-sal-duration="1000"
+        className={container}
+      >
         <MediaQuery minWidth={751}>
-          <DesktopCarousel posts={posts} />
+          <div
+            style={{
+              padding: "3rem",
+            }}
+          >
+            <DesktopCarousel posts={posts} />
+          </div>
         </MediaQuery>
         <MediaQuery maxWidth={750}>
-          <MobileCarousel posts={posts}  />
+          <MobileCarousel posts={posts} />
         </MediaQuery>
       </div>
     </Layout>

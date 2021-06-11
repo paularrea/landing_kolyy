@@ -13,9 +13,9 @@ const Intro = () => {
         árboles con un “Se busca” y una recompensa, por eso hemos lanzado dos
         iniciativas con el fin de conseguir los #0perrosperdidos.
       </p>
-      <button data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
+      {/* <button data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
         Saber más
-      </button>
+      </button> */}
     </div>
   );
 };
