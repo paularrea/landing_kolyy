@@ -1,30 +1,29 @@
 ---
-title: Cómo saber si mi perro tiene sobrepeso
-date: 2019-04-01
-path: /oruga-procesionaria-1
-collection: salud
+title: ¿Porqué nació Kolyy?
+date: 2021-02-01
+path: /porque-nacio-kolyy
+collection: curiosidades
 featured: true
-featuredImage: ./oruga.jpeg
+featuredImage: ./sky-beagle.jpeg
 tags: ["Curiosidades"]
 type: "blog"
 ---
 
-Ya está aquí la primavera, una estación un tanto peligrosa para nuestros amigos si no estamos bien alerta de lo que tocan u olfatean cuando salimos a pasear con ellos. En estas épocas en las que empiezan a subir las temperaturas aparece la oruga procesionaria, una larva que supone un auténtico peligro para quien la toque, especialmente para niños y animales.
+### Todo empieza con Sky
 
-#### ¿Por qué debemos proteger a nuestros perros de esta oruga?
+Sky era el nombre de un leal beagle y la motivación de kolyy
 
-La oruga procesionaria es una larva que puede llegar a ser letal para nuestros perros si la ingieren sin darse cuenta. Se encuentra en los bosques de pinos y es muy común en la cuneca mediterránea, aunque con el aumento de temperaturas se estan colonizando hasta en las zonas más altas de España.
+El invierno pasado, un día, Sky dejó de comer y, 20 días después, se fue.
 
-Esta oruga segrega una toxina muy venenosa al sentirse atacada, capaz de causar irritaciones en hocico y piel de los perros sólo por el hecho de olerla.
+A pesar de llevarlo a los mejores especialistas, no pudieron obtener el diagnóstico hasta que fue demasiado tarde. Un linfoma intestinal de 8 meses sin ningún síntoma externo se lo llevó sin dejarnos hacer nada.
 
-Si los pelillos de las orugas entran en contacto con las mucosas o con los ojos de los animales, los síntomas suelen ser picores, urticarias y sensación de quemazón y si la tocan suelen comenzar a babear y a rascarse la zona de la boca. En algunas ocasiones la piel se daña y produce ampollas.
+Reflexionando sobre lo sucedido, comenzamos a pensar en cuántas personas deberían sufrir situaciones similares, y si había alguna solución para prevenir y anticipar estos casos.
 
-#### ¿Cómo puedo evitar que mi perro tenga contacto con una procesaria?
+Nuestros perros no pueden hablar con nosotros si se sienten mal y por su anatomía, cuando somos capaces de ver con nuestros ojos que algo no va bien, muchas veces es demasiado tarde.
 
-Estos son algunos de los consejos que pueden ayudarte a evitar esta situación tan peligrosa para tu perro:
-1. Ten controlado a tu perro y evita que investigue los nidos abandonados de las ramas y copas de los árboles.
-2. Fíjate por dónde pisáis: esta oruga no va nunca sola, van todas en fila, una detrás de la otra. Si ves algo parecido a una serpiente en el suelo, probablemente sea una procesión de estas larvas.
+Por este motivo creamos Kolyy con el objetivo de enfocar nuestros esfuerzos y tiempo en ayudar a los amantes de los perros a comprender a nuestros peludos, brindarles un estilo de vida más saludable, comenzar a ser predictivos en cuanto a enfermedades y contribuir en el estudio y conocimiento de las enfermedades caninas.
+Únete a nosotros en este camino y comencemos a darles lo que se merecen.
 
-#### ¿Y cómo sé si ha habido contacto?
+#### ¡Gracias por leer nuestro blog!
 
-Si sabes los síntomas que provoca puedes detectarlo con facilidad y sino puedes fijarte en las pisadas de tu perro mientras estés realizando un paseo con él por el bosque. Estas orugas son muy pequeñas y el animal puede pisarlas sin querer.
+Si te ha gustado este artículo❤, puedes compartirlo por email o redes sociales con otras personas amantes de los perros que les pueda gustar.

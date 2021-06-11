@@ -1,30 +1,55 @@
 ---
-title: La oruga procesionaria
-date: 2019-04-21
-path: /oruga-procesionaria-5
+title: ¿Cómo sería un plan de vacunación para cachorros?
+date: 2021-02-09
+path: /plan-de-vacunacion-para-cachorros
 featured: true
-collection: curiosidades
-featuredImage: ./oruga.jpeg
+collection: salud
+featuredImage: ./vacunas-perros.jpeg
 tags: ["Curiosidades"]
 type: "blog"
 ---
 
-Ya está aquí la primavera, una estación un tanto peligrosa para nuestros amigos si no estamos bien alerta de lo que tocan u olfatean cuando salimos a pasear con ellos. En estas épocas en las que empiezan a subir las temperaturas aparece la oruga procesionaria, una larva que supone un auténtico peligro para quien la toque, especialmente para niños y animales.
+### 👀 ¿Sabes que los cachorros reciben la primera inmunidad de sus madres?
 
-#### ¿Por qué debemos proteger a nuestros perros de esta oruga?
+Estos anticuerpos se transmiten durante las primeras 24 horas de vida a través de la lactancia y luego desaparecen, pero no es lo único que adquieren de sus mamás en este periodo.
 
-La oruga procesionaria es una larva que puede llegar a ser letal para nuestros perros si la ingieren sin darse cuenta. Se encuentra en los bosques de pinos y es muy común en la cuneca mediterránea, aunque con el aumento de temperaturas se estan colonizando hasta en las zonas más altas de España.
+Sigue leyendo y descubre todos los pasos necesarios para cumplir con el plan de vacunación para tu cachorro.
 
-Esta oruga segrega una toxina muy venenosa al sentirse atacada, capaz de causar irritaciones en hocico y piel de los perros sólo por el hecho de olerla.
+El plan de vacunación es obligatorio para que los cachorros puedan empezar a hacer vida normal y puedan salir de casa sin miedo, pero antes de llevarlos a ningún veterinario deberemos tener en cuenta una cita imprescindible: la desparasitación.
 
-Si los pelillos de las orugas entran en contacto con las mucosas o con los ojos de los animales, los síntomas suelen ser picores, urticarias y sensación de quemazón y si la tocan suelen comenzar a babear y a rascarse la zona de la boca. En algunas ocasiones la piel se daña y produce ampollas.
+En el periodo de lactancia, las madres no solo transmiten anticuerpos a sus cachorros, también les traspasan sus parásitos a través de la placenta y en el periodo de lactancia, por lo que entenderemos esta cita como la primera en la agenda de nuestro perro.
 
-#### ¿Cómo puedo evitar que mi perro tenga contacto con una procesaria?
+Una vez desparasitado haremos la primera visita al veterinario ya que, no solamente le hará una revisión general, sino que nos aconsejará sobre las vacunas necesarias de nuestro pequeño y nuevo miembro de la familia.
+ 
+#### Plan de vacunación
 
-Estos son algunos de los consejos que pueden ayudarte a evitar esta situación tan peligrosa para tu perro:
-1. Ten controlado a tu perro y evita que investigue los nidos abandonados de las ramas y copas de los árboles.
-2. Fíjate por dónde pisáis: esta oruga no va nunca sola, van todas en fila, una detrás de la otra. Si ves algo parecido a una serpiente en el suelo, probablemente sea una procesión de estas larvas.
+Aunque será tu veterinario quien te facilite el calendario exacto de vacunas, te indicamos lo que sería un plan de vacunación obligatorio para tener una idea general:
+ 
+   - A los 45 días de vida: primera dosis de la vacuna contra el Parvovirus.
 
-#### ¿Y cómo sé si ha habido contacto?
+   - A las 9 semanas de edad: la segunda vacuna que será para protección contra Moquillo canino, Adenovirus tipo 2, Hepatitis infecciosa C y Leptospirosis. Y la segunda dosis de la vacuna contra el Parvovirus. La vacuna contra el Coronavirus es opcional.
 
-Si sabes los síntomas que provoca puedes detectarlo con facilidad y sino puedes fijarte en las pisadas de tu perro mientras estés realizando un paseo con él por el bosque. Estas orugas son muy pequeñas y el animal puede pisarlas sin querer.
+   - A las 12 semanas de vida: se repite una dosis de la vacuna anterior y la tercera de Parvovirus.
+
+   - A partir de los 4 meses de edad: la vacuna contra la Rabia.
+
+   - Repetir anualmente la vacuna pentavalente (Parvovirus/ Moquillo/ Hepatitis / Parainfluenza / Leptospirosis) y Rabia.
+ 
+Otras vacunas opcionales que deberemos poner dependiendo del origen del perro son:
+ 
+   - La de la Parainfluenza, la tos de las perreras, la enfermedad de Lyme, la Leishmaniosis y el Coronavirus.
+ 
+#### Aspectos a tener en cuenta
+
+1. Antes de contar con las vacunas necesarias de inmunidad asegúrate de que tu perro no se exponga en lugares de contagio o se acerque a otros perros. Se pueden hacer paseos a la calle para que tu perro se habitúe al ruido pero deberás llevarlo en brazos, evitando el contacto con el exterior al 100%.
+
+2. Los cachorros lactantes no pueden ser vacunados. Cuando maman, las vacunas pueden interferir en los anticuerpos maternos y eliminarse su efectividad.
+
+3. El primer año es el más importante por lo que deberás respetar los plazos de refuerzo de vacunas. Si no lo haces, la inmunidad obtenida gracias a las primeras dosis será nula.
+
+4. Si tienes pensado viajar con tu cachorro a otro país, habla con el veterinario e infórmate de los requisitos de vacunación existentes en cada caso. Sólo así evitarás riesgos innecesarios.
+
+#### ¡Gracias por leer nuestro blog!
+
+Si te ha gustado este artículo❤, puedes compartirlo por email o redes sociales con otras personas amantes de los perros que les pueda gustar.
+

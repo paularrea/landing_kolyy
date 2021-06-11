@@ -1,30 +1,38 @@
 ---
-title: La visión de los perros
-date: 2019-04-06
-path: /oruga-procesionaria-2
-collection: educacion
+title: Cómo saber si mi perro sufre estrés
+date: 2021-02-02
+path: /como-saber-si-mi-perro-sufre-estres
+collection: salud
 featured: true
-featuredImage: ./oruga.jpeg
+featuredImage: ./perro-estrés.jpeg
 tags: ["Curiosidades"]
 type: "blog"
 ---
 
-Ya está aquí la primavera, una estación un tanto peligrosa para nuestros amigos si no estamos bien alerta de lo que tocan u olfatean cuando salimos a pasear con ellos. En estas épocas en las que empiezan a subir las temperaturas aparece la oruga procesionaria, una larva que supone un auténtico peligro para quien la toque, especialmente para niños y animales.
+Los perros también sufren estrés y es necesario detectarlo cuanto antes para asegurar su bienestar y evitar que se pueda transformar en un problema de salud más grave. ¿Y cómo detectarlo? Te explicamos las 10 señales que pueden evidenciar que tu perro está sufriendo estrés.
 
-#### ¿Por qué debemos proteger a nuestros perros de esta oruga?
+1. **Hiperactividad.** Son incapaces de estar tranquilos y a la larga pueden empezar a mordisquear muebles y cualquier utensilio que encuentren a su paso para liberar la tensión acumulada.
 
-La oruga procesionaria es una larva que puede llegar a ser letal para nuestros perros si la ingieren sin darse cuenta. Se encuentra en los bosques de pinos y es muy común en la cuneca mediterránea, aunque con el aumento de temperaturas se estan colonizando hasta en las zonas más altas de España.
+2. **Aparición de estereotipias** o movimientos repetitivos como morderse la cola, cazar animales invisibles, ladrar sin parar...
 
-Esta oruga segrega una toxina muy venenosa al sentirse atacada, capaz de causar irritaciones en hocico y piel de los perros sólo por el hecho de olerla.
+3. **Reaccionan exageradamente.**
 
-Si los pelillos de las orugas entran en contacto con las mucosas o con los ojos de los animales, los síntomas suelen ser picores, urticarias y sensación de quemazón y si la tocan suelen comenzar a babear y a rascarse la zona de la boca. En algunas ocasiones la piel se daña y produce ampollas.
+4. **Salivación y relamido constante.**
 
-#### ¿Cómo puedo evitar que mi perro tenga contacto con una procesaria?
+5. **Falta de atención.** Los perros que están estresados sufren un nerviosismo generalizado que les hace tener dificultad para concentrarse, prestar atención, seguir nuestras órdenes de obediencia...
 
-Estos son algunos de los consejos que pueden ayudarte a evitar esta situación tan peligrosa para tu perro:
-1. Ten controlado a tu perro y evita que investigue los nidos abandonados de las ramas y copas de los árboles.
-2. Fíjate por dónde pisáis: esta oruga no va nunca sola, van todas en fila, una detrás de la otra. Si ves algo parecido a una serpiente en el suelo, probablemente sea una procesión de estas larvas.
+6. **Jadeo excesivo** que puede estar acompañado por lamentos y sonidos de tristeza.
 
-#### ¿Y cómo sé si ha habido contacto?
+7. **Reactividad o huida.** El perro estresado suele sentirse muy incómodo ante una situación desconocida como encontrarse con otro perro, objeto o persona desconocida.
 
-Si sabes los síntomas que provoca puedes detectarlo con facilidad y sino puedes fijarte en las pisadas de tu perro mientras estés realizando un paseo con él por el bosque. Estas orugas son muy pequeñas y el animal puede pisarlas sin querer.
+8. **Pérdida de pelo.** Suele ocurrir en casos de estrés crónico y se debe ir cuanto antes al veterinario.
+
+9. Lo veremos especialmente **rígido y tenso.**
+
+10. **Cambios de comportamiento.** Es muy común que los perros que sufren estrés empiecen a desarrollar conductas que nunca antes habían mostrado: agresividad, timidez, depresión, fobias...
+
+Si alguna vez percibes estas señales en tu perro te recomendamos acudir cuanto antes a un etólogo o educador canino para que te ayuden con consejos y pautas útiles para tu caso.
+
+#### ¡Gracias por leer nuestro blog!
+
+Si te ha gustado este artículo❤, puedes compartirlo por email o redes sociales con otras personas amantes de los perros que les pueda gustar.
