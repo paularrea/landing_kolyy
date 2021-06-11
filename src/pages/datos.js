@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../components/layout/layout"
-import { container } from "../styles/collar.module.scss";
+import { container_legal } from "../styles/collar.module.scss";
 
 const ProteccionDatos = () => {
   return (
       <Layout>
-    <div style={{paddingTop:'10rem',paddingBottom:'6rem'}} className={container}>
+    <div className={container_legal}>
       <h2>Política completa de cookies</h2>
       El editor de este sitio web utiliza cookies y/o tecnologías similares que
       almacenan y recuperan información cuando el usuario navega por el sitio

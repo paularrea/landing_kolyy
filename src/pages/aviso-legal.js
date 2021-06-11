@@ -1,14 +1,13 @@
 import { Link } from "gatsby";
 import React from "react";
 import Layout from "../components/layout/layout";
-import { container } from "../styles/collar.module.scss";
+import { container_legal } from "../styles/collar.module.scss";
 
 const AvisoLegal = () => {
   return (
     <Layout>
       <div
-        style={{ paddingTop: "10rem", paddingBottom: "6rem" }}
-        className={container}
+        className={container_legal}
       >
         <h2>Aviso legal</h2>
         <p>

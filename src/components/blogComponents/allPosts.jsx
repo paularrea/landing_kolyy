@@ -3,7 +3,7 @@ import { Link, graphql, useStaticQuery } from "gatsby";
 import { Grid, Row, Col } from "react-flexbox-grid";
 import MediaQuery from "react-responsive";
 import Img from "gatsby-image";
-import arrow from "../../images/icons/downArrow.png"
+import arrow from "../../images/icons/downArrow.png";
 import "./filterDropdown.css";
 import {
   post_flex,
@@ -16,7 +16,7 @@ import {
   disabled_style,
   filter_post,
   hide,
-  flex_filtration_mobile
+  flex_filtration_mobile,
 } from "../../styles/blog.module.scss";
 
 const AllPosts = () => {
@@ -49,7 +49,9 @@ const AllPosts = () => {
       }
       salud: allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { frontmatter: { collection: { eq: "salud" }  type: { eq: "blog" }  }  }
+        filter: {
+          frontmatter: { collection: { eq: "salud" }, type: { eq: "blog" } }
+        }
       ) {
         edges {
           node {
@@ -70,7 +72,9 @@ const AllPosts = () => {
       }
       educacion: allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { frontmatter: { collection: { eq: "educacion" }  type: { eq: "blog" }  }  }
+        filter: {
+          frontmatter: { collection: { eq: "educacion" }, type: { eq: "blog" } }
+        }
       ) {
         edges {
           node {
@@ -91,7 +95,12 @@ const AllPosts = () => {
       }
       curiosidades: allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
-        filter: { frontmatter: { collection: { eq: "curiosidades" }  type: { eq: "blog" }  }  }
+        filter: {
+          frontmatter: {
+            collection: { eq: "curiosidades" }
+            type: { eq: "blog" }
+          }
+        }
       ) {
         edges {
           node {
@@ -120,16 +129,36 @@ const AllPosts = () => {
           const { frontmatter } = edge.node;
           return (
             <Col md={4} sm={6} xs={6}>
-              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_post} key={frontmatter.path}>
-                <Link to={frontmatter.path}>
-                  <Img
-                    fluid={frontmatter.featuredImage.childImageSharp.fluid}
-                  />
-                  <h5>{frontmatter.title}</h5>
-                </Link>
-                <Link to={frontmatter.path}>
-                  <button>Leer más</button>
-                </Link>
+              <div
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+                className={filter_post}
+                key={frontmatter.path}
+              >
+                <MediaQuery maxWidth={800}>
+                  <Link to={frontmatter.path}>
+                    <Img
+                      fluid={frontmatter.featuredImage.childImageSharp.fluid}
+                    />
+                    <h6 style={{ margin: ".5rem 0 0 0" }}>
+                      {frontmatter.title}
+                    </h6>
+                  </Link>
+                </MediaQuery>
+                <MediaQuery minWidth={800}>
+                  <Link to={frontmatter.path}>
+                    <Img
+                      fluid={frontmatter.featuredImage.childImageSharp.fluid}
+                    />
+                    <h5 style={{ margin: "1rem 0 0 0" }}>
+                      {frontmatter.title}
+                    </h5>
+                  </Link>
+                  <Link to={frontmatter.path}>
+                    <button>Leer más</button>
+                  </Link>
+                </MediaQuery>
               </div>
             </Col>
           );
@@ -145,7 +174,13 @@ const AllPosts = () => {
           const { frontmatter } = edge.node;
           return (
             <Col md={4} sm={6} xs={6}>
-              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_post} key={frontmatter.path}>
+              <div
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+                className={filter_post}
+                key={frontmatter.path}
+              >
                 <Link to={frontmatter.path}>
                   <Img
                     fluid={frontmatter.featuredImage.childImageSharp.fluid}
@@ -170,7 +205,13 @@ const AllPosts = () => {
           const { frontmatter } = edge.node;
           return (
             <Col md={4} sm={6} xs={6}>
-              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_post} key={frontmatter.path}>
+              <div
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+                className={filter_post}
+                key={frontmatter.path}
+              >
                 <Link to={frontmatter.path}>
                   <Img
                     fluid={frontmatter.featuredImage.childImageSharp.fluid}
@@ -195,7 +236,13 @@ const AllPosts = () => {
           const { frontmatter } = edge.node;
           return (
             <Col md={4} sm={6} xs={6}>
-              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_post} key={frontmatter.path}>
+              <div
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+                className={filter_post}
+                key={frontmatter.path}
+              >
                 <Link to={frontmatter.path}>
                   <Img
                     fluid={frontmatter.featuredImage.childImageSharp.fluid}
@@ -218,11 +265,18 @@ const AllPosts = () => {
       {/* Filter mobile */}
       <MediaQuery maxWidth={870}>
         <div className={filter_menu} onClick={() => setDropdown(!dropdown)}>
-          <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_filtration_mobile}>
-            <h4 style={{ textAlign: "left", fontSize:'18px'}}>
+          <div
+            data-sal="slide-up"
+            data-sal-delay="100"
+            data-sal-duration="1000"
+            className={flex_filtration_mobile}
+          >
+            <h4 style={{ textAlign: "left", fontSize: "18px" }}>
               Filtrar post por...
             </h4>
-            <div><img src={arrow} alt="" /></div>
+            <div>
+              <img src={arrow} alt="" />
+            </div>
           </div>
 
           <div className={`dropdown-collapse ${dropdown ? "show" : ""}`}>
@@ -287,7 +341,12 @@ const AllPosts = () => {
       </MediaQuery>
       {/* Desktop version */}
       <MediaQuery minWidth={870}>
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={filter_menu}>
+        <div
+          data-sal="slide-up"
+          data-sal-delay="100"
+          data-sal-duration="1000"
+          className={filter_menu}
+        >
           <a
             aria-hidden="true"
             className={tab}

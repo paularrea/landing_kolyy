@@ -125,7 +125,7 @@
 }
 .flex_just_mobile{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-start;
 }
 @media (min-width: 700px) {
