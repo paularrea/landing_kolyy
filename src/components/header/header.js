@@ -21,7 +21,7 @@ const Header = () => (
           </div>
           <div className={flex_nav_btn}>
               <button>
-            <Link style={{color:'white'}} id="book" to="/book">
+            <Link style={{color:'white'}} id="book" to="/reserva">
                 <FormattedMessage id="nav.book" />
             </Link>
               </button>

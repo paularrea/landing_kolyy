@@ -1,9 +1,9 @@
 ---
-title: Labrador
+title: Yorkshire terrier
 date: 2019-04-06
-path: /labrador
+path: /yorkshire-terrier
 featured: true
-featuredImage: ./labrador.png
+featuredImage: ./yorkshire-terrier.png
 tags: ["Curiosidades"]
 intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
 size: "Mediano"

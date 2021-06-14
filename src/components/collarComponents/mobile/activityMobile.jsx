@@ -8,8 +8,8 @@ import {
   flex_feature,
 } from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
-import ActiveImg from "../img/activeImg"
-import star from "../../../images/icons/star.png"
+import ActiveImg from "../img/activeImg";
+import star from "../../../images/icons/star.png";
 
 const ActivityMobile = () => {
   return (
@@ -17,10 +17,20 @@ const ActivityMobile = () => {
       <div className={container_gps}>
         <div className={text_container}>
           <div className={title_text}>
-            <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Mantenlo activo y feliz.</h2>
-            <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
-              El collar te informa del ejercicio físico que lleva a cabo tu
-              amigo. <br />
+            <h2
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+            >
+              Diviértete haciendo ejercicio.{" "}
+            </h2>
+            <p
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+            >
+              Con el collar Kolyy puedes medir y llevar un control de la
+              actividad de tu perro. <br />
               <br /> Registra los pasos diarios y el tiempo y distancia
               recorrida para que puedas mantenerlo en forma.
             </p>
@@ -28,26 +38,57 @@ const ActivityMobile = () => {
         </div>
       </div>
       <div className={img_container}>
-        <ActiveImg/>
+        <ActiveImg />
       </div>
       <div className={container_gps}>
         <div className={text_container}>
           <div className={features} style={{ marginLeft: "0" }}>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
-     <div><img src={star} alt="star point" /></div>
-              <h5>Sensor de movimiento y actividad.</h5>
+            <div
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+              className={flex_feature}
+            >
+              <div>
+                <img src={star} alt="star point" />
+              </div>
+              <h5>Sensor de movimiento y del tipo de actividad.</h5>
             </div>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
-     <div><img src={star} alt="star point" /></div>
-              <h5>Contador de pasos.</h5>
+            <div
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+              className={flex_feature}
+            >
+              <div>
+                <img src={star} alt="star point" />
+              </div>
+              <h5>Contador de pasos en modo paseo y carrera.</h5>
             </div>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
-     <div><img src={star} alt="star point" /></div>
-              <h5>Registro de distancia recorrida.</h5>
+            <div
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+              className={flex_feature}
+            >
+              <div>
+                <img src={star} alt="star point" />
+              </div>
+              <h5>
+                Medidor de distancia recorrida y cronometro de tiempo en
+                actividad.
+              </h5>
             </div>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
-     <div><img src={star} alt="star point" /></div>
-              <h5>Registro de tiempo de paseos.</h5>
+            <div
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+              className={flex_feature}
+            >
+              <div>
+                <img src={star} alt="star point" />
+              </div>
+              <h5>Registro de rutas de paseo y excursiones.</h5>
             </div>
           </div>
         </div>

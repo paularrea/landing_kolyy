@@ -46,7 +46,7 @@ const Doggipedia = ({ data }) => {
 
   return (
     <Layout>
-      <Seo title="Doggipedia" />
+      <Seo title="Razas de perro" />
       <div
         style={{
           backgroundColor: "transparent",

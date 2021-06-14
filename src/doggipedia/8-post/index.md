@@ -1,15 +1,15 @@
 ---
-title: Pastor alemán
-date: 2019-04-01
-path: /pastor-aleman
+title: Chihuahua
+date: 2020-04-01
+path: /chihuahua
 featured: true
-featuredImage: ./pastor-aleman.png
-intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
+featuredImage: ./chihuahua.png
 tags: ["Curiosidades"]
-size: "Grande"
+intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
+size: "Pequeño"
 aseo: "Una vez a la semana"
-pelo: "Largo"
-peso: "30 a 45 kg"
+pelo: "Corto"
+peso: "10 a 11 kg"
 type: "doggipedia"
 ---
 

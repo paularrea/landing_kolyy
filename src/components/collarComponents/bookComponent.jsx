@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'gatsby'
 import {
   book_container,
   text_container,
@@ -28,14 +29,14 @@ const BookComponent = () => {
             >
               <p>
                 Kolyy es el primer collar para perros con un potencial y
-                recorrido infinitos. Este año estamos fabricando 500 collares
-                disponibles para 2022.
+                recorrido infinitos y estará disponible en 2022.
                 <br />
-                ¿Quieres asegurarte uno? <br />
                 <br />
-                Déjanos tu correo electrónico y te enviaremos una invitación.
+                <b>¿Quieres asegurarte uno?</b> <br />
+                <br />
+                ¡Apúntate a la lista!
               </p>
-              {/* <SubscribeComponent /> */}
+              <Link to='/reserva'><button style={{marginTop:'2rem'}}>Apúntate</button></Link>
             </div>
           </div>
         </div>

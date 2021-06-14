@@ -1,9 +1,9 @@
 ---
-title: Retriever
+title: Retriever de Chesapeake
 date: 2019-04-02
-path: /retriever
+path: /retriever-chesapeake
 featured: true
-featuredImage: ./retriever.png
+featuredImage: ./retriever-chesapeake.png
 tags: ["Curiosidades"]
 intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
 size: "Grande"

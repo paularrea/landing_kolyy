@@ -100,11 +100,10 @@ a{
         width: 10rem;
     }
 }
-
 @media (min-width: 1200px) {
   h1{
-    font-size: 70px;
-    line-height: 84px;
+    font-size: 60px;
+    line-height: 70px;
     font-weight: 900;
   }
   h2{
@@ -132,4 +131,12 @@ a{
   button{
     width: auto;
   }
+}
+@media (min-width: 1400px) {
+  h1{
+    font-size: 70px;
+    line-height: 84px;
+    font-weight: 900;
+  }
+  
 }

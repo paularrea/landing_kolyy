@@ -1,6 +1,7 @@
 import React from "react";
 import TimelineText from "./timelineText";
 import Future from "./future";
+import { Link } from "gatsby";
 import {
   sky_timeline,
   flex_container,
@@ -10,6 +11,7 @@ import {
   date,
   text,
 } from "./timeline.module.scss";
+import MediaQuery from "react-responsive";
 import DesarrolloText from "./desarrolloText";
 
 const Chronology = () => {
@@ -19,20 +21,43 @@ const Chronology = () => {
         <div className={sky_timeline}>
           <h5>MAYO 2020</h5>
           <h1>Sky nos deja</h1>{" "}
-            <p>
-              El invierno pasado, un día, Sky dejó de comer y, 20 días después,
-              se fue. <br /> <br /> A pesar de llevarlo a los mejores
-              especialistas, no pudieron obtener el diagnóstico hasta que fue
-              demasiado tarde. Un linfoma intestinal de 8 meses sin ningún
-              síntoma externo se lo llevó sin dejarnos hacer nada.{" "}
-            </p>{" "}
+          <p>
+            El invierno pasado, un día, Sky dejó de comer y, 20 días después, se
+            fue. <br /> <br /> A pesar de llevarlo a los mejores especialistas,
+            no pudieron obtener el diagnóstico hasta que fue demasiado tarde. Un
+            linfoma intestinal de 8 meses sin ningún síntoma externo se lo llevó
+            sin dejarnos hacer nada.{" "}
+          </p>{" "}
+          <Link
+            style={{ marginTop: "2rem" }}
+            to="/porque-nacio-kolyy"
+          >
+            <button style={{ color: "black", backgroundColor: "#D9DADD" }}>
+              Saber más
+            </button>
+          </Link>
         </div>
       </TimelineText>
       <div className={flex_container}>
         <div className={desarrollo}>
-          <DesarrolloText>
-            <h2>Desarrollo del collar</h2>
-          </DesarrolloText>
+          <MediaQuery minWidth={869}>
+            {" "}
+            <DesarrolloText>
+              <h2>
+                Desarrollo <br />
+                del collar
+              </h2>
+            </DesarrolloText>
+          </MediaQuery>
+          <MediaQuery maxWidth={870}>
+            {" "}
+            <DesarrolloText>
+              <h2>
+                Desarrollo
+                del collar
+              </h2>
+            </DesarrolloText>
+          </MediaQuery>
         </div>
         <div className={timeline}>
           <TimelineText>

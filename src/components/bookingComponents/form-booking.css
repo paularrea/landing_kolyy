@@ -1,0 +1,264 @@
+#booking-form-container{
+    background-color: #D9DADD !important; 
+    width: 100%;
+    margin: 0 !important;
+}
+
+#form-container{
+    background-color: rgba(48, 170, 170, .06) !important; 
+    width: 100%;
+    margin: 0 !important;
+}
+button{
+    -webkit-appearance: none !important;
+  }
+input[type=text], input[type=button] {
+    -webkit-appearance: none !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+#safari { background-color:#CCC }
+}
+#form-container>p{
+    text-align: left;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-top: 4rem;
+    font-size: 18px;
+    font-size: 400;
+}
+#booking-hubspot-form{
+    padding: 2rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hs-form-field{
+    text-align: left !important;
+} 
+.form-columns-2{
+    margin: 0;
+    max-width: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+#firstname-cefecb98-7975-4597-b869-2d999834cbd2{
+    width: 38vw;
+}
+#lastname-cefecb98-7975-4597-b869-2d999834cbd2{
+    width: 42vw;
+}
+#email-662bb340-622d-4d8b-b9c3-94c89d2335ca{
+    width: 82vw;
+}
+
+#cuanto_estarias_dispuesto_a_pagar_por_el_collar_kolyy_-cefecb98-7975-4597-b869-2d999834cbd2{
+    width: 82vw;
+}
+
+#booking-hubspot-form input{
+    border-radius: 25px !important;
+    padding: 15px;
+    border: transparent;
+    outline: none;
+    margin: 1rem 0;
+}
+#booking-hubspot-form select{
+    border-radius: 15px !important;
+    border: transparent;
+    outline: none;
+    padding: 15px;
+    height: 250px;
+    width: 82vw;
+    margin: 1rem 0;
+    margin-bottom: 1rem;
+}
+.hs-button{
+    background-color: rgb(48, 170, 170);
+    padding: 8px 30px !important;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.actions{
+   display: flex;
+   justify-content: flex-start !important;
+   align-items: center ;
+   margin-left: 0rem;
+}
+#booking-hubspot-form span{
+color: black;
+font-size: 16px;
+font-weight: 400;
+}
+
+.contact-absolute{
+position: relative;
+}
+
+.contact-absolute>div{
+    position: relative;
+    padding-left: 2rem;
+    right: 0;
+    bottom: 3rem;
+    }
+    
+
+@media (min-width: 870px) {
+    #booking-hubspot-form{
+        padding: 5rem 2rem; 
+    }
+    #form-container>p{
+        text-align: center;
+        padding: 2rem 0;
+        padding-top: 4rem;
+        font-size: 18px;
+        font-size: 400;
+    }
+    #firstname-cefecb98-7975-4597-b869-2d999834cbd2{
+        width: 23vw;
+    }
+    #lastname-cefecb98-7975-4597-b869-2d999834cbd2{
+        width: 24.8vw;
+    }
+    #email-662bb340-622d-4d8b-b9c3-94c89d2335ca{
+        width: 50vw;
+    }
+    #booking-hubspot-form input{
+        margin: .5rem 0;
+        margin-bottom: 1rem;
+    }
+    #booking-hubspot-form textarea{
+        width: 50vw;
+        margin: 1rem 0;
+        margin-bottom: 2rem;
+    }
+    .hs-button{
+        margin: 2rem 0 !important;
+    }
+    .actions{
+        justify-content: flex-start;
+     }
+     .contact-absolute{
+        position: relative;
+        }
+        
+        .contact-absolute>div{
+            position: absolute;
+            right: 25%;
+            bottom: 3rem;
+            }
+            
+}
+@media (min-width: 900px) {
+    #booking-hubspot-form{
+        padding: 5rem; 
+    }
+}
+@media (min-width: 950px) {
+    #booking-hubspot-form{
+        padding: 5rem; 
+    }
+}
+@media (min-width: 1100px) {
+    #booking-hubspot-form{
+        padding: 5rem 2rem; 
+    }
+}
+@media (min-width: 1300px) {
+    #booking-hubspot-form{
+        padding: 5rem; 
+    }
+}
+@media (min-width: 1600px) {
+    #booking-hubspot-form{
+        padding: 5rem; 
+    }
+}
+@media (min-width: 1800px) {
+    #booking-hubspot-form{
+        padding: 5rem 10rem; 
+    }
+}
+@media (min-width: 2000px) {
+    #booking-hubspot-form{
+        padding: 5rem 15rem; 
+    }
+}
+@media (min-width: 2200px) {
+    #booking-hubspot-form{
+        padding: 5rem 25rem; 
+    }
+}
+@media (min-width: 2400px) {
+    #booking-hubspot-form{
+        padding: 5rem 30rem; 
+    }
+}
+@media (min-width: 2600px) {
+    #booking-hubspot-form{
+        padding: 5rem 35rem; 
+    }
+}
+@media (min-width: 2800px) {
+    #booking-hubspot-form{
+        padding: 5rem 40rem; 
+    }
+}
+@media (min-width: 3000px) {
+    #booking-hubspot-form{
+        padding: 5rem 50rem; 
+    }
+}
+@media (min-width: 3200px) {
+    #booking-hubspot-form{
+        padding: 5rem 60rem; 
+    }
+}
+@media (min-width: 3400px) {
+    #booking-hubspot-form{
+        padding: 5rem 65rem; 
+    }
+}
+@media (min-width: 3600px) {
+    #booking-hubspot-form{
+        padding: 5rem 70rem; 
+    }
+}
+@media (min-width: 3800px) {
+    #booking-hubspot-form{
+        padding: 5rem 75rem; 
+    }
+}
+@media (min-width: 4000px) {
+    #booking-hubspot-form{
+        padding: 5rem 80rem; 
+    }
+}
+@media (min-width: 4200px) {
+    #booking-hubspot-form{
+        padding: 5rem 85rem; 
+    }
+}
+@media (min-width: 4400px) {
+    #booking-hubspot-form{
+        padding: 5rem 90rem; 
+    }
+}
+@media (min-width: 4600px) {
+    #booking-hubspot-form{
+        padding: 5rem 95rem; 
+    }
+}
+@media (min-width: 4800px) {
+    #booking-hubspot-form{
+        padding: 5rem 100rem; 
+    }
+}
+@media (min-width: 5000px) {
+    #booking-hubspot-form{
+        padding: 5rem 110rem; 
+}
+}

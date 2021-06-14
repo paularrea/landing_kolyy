@@ -11,7 +11,7 @@ import {
 import MediaQuery from "react-responsive";
 import IntelligentMobile from "./mobile/intelligentMobile";
 import IntelligentImg from "./img/intelligentImg";
-import star from "../../images/icons/star.png"
+import star from "../../images/icons/star.png";
 
 const InteligentComponent = () => {
   return (
@@ -20,26 +20,55 @@ const InteligentComponent = () => {
         <div className={container_gps}>
           <div className={text_container}>
             <div className={title_text}>
-              <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Anticípate a los problemas.</h2>
-              <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
-                Kolyy es un collar inteligente que aprende los niveles de
-                actividad y hábitos de tu perro para que puedas controlar si hay
-                una alteración o anomalía y tomar la mejor decisión antes de que
-                sea demasiado tarde.
+              <h2
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+              >
+                Tu oportunidad para anticiparte a posibles problemas.
+              </h2>
+              <p
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+              >
+                El collar kolyy aprende los niveles de actividad y hábitos de tu
+                perro. Recibe alertas de cualquier alteración o anomalía.
               </p>
             </div>
             <div className={features} style={{ marginRight: "2rem" }}>
-              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
-                <div><img src={star} alt="star point" /></div>
-                <h5>Registro de tiempo tumbado.</h5>
+              <div
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+                className={flex_feature}
+              >
+                <div>
+                  <img src={star} alt="star point" />
+                </div>
+                <h5>Sensor de temperatura ambiental.</h5>
               </div>
-              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
-                <div><img src={star} alt="star point" /></div>
-                <h5>Registro de horas de sueño.</h5>
+              <div
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+                className={flex_feature}
+              >
+                <div>
+                  <img src={star} alt="star point" />
+                </div>
+                <h5>Registro de tiempo en reposo y ciclos de sueño.</h5>
               </div>
-              <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
-              <div><img src={star} alt="star point" /></div>
-                <h5>Sensor de rascado.</h5>
+              <div
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+                className={flex_feature}
+              >
+                <div>
+                  <img src={star} alt="star point" />
+                </div>
+                <h5>Sensor de movimiento de rascado.</h5>
               </div>
             </div>
           </div>

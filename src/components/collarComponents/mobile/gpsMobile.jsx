@@ -17,12 +17,23 @@ const GpsMobile = () => {
       <div className={container_gps}>
         <div className={text_container}>
           <div className={title_text}>
-            <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">No vuelvas a perderlo.</h2>
-            <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
-              Kolyy te avisa si tu perro se pierde y te ayuda a encontrarlo.{" "}
+            <h2
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+            >
+              Nunca más volverán a perderse.
+            </h2>
+            <p
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+            >
+              Kolyy te avisa si tu perro se escapa y te ayuda a encontrarlo.{" "}
               <br /> <br />
-              Con el localizador GPS a tiempo real podrás encontrarlo de la
-              forma más rápida y segura en cualquier parte del mundo.
+              El collar lleva incorporado un localizador GPS que permite a
+              tiempo real encontrar o localizar a tu perro al instante. Estés
+              donde estés no lo pierdas de vista.
             </p>
           </div>
         </div>
@@ -33,19 +44,29 @@ const GpsMobile = () => {
       <div className={container_gps}>
         <div className={text_container}>
           <div className={features} style={{ marginRight: "0" }}>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
+            <div
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+              className={flex_feature}
+            >
               <div>
                 <img src={star} alt="star point" />
               </div>
-              <h5>Geolocalización a tiempo real a través de 2G /3G.</h5>
+              <h5>Sistema de localización GPS para zonas urbanas y rurales.</h5>
             </div>
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={flex_feature}>
+            <div
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+              className={flex_feature}
+            >
               <div>
                 <img src={star} alt="star point" />
               </div>
               <h5>
-                Señal de localización si el perro ha salido de la zona de
-                seguridad.
+                Función “dibujar tu zona de seguridad” para recibir alertas si
+                tu perro sale del área marcada.
               </h5>
             </div>
           </div>

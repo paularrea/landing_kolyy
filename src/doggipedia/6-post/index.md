@@ -1,9 +1,9 @@
 ---
-title: Mestizo pastor
+title: Labrador Retriever
 date: 2020-03-01
-path: /mestizo-pastor
+path: /labrador-retriever
 featured: true
-featuredImage: ./labrador.png
+featuredImage: ./labrador-retriever.png
 tags: ["Curiosidades"]
 intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
 size: "Mediano"

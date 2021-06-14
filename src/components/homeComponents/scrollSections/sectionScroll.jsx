@@ -43,7 +43,9 @@ const SectionScroll = () => {
                   <Link to="/collar">Saber más</Link>
                 </button>{" "}
                 <button>
-                  <Link style={{color:'white'}} to="/book">Reserva</Link>
+                  <Link style={{ color: "white" }} to="/book">
+                    Reserva
+                  </Link>
                 </button>
               </div>
             </div>
@@ -75,6 +77,11 @@ const SectionScroll = () => {
         </div>
       </div>
       <div className="section-scroll">
+        <div className="p fixed">
+          <EmpoderarIntro />
+        </div>
+      </div>
+      <div className="section-scroll">
         <div className="p fixed" style={{ width: "100vw" }}>
           <BgIntro1>
             <div className="flex-container-bg">
@@ -85,6 +92,7 @@ const SectionScroll = () => {
                   Localizador GPS para saber donde está en todo momento y alerta
                   por si tu perro sale de la zona que has marcado como segura.
                 </p>
+                <Link to="/collar-perro"><button>Saber más</button></Link>
               </div>
             </div>
           </BgIntro1>
@@ -101,6 +109,7 @@ const SectionScroll = () => {
                   Registro de actividad para que tu perro alcance sus objetivos
                   de ejercicio.
                 </p>
+                <Link to="/collar-perro"><button>Saber más</button></Link>
               </div>
             </div>
           </BgIntro2>
@@ -117,6 +126,7 @@ const SectionScroll = () => {
                   Registro de sus hábitos cotidianos para anticiparte a futuros
                   problemas de salud.
                 </p>
+                <Link to="/collar-perro"><button>Saber más</button></Link>
               </div>
             </div>
           </BgIntro3>
@@ -124,7 +134,6 @@ const SectionScroll = () => {
       </div>
 
       <div className="section-scroll-last">
-        <EmpoderarIntro />
         <CollarCollection />
         <PlacaIntro />
         <Footer />

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { fallDown as Menu } from "react-burger-menu";
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import "./burger.css";
 import Logo from "./logo";
 import Link from "../../Link";
@@ -31,19 +30,19 @@ const Burger = () => {
           </div>
         </Link>
         <div className="flex-btns">
-          <Link id="book" to="/book">
+          <Link id="reserva" to="/reserva">
             <button>
-              <FormattedMessage id="nav.book" />
+              Reserva
             </button>
           </Link>
           <a href="https://app.kolyy.com/" rel="noreferrer" target="_blank">
             <button className="gray">
-              <FormattedMessage id="nav.login" />
+              Iniciar sesión
             </button>
           </a>
         </div>
         <nav className="bm-item-list">
-          <Link className="menu-item" id="collar" to="/collar">
+          <Link className="menu-item" id="collar-perro" to="/collar-perro">
             <div
               role="link"
               className="anchor-div"
@@ -56,7 +55,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              <FormattedMessage id="nav.collar" />
+              Collar
               <img src={menuArrow} alt="Collar" />
             </div>
           </Link>
@@ -78,12 +77,12 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              <FormattedMessage id="nav.placa" />
+              #0perrosperdidos
               <img src={menuArrow} alt="#0perrosPerdidos" />
             </div>
           </Link>
 
-          <Link id="about" to="/about" className="menu-item">
+          <Link id="sobre-nosotros" to="/sobre-nosotros" className="menu-item">
             <div
               role="link"
               className="anchor-div"
@@ -96,11 +95,11 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              <FormattedMessage id="nav.about" />
+              ¿Qué es Kolyy?
               <img src={menuArrow} alt="About" />
             </div>
           </Link>
-          <Link id="doggipedia" to="/doggipedia" className="menu-item">
+          <Link id="razas-de-perro" to="/razas-de-perro" className="menu-item">
             <div
               role="link"
               className="anchor-div"
@@ -113,7 +112,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              <FormattedMessage id="nav.doggipedia" />
+              Conoce a tu perro
               <img src={menuArrow} alt="doggipedia" />
             </div>
           </Link>
@@ -130,11 +129,11 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              <FormattedMessage id="nav.blog" />
+              Blog
               <img src={menuArrow} alt="blog" />
             </div>
           </Link>
-          <Link id="questions" to="/questions" className="menu-item">
+          <Link id="contacto" to="/contacto" className="menu-item">
             <div
               role="link"
               className="anchor-div"
@@ -147,7 +146,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              <FormattedMessage id="nav.questions" />
+              Pregúntanos
               <img src={menuArrow} alt="contact" />
             </div>
           </Link>
@@ -160,4 +159,4 @@ const Burger = () => {
   );
 };
 
-export default injectIntl(Burger);
+export default Burger;

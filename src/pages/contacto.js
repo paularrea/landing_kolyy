@@ -11,7 +11,7 @@ import ContactImg from "../components/questionsComponents/contactBackgroundImg";
 const Questions = () => {
   return (
     <Layout>
-      <Seo title="Questions" />
+      <Seo title="Contacto" />
       <MediaQuery minWidth={1000}>
         <MediaFixed />
       </MediaQuery>

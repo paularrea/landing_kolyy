@@ -39,13 +39,13 @@ const DesktopHeader = () => {
         setActiveCollar(true);
       } else if (currentURL.indexOf("zero-perros-perdidos") > -1) {
         setActivePlacas(true);
-      } else if (currentURL.indexOf("about") > -1) {
+      } else if (currentURL.indexOf("sobre-nosotros") > -1) {
         setActiveAbout(true);
       } else if (currentURL.indexOf("blog") > -1) {
         setActiveBlog(true);
-      } else if (currentURL.indexOf("questions") > -1) {
+      } else if (currentURL.indexOf("contacto") > -1) {
         setActiveQuestions(true);
-      } else if (currentURL.indexOf("doggipedia") > -1) {
+      } else if (currentURL.indexOf("razas-de-perro") > -1) {
         setActiveDoggipedia(true);
       }
     };
@@ -57,8 +57,8 @@ const DesktopHeader = () => {
     <header className={hideBlackNav ? header_out : header}>
       <nav className={hideBlackNav ? menu_fijo_out : menu_fijo}>
         <Link
-          id="doggipedia"
-          to="/doggipedia"
+          id="razas-de-perro"
+          to="/razas-de-perro"
           className={activeDoggipedia && active_white}
         >
           {/* <FormattedMessage id="nav.blog" /> */}
@@ -69,8 +69,8 @@ const DesktopHeader = () => {
           <FormattedMessage id="nav.blog" />
         </Link>
         <Link
-          id="questions"
-          to="/questions"
+          id="contacto"
+          to="/contacto"
           className={activeQuestions && active_white}
         >
           <FormattedMessage id="nav.questions" />
@@ -82,7 +82,7 @@ const DesktopHeader = () => {
             <Logo />
           </Link>
 
-          <Link id="collar" to="/collar" className={activeCollar && active}>
+          <Link id="collar-perro" to="/collar-perro" className={activeCollar && active}>
             <FormattedMessage id="nav.collar" />
           </Link>
 
@@ -94,7 +94,7 @@ const DesktopHeader = () => {
             <FormattedMessage id="nav.placa" />
           </Link>
 
-          <Link id="about" to="/about" className={activeAbout && active}>
+          <Link id="sobre-nosotros" to="/sobre-nosotros" className={activeAbout && active}>
             <FormattedMessage id="nav.about" />
           </Link>
         </nav>
@@ -108,7 +108,7 @@ const DesktopHeader = () => {
             {" "}
             <FormattedMessage id="nav.login" />
           </a>
-          <Link id="book" to="/book">
+          <Link id="reserva" to="/reserva">
             <button className={button_header}>
               <FormattedMessage id="nav.book" />
             </button>

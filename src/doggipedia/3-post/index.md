@@ -1,9 +1,9 @@
 ---
-title: Border collie
+title: Bull terrier
 date: 2019-04-04
-path: /border-collie
+path: /bull-terrier
 featured: true
-featuredImage: ./border_collie.png
+featuredImage: ./bull-terrier.png
 tags: ["Curiosidades"]
 intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
 size: "Mediano"
