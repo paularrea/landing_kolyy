@@ -1,14 +1,15 @@
 import { Link } from "gatsby";
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layout/layout";
-import { container_legal } from "../styles/collar.module.scss";
+import { container } from "../styles/legal.module.scss";
 
 const AvisoLegal = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Layout>
-      <div
-        className={container_legal}
-      >
+      <div className={container}>
         <h2>Aviso legal</h2>
         <p>
           Este aviso legal regula las condiciones de uso (en adelante,

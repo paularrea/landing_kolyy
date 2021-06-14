@@ -28,7 +28,7 @@ const Contacts = () => {
           <img src={PhoneIcon} alt="phone" />
         </div>
         <div>
-          <a href="tel:+41313019439">+34 66 666 66 66</a>
+          <a href="tel:+34647826369">+34 647 82 63 69</a>
         </div>
       </div>
       <div className={contact_div}>
@@ -36,8 +36,8 @@ const Contacts = () => {
           <img src={MailIcon} alt="mail" />
         </div>
         <div>
-          <a href="mailto:hola@kolyy.com" rel="noreferrer" target="_blank">
-            hola@kolyy.com
+          <a href="mailto:team@kolyy.com" rel="noreferrer" target="_blank">
+            team@kolyy.com
           </a>
         </div>
       </div>

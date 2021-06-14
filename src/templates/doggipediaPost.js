@@ -48,9 +48,11 @@ const DoggipediaPost = ({ data, pageContext }) => {
     <Layout>
       <div className={post_container}>
         <div>
-          <div style={{marginTop:'2rem'}} className={flex_info}>
+          <div style={{ marginTop: "2rem" }} className={flex_info}>
             <div className={flex_breadcrumb}>
-              <Link to={"/doggipedia"}>Conoce a tu perro </Link>/
+              <Link to={"/razas-de-perro"}>
+                <b>Conoce a tu perro /</b>
+              </Link>
               <p style={{ fontWeight: 700 }}>{title}</p>
             </div>
             <div>
@@ -60,8 +62,8 @@ const DoggipediaPost = ({ data, pageContext }) => {
             </div>
           </div>
         </div>
-          <h2 style={{margin:'1rem 0 0 0'}}>{title}</h2>
-          <div style={{paddingTop:'0'}} className={text}>
+        <h2 style={{ margin: "1rem 0 0 0" }}>{title}</h2>
+        <div style={{ paddingTop: "0" }} className={text}>
           <div className={flex_img_post}>
             <div className={features_dog}>
               <p className={intro_text}>{intro}</p>
@@ -81,18 +83,18 @@ const DoggipediaPost = ({ data, pageContext }) => {
             <div className={img}>
               {" "}
               <Img fluid={featuredImgFluid} />
-          <div className={flex_just_mobile}>
-            <div>
-              <MediaQuery maxWidth={870}>
-                <ShareComponent title={title} path={path} />{" "}
-              </MediaQuery>
-            </div>
-          </div>
+              <div className={flex_just_mobile}>
+                <div>
+                  <MediaQuery maxWidth={870}>
+                    <ShareComponent title={title} path={path} />{" "}
+                  </MediaQuery>
+                </div>
+              </div>
             </div>
           </div>
           <div>
-          <div dangerouslySetInnerHTML={{ __html: html }}></div>
-        </div>
+            <div dangerouslySetInnerHTML={{ __html: html }}></div>
+          </div>
         </div>
 
         <div className={link_container}>

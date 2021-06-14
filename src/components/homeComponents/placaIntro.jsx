@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'gatsby'
+import { Link } from "gatsby";
 import placas from "../../images/placas.jpg";
 import {
   container_flex_placas,
@@ -14,12 +14,11 @@ const PlacaIntro = () => {
         <div className={text}>
           {" "}
           <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
-            Protege a tu amigo con kolyy
+            Conoce nuestro reto #0perrosperdidos
           </h2>
           <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
-            El collar kolyy estará disponible en 2022. Hasta entonces puedes
-            colaborar con nosotros en nuestra iniciativa para conseguir los
-            <b>#0perrosperdidos.</b>
+            Ya hemos identificado a más de 10.000 perros y seguiremos trabajando
+            para encontrarlos a todos. Consigue tu placa y súmate al reto.
           </p>
           <Link to="/zero-perros-perdidos">
             <button
@@ -27,7 +26,7 @@ const PlacaIntro = () => {
               data-sal-delay="100"
               data-sal-duration="1000"
             >
-              Saber más
+              Únete al reto
             </button>
           </Link>
         </div>

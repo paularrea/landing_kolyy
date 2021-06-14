@@ -14,7 +14,7 @@ const PageLinks = () => {
           <Link to="/sobre-nosotros">¿Qué es Kolyy?</Link>
         </p>
         <p>
-          <Link to="/conntacto">Pregúntanos</Link>
+          <Link to="/contacto">Pregúntanos</Link>
         </p>
       </div>
       <div>

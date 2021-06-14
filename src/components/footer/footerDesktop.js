@@ -44,7 +44,7 @@ const FooterDesktop = () => {
           <button style={{ fontSize: "13px" }}>
             <a
               style={{ color: "white" }}
-              href="mailto:hola@kolyy.com"
+              href="mailto:team@kolyy.com"
               rel="noreferrer"
               target="_blank"
             >

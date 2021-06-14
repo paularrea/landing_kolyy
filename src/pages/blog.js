@@ -54,7 +54,12 @@ const Blog = ({ data }) => {
       <Seo title="Blog" />
       <BlogImg>
         <div className={bg_img}>
-          <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={content}>
+          <div
+            data-sal="fade"
+            data-sal-delay="100"
+            data-sal-duration="1000"
+            className={content}
+          >
             <h2>
               Todo lo que necesitas <br /> para cuidar de él
             </h2>

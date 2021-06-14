@@ -16,7 +16,7 @@ import {
   link,
   barra,
   related_container,
-  flex_just_mobile
+  flex_just_mobile,
 } from "./template.module.scss";
 import ShareComponent from "./components/shareComponent";
 import RelatedBlogPosts from "./components/relatedBlogPosts";
@@ -41,13 +41,14 @@ const BlogPost = ({ data, pageContext }) => {
         <div>
           <div className={flex_info}>
             <div className={flex_breadcrumb}>
-              <Link to={"/blog"}>Blog </Link>/
+              <Link to={"/blog"}>
+                <b>Blog /</b>
+              </Link>
               <p style={{ fontWeight: 700 }}>{title}</p>
             </div>
             <div>
               <MediaQuery minWidth={870}>
-                <ShareComponent title={title} path={path} />{" "}
-                <MediaFixed/>
+                <ShareComponent title={title} path={path} /> <MediaFixed />
               </MediaQuery>
             </div>
           </div>
@@ -86,7 +87,7 @@ const BlogPost = ({ data, pageContext }) => {
         </div>
         <div className={related_container}>
           <h3>También te puede interesar...</h3>
-          <RelatedBlogPosts/>
+          <RelatedBlogPosts />
         </div>
       </div>
     </Layout>

@@ -1,115 +1,156 @@
-import React from "react";
-import Layout from "../components/layout/layout"
-import { container_legal } from "../styles/collar.module.scss";
+import React, { useEffect } from "react";
+import Layout from "../components/layout/layout";
+import { Link } from "gatsby";
+import { container } from "../styles/legal.module.scss";
 
 const ProteccionDatos = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-      <Layout>
-    <div className={container_legal}>
-      <h2>Política completa de cookies</h2>
-      El editor de este sitio web utiliza cookies y/o tecnologías similares que
-      almacenan y recuperan información cuando el usuario navega por el sitio
-      web.
-      <h6>¿Qué son las cookies?</h6>
-      <p>
-        En general, estas tecnologías pueden servir para finalidades muy
-        diversas como, por ejemplo, reconocer al usuario, obtener información
-        sobre sus hábitos de navegación o personalizar la forma en que se
-        muestra el contenido. Los usos concretos que hacemos de estas
-        tecnologías se describen a continuación.{" "}
-      </p>
-      <h6>Tipo de cookies que se utilizan y su finalidad</h6>
-      <h6>1.Cookies de análisis</h6>
-      <p>
-        Son aquellas que, tratadas por nosotros o por terceros, nos permiten
-        cuantificar el número de usuarios y así realizar la medición y análisis
-        estadístico de la utilización que hacen los usuarios del servicio
-        ofertado. Para ello se analiza su navegación en nuestro sitio web con el
-        fin de mejorar la oferta de productos y servicios que le ofrecemos.{" "}
-      </p>
-      <h6>2. Cookies publicitarias comportamentales</h6>
-      <p>
-        Son aquellas que, tratadas por nosotros o por terceros, nos permiten
-        analizar sus hábitos de navegación en Internet para que podamos
-        mostrarle publicidad relacionada con su perfil de navegación.{" "}
-      </p>
-      <h6>3. Cookies de preferencias o personalización</h6>
-      <p>
-        Son aquellas que, tratadas por nosotros o por terceros, permiten
-        recordar la información para que el usuario acceda al servicio con
-        determinadas características (idioma, contenido del servicio dependiendo
-        del territorio desde el que se accede).{" "}
-      </p>
-      <h6>Declaración de cookies</h6>
-      <p>Utilizamos las siguientes cookies propias y/o de terceros[2]:</p>
-      Cookies: Google Analytics (_ga) <br />
-      Titular: Google <br />
-      Finalidad: Análisis de la web. Por ejemplo, interacciones de los usuarios,
-      tiempo de permanencia en el sitio web, etc. <br />
-      Duración: 2 años <br />
-      Más información:
-      https://developers.google.com/analytics/devguides/collection/gajs/cookie-usag{" "}
-      <br /> <br />
-      Cookies: Guest_id
-      <br />
-      Titular: Twitter
-      <br />
-      Finalidad: Para identificar al usuario.
-      <br />
-      Duración: 2 años
-      <br />
-      Más información: https://policies.google.com/technologies/types
-      <br />
-      <h6>
-        Cómo aceptar, denegar, revocar el consentimiento o eliminar las cookies
-      </h6>
-      <p>
-        Las cookies se pueden aceptar o bloquear, así como borrar los datos de
-        navegación (incluyendo las cookies) desde el navegador que usted
-        utiliza. Consulte las opciones e instrucciones que ofrece su navegador
-        para ello. Tenga en cuenta que, si acepta las cookies de terceros,
-        deberá eliminarlas desde las opciones del navegador. Por ejemplo:
-      </p>
-      <p>
-        {" "}
-        Explorer:{" "}
-        <a href="https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies">
-          https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
-        </a>
-      </p>
-      <p>
-        {" "}
-        Google Chrome:
-        <a href="https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&hl=es ">
-          https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
-        </a>
-      </p>
-      <p>
-        {" "}
-        Firefox:
-        <a href=" https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias">
-          https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
-        </a>
-      </p>
-      <p>
-        {" "}
-        Safari:
-        <a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac">
-          https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
-        </a>
-      </p>
-      <h6>
-        Transferencias de datos a terceros países realizadas por el editor{" "}
-      </h6>
-      <p>
-        Puedes informarte de las transferencias a terceros países que, en su
-        caso, realizan los terceros identificados en esta política de cookies en
-        sus correspondientes políticas de privacidad.
-        <br />
-        <br />
-        Última actualización: enero 2021
-      </p>
-    </div>
+    <Layout>
+      <div className={container}>
+        <h2>Política de protección de datos</h2>
+        Al utilizar el presente sitio web y/o al comunicarse electrónicamente
+        con KOLYY, se recogen y tratan datos personales de los usuarios. Dicho
+        tratamiento se rige por esta política de privacidad en los siguientes
+        términos:
+        <h6>Responsable del tratamiento</h6>
+        <p>
+          El responsable es la entidad Petki Labs, S.L con CIF B02878866 y
+          domicilio social en c/ Ramon Escayola 20, Sant Cugat del Vallés, 08197
+          (en adelante, el “Responsable”), inscrita en el Registro Mercantil de
+          Barcelona al Tomo 47565, folio 173, hoja número B-555765.
+        </p>
+        <h6>Consentimiento y mayoría de edad</h6>
+        <p>
+          El usuario manifiesta ser mayor de edad y acepta que los datos cedidos
+          quedarán incorporados en nuestros ficheros y serán tratados según lo
+          establecido en nuestra Política de Privacidad, Política de Cookies y
+          Condiciones de Uso del Sitio Web.
+        </p>
+        <h6>Tipo de datos</h6>
+        <p>
+          Los datos se corresponden con datos personales, bancarios,
+          identificativos y de contacto, de aquellas personas que se han puesto
+          en contacto con nosotros para participar en nuestras promociones,
+          solicitar información, adquirir algún producto o recibir algún
+          servicio, permitir que terceros les localicen en caso de pérdida de la
+          mascota, ayudar a terceros a encontrar a sus mascotas extraviadas y/o
+          recibir alertas sobre los principales eventos en relación con el
+          calendario de sus mascotas.
+        </p>
+        <h6>Finalidad</h6>
+        <p>
+          Tratamos la información que nos facilitan los usuarios con el fin de
+          atender las peticiones recibidas (participación en promociones,
+          adquisición de productos, solicitudes de información, participación en
+          la comunidad, compra de productos o prestación de servicios, permitir
+          que terceros les localicen en caso de pérdida de la mascota, ayudar a
+          terceros a encontrar a sus mascotas extraviadas y/o recibir alertas
+          sobre los principales eventos en relación con el calendario de sus
+          mascotas, etc.). <br /> Asimismo, cuando el usuario haya dado su
+          consentimiento expreso a tal efecto o cuando la legislación y/o el
+          interés legítimo lo permita le mantendremos informado de nuestra
+          actividad y novedades comerciales.
+        </p>
+        <h6>Confidencialidad y conservación de datos</h6>
+        <p>
+          Los datos serán conservados mientras la relación existente con el
+          usuario siga vigente y éste no solicite la supresión de los mismos.
+          Cuando los datos personales ya no sean necesarios para dar
+          cumplimiento al fin para el cual fueron recabados y mientras los
+          mismos no sean cancelados se conservarán de forma bloqueada para
+          responder ante posibles reclamaciones. Los datos personales serán
+          siempre tratados de forma confidencial.
+        </p>
+        <h6>Justificación del tratamiento</h6>
+        <p>
+          El tratamiento encuentra su base legal en el consentimiento otorgado
+          por el interesado o, en su caso, en el interés legítimo del
+          Responsable en mantener la relación existente con el usuario o para
+          ejecutar un contrato.
+        </p>
+        <h6>Veracidad de los datos</h6>
+        <p>
+          El usuario se compromete a facilitar datos verdaderos, exactos y
+          completos. En especial, y en relación con el servicio “Perros
+          Perdidos” resulta esencial que el usuario se cerciore de la exactitud
+          y veracidad de los datos personales que facilita para ser localizado.
+          En caso contrario, nos reservamos el derecho de no llevar a cabo la
+          prestación de servicios, el envío de obsequios/compras y/o consulta
+          informativa. <br />
+          El usuario se compromete a notificar cualquier cambio o modificación
+          de los datos personales que haya facilitado. <br />
+          El usuario es el único responsable de cualquier perjuicio, directo o
+          indirecto, que pudiera ocasionar la falta de veracidad de los datos.
+        </p>
+        <h6>Comunicación de datos</h6>
+        <p>
+          Los datos del usuario podrán ser cedidos y alojados por encargados de
+          tratamiento (empresas que realizan envíos, entidades bancarias,
+          fabricantes y/o empresas grabadoras de placas, etc.) con el fin de
+          llevar a cabo las promociones en las que participan los usuarios y las
+          compras o solicitudes de información y/o prestación de servicios
+          tramitadas por los usuarios. Aunque no están previstas, se podrían
+          comunicar datos a países extracomunitarios siempre que se den las
+          condiciones legales para ello.
+        </p>
+        <h6>Medidas de seguridad</h6>
+        <p>
+          Los datos personales de los usuarios serán protegidos garantizando un
+          nivel de seguridad adecuado de conformidad con la normativa existente
+          en materia de protección de datos.
+        </p>
+        <h6>Derechos del usuario</h6>
+        <p>
+          El usuario podrá ejercer sus derechos de acceso, rectificación,
+          supresión, limitación y oposición o solicitar la portabilidad de sus
+          datos así como revocar el consentimiento prestado en cualquier momento
+          enviando un correo electrónico a team@kolyy.com, siempre adjuntando
+          una fotocopia del DNI. Para garantizar la confidencialidad de los
+          datos, nos reservamos el derecho de adoptar todas las medidas
+          razonables para confirmar la identidad del usuario antes de
+          proporcionarle información sobre los datos personales que podamos
+          tener.
+        </p>
+        <div>
+          <p>En particular, podrá solicitar:</p>
+          <ul>
+            <li>
+              El acceso a sus datos personales para saber cuáles de ellos
+              estamos tratando y con qué finalidades.
+            </li>
+            <li>La rectificación de datos personales inexactos.</li>
+            <li>
+              La supresión de sus datos personales cuando la legislación lo
+              permita.
+            </li>
+            <li>La limitación en el tratamiento de sus datos personales.</li>
+            <li>
+              La portabilidad de sus datos cuando la legislación lo permita.
+            </li>
+            <li>La oposición al tratamiento de sus datos personales.</li>
+            <li>
+              La revocación de su consentimiento al tratamiento de sus datos
+              personales.
+            </li>
+          </ul>
+        </div>
+        <p>
+          En todo caso, si considera que sus datos personales no han sido
+          tratados correctamente podrá presentar una reclamación ante la Agencia
+          Española de Protección de Datos (www.aepd.es).
+        </p>
+        <h6>Cookies</h6>
+        <p>
+          Únicamente utilizamos dispositivos de almacenamiento y recuperación de
+          datos (“cookies”) una vez que el usuario haya otorgado su
+          consentimiento a ello a través de la ventana emergente del navegador
+          al acceder al sitio web por primera vez y de conformidad con nuestra{" "}
+          <Link to="/política-cookies">Política de Cookies.</Link>
+        </p>
+      </div>
     </Layout>
   );
 };

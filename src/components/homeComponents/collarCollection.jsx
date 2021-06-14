@@ -24,7 +24,7 @@ const CollarCollection = () => {
           data-sal-duration="1000"
         >
           {" "}
-          <Link style={{color:'white'}} to="/collar">Descubre más</Link>{" "}
+          <Link style={{color:'white'}} to="/collar-perro">Descubre más</Link>{" "}
         </button>
       </div>
       <div className={flex_collection}>

@@ -26,11 +26,12 @@ const FaqsComponent = () => {
         tabIndex={0}
         onKeyDown={() => setActive1(!active1)}
       >
-        <h4>¿Cómo registro mis perros en la webapp?</h4>
+        <h4>¿Cuándo va a salir el collar kolyy?</h4>
         <p className={`question-collapse ${active1 ? "show" : ""}`}>
-          Para registrar tus perros deberás ir a, símbolo de configuración y
-          dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
-          perros, modificar sus datos y activar las placas que te falten.
+          Estamos fabricando 1.500 collares que estarán disponibles a principios
+          de 2022. Si quieres conocer más sobre el collar y tener todas las
+          noticias sobre su lanzamiento apúntate a la lista en la página
+          “Collar” y te iremos informando.
         </p>
       </div>
 
@@ -44,11 +45,13 @@ const FaqsComponent = () => {
         tabIndex={0}
         onKeyDown={() => setActive2(!active2)}
       >
-        <h4>¿Puedo localizar a mi perro a través de la webapp?</h4>
+        <h4>
+          ¿Apuntarme en la lista significa que estoy reservando un collar?
+        </h4>
         <p className={`question-collapse ${active2 ? "show" : ""}`}>
-          Para registrar tus perros deberás ir a símbolo de configuración y
-          dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
-          perros, modificar sus datos y activar las placas que te falten.
+          No, si te apuntas en la lista serás el primero en enterarte de todo lo
+          referente al collar y su lanzamiento para asegurarte de que lo puedas
+          reservar una vez salga al mercado.
         </p>
       </div>
 
@@ -62,11 +65,12 @@ const FaqsComponent = () => {
         tabIndex={0}
         onKeyDown={() => setActive3(!active3)}
       >
-        <h4>¿Puedo pagar una suscripción por el collar sin el pago inicial?</h4>
+        <h4>¿Cuánto cuesta el collar kolyy?</h4>
         <p className={`question-collapse ${active3 ? "show" : ""}`}>
-          Para registrar tus perros deberás ir a símbolo de configuración y
-          dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
-          perros, modificar sus datos y activar las placas que te falten.
+          Aún no hemos fijado un precio para el collar, queremos asegurarnos de
+          que se adecúe a las necesidades de nuestros kolyers antes de
+          decantarnos por una cifra fija. Prevemos que el coste final del collar
+          estará entre los 100€ y los 250€.
         </p>
       </div>
 
@@ -80,11 +84,11 @@ const FaqsComponent = () => {
         tabIndex={0}
         onKeyDown={() => setActive4(!active4)}
       >
-        <h4>¿Cómo puedo desactivar las alertas de los perros perdidos?</h4>
+        <h4>¿Qué pasa si me quedo sin mi collar kolyy?</h4>
         <p className={`question-collapse ${active4 ? "show" : ""}`}>
-          Para registrar tus perros deberás ir a símbolo de configuración y
-          dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
-          perros, modificar sus datos y activar las placas que te falten.
+          Los primeros 1.500 collares saldrán a principios de 2022 pero prevemos
+          lanzar al mercado 10.000 más durante el resto del año. Asegúrate de
+          que no te quedas sin el tuyo apuntándote en nuestra lista.
         </p>
       </div>
     </div>
