@@ -1,12 +1,11 @@
 import React from "react";
 import Logo from "../header/components/logo";
 import MediaQuery from "react-responsive";
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
+// import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import {
   container,
   contact,
   media_container,
-  copyright,
 } from "./footer.module.scss";
 
 import FooterDesktop from "./footerDesktop";
@@ -52,4 +51,4 @@ const Footer = () => {
   );
 };
 
-export default injectIntl(Footer);
+export default Footer;

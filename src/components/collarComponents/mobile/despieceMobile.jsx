@@ -13,7 +13,6 @@ const DespieceMobile = () => {
   return (
     <MediaQuery maxWidth={600}>
       <div style={{ paddingLeft: "2rem" }} className={text_despiece}>
-        <span data-sal="fade" data-sal-delay="100" data-sal-duration="1000">Devolver todo lo que nos dan.</span>
         <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Regálale lo mejor.</h2>
         <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
           El collar es dogproof. Resistente, sumergible, seguro y muy duradero.

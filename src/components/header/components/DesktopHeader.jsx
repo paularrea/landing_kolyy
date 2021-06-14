@@ -18,7 +18,6 @@ import Logo from "./logo";
 
 const DesktopHeader = () => {
   const [activeCollar, setActiveCollar] = useState(false);
-  const [activeApp, setActiveApp] = useState(false);
   const [activePlacas, setActivePlacas] = useState(false);
   const [activeAbout, setActiveAbout] = useState(false);
   const [activeBlog, setActiveBlog] = useState(false);
@@ -38,8 +37,6 @@ const DesktopHeader = () => {
       const currentURL = window.location.href;
       if (currentURL.indexOf("collar") > -1) {
         setActiveCollar(true);
-      } else if (currentURL.indexOf("the-app") > -1) {
-        setActiveApp(true);
       } else if (currentURL.indexOf("zero-perros-perdidos") > -1) {
         setActivePlacas(true);
       } else if (currentURL.indexOf("about") > -1) {

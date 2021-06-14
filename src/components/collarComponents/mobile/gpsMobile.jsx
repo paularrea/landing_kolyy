@@ -1,7 +1,6 @@
 import React from "react";
 import {
   container_gps,
-  absolute_title,
   text_container,
   img_container,
   title_text,
@@ -18,9 +17,6 @@ const GpsMobile = () => {
       <div className={container_gps}>
         <div className={text_container}>
           <div className={title_text}>
-            <div className={absolute_title}>
-              <span data-sal="fade" data-sal-delay="100" data-sal-duration="1000">Saber dónde está es saber que está bien.</span>
-            </div>
             <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">No vuelvas a perderlo.</h2>
             <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
               Kolyy te avisa si tu perro se pierde y te ayuda a encontrarlo.{" "}

@@ -1,7 +1,6 @@
 import React from "react";
 import {
   container_gps,
-  absolute_title,
   text_container,
   img_container,
   img_sticky,
@@ -21,9 +20,6 @@ const InteligentComponent = () => {
         <div className={container_gps}>
           <div className={text_container}>
             <div className={title_text}>
-              <div className={absolute_title}>
-                <span data-sal="fade" data-sal-delay="100" data-sal-duration="1000">Prevenir antes que curar.</span>
-              </div>
               <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Anticípate a los problemas.</h2>
               <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
                 Kolyy es un collar inteligente que aprende los niveles de

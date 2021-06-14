@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { faq_container, question } from "./faqs.module.scss";
-import "./dropdown.css"
+import "./dropdown.css";
 
 const FaqsComponent = () => {
   const [active1, setActive1] = useState(false);
@@ -10,45 +10,83 @@ const FaqsComponent = () => {
 
   return (
     <div className={faq_container}>
-      <span data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Quédate completamente tranquilo.</span>
-      <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Preguntas frecuentes</h2>
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={question} onClick={() => setActive1(!active1)}>
-          <h4>¿Cómo registro mis perros en la webapp?</h4>
-          <p className={`question-collapse ${active1 ? 'show' : ''}`}>
-            Para registrar tus perros deberás ir a, símbolo de configuración y
-            dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
-            perros, modificar sus datos y activar las placas que te falten.
-          </p>
-        </div>
+      <span data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
+        Quédate completamente tranquilo.
+      </span>
+      <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
+        Preguntas frecuentes
+      </h2>
+      <div
+        data-sal="slide-up"
+        data-sal-delay="100"
+        data-sal-duration="1000"
+        className={question}
+        onClick={() => setActive1(!active1)}
+        role="button"
+        tabIndex={0}
+        onKeyDown={() => setActive1(!active1)}
+      >
+        <h4>¿Cómo registro mis perros en la webapp?</h4>
+        <p className={`question-collapse ${active1 ? "show" : ""}`}>
+          Para registrar tus perros deberás ir a, símbolo de configuración y
+          dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
+          perros, modificar sus datos y activar las placas que te falten.
+        </p>
+      </div>
 
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={question} onClick={() => setActive2(!active2)}>
-          <h4>¿Puedo localizar a mi perro a través de la webapp?</h4>
-          <p className={`question-collapse ${active2 ? 'show' : ''}`}>
-            Para registrar tus perros deberás ir a símbolo de configuración y
-            dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
-            perros, modificar sus datos y activar las placas que te falten.
-          </p>
-        </div>
+      <div
+        data-sal="slide-up"
+        data-sal-delay="100"
+        data-sal-duration="1000"
+        className={question}
+        onClick={() => setActive2(!active2)}
+        role="button"
+        tabIndex={0}
+        onKeyDown={() => setActive2(!active2)}
+      >
+        <h4>¿Puedo localizar a mi perro a través de la webapp?</h4>
+        <p className={`question-collapse ${active2 ? "show" : ""}`}>
+          Para registrar tus perros deberás ir a símbolo de configuración y
+          dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
+          perros, modificar sus datos y activar las placas que te falten.
+        </p>
+      </div>
 
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={question} onClick={() => setActive3(!active3)}>
-          <h4>
-            ¿Puedo pagar una suscripción por el collar sin el pago inicial?
-          </h4>
-          <p className={`question-collapse ${active3 ? 'show' : ''}`}>
-            Para registrar tus perros deberás ir a símbolo de configuración y
-            dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
-            perros, modificar sus datos y activar las placas que te falten.
-          </p>
-        </div>
+      <div
+        data-sal="slide-up"
+        data-sal-delay="100"
+        data-sal-duration="1000"
+        className={question}
+        onClick={() => setActive3(!active3)}
+        role="button"
+        tabIndex={0}
+        onKeyDown={() => setActive3(!active3)}
+      >
+        <h4>¿Puedo pagar una suscripción por el collar sin el pago inicial?</h4>
+        <p className={`question-collapse ${active3 ? "show" : ""}`}>
+          Para registrar tus perros deberás ir a símbolo de configuración y
+          dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
+          perros, modificar sus datos y activar las placas que te falten.
+        </p>
+      </div>
 
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" className={question} onClick={() => setActive4(!active4)}>
-          <h4>¿Cómo puedo desactivar las alertas de los perros perdidos?</h4>
-          <p className={`question-collapse ${active4 ? 'show' : ''}`}>
-            Para registrar tus perros deberás ir a símbolo de configuración y
-            dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
-            perros, modificar sus datos y activar las placas que te falten.
-          </p>
-        </div>
+      <div
+        data-sal="slide-up"
+        data-sal-delay="100"
+        data-sal-duration="1000"
+        className={question}
+        onClick={() => setActive4(!active4)}
+        role="button"
+        tabIndex={0}
+        onKeyDown={() => setActive4(!active4)}
+      >
+        <h4>¿Cómo puedo desactivar las alertas de los perros perdidos?</h4>
+        <p className={`question-collapse ${active4 ? "show" : ""}`}>
+          Para registrar tus perros deberás ir a símbolo de configuración y
+          dirigirte al apartado “mis perros”. Desde ahí podrás borrar o añadir
+          perros, modificar sus datos y activar las placas que te falten.
+        </p>
+      </div>
     </div>
   );
 };

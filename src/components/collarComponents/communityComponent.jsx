@@ -1,7 +1,6 @@
 import React from "react";
 import {
   container_gps,
-  absolute_title,
   text_container,
   img_container,
   img_sticky,
@@ -26,9 +25,6 @@ const CommunityComponent = () => {
           </div>
           <div className={text_container}>
             <div className={title_text}>
-              <div className={absolute_title}>
-                <span data-sal="fade" data-sal-delay="100" data-sal-duration="1000">Está en tus manos.</span>
-              </div>
               <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Cuídalo estés donde estés.</h2>
               <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
                 Con la app puedes saber en tiempo real todo lo que el collar

@@ -25,7 +25,7 @@ const About = () => {
             <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={text}>
               <span>Nuestra historia.</span>
               <h2>Somos lo que hacemos</h2>
-              <div role='button' className={go_down_arrow} onClick={goDown}>
+              <div role='button' className={go_down_arrow} tabIndex={0} onClick={goDown} onKeyDown={goDown}>
                 <img src={goDownArrow} alt="go down" />
               </div>
             </div>

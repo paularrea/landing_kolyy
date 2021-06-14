@@ -264,7 +264,13 @@ const AllPosts = () => {
     <div className={filter_container}>
       {/* Filter mobile */}
       <MediaQuery maxWidth={870}>
-        <div className={filter_menu} onClick={() => setDropdown(!dropdown)}>
+        <div
+          className={filter_menu}
+          role="button"
+          tabIndex={0}
+          onClick={() => setDropdown(!dropdown)}
+          onKeyDown={() => setDropdown(!dropdown)}
+        >
           <div
             data-sal="slide-up"
             data-sal-delay="100"

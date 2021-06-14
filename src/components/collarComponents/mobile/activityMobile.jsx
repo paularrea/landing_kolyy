@@ -1,7 +1,6 @@
 import React from "react";
 import {
   container_gps,
-  absolute_title,
   text_container,
   img_container,
   title_text,
@@ -18,9 +17,6 @@ const ActivityMobile = () => {
       <div className={container_gps}>
         <div className={text_container}>
           <div className={title_text}>
-            <div className={absolute_title}>
-              <span data-sal="fade" data-sal-delay="100" data-sal-duration="1000">Un perro activo es un perro feliz.</span>
-            </div>
             <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">Mantenlo activo y feliz.</h2>
             <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
               El collar te informa del ejercicio físico que lleva a cabo tu
