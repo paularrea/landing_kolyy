@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'gatsby'
 import placas from "../../images/placas.jpg";
 import {
   container_flex_placas,
@@ -20,13 +21,15 @@ const PlacaIntro = () => {
             colaborar con nosotros en nuestra iniciativa para conseguir los
             <b>#0perrosperdidos.</b>
           </p>
-          <button
-            data-sal="slide-up"
-            data-sal-delay="100"
-            data-sal-duration="1000"
-          >
-            Saber más
-          </button>
+          <Link to="/zero-perros-perdidos">
+            <button
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+            >
+              Saber más
+            </button>
+          </Link>
         </div>
         <img
           data-sal="slide-up"

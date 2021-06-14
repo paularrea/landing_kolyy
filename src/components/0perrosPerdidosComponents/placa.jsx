@@ -24,6 +24,8 @@ const Placa = () => {
             data-sal-delay="100"
             data-sal-duration="1000"
             href="https://app.kolyy.com/"
+            target='__blank'
+            rel='noopener noreferrer'
           >
             <button>Consigue una</button>
           </a>

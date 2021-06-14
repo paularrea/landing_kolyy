@@ -24,8 +24,10 @@ const App = () => {
             data-sal-delay="100"
             data-sal-duration="1000"
             href="https://app.kolyy.com/"
+            target='__blank'
+            rel='noopener noreferrer'
           >
-            <button> <a style={{color:'white'}} rel="noopener noreferrer" target="​_blank" href="https://app.kolyy.com/">Entra</a></button>
+            <button> <a style={{color:'white'}}>Entra</a></button>
           </a>
         </div>
         <div
