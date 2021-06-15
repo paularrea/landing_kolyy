@@ -10,9 +10,11 @@ const Cookies = () => {
     <Layout>
       <div className={container}>
         <h2>Política completa de cookies</h2>
-        El editor de este sitio web utiliza cookies y/o tecnologías similares
-        que almacenan y recuperan información cuando el usuario navega por el
-        sitio web.
+        <p>
+          El editor de este sitio web utiliza cookies y/o tecnologías similares
+          que almacenan y recuperan información cuando el usuario navega por el
+          sitio web.
+        </p>
         <h6>¿Qué son las cookies?</h6>
         <p>
           En general, estas tecnologías pueden servir para finalidades muy
@@ -46,23 +48,44 @@ const Cookies = () => {
         </p>
         <h6>Declaración de cookies</h6>
         <p>Utilizamos las siguientes cookies propias y/o de terceros[2]:</p>
-        Cookies: Google Analytics (_ga) <br />
-        Titular: Google <br />
-        Finalidad: Análisis de la web. Por ejemplo, interacciones de los
-        usuarios, tiempo de permanencia en el sitio web, etc. <br />
-        Duración: 2 años <br />
-        Más información:
-        https://developers.google.com/analytics/devguides/collection/gajs/cookie-usag{" "}
+        <p>
+          {" "}
+          Cookies: Google Analytics (_ga) <br />
+          Titular: Google <br />
+          Finalidad: Análisis de la web. Por ejemplo, interacciones de los
+          usuarios, tiempo de permanencia en el sitio web, etc. <br />
+          Duración: 2 años <br />
+          Más información:{" "}
+          <a
+            target="__blank"
+            rel="noreferrer noopener"
+            style={{ color: "#30AAAA", fontWeight: 400 }}
+            href="https://developers.google.com/analytics/devguides/collection/gajs/cookie-usag"
+          >
+            https://developers.google.com/analytics/devguides/collection/gajs/cookie-usag
+          </a>
+        </p>
         <br /> <br />
-        Cookies: Guest_id
-        <br />
-        Titular: Twitter
-        <br />
-        Finalidad: Para identificar al usuario.
-        <br />
-        Duración: 2 años
-        <br />
-        Más información: https://policies.google.com/technologies/types
+        <p>
+          {" "}
+          Cookies: Guest_id
+          <br />
+          Titular: Twitter
+          <br />
+          Finalidad: Para identificar al usuario.
+          <br />
+          Duración: 2 años
+          <br />
+          Más información:
+          <a
+            target="__blank"
+            rel="noreferrer noopener"
+            style={{ color: "#30AAAA", fontWeight: 400 }}
+            href="https://policies.google.com/technologies/types"
+          >
+            https://policies.google.com/technologies/types
+          </a>
+        </p>
         <br />
         <h6>
           Cómo aceptar, denegar, revocar el consentimiento o eliminar las
@@ -76,30 +99,49 @@ const Cookies = () => {
           deberá eliminarlas desde las opciones del navegador. Por ejemplo:
         </p>
         <p>
-          {" "}
-          Explorer:{" "}
-          <a href="https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies">
+          Explorer:
+          <a
+            target="__blank"
+            rel="noreferrer noopener"
+            style={{ color: "#30AAAA", fontWeight: 400 }}
+            href="https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies"
+          >
             https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
           </a>
         </p>
         <p>
           {" "}
           Google Chrome:
-          <a href="https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&hl=es ">
+          <a
+            target="__blank"
+            rel="noreferrer noopener"
+            style={{ color: "#30AAAA", fontWeight: 400 }}
+            href="https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&hl=es "
+          >
             https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
           </a>
         </p>
         <p>
           {" "}
           Firefox:
-          <a href=" https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias">
+          <a
+            target="__blank"
+            rel="noreferrer noopener"
+            style={{ color: "#30AAAA", fontWeight: 400 }}
+            href=" https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias"
+          >
             https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
           </a>
         </p>
         <p>
           {" "}
           Safari:
-          <a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac">
+          <a
+            target="__blank"
+            rel="noreferrer noopener"
+            style={{ color: "#30AAAA", fontWeight: 400 }}
+            href="https://support.apple.com/es-es/guide/safari/sfri11471/mac"
+          >
             https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies
           </a>
         </p>

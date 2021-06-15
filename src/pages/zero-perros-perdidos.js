@@ -56,14 +56,20 @@ const zeroPerrosPerdidos = () => {
                 data-sal-duration="1000"
               >
                 Forma parte de la comunidad #0perrosperdidos.
-              </p>{" "}
-              <button
-                data-sal="slide-up"
-                data-sal-delay="100"
-                data-sal-duration="1000"
+              </p>
+              <a
+                target="__blank"
+                rel="noreferrer noopener"
+                href="https://www.instagram.com/explore/tags/0perrosperdidos/"
               >
-                Sigue nuestro hashtag
-              </button>
+                <button
+                  data-sal="slide-up"
+                  data-sal-delay="100"
+                  data-sal-duration="1000"
+                >
+                  Sigue nuestro hashtag
+                </button>
+              </a>
             </div>
           </div>
         </div>

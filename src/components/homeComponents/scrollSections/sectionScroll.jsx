@@ -1,8 +1,8 @@
 import React from "react";
 import "./scrollSections.scss";
 import blueCollar from "../../../images/blue-collar.png";
-import blackBlueCollar from "../../../images/black-blue-2.png";
-import collarsHome from "../../../images/collars-home.png";
+import blackCollar from "../../../images/black-collar.png";
+import yellowCollar from "../../../images/yellow-collar.png";
 import CollarCollection from "../collarCollection";
 
 import BgIntro1 from "./img/bgIntro1";
@@ -12,7 +12,6 @@ import EmpoderarIntro from "../empoderarIntro";
 import PlacaIntro from "../placaIntro";
 import Footer from "../../footer/footer";
 import { Link } from "gatsby";
-import BgCollarsHome from "./img/bgCollarsHome";
 
 const SectionScroll = () => {
   return (
@@ -25,7 +24,7 @@ const SectionScroll = () => {
               data-sal-delay="100"
               data-sal-duration="1000"
               src={blueCollar}
-              alt=""
+              alt="collar perro azul"
             />
             <div
               data-sal="fade"
@@ -56,7 +55,7 @@ const SectionScroll = () => {
       <div className="section-scroll">
         <div className="fixed">
           <div className="flex-container">
-            <img src={blackBlueCollar} alt="" />
+            <img src={blackCollar} alt="collar perro negro" />
             <div className="text-div">
               {" "}
               <h1>Desde cualquier lugar siempre conectado a ti.</h1>
@@ -67,17 +66,14 @@ const SectionScroll = () => {
       </div>
       <div className="section-scroll">
         <div className="p fixed">
-          <BgCollarsHome>
-            <div className="flex-container-bg">
-              <div className="text-div">
-                {/* {" "}
-                <h1>Un collar para una vida activa y saludable</h1>
-                <p>
-                  Conviértete en su entrenador personal y mide su actividad.
-                </p> */}
-              </div>
+          <div className="flex-container">
+            <img src={yellowCollar} alt="collar perro amarillo" />
+            <div className="text-div">
+              {" "}
+              <h1>Un collar para una vida activa y saludable</h1>
+              <p>Conviértete en su entrenador personal y mide su actividad.</p>
             </div>
-          </BgCollarsHome>
+          </div>
         </div>
       </div>
       <div className="section-scroll">
@@ -96,9 +92,7 @@ const SectionScroll = () => {
                   Localizador GPS para saber donde está en todo momento y alerta
                   por si tu perro sale de la zona que has marcado como segura.
                 </p>
-                <Link to="/collar-perro">
-                  <button>Saber más</button>
-                </Link>
+                <Link to="/collar-perro"><button>Saber más</button></Link>
               </div>
             </div>
           </BgIntro1>
@@ -115,9 +109,7 @@ const SectionScroll = () => {
                   Registro de actividad para que tu perro alcance sus objetivos
                   de ejercicio.
                 </p>
-                <Link to="/collar-perro">
-                  <button>Saber más</button>
-                </Link>
+                <Link to="/collar-perro"><button>Saber más</button></Link>
               </div>
             </div>
           </BgIntro2>
@@ -134,9 +126,7 @@ const SectionScroll = () => {
                   Registro de sus hábitos cotidianos para anticiparte a futuros
                   problemas de salud.
                 </p>
-                <Link to="/collar-perro">
-                  <button>Saber más</button>
-                </Link>
+                <Link to="/collar-perro"><button>Saber más</button></Link>
               </div>
             </div>
           </BgIntro3>

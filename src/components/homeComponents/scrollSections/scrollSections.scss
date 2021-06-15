@@ -20,8 +20,8 @@
   }
   .text-div{
       margin-left: 0;
-      margin-bottom: 10vh;
-      width: 300px;
+      // margin-top: 5vh;
+      width: 100%;
       p{
       margin: 1rem 0 2rem 0;
     }
@@ -156,7 +156,13 @@
   transform: translate(-50%, -50%);
   width: 100vw;
 }
-
+@media (max-width: 321px) {
+  .flex-container{
+    .text-div{
+        margin-top: 5vh;
+    }
+  }
+}
 @media (min-width: 1025px) {
   .section-scroll .fixed {
     width: 80%;

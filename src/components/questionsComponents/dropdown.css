@@ -7,10 +7,8 @@
     overflow: hidden;
 }
   .question-collapse.show {
-    height: 150px;
+    height: 170px;
   }
-
-
   @media (min-width: 870px) {
     .question-collapse {
         width: 90%;
