@@ -77,7 +77,7 @@ const SectionScroll = () => {
         </div>
       </div>
       <div className="section-scroll">
-        <div className="p fixed">
+        <div>
           <EmpoderarIntro />
         </div>
       </div>

@@ -1,11 +1,13 @@
 #booking-form-container{
-    background-color: #D9DADD !important; 
+    background-color: #F9F9F9 !important; 
     width: 100%;
+    margin: 0 !important;
+}
+.legal-consent-container .hs-richtext p{
     margin: 0 !important;
 }
 
 #form-container{
-    background-color: rgba(48, 170, 170, .06) !important; 
     width: 100%;
     margin: 0 !important;
 }
@@ -15,10 +17,7 @@ button{
 input[type=text], input[type=button] {
     -webkit-appearance: none !important;
 }
-@media screen and (-webkit-min-device-pixel-ratio:0)
-{
-#safari { background-color:#CCC }
-}
+
 #form-container>p{
     text-align: left;
     padding: 1rem;
@@ -56,10 +55,11 @@ input[type=text], input[type=button] {
 
 #cuanto_estarias_dispuesto_a_pagar_por_el_collar_kolyy_-cefecb98-7975-4597-b869-2d999834cbd2{
     width: 82vw;
+    border: 1px solid tomato !important;
 }
 
 #booking-hubspot-form input{
-    border-radius: 25px !important;
+    border-radius: 5px !important;
     padding: 15px;
     border: transparent;
     outline: none;

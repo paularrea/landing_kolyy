@@ -28,10 +28,7 @@ const Chronology = () => {
             linfoma intestinal de 8 meses sin ningún síntoma externo se lo llevó
             sin dejarnos hacer nada.{" "}
           </p>{" "}
-          <Link
-            style={{ marginTop: "2rem" }}
-            to="/porque-nacio-kolyy"
-          >
+          <Link style={{ marginTop: "2rem" }} to="/porque-nacio-kolyy">
             <button style={{ color: "black", backgroundColor: "#D9DADD" }}>
               Saber más
             </button>
@@ -52,10 +49,7 @@ const Chronology = () => {
           <MediaQuery maxWidth={870}>
             {" "}
             <DesarrolloText>
-              <h2>
-                Desarrollo
-                del collar
-              </h2>
+              <h2>Desarrollo del collar</h2>
             </DesarrolloText>
           </MediaQuery>
         </div>
@@ -63,13 +57,31 @@ const Chronology = () => {
           <TimelineText>
             <div className={timeline_flex}>
               <div className={date}>
-                <p>OCTUBRE 2020</p>
+                <p>JULIO 2020</p>
               </div>
               <div className={text}>
-                <h2>Nace la comunidad Kolyy</h2>
+                <h2>Nace Kolyy</h2>
                 <p>
-                  Empezamos con nuestro objetivo de revolucionar la vida de los
-                  perros a través de contenido y consejos en las redes sociales.
+                  Con el objetivo de aumentar la esperanza y la calidad de vida
+                  de nuestros perros, Inspirando y motivando a sus familias para
+                  que, de forma divertida, puedan llevar un estilo de vida
+                  activo y saludable.
+                </p>
+              </div>
+            </div>
+          </TimelineText>
+
+          <TimelineText>
+            <div className={timeline_flex}>
+              <div className={date}>
+                <p>SEPTIEMBRE 2020</p>
+              </div>
+              <div className={text}>
+                <h2>El collar como solución</h2>
+                <p>
+                  Después de investigar con universidades y personalidades
+                  relevantes del sector descubrimos que un collar con aplicación
+                  tecnológica es la solución ideal para nuestros perros.
                 </p>
               </div>
             </div>
@@ -81,10 +93,10 @@ const Chronology = () => {
                 <p>NOVIEMBRE 2020</p>
               </div>
               <div className={text}>
-                <h2>El collar</h2>
+                <h2>Creamos una comunidad</h2>
                 <p>
-                  Empezamos a investigar y desarrollar los primeros prototipos
-                  del collar inteligente.
+                  Empezamos con nuestro objetivo de revolucionar la vida de los
+                  perros a través de contenido y consejos en las redes sociales.
                 </p>
               </div>
             </div>
@@ -96,9 +108,9 @@ const Chronology = () => {
                 <p>DICIEMBRE 2020</p>
               </div>
               <div className={text}>
-                <h2>Iniciativa 0 perros perdidos</h2>
+                <h2>Reto #0PerrosPerdidos</h2>
                 <p>
-                  Creamos la iniciativa con la que queremos conseguir que nungún
+                  Creamos la iniciativa con la que queremos conseguir que nIngún
                   perro se pierda, placas de identificación con código QR y las
                   regalamos para que lleguen a todos los hogares.
                 </p>{" "}
@@ -112,7 +124,7 @@ const Chronology = () => {
                 <p>ENERO 2021</p>
               </div>
               <div className={text}>
-                <h2>3.000 kolyers con placa</h2>
+                <h2>3.000 perros con placas Kolyy</h2>
                 <p>
                   Conseguimos llegar a los 3.000 kolyers y probar la fiabilidad
                   de nuestras placas.
@@ -127,7 +139,18 @@ const Chronology = () => {
                 <p>MARZO 2021</p>
               </div>
               <div className={text}>
-                <h2>5.000 kolyers con placa</h2>
+                <h2>La comunidad llega a los 10.000 miembros</h2>
+              </div>
+            </div>
+          </TimelineText>
+
+          <TimelineText>
+            <div className={timeline_flex}>
+              <div className={date}>
+                <p>ABRIL 2021</p>
+              </div>
+              <div className={text}>
+                <h2>5.000 perros con placas Kolyy</h2>
                 <p>
                   Conseguimos llegar a las 5.000 placas identificativas
                   repartidas por toda España.
@@ -139,14 +162,55 @@ const Chronology = () => {
           <TimelineText>
             <div className={timeline_flex}>
               <div className={date}>
-                <p>ABRIL 2021</p>
+                <p>MAYO 2021</p>
               </div>
               <div className={text}>
-                <h2>Creación de la webapp</h2>
+                <h2>#0PerrosPerdidos se convierte en una plataforma</h2>
                 <p>
-                  Creamos una webapp que ayuda a los kolyers a la agenda de sus
-                  perros y a colaborar en la búsqueda de perros kolyers
-                  perdidos.
+                  Creamos una plataforma que ayuda a los kolyers a colaborar en
+                  la búsqueda de otros perros kolyers perdidos.
+                </p>{" "}
+              </div>
+            </div>
+          </TimelineText>
+
+          <TimelineText>
+            <div className={timeline_flex}>
+              <div className={date}>
+                <p>MAYO 2021</p>
+              </div>
+              <div className={text}>
+                <h2>Primeras pruebas del collar Kolyy</h2>
+                <p>
+                  Después de mucho trabajo de desarrollo tecnológico hacemos las
+                  primeras pruebas del collar con resultados más que
+                  satisfactorios.
+                </p>{" "}
+              </div>
+            </div>
+          </TimelineText>
+
+          <TimelineText>
+            <div className={timeline_flex}>
+              <div className={date}>
+                <p>JUNIO 2021</p>
+              </div>
+              <div className={text}>
+                <h2>10.000 perros con placas kolyy</h2>
+              </div>
+            </div>
+          </TimelineText>
+
+          <TimelineText>
+            <div className={timeline_flex}>
+              <div className={date}>
+                <p>JUNIO 2021</p>
+              </div>
+              <div className={text}>
+                <h2>Web oficial</h2>
+                <p>
+                  Estrenamos nueva imagen corporativa junto con nuestra primera
+                  web oficial.
                 </p>{" "}
               </div>
             </div>

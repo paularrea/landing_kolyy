@@ -20,49 +20,38 @@ const Future = () => {
 
       <div className={timeline}>
         <TimelineText>
-          <div className={timeline_flex}>
-            <div className={date}>
-              <p></p>
+            <div className={timeline_flex}>
+              <div className={date}>
+                <p>JULIO 2021</p>
+              </div>
+              <div className={text}>
+              <h6 style={{fontWeight:'400'}}>PRÓXIMOS PASOS</h6>
+                <h2>App Kolyy</h2>
+              </div>
             </div>
-            <div className={text}>
-              <h5 style={{fontWeight:'400'}}>PRÓXIMOS PASOS</h5>
-              <h2>Primeros prototipos del collar</h2>
-            </div>
-          </div>
-        </TimelineText>
+          </TimelineText>
 
-        <TimelineText>
-          <div className={timeline_flex}>
-            <div className={date}>
-              <p></p>
+          <TimelineText>
+            <div className={timeline_flex}>
+              <div className={date}>
+                <p>JULIO 2021</p>
+              </div>
+              <div className={text}>
+                <h2>Primeros 50 perros con el collar Kolyy</h2>
+              </div>
             </div>
-            <div className={text}>
-              <h2>App kolyy</h2>
-            </div>
-          </div>
-        </TimelineText>
+          </TimelineText>
 
-        <TimelineText>
-          <div className={timeline_flex}>
-            <div className={date}>
-              <p></p>
+          <TimelineText>
+            <div className={timeline_flex}>
+              <div className={date}>
+                <p>SEPTIEMBRE 2021</p>
+              </div>
+              <div className={text}>
+                <h2>Certificación europea del collar</h2>
+              </div>
             </div>
-            <div className={text}>
-              <h2>Primeros 1.000 collares</h2>
-            </div>
-          </div>
-        </TimelineText>
-
-        <TimelineText>
-          <div className={timeline_flex}>
-            <div className={date}>
-              <p></p>
-            </div>
-            <div className={text}>
-              <h2>Producción a gran escala</h2>
-            </div>
-          </div>
-        </TimelineText>
+          </TimelineText>
       </div>
     </div>
   );
