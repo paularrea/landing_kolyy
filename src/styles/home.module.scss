@@ -1,12 +1,15 @@
 .container_flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     flex-flow: column-reverse;
     align-items: center;
     margin: 3rem 2rem;
+    height: 100vh;
     .text{
         text-align: center;
+        width: 100%;
+        max-width: 350px;
         padding: 1rem 0;
         p{
             padding-top: 1rem;

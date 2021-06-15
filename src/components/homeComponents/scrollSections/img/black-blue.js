@@ -2,10 +2,10 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
-const BlackCollar = () => {
+const BlackBlueCollar = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "black-blue-collar.png" }) {
+      placeholderImage: file(relativePath: { eq: "black-blue-2.png" }) {
         childImageSharp {
           fluid(maxWidth: 1360, quality: 90, webpQuality: 90) {
             ...GatsbyImageSharpFluid
@@ -28,4 +28,4 @@ const BlackCollar = () => {
   );
 };
 
-export default BlackCollar;
+export default BlackBlueCollar;

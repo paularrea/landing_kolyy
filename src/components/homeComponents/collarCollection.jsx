@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import blackCollar from "../../images/black-collar.png";
+import blackCollar from "../../images/black-blue-collar.png";
 import blueCollar from "../../images/blue-collar.png";
 import yellowCollar from "../../images/yellow-collar.png";
 import {
