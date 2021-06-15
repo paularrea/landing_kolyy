@@ -1,15 +1,12 @@
 import React from "react";
 import Logo from "../header/components/logo";
 import MediaQuery from "react-responsive";
+import { Link } from "gatsby";
 // import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
-import {
-  container,
-  contact,
-  media_container,
-} from "./footer.module.scss";
+import { container, contact, media_container } from "./footer.module.scss";
 
 import FooterDesktop from "./footerDesktop";
-import Language from "../language";
+// import Language from "../language";
 import Contacts from "./components/contacts";
 import MediaList from "./components/mediaList";
 import Privacity from "./components/privacity";
@@ -20,12 +17,14 @@ const Footer = () => {
     <>
       <MediaQuery maxWidth={800}>
         <div className={container}>
-          <Logo />
+          <Link to="/">
+            <Logo />
+          </Link>
           <p>
             {/* <FormattedMessage id="footer.text" /> */}
             Revoluciona la conexión con tu perro.
           </p>
-          <PageLinks/>
+          <PageLinks />
           <div className={contact}>
             <h3>
               {/* <FormattedMessage id="footer.title" /> */}
@@ -33,7 +32,7 @@ const Footer = () => {
             </h3>
             <Contacts />
           </div>
-          <Language />
+          {/* <Language /> */}
           <div className={media_container}>
             <h3>
               {/* <FormattedMessage id="footer.media" /> */}

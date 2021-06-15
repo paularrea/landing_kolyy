@@ -33,7 +33,6 @@ const BlogPost = ({ data, pageContext }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
   return (
     <Layout>
       <div className={post_container}>
@@ -100,6 +99,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        path
         featuredImage {
           childImageSharp {
             fluid(maxWidth: 800) {

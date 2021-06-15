@@ -7,7 +7,6 @@ import {
 
 const languageName = {
   en: "EN",
-  ca: "CAT",
   es: "ES",
 };
 

@@ -13,7 +13,7 @@ const BookingForm = () => {
 
   return (
     <div style={{textAlign:'center', padding:'2rem 0'}} id="booking-form-container">
-      <span style={{color:'#30AAAA', fontWeight:700, top:'2rem'}} data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
+      <span style={{color:'#30AAAA', fontWeight:'700', top:'2rem'}} data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
         Formulario de inscripción a la lista
       </span>
       <div

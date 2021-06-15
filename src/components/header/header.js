@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import MediaQuery from "react-responsive";
 import DesktopHeader from "./components/DesktopHeader";
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
+// import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 
 import { navBar, burger, flex_nav_btn } from "./header.module.scss";
 import Logo from "./components/logo";
@@ -22,7 +22,8 @@ const Header = () => (
           <div className={flex_nav_btn}>
               <button>
             <Link style={{color:'white'}} id="book" to="/reserva">
-                <FormattedMessage id="nav.book" />
+                {/* <FormattedMessage id="nav.book" /> */}
+                Reserva
             </Link>
               </button>
             <div className={burger}>
@@ -44,4 +45,4 @@ Header.propTypes = {
   siteTitle: PropTypes.string,
 };
 
-export default injectIntl(Header);
+export default Header;

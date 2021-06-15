@@ -6,10 +6,16 @@
 .legal-consent-container .hs-richtext p{
     margin: 0 !important;
 }
-
+.inputs-list{
+    list-style-type: none;
+}
 #form-container{
     width: 100%;
     margin: 0 !important;
+    text-align: left !important;
+}
+.hs-field-desc{
+    margin-top: 1rem;
 }
 button{
     -webkit-appearance: none !important;
@@ -41,7 +47,16 @@ input[type=text], input[type=button] {
     max-width: none;
     display: flex;
     justify-content: space-between;
-
+}
+.hs-richtext{
+    text-align: left;
+    margin: 2rem 0 !important;
+}
+.hs-richtext p{
+    font-size: 10px;
+}
+.hs-richtext span{
+    font-size: 10px;
 }
 #firstname-cefecb98-7975-4597-b869-2d999834cbd2{
     width: 38vw;
@@ -49,28 +64,25 @@ input[type=text], input[type=button] {
 #lastname-cefecb98-7975-4597-b869-2d999834cbd2{
     width: 42vw;
 }
-#email-662bb340-622d-4d8b-b9c3-94c89d2335ca{
+#email-cefecb98-7975-4597-b869-2d999834cbd2{
     width: 82vw;
 }
-
 #cuanto_estarias_dispuesto_a_pagar_por_el_collar_kolyy_-cefecb98-7975-4597-b869-2d999834cbd2{
     width: 82vw;
-    border: 1px solid tomato !important;
 }
 
 #booking-hubspot-form input{
-    border-radius: 5px !important;
+    border-radius: 25px !important;
     padding: 15px;
     border: transparent;
     outline: none;
     margin: 1rem 0;
 }
 #booking-hubspot-form select{
-    border-radius: 15px !important;
+    border-radius: 25px !important;
     border: transparent;
     outline: none;
     padding: 15px;
-    height: 250px;
     width: 82vw;
     margin: 1rem 0;
     margin-bottom: 1rem;
@@ -116,15 +128,6 @@ position: relative;
         padding-top: 4rem;
         font-size: 18px;
         font-size: 400;
-    }
-    #firstname-cefecb98-7975-4597-b869-2d999834cbd2{
-        width: 23vw;
-    }
-    #lastname-cefecb98-7975-4597-b869-2d999834cbd2{
-        width: 24.8vw;
-    }
-    #email-662bb340-622d-4d8b-b9c3-94c89d2335ca{
-        width: 50vw;
     }
     #booking-hubspot-form input{
         margin: .5rem 0;

@@ -33,7 +33,7 @@ h3{
   line-height: 27px;
   font-weight: 500;
 }
-p,h6{
+p,h6, span{
   font-size: 14px;
   line-height: 17px;
   font-weight: 300 !important;
@@ -100,6 +100,18 @@ a{
         width: 10rem;
     }
 }
+@media (max-width: 321px) {
+  h1{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 900;
+  }
+  h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
 @media (min-width: 1200px) {
   h1{
     font-size: 60px;
@@ -115,7 +127,7 @@ a{
     line-height: 34px;
     font-weight: 500;
   }
-  p, h6{
+  p, h6, span{
     font-size: 18px;
     line-height: 21.78px;
     font-weight: 300;

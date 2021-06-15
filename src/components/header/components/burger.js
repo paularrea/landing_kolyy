@@ -3,7 +3,7 @@ import { fallDown as Menu } from "react-burger-menu";
 import "./burger.css";
 import Logo from "./logo";
 import Link from "../../Link";
-import Language from "../../language";
+// import Language from "../../language";
 import menuArrow from "../../../images/icons/menuArrow.png";
 
 const Burger = () => {
@@ -151,9 +151,9 @@ const Burger = () => {
             </div>
           </Link>
         </nav>
-        <div className="language-container">
+        {/* <div className="language-container">
           <Language />
-        </div>
+        </div> */}
       </Menu>
     </>
   );

@@ -12,21 +12,21 @@ const ShareComponent = ({ title, path }) => {
       <MediaQuery maxWidth={870}>
         <span className={share_component}>
           <a
-            href={`https://twitter.com/intent/tweet/?text=${title}&url=http://localhost:8000/${path}%2F&via=imariohernandez`}
+            href={`https://twitter.com/intent/tweet/?text=${title}&url=https://kolyy.netlify.app/${path}%2F&via=Kolyy_official`}
             target="_blank"
             rel="noreferrer"
           >
             <img src={twitter} alt="twitter" />
           </a>
           <a
-            href={`https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/o${path}`}
+            href={`https://www.facebook.com/sharer/sharer.php?u=https://kolyy.netlify.app/${path}`}
             target="_blank"
             rel="noreferrer"
           >
             <img src={facebook} alt="facebook" />
           </a>
           <a
-            href={`https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:8000/${path}&title=${title}&source=${title}`}
+            href={`https://www.linkedin.com/shareArticle?mini=true&url=https://kolyy.netlify.app/${path}&title=${title}&source=${title}`}
             target="_blank"
             rel="noreferrer"
           >
@@ -39,21 +39,21 @@ const ShareComponent = ({ title, path }) => {
         <span className={share_component}>
           Compártelo en{" "}
           <a
-            href={`https://twitter.com/intent/tweet/?text=${title}&url=http://localhost:8000/${path}%2F&via=imariohernandez`}
+            href={`https://twitter.com/intent/tweet/?text=${title}&url=https://kolyy.netlify.app/${path}%2F&via=Kolyy_official`}
             target="_blank"
             rel="noreferrer"
           >
             <img src={twitter} alt="twitter" />
           </a>
           <a
-            href={`https://www.facebook.com/sharer/sharer.php?u=http://localhost:8000/o${path}`}
+            href={`https://www.facebook.com/sharer/sharer.php?u=https://kolyy.netlify.app/${path}`}
             target="_blank"
             rel="noreferrer"
           >
             <img src={facebook} alt="facebook" />
           </a>
           <a
-            href={`https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:8000/${path}&title=${title}&source=${title}`}
+            href={`https://www.linkedin.com/shareArticle?mini=true&url=https://kolyy.netlify.app/${path}&title=${title}&source=${title}`}
             target="_blank"
             rel="noreferrer"
           >

@@ -7,10 +7,10 @@ import {
   logo_text,
   contact,
   intro,
-  flex_footer_lang,
+  // flex_footer_lang,
 } from "./footer.module.scss";
 
-import Language from "../language";
+// import Language from "../language";
 import Contacts from "./components/contacts";
 import MediaList from "./components/mediaList";
 import Privacity from "./components/privacity";
@@ -61,9 +61,9 @@ const FooterDesktop = () => {
 
       <div className={flex_container}>
         <Privacity />
-        <div className={flex_footer_lang}>
+        {/* <div className={flex_footer_lang}>
           <Language />
-        </div>
+        </div> */}
       </div>
     </div>
   );
