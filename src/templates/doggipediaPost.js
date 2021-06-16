@@ -121,6 +121,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        path
         pelo
         peso
         aseo
