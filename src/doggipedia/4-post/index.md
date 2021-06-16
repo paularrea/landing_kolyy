@@ -6,9 +6,9 @@ featured: true
 featuredImage: ./yorkshire-terrier.png
 tags: ["Curiosidades"]
 intro: Una raza de gran inteligencia y personalidad muy marcada. Aún y ser tan pequeño siempre va con la cabeza bien alta.
-aseo: "Dos veces al mes"
-pelo: "Largo / Necesita cepillado diario"
-peso: "2 a 3 kg"
+aseo: Dos veces al mes
+pelo: Largo / Necesita cepillado diario
+peso: 2 a 3 kg
 type: "doggipedia"
 ---
 
