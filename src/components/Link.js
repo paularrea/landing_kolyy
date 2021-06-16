@@ -17,7 +17,7 @@ const Link = ({ to, language, children, onClick, ...rest }) => (
         }
       }
       return (
-        <AnchorLink {...rest} to={link} onClick={handleClick}>
+        <AnchorLink {...rest} to={link} onClick={handleClick} >
           {children}
         </AnchorLink>
       )
