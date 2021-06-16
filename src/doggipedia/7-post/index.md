@@ -6,7 +6,7 @@ featured: true
 featuredImage: ./beagle.png
 tags: ["Curiosidades"]
 intro: Una de las razas más comunes y apreciadas sin duda, quizás por su afán de complacer a su familia.
-aseo: Una vez a la semana
+aseo: Una o dos veces a la semana
 pelo: Corto / suave
 peso: 10 a 11 kg
 type: "doggipedia"
