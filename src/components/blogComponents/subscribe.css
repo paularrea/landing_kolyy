@@ -8,7 +8,7 @@ button{
 input[type=text], input[type=button] {
     -webkit-appearance: none;
 }
-#tu_correo_electronico-42b27745-051b-4380-b452-8e01c18c5b07{
+.hs_email input{
     border-radius: 25px !important;
     padding: 15px;
     border: transparent;

@@ -36,7 +36,6 @@ input[type=text], input[type=button] {
     max-width: none;
     display: flex;
     justify-content: space-between;
-
 }
 #firstname-662bb340-622d-4d8b-b9c3-94c89d2335ca{
     width: 38vw;
@@ -47,7 +46,6 @@ input[type=text], input[type=button] {
 #email-662bb340-622d-4d8b-b9c3-94c89d2335ca{
     width: 82vw;
 }
-
 #my-hubspot-form input{
     border-radius: 25px !important;
     padding: 15px;
@@ -83,19 +81,15 @@ color: black;
 font-size: 16px;
 font-weight: 400;
 }
-
 .contact-absolute{
 position: relative;
 }
-
 .contact-absolute>div{
     position: relative;
     padding-left: 2rem;
     right: 0;
     bottom: 3rem;
-    }
-    
-
+}
 @media (min-width: 870px) {
     #my-hubspot-form{
         padding: 5rem 2rem; 
@@ -130,17 +124,15 @@ position: relative;
     }
     .actions{
         justify-content: flex-start;
-     }
+    }
      .contact-absolute{
         position: relative;
-        }
-        
-        .contact-absolute>div{
+    }   
+    .contact-absolute>div{
             position: absolute;
             right: 25%;
             bottom: 3rem;
-            }
-            
+    }         
 }
 @media (min-width: 900px) {
     #my-hubspot-form{
