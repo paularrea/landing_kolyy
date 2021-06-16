@@ -7,8 +7,10 @@ featuredImage: ./bichon-maltes.png
 tags: ["Curiosidades"]
 intro: Inteligente, dulce, protector y una máquina 
 de ladrar a todo lo desconocido.
-pelo: "Largo / Cepillado diario"
-aseo: "Una vez a la semana"
+# pelo: "Largo / Cepillado diario"
+# aseo: "Una vez a la semana"
+pelo: "Medio - Largo / Cepillado de 2 o 3 veces por semana"
+aseo: "Una vez cada 3 - 6 meses"
 peso: "1 o 3 kg"
 type: "doggipedia"
 ---

@@ -7,8 +7,10 @@ featuredImage: ./caniche.png
 tags: ["Curiosidades"]
 intro: Inteligente, sensible y delicado, 
 un caramelo para la aristocracia.
-pelo: "Abundante - Cepillado diario"
-aseo: "Una vez al mes"
+# pelo: "Abundante / Cepillado diario"
+# aseo: "Una vez al mes"
+pelo: "Medio - Largo / Cepillado de 2 o 3 veces por semana"
+aseo: "Una vez cada 3 - 6 meses"
 peso: "4,5 a 5 kg"
 type: "doggipedia"
 ---

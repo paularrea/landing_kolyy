@@ -41,8 +41,6 @@ const DoggipediaPost = ({ data, pageContext }) => {
     window.scrollTo(0, 0);
   }, []);
 
-  console.log(markdownRemark.frontmatter, "frontmatter");
-
   return (
     <Layout>
       <div className={post_container}>

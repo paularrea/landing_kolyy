@@ -6,8 +6,10 @@ featured: true
 featuredImage: ./bull-terrier.png
 tags: ["Curiosidades"]
 intro: Cariñosos, dependientes y con mucho sentido del humor. Todo lo contrario a lo que parecen físicamente.
-pelo: "Corto / Cepillado 1 vez a la semana"
-aseo: "Una vez al mes"
+# pelo: "Corto / Cepillado 1 vez a la semana"
+# aseo: "Una vez al mes"
+pelo: "Medio - Largo / Cepillado de 2 o 3 veces por semana"
+aseo: "Una vez cada 3 - 6 meses"
 peso: "33 kg"
 type: "doggipedia"
 ---

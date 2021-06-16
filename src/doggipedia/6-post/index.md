@@ -6,8 +6,10 @@ featured: true
 featuredImage: ./labrador-retriever.png
 tags: ["Curiosidades"]
 intro: Afables, flexibles y fieles, así es la raza que sigue enamorando a las familias desde 1825.
-pelo: "Grueso / Cepillado semanal"
-aseo: "Una vez al mes"
+# pelo: "Grueso / Cepillado semanal"
+# aseo: "Una vez al mes"
+pelo: "Medio - Largo / Cepillado de 2 o 3 veces por semana"
+aseo: "Una vez cada 3 - 6 meses"
 peso: "28 a 30 kg"
 type: "doggipedia"
 ---
