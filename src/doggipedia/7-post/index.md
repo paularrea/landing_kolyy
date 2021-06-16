@@ -5,11 +5,9 @@ path: /beagle
 featured: true
 featuredImage: ./beagle.png
 tags: ["Curiosidades"]
-intro: Una de las razas más comunes y apreciadas sin duda, quizás por su afán de complacer a su familia.
-# pelo: "Corto / suave"
-# aseo: "Una vez a la semana"
-pelo: "Medio - Largo / Cepillado de 2 o 3 veces por semana"
-aseo: "Una vez cada 3 - 6 meses"
+intro: "Una de las razas más comunes y apreciadas sin duda, quizás por su afán de complacer a su familia."
+pelo: "Corto / suave"
+aseo: "Una vez a la semana"
 peso: "10 a 11 kg"
 type: "doggipedia"
 ---
