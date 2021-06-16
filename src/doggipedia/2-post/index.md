@@ -7,7 +7,7 @@ featuredImage: ./caniche.png
 tags: ["Curiosidades"]
 intro: Inteligente, sensible y delicado, 
 un caramelo para la aristocracia.
-pelo: "Abundante / Cepillado diario"
+pelo: "Abundante - Cepillado diario"
 aseo: "Una vez al mes"
 peso: "4,5 a 5 kg"
 type: "doggipedia"
