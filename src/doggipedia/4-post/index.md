@@ -5,32 +5,26 @@ path: /yorkshire-terrier
 featured: true
 featuredImage: ./yorkshire-terrier.png
 tags: ["Curiosidades"]
-intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
-size: "Mediano"
-aseo: "Una vez a la semana"
-pelo: "Corto"
-peso: "30 a 35 kg"
+intro: Una raza de gran inteligencia y personalidad muy marcada. Aún y ser tan pequeño siempre va con la cabeza bien alta.
+aseo: "Dos veces al mes"
+pelo: "Largo / Necesita cepillado diario"
+peso: "2 a 3 kg"
 type: "doggipedia"
 ---
 
 #### Ejercicio:
-
-El Beagle necesita mucho ejercicio: alrededor de dos horas diarias o más. Debido a su fuerte instinto de cazador, no puede dejarse suelto hasta que esté muy bien adiestrado para regresar cuando se le llame. Un modo de mantener a su perro en forma es permitiéndole utilizar sus talentos naturales para la caza. Las pruebas de campo caninas son populares entre los propietarios de Beagles.
+Los Yorkshire Terrier necesitan de mucha estimulación y ejercicio. Los paseos cortos son sus favoritos, aunque si les dejas trotarán horas y horas, más si cuentan con un estímulo o algo que rastrear. Son pequeños pero extremadamente enérgicos y, aunque no parezcan igual de atléticos que un dálmata, los verás jugando y persiguiendo pelotas como los que más. 
 
 #### Comportamiento:
-
-Los Beagles tienen un buen carácter y, criados para ser animales de grupo, se llevarán bien con la mayoría de perros. Les encantan los niños, pero necesitan estar en contacto con los gatos desde cachorros para poder entablar buenas relaciones con los felinos. El Beagle es un gran perro guardián, que ladrará ante cualquier cosa inusual. Aunque una vez el ladrón haya entrado, el Beagle seguramente preferirá jugar con él.
+Los Yorkshire Terrier son una raza todoterreno. Aunque tengamos esa imagen de uno de estos perros sentado en el regazo de la abuela recibiendo mimos, a su vez también son perros enérgicos y con muchísima personalidad, no se imponen ante otras razas de mayor tamaño. 
 
 #### Salud:
-
-En general, se trata de una raza robusta y sana. Sin embargo, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por tanto, es importante un examen de la cadera de los perros antes de dedicarlos a la crianza. La epilepsia y un tipo de meningitis (síndrome doloroso del Beagle) son enfermedades que se dan con más frecuencia en esta raza.
+Un Yorkshire Terrier en buena forma tiende a tener una vida longeva y bastante tranquila. Los principales problemas de salud que puede presentar esta raza son asociados a su delicado sistema digestivo (deberás lidiar con bastantes vómitos o diarreas), y a problemas oculares como las cataratas.
 
 #### Nutrición:
-
-Los perros pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo. Los alimentos para razas pequeñas están específicamente ideados con proporciones adecuadas de nutrientes clave y unos granos de pienso de menor tamaño que se adapten a bocas más pequeñas. Esto, además, estimulan la masticación y mejora la digestión.
+Los perros tan pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Eso hace que, tanto en el ejercicio como en la comida, las dosis deban ser siempre pequeñas pero contínuas. Muchos paseos cortos durante el día y muchas raciones de comida en pequeñas dosis. Encontrarás raciones de comida pensada especialmente para perros pequeños, que combinan nutrientes fundamentales con pienso más pequeño para que no tengan problemas a la hora de masticar y tragar.
 
 #### Origen:
-
-A mediados del siglo XVI aproximadamente, los sabuesos empezaron a ser clasificados por su finalidad, es decir, sabuesos de vista, sabuesos de olfato, etc. En esa época, a un pequeño sabueso, criado para matar conejos y liebres, se le asignó el nombre de "Begles", un término francés que significa "boca grande". Esto hacía referencia a la tendencia de los animales a "aullar", esto es, a ladrar en grupo. La versión anglicanizada, por supuesto, es "Beagle". La raza tiene como antepasados al Foxhound, el Harrier y un pequeño sabueso conocido como "Kerry Beagle".
+Entre Yorkshire y Lancanshire se encuentra el origen de esta raza, aproximadamente en 1850. Hay pocos datos 100% fiables de su origen puesto que la raza nació gracias a la mezcla de pequeños terriers emigrados de Escocia junto a sus familias obreras en busca de trabajo al norte de Inglaterra. Se conoce que la raza nació de tres perros diferentes, un macho llamado Old Crab, una hembra llamada Kitty y otra hembra de nombre desconocido. Los yorkshire tienen en su linaje ejemplares de terrier de Manchester, maltés, skye terrier, dandie dinmont terrier y paisley terrier.
 
 

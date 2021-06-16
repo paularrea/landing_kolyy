@@ -4,33 +4,27 @@ date: 2019-04-01
 path: /pastor-aleman
 featured: true
 featuredImage: ./pastor-aleman.png
-intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
+intro: Inteligente y con muchas de aprender, uno de esos alumnos que quiere sacar matrícula de honor en clase.
 tags: ["Curiosidades"]
-size: "Grande"
-aseo: "Una vez a la semana"
-pelo: "Largo"
-peso: "30 a 45 kg"
+aseo: "Una vez cada 3 - 6 meses"
+pelo: "Medio - Largo / Cepillado de 2 o 3 veces por semana"
+peso: "30 a 36 kg"
 type: "doggipedia"
 ---
 
 #### Ejercicio:
-
-El Beagle necesita mucho ejercicio: alrededor de dos horas diarias o más. Debido a su fuerte instinto de cazador, no puede dejarse suelto hasta que esté muy bien adiestrado para regresar cuando se le llame. Un modo de mantener a su perro en forma es permitiéndole utilizar sus talentos naturales para la caza. Las pruebas de campo caninas son populares entre los propietarios de Beagles.
+El Pastor Alemán es una de las razas que necesita más estimulación física. Los paseos deberán ser de 1 a 3 horas diarias, dependiendo del tiempo que disponga su familia para compartir con él. El ejercicio de esta raza no se limita a caminar alegremente por la calle, estos perros necesitan correr por jardines, parques o montañas, por lo que deberíamos dirigirnos hacia estas zonas para quitarles la correa y dejarlos disfrutar sin preocupaciones.
 
 #### Comportamiento:
-
-Los Beagles tienen un buen carácter y, criados para ser animales de grupo, se llevarán bien con la mayoría de perros. Les encantan los niños, pero necesitan estar en contacto con los gatos desde cachorros para poder entablar buenas relaciones con los felinos. El Beagle es un gran perro guardián, que ladrará ante cualquier cosa inusual. Aunque una vez el ladrón haya entrado, el Beagle seguramente preferirá jugar con él.
+Sus ganas de aprender y su necesidad de atención lo convierten en un alumno aventajado en el adiestramiento. Estos perros son muy atentos y dependientes de su familia y si no se les entrena y ayuda para socializar desde pequeños pueden llegar a sentir inseguridades que los convertirán en perros desconfiados y hasta agresivos.
 
 #### Salud:
-
-En general, se trata de una raza robusta y sana. Sin embargo, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por tanto, es importante un examen de la cadera de los perros antes de dedicarlos a la crianza. La epilepsia y un tipo de meningitis (síndrome doloroso del Beagle) son enfermedades que se dan con más frecuencia en esta raza.
+Esta es una de las razas con más problemas genéticos, principalmente relacionados con la cadera. También puede sufrir de enfermedades gastrointestinales, trastornos estomacales denominados dilatación y torsión gástrica, enfermedades de la médula espinal y epilepsia.  
 
 #### Nutrición:
-
-Los perros pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo. Los alimentos para razas pequeñas están específicamente ideados con proporciones adecuadas de nutrientes clave y unos granos de pienso de menor tamaño que se adapten a bocas más pequeñas. Esto, además, estimulan la masticación y mejora la digestión.
+Las razas de perros grandes tienen necesidades nutricionales distintas a las pequeñas por lo que su dieta necesitará de un equilibrio de nutrientes basado en la proteína de origen animal y las verduras, incluyendo minerales y vitaminas.
 
 #### Origen:
-
-A mediados del siglo XVI aproximadamente, los sabuesos empezaron a ser clasificados por su finalidad, es decir, sabuesos de vista, sabuesos de olfato, etc. En esa época, a un pequeño sabueso, criado para matar conejos y liebres, se le asignó el nombre de "Begles", un término francés que significa "boca grande". Esto hacía referencia a la tendencia de los animales a "aullar", esto es, a ladrar en grupo. La versión anglicanizada, por supuesto, es "Beagle". La raza tiene como antepasados al Foxhound, el Harrier y un pequeño sabueso conocido como "Kerry Beagle".
+Una de las razas de las que mejor se conocen sus orígenes, fue creada para ser un perro de trabajo y se reconoce a Max Emil Frederick von Stephanitz, capitán de caballería del ejército alemán, como su creador en el siglo XIX. Stephanitz ya tenía una idea clara de cómo veía esta raza pero se enamoró de Hektor, un perro al que compró inmediatamente y que más tarde se convertiría en el principal progenitor de la raza. El Pastor Alemán jugó un papel importante en la I y II Guerra Mundial, que le ayudaría a adoptar la fama de fiel y noble protector.
 
 

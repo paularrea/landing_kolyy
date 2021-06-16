@@ -19,14 +19,13 @@ const CollarCollection = () => {
           Un collar que se adapta al estilo de tu perro.
         </p>
         <button
+          style={{ backgroundColor: "#D9DADD", color: "black" }}
           data-sal="slide-up"
           data-sal-delay="100"
           data-sal-duration="1000"
         >
           {" "}
-          <Link style={{ backgroundColor: "#D9DADD", color: "black" }} to="/collar-perro">
-              Descubre más
-          </Link>{" "}
+          <Link to="/collar-perro">Descubre más</Link>{" "}
         </button>
       </div>
       <div className={flex_collection}>

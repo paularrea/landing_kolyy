@@ -5,32 +5,27 @@ path: /beagle
 featured: true
 featuredImage: ./beagle.png
 tags: ["Curiosidades"]
-intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
-size: "Pequeño"
+intro: Una de las razas más comunes y apreciadas sin duda, quizás por su afán de complacer a su familia.
 aseo: "Una vez a la semana"
-pelo: "Corto"
+pelo: "Corto / suave"
 peso: "10 a 11 kg"
 type: "doggipedia"
 ---
 
 #### Ejercicio:
-
-El Beagle necesita mucho ejercicio: alrededor de dos horas diarias o más. Debido a su fuerte instinto de cazador, no puede dejarse suelto hasta que esté muy bien adiestrado para regresar cuando se le llame. Un modo de mantener a su perro en forma es permitiéndole utilizar sus talentos naturales para la caza. Las pruebas de campo caninas son populares entre los propietarios de Beagles.
+Los Beagles son perros hiperactivos que necesitan mucha estimulación física. El ejercicio ideal para un Beagle está en salir de 1 a 2 horas diarias. Debido a su naturaleza y al objetivo con el que se crearon, la caza, son perros que necesitan correr, más que un tranquilo paseo por la calle, por lo que ir a un parque donde se pueda desestresar y pueda poner a prueba sus habilidades de rastreo será lo mejor para nuestro amigo tricolor.
 
 #### Comportamiento:
-
-Los Beagles tienen un buen carácter y, criados para ser animales de grupo, se llevarán bien con la mayoría de perros. Les encantan los niños, pero necesitan estar en contacto con los gatos desde cachorros para poder entablar buenas relaciones con los felinos. El Beagle es un gran perro guardián, que ladrará ante cualquier cosa inusual. Aunque una vez el ladrón haya entrado, el Beagle seguramente preferirá jugar con él.
+De las razas más dóciles y adaptativas que existen. De sus orígenes de cazador mantienen el espíritu activo y valiente, con la energía siempre cargada para salir a jugar, mientras que de su etapa como animal de companía mantienen su carácter fiel y cariñoso. Es por eso que son perros que pueden vivir tanto en la comodidad de un piso como en medio de la excitante montaña. A esta raza les encantan los niños, con quiénes pueden jugar horas y horas. Son buenos sabuesos y tienen afición a rastrear y husmear constantemente.
 
 #### Salud:
-
-En general, se trata de una raza robusta y sana. Sin embargo, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por tanto, es importante un examen de la cadera de los perros antes de dedicarlos a la crianza. La epilepsia y un tipo de meningitis (síndrome doloroso del Beagle) son enfermedades que se dan con más frecuencia en esta raza.
+En general, se trata de una raza robusta y sana y sin enfermedades genéticas. Su esperanza de vida media es de 10 a 15 años y los problemas de salud que surjen más comúnmente en esta raza giran en torno a la movilidad, ya que pueden sufrir displasia de cadera y tienden a tener sobrepeso. 
+Por otro lado, se deberá tener cuidado con la epilepsia, enfermedad a la que son propensos, y con las infecciones en los oídos.
 
 #### Nutrición:
-
-Los perros pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo. Los alimentos para razas pequeñas están específicamente ideados con proporciones adecuadas de nutrientes clave y unos granos de pienso de menor tamaño que se adapten a bocas más pequeñas. Esto, además, estimulan la masticación y mejora la digestión.
+Aunque estos perros cuenten con un metabolismo rápido como todos los perros pequeños, lo que significa que queman energía a un ritmo muy alto, son a su vez muy glotones por lo que deberás controlar muy bien las raciones de comida para que tu amigo no llegue a tener sobrepeso.
 
 #### Origen:
-
-A mediados del siglo XVI aproximadamente, los sabuesos empezaron a ser clasificados por su finalidad, es decir, sabuesos de vista, sabuesos de olfato, etc. En esa época, a un pequeño sabueso, criado para matar conejos y liebres, se le asignó el nombre de "Begles", un término francés que significa "boca grande". Esto hacía referencia a la tendencia de los animales a "aullar", esto es, a ladrar en grupo. La versión anglicanizada, por supuesto, es "Beagle". La raza tiene como antepasados al Foxhound, el Harrier y un pequeño sabueso conocido como "Kerry Beagle".
+Con los orígenes poco claros, se cree que los Beagles ya tuvieron su antecesor en la Antigua Grecia. Más tarde, la aristocracia inglesa se interesó por sus habilidades de caza y favoreció su desarrollo como raza hasta el punto en que Philip Honeywood y Thomas Johnson la convirtiera en los gentleman ingleses que conocemos ahora.
 
 

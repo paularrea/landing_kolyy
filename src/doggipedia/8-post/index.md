@@ -5,32 +5,28 @@ path: /chihuahua
 featured: true
 featuredImage: ./chihuahua.png
 tags: ["Curiosidades"]
-intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
-size: "Pequeño"
-aseo: "Una vez a la semana"
-pelo: "Corto"
-peso: "10 a 11 kg"
+intro: Una raza que parece no tener conciencia de su tamaño a la hora de pelear con otras razas. 
+aseo: "Una vez al mes"
+pelo: "Suave / Cepillado de 2 o 3 veces por semana"
+peso: "1,8 a 2,7 kg"
 type: "doggipedia"
 ---
 
 #### Ejercicio:
+Los Chihuahuas te seguirán el paso allá donde vayas, así que será mejor que no vayas muy lejos.
+Es una raza muy energética y juguetona pero por el tamaño de su cuerpo no deberían hacer paseos más largos de media hora. La mejor forma de hacerlos: con un arnés en vez de una correa para no ocasionarle problemas en la tráquea.
 
-El Beagle necesita mucho ejercicio: alrededor de dos horas diarias o más. Debido a su fuerte instinto de cazador, no puede dejarse suelto hasta que esté muy bien adiestrado para regresar cuando se le llame. Un modo de mantener a su perro en forma es permitiéndole utilizar sus talentos naturales para la caza. Las pruebas de campo caninas son populares entre los propietarios de Beagles.
 
 #### Comportamiento:
-
-Los Beagles tienen un buen carácter y, criados para ser animales de grupo, se llevarán bien con la mayoría de perros. Les encantan los niños, pero necesitan estar en contacto con los gatos desde cachorros para poder entablar buenas relaciones con los felinos. El Beagle es un gran perro guardián, que ladrará ante cualquier cosa inusual. Aunque una vez el ladrón haya entrado, el Beagle seguramente preferirá jugar con él.
+Esta raza no tiende a ser de fácil socialización sino se les fuerza a hacerlo a temprana edad. Les gusta estar en compañía de otros Chihuahuas y hacer clan antes que conocer otras razas o de adaptarse a humanos desconocidos. Por otro lado, es una raza que se muestra inteligente, curiosa, viva y muy afectuosa con aquellas personas “especiales”.
 
 #### Salud:
-
-En general, se trata de una raza robusta y sana. Sin embargo, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por tanto, es importante un examen de la cadera de los perros antes de dedicarlos a la crianza. La epilepsia y un tipo de meningitis (síndrome doloroso del Beagle) son enfermedades que se dan con más frecuencia en esta raza.
+El principal problema de salud de un Chihuahua es el mismo que el de todos los perros miniatura, la luxación de rótula o codo. Debido a sus grandes ojos saltones también pueden sufrir nombrosas infecciones oculares, aunque la peor anomalía que puede sufrir son las hidrocefalias (agua en el cerebro).
 
 #### Nutrición:
-
-Los perros pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo. Los alimentos para razas pequeñas están específicamente ideados con proporciones adecuadas de nutrientes clave y unos granos de pienso de menor tamaño que se adapten a bocas más pequeñas. Esto, además, estimulan la masticación y mejora la digestión.
+Los perros tan pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Eso hace que, tanto en el ejercicio como en la comida, las dosis deban ser siempre pequeñas pero contínuas. Muchos paseos cortos durante el día y muchas raciones de comida en pequeñas dosis. Encontrarás raciones de comida pensada especialmente para perros pequeños, que combinan nutrientes fundamentales con pienso más pequeño para que no tengan problemas a la hora de masticar y tragar.
 
 #### Origen:
-
-A mediados del siglo XVI aproximadamente, los sabuesos empezaron a ser clasificados por su finalidad, es decir, sabuesos de vista, sabuesos de olfato, etc. En esa época, a un pequeño sabueso, criado para matar conejos y liebres, se le asignó el nombre de "Begles", un término francés que significa "boca grande". Esto hacía referencia a la tendencia de los animales a "aullar", esto es, a ladrar en grupo. La versión anglicanizada, por supuesto, es "Beagle". La raza tiene como antepasados al Foxhound, el Harrier y un pequeño sabueso conocido como "Kerry Beagle".
+Se cree que los Chihuahuas son descendientes de una raza de perro ahora extinguida, los Techichi. Estos perros eran animales de compañía de las familias adineradas de la cultura tolteca, a los que incineraban con sus dueños para que cargasen con sus pecados y la persona pudiera entrar en el otro mundo sin enfadar a los dioses. El Chihuahua aparece gracias a un cruce de esta raza con perros pequeños de México, Arizona y Texas.
 
 

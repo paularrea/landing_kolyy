@@ -1,36 +1,32 @@
 ---
-title: Bulldog Inglés
+title: Bichón Maltés
 date: 2019-04-10
-path: /bulldog-ingles
+path: /bichon-Maltes
 featured: true
-featuredImage: ./bulldog_ingles.png
+featuredImage: ./bichon-maltes.png
 tags: ["Curiosidades"]
-intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
+intro: Inteligente, dulce, protector y una máquina 
+de ladrar a todo lo desconocido.
 size: "Mediano"
 aseo: "Una vez a la semana"
-pelo: "Largo"
-peso: "15 o 25 kg"
+pelo: "Largo / Cepillado diario"
+peso: "1 o 3 kg"
 type: "doggipedia"
 ---
 
 #### Ejercicio:
-
-El Beagle necesita mucho ejercicio: alrededor de dos horas diarias o más. Debido a su fuerte instinto de cazador, no puede dejarse suelto hasta que esté muy bien adiestrado para regresar cuando se le llame. Un modo de mantener a su perro en forma es permitiéndole utilizar sus talentos naturales para la caza. Las pruebas de campo caninas son populares entre los propietarios de Beagles.
+Podríamos decir que esta raza no es la más deportista precisamente, con media hora diaria de paseo tranquilo tendrá suficiente, aunque te seguirá los pasos si le das más. Es un perro que se adapta muy bien a la vida de ciudad y no necesita una gran casa con jardín, el tamaño de un piso ya le va bien.
 
 #### Comportamiento:
-
-Los Beagles tienen un buen carácter y, criados para ser animales de grupo, se llevarán bien con la mayoría de perros. Les encantan los niños, pero necesitan estar en contacto con los gatos desde cachorros para poder entablar buenas relaciones con los felinos. El Beagle es un gran perro guardián, que ladrará ante cualquier cosa inusual. Aunque una vez el ladrón haya entrado, el Beagle seguramente preferirá jugar con él.
+El Bichón maltés es un perro muy afectuoso y sociable, además de ser una de las razas más comunes. Tiende a establecer relaciones muy cercanas con el miembro más atento de la familia y con el tiempo puede llegar a ser territorial y celoso en todo a lo que a ese humano se refiere. También pueden llegar a ser muy ladradores por lo que hay que enseñarlo desde pequeño a no ladrar a la menor provocación.
 
 #### Salud:
-
-En general, se trata de una raza robusta y sana. Sin embargo, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por tanto, es importante un examen de la cadera de los perros antes de dedicarlos a la crianza. La epilepsia y un tipo de meningitis (síndrome doloroso del Beagle) son enfermedades que se dan con más frecuencia en esta raza.
+Los principales problemas de salud del caniche se centran en los ojos, donde pueden sufrir enfermedades como cataratas o glaucoma. También tienen unos oídos muy sensibles, por lo que tienden a sufrir de otitis. 
 
 #### Nutrición:
-
-Los perros pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo. Los alimentos para razas pequeñas están específicamente ideados con proporciones adecuadas de nutrientes clave y unos granos de pienso de menor tamaño que se adapten a bocas más pequeñas. Esto, además, estimulan la masticación y mejora la digestión.
+Esta raza de perro no acostumbra a tener muchas enfermedades hereditarias pero sí que pueden presentar varios problemas con las rodillas y rótulas, como desplazamientos, por lo que debemos controlar bien su peso para no provocar una luxación. También tienden a tener trastornos oculares.
 
 #### Origen:
-
-A mediados del siglo XVI aproximadamente, los sabuesos empezaron a ser clasificados por su finalidad, es decir, sabuesos de vista, sabuesos de olfato, etc. En esa época, a un pequeño sabueso, criado para matar conejos y liebres, se le asignó el nombre de "Begles", un término francés que significa "boca grande". Esto hacía referencia a la tendencia de los animales a "aullar", esto es, a ladrar en grupo. La versión anglicanizada, por supuesto, es "Beagle". La raza tiene como antepasados al Foxhound, el Harrier y un pequeño sabueso conocido como "Kerry Beagle".
+Una de las razas más antiguas de la que se tengan evidencias. Se cree que el Bichón Maltés existe desde el año 6.000 a.C y proviene de la cuenca mediterrránea. La raza ha sido muy apreciada por la realeza y la aristocracia durante su historia y aparece en retratos de la reina Isabel I de Inglaterra y de otros miembros de la realeza. 
 
 

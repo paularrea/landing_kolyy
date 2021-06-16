@@ -29,7 +29,6 @@ const DoggipediaPost = ({ data, pageContext }) => {
   const { markdownRemark } = data;
   const title = markdownRemark.frontmatter.title;
   const intro = markdownRemark.frontmatter.intro;
-  const size = markdownRemark.frontmatter.size;
   const aseo = markdownRemark.frontmatter.aseo;
   const pelo = markdownRemark.frontmatter.pelo;
   const peso = markdownRemark.frontmatter.peso;
@@ -67,9 +66,6 @@ const DoggipediaPost = ({ data, pageContext }) => {
           <div className={flex_img_post}>
             <div className={features_dog}>
               <p className={intro_text}>{intro}</p>
-              <b>Tamaño:</b>
-              <br />
-              <p>{size}</p>
               <b>Aseo:</b>
               <br />
               <p>{aseo}</p>
@@ -127,7 +123,6 @@ export const query = graphql`
       html
       frontmatter {
         title
-        size
         pelo
         peso
         aseo

@@ -5,32 +5,25 @@ path: /bull-terrier
 featured: true
 featuredImage: ./bull-terrier.png
 tags: ["Curiosidades"]
-intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
-size: "Mediano"
-aseo: "Una vez a la semana"
-pelo: "Largo"
-peso: "15 a 25 kg"
+intro: Cariñosos, dependientes y con mucho sentido del humor. Todo lo contrario a lo que parecen físicamente.
+aseo: "Una vez al mes"
+pelo: "Corto / Cepillado 1 vez a la semana"
+peso: "33 kg"
 type: "doggipedia"
 ---
 
 #### Ejercicio:
-
-El Beagle necesita mucho ejercicio: alrededor de dos horas diarias o más. Debido a su fuerte instinto de cazador, no puede dejarse suelto hasta que esté muy bien adiestrado para regresar cuando se le llame. Un modo de mantener a su perro en forma es permitiéndole utilizar sus talentos naturales para la caza. Las pruebas de campo caninas son populares entre los propietarios de Beagles.
+Los Bull Terrier son perros enérgicos y con mucha necesidad física, por lo que necesitarán ejercicio diario para canalizar su energía y evitar problemas de comportamiento. Necesitan paseos o recreos de por lo menos una hora diaria y les gusta especialmente jugar a recoger la pelota o hacer ciclismo con sus familiares.
 
 #### Comportamiento:
-
-Los Beagles tienen un buen carácter y, criados para ser animales de grupo, se llevarán bien con la mayoría de perros. Les encantan los niños, pero necesitan estar en contacto con los gatos desde cachorros para poder entablar buenas relaciones con los felinos. El Beagle es un gran perro guardián, que ladrará ante cualquier cosa inusual. Aunque una vez el ladrón haya entrado, el Beagle seguramente preferirá jugar con él.
+Bajo su aspecto intimidante debido a su origen como perro de lucha se esconde una personalidad muy cariñosa, amigable y divertida. Esta raza tiende a ser tranquila aunque responde si la desafías por lo que es mejor ir con cuidado. También puede ser un poco terca u obstinada.
 
 #### Salud:
-
-En general, se trata de una raza robusta y sana. Sin embargo, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por tanto, es importante un examen de la cadera de los perros antes de dedicarlos a la crianza. La epilepsia y un tipo de meningitis (síndrome doloroso del Beagle) son enfermedades que se dan con más frecuencia en esta raza.
+Un problema de salud destacable de esta raza es la sordera, que suele ser más probable en Bull Terriers blancos. Su esperanza de vida media es de 9 a 10 años y pueden padecer problemas renales, oculares, cardíacos y cutáneos.
 
 #### Nutrición:
-
-Los perros pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo. Los alimentos para razas pequeñas están específicamente ideados con proporciones adecuadas de nutrientes clave y unos granos de pienso de menor tamaño que se adapten a bocas más pequeñas. Esto, además, estimulan la masticación y mejora la digestión.
+Esta raza de perro es muy glotona, por lo que se deberá controlar de forma eficiente sus tomas de comida porque sino será capaz de comer sin parar. Debe tener una dieta equilibrada que contenga la proporción adecuada de todos los principales grupos de nutrientes. Además, deberá tener siempre agua fresca a su disposición.
 
 #### Origen:
-
-A mediados del siglo XVI aproximadamente, los sabuesos empezaron a ser clasificados por su finalidad, es decir, sabuesos de vista, sabuesos de olfato, etc. En esa época, a un pequeño sabueso, criado para matar conejos y liebres, se le asignó el nombre de "Begles", un término francés que significa "boca grande". Esto hacía referencia a la tendencia de los animales a "aullar", esto es, a ladrar en grupo. La versión anglicanizada, por supuesto, es "Beagle". La raza tiene como antepasados al Foxhound, el Harrier y un pequeño sabueso conocido como "Kerry Beagle".
-
+Esta raza fue creada para luchar en las prácticas ilegales y clandestinas del Reino Unido. Al principio, las peleas eran con Bulldogs, por su gran resistencia al dolor, pero su torpeza hizo que se buscara crear otra raza que pudiera entretener a los amantes de esos espectáculos. Gracias al cruce entre Bulldog y Black y Tan Terrier nacieron los Bull Terrier, que combinaban a la perfección la grandeza del Bulldog con la agilidad de los Terrier.
 

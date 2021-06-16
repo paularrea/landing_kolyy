@@ -5,32 +5,26 @@ path: /labrador-retriever
 featured: true
 featuredImage: ./labrador-retriever.png
 tags: ["Curiosidades"]
-intro: Estos robustos y atrevidos perritos son afables y son compactos y atléticos. Una de las razas más comunes sin duda.
-size: "Mediano"
-aseo: "Una vez a la semana"
-pelo: "Corto"
-peso: "30 a 35 kg"
+intro: Afables, flexibles y fieles, así es la raza que sigue enamorando a las familias desde 1825.
+aseo: "Una vez al mes"
+pelo: "Grueso / Cepillado semanal"
+peso: "28 a 30 kg"
 type: "doggipedia"
 ---
 
 #### Ejercicio:
-
-El Beagle necesita mucho ejercicio: alrededor de dos horas diarias o más. Debido a su fuerte instinto de cazador, no puede dejarse suelto hasta que esté muy bien adiestrado para regresar cuando se le llame. Un modo de mantener a su perro en forma es permitiéndole utilizar sus talentos naturales para la caza. Las pruebas de campo caninas son populares entre los propietarios de Beagles.
+Los labradores se adaptan al ejercicio que les ofrezcas, aunque sus necesidades impliquen bastante movimiento, sobretodo por culpa de su gran amor a la comida. Paseos de dos horas diarias serán fantásticos y más si pueden jugar con el agua.
 
 #### Comportamiento:
-
-Los Beagles tienen un buen carácter y, criados para ser animales de grupo, se llevarán bien con la mayoría de perros. Les encantan los niños, pero necesitan estar en contacto con los gatos desde cachorros para poder entablar buenas relaciones con los felinos. El Beagle es un gran perro guardián, que ladrará ante cualquier cosa inusual. Aunque una vez el ladrón haya entrado, el Beagle seguramente preferirá jugar con él.
+¿Tienen pinta de ser perfectos para familias no? Pues la verdad es que lo son. Se trata de una raza muy sociable y flexible, que se lleva bien tanto con otros animales como con niños, con los que tienen mucha paciencia. Además son muy fieles con su familia y les encanta sentirse parte de ella.
 
 #### Salud:
-
-En general, se trata de una raza robusta y sana. Sin embargo, al igual que muchas otras razas, puede sufrir displasia de cadera (una enfermedad que puede provocar problemas de movilidad). Por tanto, es importante un examen de la cadera de los perros antes de dedicarlos a la crianza. La epilepsia y un tipo de meningitis (síndrome doloroso del Beagle) son enfermedades que se dan con más frecuencia en esta raza.
+Los labradores son un tanto propensos a displasia de cadera y displasia de codo, por ser perros de esqueleto grande. ​Se recomienda hacer revisiones de cadera antes de la cría. Acostumbran a tener problemas oculares como atrofias o cataratas.
 
 #### Nutrición:
-
-Los perros pequeños cuentan con un metabolismo rápido, lo que significa que queman energía a un ritmo muy alto. Esto supone que, con un estómago tan pequeño, deben comer poco pero a menudo. Los alimentos para razas pequeñas están específicamente ideados con proporciones adecuadas de nutrientes clave y unos granos de pienso de menor tamaño que se adapten a bocas más pequeñas. Esto, además, estimulan la masticación y mejora la digestión.
+Los perros grandes tienen siempre más apetito que los pequeños pero a los labradores se les confunde con la gula. Con dos raciones diarias de una dieta equilibrada y rica en carne y verduras será suficiente, controlando las cantidades.
 
 #### Origen:
-
-A mediados del siglo XVI aproximadamente, los sabuesos empezaron a ser clasificados por su finalidad, es decir, sabuesos de vista, sabuesos de olfato, etc. En esa época, a un pequeño sabueso, criado para matar conejos y liebres, se le asignó el nombre de "Begles", un término francés que significa "boca grande". Esto hacía referencia a la tendencia de los animales a "aullar", esto es, a ladrar en grupo. La versión anglicanizada, por supuesto, es "Beagle". La raza tiene como antepasados al Foxhound, el Harrier y un pequeño sabueso conocido como "Kerry Beagle".
+Con sus ancestros en la Isla de Terranova (Canadá) viajaron hasta el Reino Unido junto con pescadores ingleses para ser descubiertos por la aristocracia inglesa quien se enamoró rápidamente de ellos. Tras varios cruces con otras razas de perros cazadores surgió lo que conocemos como el actual Labrador Retriever.
 
 

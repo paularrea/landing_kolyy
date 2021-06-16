@@ -48,7 +48,6 @@ exports.createPages = ({ graphql, actions }) => {
                   intro
                   tags
                   type
-                  size
                   pelo
                   peso
                   aseo
