@@ -6,9 +6,9 @@ featured: true
 featuredImage: ./chihuahua.png
 tags: ["Curiosidades"]
 intro: Una raza que parece no tener conciencia de su tamaño a la hora de pelear con otras razas. 
-aseo: una vez al mes
-pelo: Suave / Cepillado de 2 o 3 veces por semana
-peso: 1,8 a 2,7 kg
+pelo: "Suave / Cepillado de 2 o 3 veces por semana"
+aseo: "Una vez al mes"
+peso: "1,8 a 2,7 kg"
 type: "doggipedia"
 ---
 

@@ -6,9 +6,9 @@ featured: true
 featuredImage: ./pastor-aleman.png
 intro: Inteligente y con muchas de aprender, uno de esos alumnos que quiere sacar matrícula de honor en clase.
 tags: ["Curiosidades"]
-aseo: Una vez cada 3 - 6 meses
-pelo: Medio - Largo / Cepillado de 2 o 3 veces por semana
-peso: 30 a 36 kg
+pelo: "Medio - Largo / Cepillado de 2 o 3 veces por semana"
+aseo: "Una vez cada 3 - 6 meses"
+peso: "30 a 36 kg"
 type: "doggipedia"
 ---
 
