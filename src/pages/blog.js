@@ -6,6 +6,7 @@ import { Grid, Row, Col } from "react-flexbox-grid";
 import Seo from "../components/seo";
 import Img from "gatsby-image";
 import {
+  span,
   container,
   bg_img,
   content,
@@ -83,7 +84,7 @@ const Blog = ({ data }) => {
             <img src={searchIcon} alt="search" />
           </div>
         </div>
-        <span>Un mundo por descubrir.</span>
+        <span className={span}>Un mundo por descubrir.</span>
         <h2>Últimos artículos</h2>
         <div className={post_flex}>
           <Grid>

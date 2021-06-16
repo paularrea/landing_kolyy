@@ -25,6 +25,7 @@ const PlacaIntro = () => {
               data-sal="slide-up"
               data-sal-delay="100"
               data-sal-duration="1000"
+              style={{ backgroundColor: "#D9DADD", color: "black" }}
             >
               Únete al reto
             </button>

@@ -40,10 +40,10 @@ const SectionScroll = () => {
               </p>
               <div className="buttons">
                 <button style={{ backgroundColor: "#D9DADD", color: "black" }}>
-                  <Link to="/collar">Saber más</Link>
+                  <Link to="/collar-perro">Saber más</Link>
                 </button>{" "}
                 <button>
-                  <Link style={{ color: "white" }} to="/book">
+                  <Link style={{ color: "white" }} to="/reserva">
                     Reserva
                   </Link>
                 </button>
@@ -58,7 +58,7 @@ const SectionScroll = () => {
             <img src={blackCollar} alt="collar perro negro" />
             <div className="text-div">
               <h1>Desde cualquier lugar siempre conectado a ti.</h1>
-              <p>Que la distancia no te aleje de estar cerca de tu perro.</p>
+              <p>Que la distancia no te aleje de estar <br /> cerca de tu perro.</p>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ const SectionScroll = () => {
             <img src={yellowCollar} alt="collar perro amarillo" />
             <div className="text-div">
               <h1>Un collar para una vida activa y saludable</h1>
-              <p>Conviértete en su entrenador personal y mide su actividad.</p>
+              <p>Conviértete en su entrenador personal <br /> y mide su actividad.</p>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ const SectionScroll = () => {
                   Localizador GPS para saber donde está en todo momento y alerta
                   por si tu perro sale de la zona que has marcado como segura.
                 </p>
-                <Link to="/collar-perro"><button>Saber más</button></Link>
+                <Link to="/collar-perro"><button style={{ backgroundColor: "#D9DADD", color: "black" }}>Saber más</button></Link>
               </div>
             </div>
           </BgIntro1>
@@ -105,7 +105,7 @@ const SectionScroll = () => {
                   Registro de actividad para que tu perro alcance sus objetivos
                   de ejercicio.
                 </p>
-                <Link to="/collar-perro"><button>Saber más</button></Link>
+                <Link to="/collar-perro"><button style={{ backgroundColor: "#D9DADD", color: "black" }}>Saber más</button></Link>
               </div>
             </div>
           </BgIntro2>
@@ -121,7 +121,7 @@ const SectionScroll = () => {
                   Registro de sus hábitos cotidianos para anticiparte a futuros
                   problemas de salud.
                 </p>
-                <Link to="/collar-perro"><button>Saber más</button></Link>
+                <Link to="/collar-perro"><button style={{ backgroundColor: "#D9DADD", color: "black" }}>Saber más</button></Link>
               </div>
             </div>
           </BgIntro3>

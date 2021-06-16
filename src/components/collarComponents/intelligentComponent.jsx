@@ -11,7 +11,7 @@ import {
 import MediaQuery from "react-responsive";
 import IntelligentMobile from "./mobile/intelligentMobile";
 import IntelligentImg from "./img/intelligentImg";
-import star from "../../images/icons/star.png";
+// import star from "../../images/icons/star.png";
 
 const InteligentComponent = () => {
   return (
@@ -44,7 +44,7 @@ const InteligentComponent = () => {
                 className={flex_feature}
               >
                 <div>
-                  <img src={star} alt="star point" />
+                  {/* <img src={star} alt="star point" /> */}
                 </div>
                 <h5>Sensor de temperatura ambiental.</h5>
               </div>
@@ -55,7 +55,7 @@ const InteligentComponent = () => {
                 className={flex_feature}
               >
                 <div>
-                  <img src={star} alt="star point" />
+                  {/* <img src={star} alt="star point" /> */}
                 </div>
                 <h5>Registro de tiempo en reposo y ciclos de sueño.</h5>
               </div>
@@ -66,7 +66,7 @@ const InteligentComponent = () => {
                 className={flex_feature}
               >
                 <div>
-                  <img src={star} alt="star point" />
+                  {/* <img src={star} alt="star point" /> */}
                 </div>
                 <h5>Sensor de movimiento de rascado.</h5>
               </div>

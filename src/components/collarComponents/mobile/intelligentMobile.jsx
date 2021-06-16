@@ -9,7 +9,7 @@ import {
 } from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
 import IntelligentImg from "../img/intelligentImg";
-import star from "../../../images/icons/star.png";
+// import star from "../../../images/icons/star.png";
 
 const IntelligentMobile = () => {
   return (
@@ -48,7 +48,7 @@ const IntelligentMobile = () => {
               className={flex_feature}
             >
               <div>
-                <img src={star} alt="star point" />
+                {/* <img src={star} alt="star point" /> */}
               </div>
               <h5>Sensor de temperatura ambiental.</h5>
             </div>
@@ -59,7 +59,7 @@ const IntelligentMobile = () => {
               className={flex_feature}
             >
               <div>
-                <img src={star} alt="star point" />
+                {/* <img src={star} alt="star point" /> */}
               </div>
               <h5>Registro de tiempo en reposo y ciclos de sueño.</h5>
             </div>
@@ -70,7 +70,7 @@ const IntelligentMobile = () => {
               className={flex_feature}
             >
               <div>
-                <img src={star} alt="star point" />
+                {/* <img src={star} alt="star point" /> */}
               </div>
               <h5>Sensor de movimiento de rascado.</h5>
             </div>

@@ -37,7 +37,7 @@ const Burger = () => {
           </Link>
           <a href="https://app.kolyy.com/" rel="noreferrer" target="_blank">
             <button className="gray">
-              Iniciar sesión
+              Inicia sesión
             </button>
           </a>
         </div>

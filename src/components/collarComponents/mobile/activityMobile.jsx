@@ -9,7 +9,7 @@ import {
 } from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
 import ActiveImg from "../img/activeImg";
-import star from "../../../images/icons/star.png";
+// import star from "../../../images/icons/star.png";
 
 const ActivityMobile = () => {
   return (
@@ -50,7 +50,7 @@ const ActivityMobile = () => {
               className={flex_feature}
             >
               <div>
-                <img src={star} alt="star point" />
+                {/* <img src={star} alt="star point" /> */}
               </div>
               <h5>Sensor de movimiento y del tipo de actividad.</h5>
             </div>
@@ -61,7 +61,7 @@ const ActivityMobile = () => {
               className={flex_feature}
             >
               <div>
-                <img src={star} alt="star point" />
+                {/* <img src={star} alt="star point" /> */}
               </div>
               <h5>Contador de pasos en modo paseo y carrera.</h5>
             </div>
@@ -72,7 +72,7 @@ const ActivityMobile = () => {
               className={flex_feature}
             >
               <div>
-                <img src={star} alt="star point" />
+                {/* <img src={star} alt="star point" /> */}
               </div>
               <h5>
                 Medidor de distancia recorrida y cronometro de tiempo en
@@ -86,7 +86,7 @@ const ActivityMobile = () => {
               className={flex_feature}
             >
               <div>
-                <img src={star} alt="star point" />
+                {/* <img src={star} alt="star point" /> */}
               </div>
               <h5>Registro de rutas de paseo y excursiones.</h5>
             </div>

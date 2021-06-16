@@ -9,7 +9,7 @@ import {
 } from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
 import GpsImg from "../img/gpsImg";
-import star from "../../../images/icons/star.png";
+// import star from "../../../images/icons/star.png";
 
 const GpsMobile = () => {
   return (
@@ -51,7 +51,7 @@ const GpsMobile = () => {
               className={flex_feature}
             >
               <div>
-                <img src={star} alt="star point" />
+                {/* <img src={star} alt="star point" /> */}
               </div>
               <h5>Sistema de localización GPS para zonas urbanas y rurales.</h5>
             </div>
@@ -62,7 +62,7 @@ const GpsMobile = () => {
               className={flex_feature}
             >
               <div>
-                <img src={star} alt="star point" />
+                {/* <img src={star} alt="star point" /> */}
               </div>
               <h5>
                 Función “dibujar tu zona de seguridad” para recibir alertas si

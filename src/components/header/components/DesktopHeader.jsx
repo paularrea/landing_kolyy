@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import Link from "../../Link";
-import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
+// import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
 import {
   header,
   header_out,
@@ -66,14 +66,16 @@ const DesktopHeader = () => {
         </Link>
 
         <Link id="blog" to="/blog" className={activeBlog && active_white}>
-          <FormattedMessage id="nav.blog" />
+          {/* <FormattedMessage id="nav.blog" /> */}
+          Blog
         </Link>
         <Link
           id="contacto"
           to="/contacto"
           className={activeQuestions && active_white}
         >
-          <FormattedMessage id="nav.questions" />
+          {/* <FormattedMessage id="nav.questions" /> */}
+          Pregúntanos
         </Link>
       </nav>
       <div className={navBar}>
@@ -82,8 +84,13 @@ const DesktopHeader = () => {
             <Logo />
           </Link>
 
-          <Link id="collar-perro" to="/collar-perro" className={activeCollar && active}>
-            <FormattedMessage id="nav.collar" />
+          <Link
+            id="collar-perro"
+            to="/collar-perro"
+            className={activeCollar && active}
+          >
+            {/* <FormattedMessage id="nav.collar" /> */}
+            Collar
           </Link>
 
           <Link
@@ -91,11 +98,17 @@ const DesktopHeader = () => {
             to="/zero-perros-perdidos"
             className={activePlacas && active}
           >
-            <FormattedMessage id="nav.placa" />
+            {/* <FormattedMessage id="nav.placa" /> */}
+            #0perrosperdidos
           </Link>
 
-          <Link id="sobre-nosotros" to="/sobre-nosotros" className={activeAbout && active}>
-            <FormattedMessage id="nav.about" />
+          <Link
+            id="sobre-nosotros"
+            to="/sobre-nosotros"
+            className={activeAbout && active}
+          >
+            {/* <FormattedMessage id="nav.about" /> */}
+            ¿Qué es kolyy?
           </Link>
         </nav>
         <div>
@@ -106,11 +119,15 @@ const DesktopHeader = () => {
             target="_blank"
           >
             {" "}
-            <FormattedMessage id="nav.login" />
+            {/* <FormattedMessage id="nav.login" /> */}
+            <button style={{ backgroundColor: "#D9DADD", color: "black", fontSize:'16px' }}>
+              Inicia sesión
+            </button>
           </a>
           <Link id="reserva" to="/reserva">
             <button className={button_header}>
-              <FormattedMessage id="nav.book" />
+              {/* <FormattedMessage id="nav.book" /> */}
+              Reserva
             </button>
           </Link>
         </div>
@@ -123,4 +140,4 @@ DesktopHeader.propTypes = {
   siteTitle: PropTypes.string,
 };
 
-export default injectIntl(DesktopHeader);
+export default DesktopHeader;

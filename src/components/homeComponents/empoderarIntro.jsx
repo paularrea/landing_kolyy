@@ -1,6 +1,6 @@
 import React from "react";
 import empoderar from "../../images/empoderar.jpg";
-import {Link} from 'gatsby'
+import { Link } from "gatsby";
 import { container_flex, container, text } from "../../styles/home.module.scss";
 
 const EmpoderarIntro = () => {
@@ -23,7 +23,16 @@ const EmpoderarIntro = () => {
             Hemos creado un collar que te lo pone muy fácil para cuidar de él
             porque no hay nadie que lo pueda hacer mejor que tú.
           </p>
-          <Link to='/collar-perro'><button data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" style={{ backgroundColor: "#D9DADD", color: "black" }}>Saber más</button></Link>
+          <Link to="/collar-perro">
+            <button
+              style={{ backgroundColor: "#D9DADD", color: "black" }}
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+            >
+              Saber más
+            </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const DespieceMobile = () => {
         Los pequeños detalles <br /> marcan la diferencia
         </h2>
         <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
-        Resistente, compacto, inteligente y atractivo
+        Resistente, compacto, inteligente y atractivo.
         </p>
       </div>
       <div
@@ -27,7 +27,7 @@ const DespieceMobile = () => {
         data-sal-duration="1000"
         style={{ width: "90%", margin: "1rem auto", marginBottom: "3rem" }}
       >
-        <FeaturesCollar />
+        {/* <FeaturesCollar /> */}
       </div>
       <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
         {" "}

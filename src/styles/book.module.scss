@@ -1,7 +1,7 @@
-span{
+.title_span{
     color: #30AAAA;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 700 !important;
     margin-bottom: 1rem;
 }
 .bg_img{
@@ -137,6 +137,11 @@ span{
     }
     .container, .container_first{
         .section{
+            h2{
+                margin: 0 auto;
+                width: 70vw;
+                max-width: 700px;
+            }
         .flex_container{
              .container_first{
         padding-top: 6rem;

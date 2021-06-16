@@ -16,7 +16,7 @@ const CollarCollection = () => {
           Diseñado para todos los perros
         </h2>
         <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
-          Sea como sea tu perro este es el collar que necesita.
+          Un collar que se adapta al estilo de tu perro.
         </p>
         <button
           data-sal="slide-up"
@@ -24,7 +24,9 @@ const CollarCollection = () => {
           data-sal-duration="1000"
         >
           {" "}
-          <Link style={{color:'white'}} to="/collar-perro">Descubre más</Link>{" "}
+          <Link style={{ backgroundColor: "#D9DADD", color: "black" }} to="/collar-perro">
+              Descubre más
+          </Link>{" "}
         </button>
       </div>
       <div className={flex_collection}>

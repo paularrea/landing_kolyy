@@ -1,5 +1,6 @@
 import React from "react";
 import "./form-booking.css";
+import {title_span} from "../../styles/book.module.scss"
 
 import { useHubspotForm } from "@aaronhayes/react-use-hubspot-form";
 
@@ -13,7 +14,7 @@ const BookingForm = () => {
 
   return (
     <div style={{textAlign:'center', padding:'2rem 0'}} id="booking-form-container">
-      <span style={{color:'#30AAAA', fontWeight:'700', top:'2rem'}} data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
+      <span className={title_span} data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
         Formulario de inscripción a la lista
       </span>
       <div

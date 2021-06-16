@@ -11,7 +11,7 @@ import {
 import MediaQuery from "react-responsive";
 import GpsMobile from "./mobile/gpsMobile";
 import GpsImg from "./img/gpsImg";
-import star from "../../images/icons/star.png";
+// import star from "../../images/icons/star.png";
 
 const GpsComponent = () => {
   return (
@@ -47,7 +47,7 @@ const GpsComponent = () => {
                 className={flex_feature}
               >
                 <div>
-                  <img src={star} alt="star point" />
+                  {/* <img src={star} alt="star point" /> */}
                 </div>
                 <h5>
                   Sistema de localización GPS para zonas urbanas y rurales.
@@ -60,7 +60,7 @@ const GpsComponent = () => {
                 className={flex_feature}
               >
                 <div>
-                  <img src={star} alt="star point" />
+                  {/* <img src={star} alt="star point" /> */}
                 </div>
                 <h5>
                   Función “dibujar tu zona de seguridad” para recibir alertas si

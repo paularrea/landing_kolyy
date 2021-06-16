@@ -8,6 +8,10 @@
 }
 .inputs-list{
     list-style-type: none;
+    padding: 0 !important;
+}
+.inputs-list p{
+    font-size: 14px !important;
 }
 #form-container{
     width: 100%;
@@ -63,7 +67,7 @@ input[type=text], input[type=button] {
     font-size: 10px;
 }
 .hs-richtext span{
-    font-size: 10px;
+    font-size: 10px !important;
 }
 #firstname-cefecb98-7975-4597-b869-2d999834cbd2{
     width: 100%;

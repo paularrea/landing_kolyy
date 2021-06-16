@@ -11,7 +11,7 @@ import {
 import MediaQuery from "react-responsive";
 import CommunityMobile from "./mobile/communityMobile";
 import CommunityImg from "./img/communityImg";
-import star from "../../images/icons/star.png";
+// import star from "../../images/icons/star.png";
 
 const CommunityComponent = () => {
   return (
@@ -49,7 +49,7 @@ const CommunityComponent = () => {
                 className={flex_feature}
               >
                 <div>
-                  <img src={star} alt="star point" />
+                  {/* <img src={star} alt="star point" /> */}
                 </div>
                 <h5>Avisos de seguridad sobre la localización de tu perro.</h5>
               </div>
@@ -60,7 +60,7 @@ const CommunityComponent = () => {
                 className={flex_feature}
               >
                 <div>
-                  <img src={star} alt="star point" />
+                  {/* <img src={star} alt="star point" /> */}
                 </div>
                 <h5>Notificaciones de anomalías en los hábitos diarios.</h5>
               </div>
@@ -71,7 +71,7 @@ const CommunityComponent = () => {
                 className={flex_feature}
               >
                 <div>
-                  <img src={star} alt="star point" />
+                  {/* <img src={star} alt="star point" /> */}
                 </div>
                 <h5>Reportes de actividad y evolución de los resultados.</h5>
               </div>
