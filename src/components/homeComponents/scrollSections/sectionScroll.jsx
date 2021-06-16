@@ -57,7 +57,6 @@ const SectionScroll = () => {
           <div className="flex-container">
             <img src={blackCollar} alt="collar perro negro" />
             <div className="text-div">
-              {" "}
               <h1>Desde cualquier lugar siempre conectado a ti.</h1>
               <p>Que la distancia no te aleje de estar cerca de tu perro.</p>
             </div>
@@ -69,7 +68,6 @@ const SectionScroll = () => {
           <div className="flex-container">
             <img src={yellowCollar} alt="collar perro amarillo" />
             <div className="text-div">
-              {" "}
               <h1>Un collar para una vida activa y saludable</h1>
               <p>Conviértete en su entrenador personal y mide su actividad.</p>
             </div>
@@ -86,7 +84,6 @@ const SectionScroll = () => {
           <BgIntro1>
             <div className="flex-container-bg">
               <div className="text-div">
-                {" "}
                 <h1>No lo pierdas.</h1>
                 <p>
                   Localizador GPS para saber donde está en todo momento y alerta
@@ -103,7 +100,6 @@ const SectionScroll = () => {
           <BgIntro2>
             <div className="flex-container-bg">
               <div className="text-div">
-                {" "}
                 <h1>Motívale a llevar una vida mejor.</h1>
                 <p>
                   Registro de actividad para que tu perro alcance sus objetivos
@@ -120,7 +116,6 @@ const SectionScroll = () => {
           <BgIntro3>
             <div className="flex-container-bg">
               <div className="text-div">
-                {" "}
                 <h1>Anticípate a los problemas.</h1>
                 <p>
                   Registro de sus hábitos cotidianos para anticiparte a futuros

@@ -11,7 +11,7 @@ import Burger from "./components/burger";
 
 const Header = () => (
   <>
-    <MediaQuery maxWidth={870}>
+    <MediaQuery maxWidth={900}>
       <header>
         <div className={navBar}>
           <div>
@@ -33,7 +33,7 @@ const Header = () => (
         </div>
       </header>
     </MediaQuery>
-    <MediaQuery minWidth={870}>
+    <MediaQuery minWidth={900}>
       {/* <div className={big_container}> */}
       <DesktopHeader />
       {/* </div> */}
