@@ -1,7 +1,7 @@
 ---
 title: Curiosidades del Bichón maltés
 date: 2021-03-29
-path: /bichon-maltes
+path: /curiosidades-bichon-maltes
 featured: true
 collection: curiosidades
 featuredImage: ./bichon-maltes.png
