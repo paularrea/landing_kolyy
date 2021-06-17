@@ -6,7 +6,7 @@ const PageLinks = () => {
   return (
     <div className={flex_links}>
       <div>
-        <h5>Koly</h5>
+        <h5>Kolyy</h5>
         <p>
           <Link to="/collar-perro">Collar</Link>
         </p>
