@@ -10,7 +10,7 @@ type: "blog"
 ---
 
  
-El Bichón maltés es un perro muy afectuoso y sociable, además de ser una de las razas más comunes. En nuestra comunidad de Instagram siempre nos preguntáis por esta raza de pelaje largo y blanco, así que hoy vamos a hablar de algunas de las curiosidades de este pequeño pero enorme perro.
+El Bichón maltés es un perro muy afectuoso y sociable, además de ser una de las razas más comunes. En nuestra comunidad de Instagram siempre nos preguntáis por esta raza de pelaje largo y blanco, así que hoy vamos a hablar de algunas de las curiosidades de este pequeño pero enorme perro. 
 
 #### 🐶 Es una de las razas más antiguas
 
