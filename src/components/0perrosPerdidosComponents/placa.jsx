@@ -5,7 +5,7 @@ import {
   text,
   img,
 } from "../../styles/placas.module.scss";
-import placa from "../../images/placas.jpg";
+import placa from "../../images/placas.png";
 
 const Placa = () => {
   return (
