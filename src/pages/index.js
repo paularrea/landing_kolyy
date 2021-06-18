@@ -5,7 +5,7 @@ import Home from "./collar-para-cuidar-mi-perro"
 
 const IndexPage = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0 );
   }, []);
   return (
     <Layout>
