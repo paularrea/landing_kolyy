@@ -98,6 +98,21 @@ const Chronology = () => {
                   Empezamos con nuestro objetivo de revolucionar la vida de los
                   perros a través de contenido y consejos en las redes sociales.
                 </p>
+                <a
+                  href="https://www.instagram.com/kolyy_official/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <button
+                    style={{
+                      marginTop: "1rem",
+                      color: "black",
+                      backgroundColor: "#D9DADD",
+                    }}
+                  >
+                    Síguenos
+                  </button>
+                </a>
               </div>
             </div>
           </TimelineText>
@@ -114,21 +129,17 @@ const Chronology = () => {
                   perro se pierda, placas de identificación con código QR y las
                   regalamos para que lleguen a todos los hogares.
                 </p>{" "}
-              </div>
-            </div>
-          </TimelineText>
-
-          <TimelineText>
-            <div className={timeline_flex}>
-              <div className={date}>
-                <p>ENERO 2021</p>
-              </div>
-              <div className={text}>
-                <h2>3.000 perros con placas Kolyy</h2>
-                <p>
-                  Conseguimos llegar a los 3.000 kolyers y probar la fiabilidad
-                  de nuestras placas.
-                </p>{" "}
+                <Link to="/zero-perros-perdidos">
+                  <button
+                    style={{
+                      marginTop: "1rem",
+                      color: "black",
+                      backgroundColor: "#D9DADD",
+                    }}
+                  >
+                    Saber más
+                  </button>
+                </Link>
               </div>
             </div>
           </TimelineText>
@@ -139,7 +150,7 @@ const Chronology = () => {
                 <p>MARZO 2021</p>
               </div>
               <div className={text}>
-                <h2>La comunidad llega a los 10.000 miembros</h2>
+                <h2>La comunidad llega a los 15.000 miembros</h2>
               </div>
             </div>
           </TimelineText>
@@ -150,25 +161,10 @@ const Chronology = () => {
                 <p>ABRIL 2021</p>
               </div>
               <div className={text}>
-                <h2>5.000 perros con placas Kolyy</h2>
+                <h2>10.000 perros con placas Kolyy</h2>
                 <p>
                   Conseguimos llegar a las 5.000 placas identificativas
                   repartidas por toda España.
-                </p>{" "}
-              </div>
-            </div>
-          </TimelineText>
-
-          <TimelineText>
-            <div className={timeline_flex}>
-              <div className={date}>
-                <p>MAYO 2021</p>
-              </div>
-              <div className={text}>
-                <h2>#0PerrosPerdidos se convierte en una plataforma</h2>
-                <p>
-                  Creamos una plataforma que ayuda a los kolyers a colaborar en
-                  la búsqueda de otros perros kolyers perdidos.
                 </p>{" "}
               </div>
             </div>
@@ -196,7 +192,7 @@ const Chronology = () => {
                 <p>JUNIO 2021</p>
               </div>
               <div className={text}>
-                <h2>10.000 perros con placas kolyy</h2>
+                <h2>15.000 perros con placas kolyy</h2>
               </div>
             </div>
           </TimelineText>

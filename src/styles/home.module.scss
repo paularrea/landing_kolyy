@@ -1,53 +1,31 @@
 .container_flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
-    flex-flow: column-reverse;
     align-items: center;
     margin: 0 2rem;
     height: 100vh;
     .text{
         text-align: center;
         width: 100%;
-        max-width: 350px;
-        padding: 1rem 0;
         p{
             padding-top: 1rem;
             padding-bottom: 1rem;
         }
-    }
-    img{
-        margin: 0 2rem;
-        width: 80vw;
-        max-width: 500px;
-    }
-}
-.container_collection{
-    padding: 3rem 2rem;
-    background-color: #F8F8F8;
-    height: auto;
-    z-index: 7;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    button{
-        margin-bottom: 3rem;
-    }
-    p{
-    margin: 1rem 0 2rem 0;
-    }
-    .flex_collection{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: auto;
-        img{
-            width: 300px;
+        .features_img{
+            width: 90%;
+            margin: 3rem 0;
+            max-width: 350px;
         }
     }
+    div{
+        height: auto !important;
+        img{
+            width: 100%;
+            height: auto !important;
+    }
+    }
+    
 }
 .container_flex_placas{
     padding: 3rem 2rem;
@@ -70,21 +48,16 @@
 }
 @media (min-width: 870px) {
     .container_flex{
-        flex-direction: row;
+        flex-direction: column;
         .text{
             margin: 0 auto;
-            width: auto;
-            max-width: 550px;
+            width: 100%;
             p{
                 margin: 0 auto;
                 margin-bottom: 1rem;
                 width: 70%;
                 max-width: 400px;
             }
-        }
-        img{
-            width: 40vw;
-            max-width: 567px;;
         }
     }
     .container_collection{

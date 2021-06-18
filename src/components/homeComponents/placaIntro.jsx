@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import placas from "../../images/placas.jpg";
+import placas from "../../images/placas.png";
 import {
   container_flex_placas,
   container,
@@ -9,7 +9,7 @@ import {
 
 const PlacaIntro = () => {
   return (
-    <div className={container} style={{ backgroundColor: "#ECECEC" }}>
+    <div className={container} style={{ backgroundColor: "#30aaaa73" }}>
       <div className={container_flex_placas}>
         <div className={text}>
           {" "}
@@ -25,7 +25,7 @@ const PlacaIntro = () => {
               data-sal="slide-up"
               data-sal-delay="100"
               data-sal-duration="1000"
-              style={{ backgroundColor: "#D9DADD", color: "black" }}
+              style={{ backgroundColor: "#30AAAA", color: "white" }}
             >
               Únete al reto
             </button>

@@ -3,7 +3,6 @@ import { text_despiece } from "../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
 import DespieceImg from "./img/despiece";
 import DespieceMobile from "./mobile/despieceMobile";
-import FeaturesCollar from "./img/featuresCollar";
 
 const DespieceComponent = () => {
   return (

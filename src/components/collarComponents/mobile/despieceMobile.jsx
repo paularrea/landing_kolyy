@@ -8,7 +8,6 @@ import {
 } from "../../../styles/collar.module.scss";
 import MediaQuery from "react-responsive";
 import DespieceMobileImg from "../img/despieceMobileImg";
-import FeaturesCollar from "../img/featuresCollar";
 
 const DespieceMobile = () => {
   return (

@@ -96,11 +96,11 @@ const DoggipediaPost = ({ data, pageContext }) => {
             <div>
               <img src={prevIcon} alt="Anterior" />
             </div>
-            {next && <Link to={next.frontmatter.path}>Anterior</Link>}
+            {next && <Link to={next.frontmatter.path}>Anterior raza</Link>}
           </div>
           <div className={barra}></div>
           <div className={link}>
-            {prev && <Link to={prev.frontmatter.path}>Siguiente</Link>}
+            {prev && <Link to={prev.frontmatter.path}>Siguiente raza</Link>}
             <div>
               <img src={nextIcon} alt="Siguiente" />
             </div>
