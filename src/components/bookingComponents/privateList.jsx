@@ -8,7 +8,7 @@ import {
 } from "../../styles/book.module.scss";
 import icon1 from "../../images/List1.png";
 import icon2 from "../../images/List2.png";
-import icon3 from "../../images/List3.png";
+import icon3 from "../../images/icono-collar-perro-kolyy.png";
 const PrivateList = () => {
   return (
     <section className={section}>

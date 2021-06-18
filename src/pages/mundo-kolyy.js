@@ -18,7 +18,7 @@ const About = () => {
   };
   return (
     <Layout>
-      <Seo title="About" />
+      <Seo title="Mundo Kolyy" />
         <AboutImg>
       <div className={bg_img}>
           <div className={content}>

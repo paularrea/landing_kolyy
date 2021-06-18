@@ -24,13 +24,13 @@ const Burger = () => {
         isOpen={menuOpen}
         onStateChange={(state) => handleStateChange(state)}
       >
-        <Link id="home" to="/">
+        <Link id="home" to="/collar-para-cuidar-mi-perro">
           <div className="logo-menu">
             <Logo />
           </div>
         </Link>
         <div className="flex-btns">
-          <Link id="reserva" to="/reserva">
+          <Link id="reserva" to="/reserva-collar-kolyy">
             <button>
               Reserva
             </button>
@@ -42,7 +42,7 @@ const Burger = () => {
           </a>
         </div>
         <nav className="bm-item-list">
-          <Link className="menu-item" id="collar-perro" to="/collar-perro">
+          <Link className="menu-item" id="collar-perro" to="/collar-perro-gps">
             <div
               role="link"
               className="anchor-div"
@@ -56,7 +56,7 @@ const Burger = () => {
             >
               {" "}
               Collar
-              <img src={menuArrow} alt="Collar" />
+              <img src={menuArrow} alt="collar flecha" />
             </div>
           </Link>
 
@@ -78,11 +78,11 @@ const Burger = () => {
             >
               {" "}
               #0perrosperdidos
-              <img src={menuArrow} alt="#0perrosPerdidos" />
+              <img src={menuArrow} alt="iniciativa #0perrosPerdidos" />
             </div>
           </Link>
 
-          <Link id="sobre-nosotros" to="/sobre-nosotros" className="menu-item">
+          <Link id="sobre-nosotros" to="/mundo-kolyy" className="menu-item">
             <div
               role="link"
               className="anchor-div"
@@ -116,7 +116,7 @@ const Burger = () => {
               <img src={menuArrow} alt="doggipedia" />
             </div>
           </Link>
-          <Link id="blog" to="/blog" className="menu-item">
+          <Link id="blog" to="/blog-para-perros" className="menu-item">
             <div
               role="link"
               className="anchor-div"

@@ -1,7 +1,7 @@
 ---
 title: Yorkshire terrier
 date: 2019-04-06
-path: /yorkshire-terrier
+path: /perro-yorkshire-terrier
 featured: true
 featuredImage: ./yorkshire-terrier.png
 tags: ["Curiosidades"]

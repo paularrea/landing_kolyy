@@ -1,7 +1,7 @@
 ---
 title: Bichón Maltés
 date: 2019-04-10
-path: /bichon-Maltes
+path: /perro-bichon-Maltes
 featured: true
 featuredImage: ./bichon-maltes.png
 tags: ["Curiosidades"]

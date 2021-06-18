@@ -15,13 +15,13 @@ const Header = () => (
       <header>
         <div className={navBar}>
           <div>
-            <Link to="/">
+            <Link to="/collar-para-cuidar-mi-perro">
               <Logo />
             </Link>
           </div>
           <div className={flex_nav_btn}>
               <button>
-            <Link style={{color:'white'}} id="book" to="/reserva">
+            <Link style={{color:'white'}} id="book" to="/reserva-collar-kolyy">
                 {/* <FormattedMessage id="nav.book" /> */}
                 Reserva
             </Link>

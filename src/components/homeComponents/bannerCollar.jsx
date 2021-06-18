@@ -31,10 +31,10 @@ const EmpoderarIntro = () => {
         <BannerImg/>
       <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000" style={{marginTop:'1rem'}} className="buttons">
         <button style={{ backgroundColor: "#D9DADD", color: "black" }}>
-          <Link to="/collar-perro">Saber más</Link>
+          <Link to="/collar-perro-gps">Saber más</Link>
         </button>{" "}
         <button>
-          <Link style={{ color: "white" }} to="/reserva">
+          <Link style={{ color: "white" }} to="/reserva-collar-kolyy">
             Reserva
           </Link>
         </button>

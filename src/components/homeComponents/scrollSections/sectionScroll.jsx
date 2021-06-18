@@ -1,8 +1,8 @@
 import React from "react";
 import "./scrollSections.scss";
-import blueCollar from "../../../images/blue-collar.png";
-import blackCollar from "../../../images/black-collar.png";
-import yellowCollar from "../../../images/yellow-collar.png";
+import blueCollar from "../../../images/collar-perro-gps.png";
+import blackCollar from "../../../images/collar-perro-actividad.png";
+import yellowCollar from "../../../images/collar-perro-salud.png";
 
 import BgIntro1 from "./img/bgIntro1";
 import BgIntro2 from "./img/bgIntro2";
@@ -40,10 +40,10 @@ const SectionScroll = () => {
               </p>
               <div className="buttons">
                 <button style={{ backgroundColor: "#D9DADD", color: "black" }}>
-                  <Link to="/collar-perro">Saber más</Link>
+                  <Link to="/collar-perro-gps">Saber más</Link>
                 </button>{" "}
                 <button>
-                  <Link style={{ color: "white" }} to="/reserva">
+                  <Link style={{ color: "white" }} to="/reserva-collar-kolyy">
                     Reserva
                   </Link>
                 </button>
@@ -95,7 +95,7 @@ const SectionScroll = () => {
                   Potencia el estilo de vida de tu perro y atrévete a
                   experimentar nuevos límites.
                 </p>
-                <Link to="/collar-perro">
+                <Link to="/collar-perro-gps">
                   <button
                     style={{ backgroundColor: "#D9DADD", color: "black" }}
                   >
@@ -116,7 +116,7 @@ const SectionScroll = () => {
                 <p>
                   Conviértete en su entrenador personal y mide su actividad.
                 </p>
-                <Link to="/collar-perro">
+                <Link to="/collar-perro-gps">
                   <button
                     style={{ backgroundColor: "#D9DADD", color: "black" }}
                   >
@@ -135,7 +135,7 @@ const SectionScroll = () => {
               <div className="text-div">
                 <h1>Desde cualquier lugar siempre conectado a ti.</h1>
                 <p>Que la distancia no te aleje de estar cerca de tu perro.</p>
-                <Link to="/collar-perro">
+                <Link to="/collar-perro-gps">
                   <button
                     style={{ backgroundColor: "#D9DADD", color: "black" }}
                   >

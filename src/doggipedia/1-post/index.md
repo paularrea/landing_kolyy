@@ -1,7 +1,7 @@
 ---
 title: Pastor alemán
 date: 2019-04-01
-path: /pastor-aleman
+path: /perro-pastor-aleman
 featured: true
 featuredImage: ./pastor-aleman.png
 intro: "Inteligente y con muchas de aprender, uno de esos alumnos que quiere sacar matrícula de honor en clase."

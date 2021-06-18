@@ -1,7 +1,7 @@
 ---
 title: Bull terrier
 date: 2019-04-04
-path: /bull-terrier
+path: /perro-bull-terrier
 featured: true
 featuredImage: ./bull-terrier.png
 tags: ["Curiosidades"]

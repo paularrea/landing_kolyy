@@ -25,7 +25,7 @@ const FooterDesktop = () => {
       <div className={flex_container}>
         <div className={logo_text}>
           <div className={intro}>
-            <Link to="/">
+            <Link to="/collar-para-cuidar-mi-perro">
               <Logo />
             </Link>
             <p>

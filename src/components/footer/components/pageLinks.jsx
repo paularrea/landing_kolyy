@@ -8,10 +8,10 @@ const PageLinks = () => {
       <div>
         <h5>Kolyy</h5>
         <p>
-          <Link to="/collar-perro">Collar</Link>
+          <Link to="/collar-perro-gps">Collar</Link>
         </p>
         <p>
-          <Link to="/sobre-nosotros">¿Qué es Kolyy?</Link>
+          <Link to="/mundo-kolyy">¿Qué es Kolyy?</Link>
         </p>
         <p>
           <Link to="/contacto">Pregúntanos</Link>
@@ -29,7 +29,7 @@ const PageLinks = () => {
       <div>
         <h5>Aprende</h5>
         <p>
-          <Link to="/blog">Blog</Link>
+          <Link to="/blog-para-perros">Blog</Link>
         </p>
         <p>
           <Link to="/razas-de-perro">Conoce a tu perro</Link>

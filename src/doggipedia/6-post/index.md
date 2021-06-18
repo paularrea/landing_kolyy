@@ -1,7 +1,7 @@
 ---
 title: Labrador Retriever
 date: 2020-03-01
-path: /labrador-retriever
+path: /perro-labrador-retriever
 featured: true
 featuredImage: ./labrador-retriever.png
 tags: ["Curiosidades"]

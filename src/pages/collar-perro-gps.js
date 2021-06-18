@@ -31,7 +31,7 @@ const Collar = () => {
               Vive una experiencia única acompañando a tu perro hacia un estilo
               de vida activo y saludable.
             </p>
-            <Link to="/reserva">
+            <Link to="/reserva-collar-kolyy">
               <button>Reserva</button>
             </Link>
           </div>

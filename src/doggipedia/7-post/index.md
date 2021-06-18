@@ -1,7 +1,7 @@
 ---
 title: Beagle
 date: 2020-04-01
-path: /beagle
+path: /perro-beagle
 featured: true
 featuredImage: ./beagle.png
 tags: ["Curiosidades"]

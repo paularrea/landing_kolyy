@@ -35,13 +35,13 @@ const DesktopHeader = () => {
     };
     const isActive = () => {
       const currentURL = window.location.href;
-      if (currentURL.indexOf("collar") > -1) {
+      if (currentURL.indexOf("collar-perro-gps") > -1) {
         setActiveCollar(true);
       } else if (currentURL.indexOf("zero-perros-perdidos") > -1) {
         setActivePlacas(true);
-      } else if (currentURL.indexOf("sobre-nosotros") > -1) {
+      } else if (currentURL.indexOf("mundo-kolyy") > -1) {
         setActiveAbout(true);
-      } else if (currentURL.indexOf("blog") > -1) {
+      } else if (currentURL.indexOf("blog-para-perros") > -1) {
         setActiveBlog(true);
       } else if (currentURL.indexOf("contacto") > -1) {
         setActiveQuestions(true);
@@ -65,7 +65,7 @@ const DesktopHeader = () => {
           Conoce a tu perro
         </Link>
 
-        <Link id="blog" to="/blog" className={activeBlog && active_white}>
+        <Link id="blog" to="/blog-para-perros" className={activeBlog && active_white}>
           {/* <FormattedMessage id="nav.blog" /> */}
           Blog
         </Link>
@@ -80,13 +80,13 @@ const DesktopHeader = () => {
       </nav>
       <div className={navBar}>
         <nav className={logo_nav_container}>
-          <Link id="logo" to="/">
+          <Link id="logo" to="/collar-para-cuidar-mi-perro">
             <Logo />
           </Link>
 
           <Link
             id="collar-perro"
-            to="/collar-perro"
+            to="/collar-perro-gps"
             className={activeCollar && active}
           >
             {/* <FormattedMessage id="nav.collar" /> */}
@@ -104,7 +104,7 @@ const DesktopHeader = () => {
 
           <Link
             id="sobre-nosotros"
-            to="/sobre-nosotros"
+            to="/mundo-kolyy"
             className={activeAbout && active}
           >
             {/* <FormattedMessage id="nav.about" /> */}
@@ -124,7 +124,7 @@ const DesktopHeader = () => {
               Inicia sesión
             </button>
           </a>
-          <Link id="reserva" to="/reserva">
+          <Link id="reserva" to="/reserva-collar-kolyy">
             <button className={button_header}>
               {/* <FormattedMessage id="nav.book" /> */}
               Reserva

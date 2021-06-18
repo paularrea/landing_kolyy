@@ -5,7 +5,7 @@ import {
   text,
   img,
 } from "../../styles/placas.module.scss";
-import mockup from "../../images/phoneMockup.png";
+import mockup from "../../images/app-zero-perros-perdidos.jpg";
 
 const App = () => {
   return (

@@ -17,7 +17,7 @@ const Footer = () => {
     <>
       <MediaQuery maxWidth={800}>
         <div className={container}>
-          <Link to="/">
+          <Link to="/collar-para-cuidar-mi-perro">
             <Logo />
           </Link>
           <p>

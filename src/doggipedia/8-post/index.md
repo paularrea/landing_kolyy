@@ -1,7 +1,7 @@
 ---
 title: Chihuahua
 date: 2020-04-01
-path: /chihuahua
+path: /perro-chihuahua
 featured: true
 featuredImage: ./chihuahua.png
 tags: ["Curiosidades"]

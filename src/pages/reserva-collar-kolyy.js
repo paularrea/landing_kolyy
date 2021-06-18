@@ -9,7 +9,7 @@ import BookingForm from "../components/bookingComponents/bookingForm";
 const Book = () => {
   return (
     <Layout>
-      <Seo title="Reserva" />
+      <Seo title="Reserva tu collar Kolyy" />
       <div className={container_first}>
         <PrivateList />
       </div>

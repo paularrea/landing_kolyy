@@ -10,7 +10,7 @@ const Privacity = () => {
         <section>
           <h5>©Petki Labs S.L</h5>
           <div className={privacity_container}>
-            <Link to="/datos">Política de privacidad</Link> |
+            <Link to="/politica-de-privacidad">Política de privacidad</Link> |
             <Link to="/política-cookies">Política de cookies</Link> |
             <Link to="/aviso-legal">Aviso legal</Link>
           </div>
@@ -20,7 +20,7 @@ const Privacity = () => {
         <section>
           <h5>©Petki Labs S.L</h5>
           <div className={privacity_container}>
-            <Link to="/datos">Política de privacidad</Link>
+            <Link to="/politica-de-privacidad">Política de privacidad</Link>
             <Link to="/política-cookies">Política de cookies</Link>
             <Link to="/aviso-legal">Aviso legal</Link>
           </div>

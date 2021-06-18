@@ -1,7 +1,7 @@
 ---
 title: Caniche
 date: 2019-04-02
-path: /caniche
+path: /perro-caniche
 featured: true
 featuredImage: ./caniche.png
 tags: ["Curiosidades"]

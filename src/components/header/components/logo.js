@@ -1,12 +1,12 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import {logo} from "../header.module.scss"
-import kolyyLogo from "../../../images/logoverd.png"
+import kolyyLogo from "../../../images/logo-kolyy.png"
 
 const Logo = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "logoverd.png" }) {
+      placeholderImage: file(relativePath: { eq: "logo-kolyy.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid

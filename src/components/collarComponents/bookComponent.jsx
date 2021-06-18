@@ -36,7 +36,7 @@ const BookComponent = () => {
                 <br />
                 ¡Apúntate a la lista!
               </p>
-              <Link to='/reserva'><button style={{marginTop:'2rem'}}>Apúntate</button></Link>
+              <Link to='/reserva-collar-kolyy'><button style={{marginTop:'2rem'}}>Apúntate</button></Link>
             </div>
           </div>
         </div>

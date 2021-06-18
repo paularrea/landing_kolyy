@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import placas from "../../images/placas.png";
+import placas from "../../images/placas-perro-qr.png";
 import {
   container_flex_placas,
   container,
