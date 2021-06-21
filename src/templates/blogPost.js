@@ -53,7 +53,7 @@ const BlogPost = ({ data, pageContext }) => {
           </div>
         </div>
         <Img fluid={featuredImgFluid} />
-        <div className={flex_just_mobile}>
+        <div className={flex_just_mobile} >
           <div className={go_back}>
             <div>
               <img src={prevIcon} alt="Anterior" />
