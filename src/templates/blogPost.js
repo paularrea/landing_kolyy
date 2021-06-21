@@ -40,7 +40,7 @@ const BlogPost = ({ data, pageContext }) => {
         <div>
           <div className={flex_info}>
             <div className={flex_breadcrumb}>
-              <Link to={"/blog"}>
+              <Link to={"/blog-para-perros"}>
                 <b>Blog /</b>
               </Link>
               <p style={{ fontWeight: 700 }}>{title}</p>
@@ -58,7 +58,7 @@ const BlogPost = ({ data, pageContext }) => {
             <div>
               <img src={prevIcon} alt="Anterior" />
             </div>
-            <Link to={"/blog"}>Volver al Blog</Link>
+            <Link to={"/blog-para-perros"}>Volver al Blog</Link>
           </div>
           <div>
             <MediaQuery maxWidth={870}>
