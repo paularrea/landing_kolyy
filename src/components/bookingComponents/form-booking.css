@@ -126,8 +126,9 @@ position: relative;
     right: 0;
     bottom: 3rem;
     }
-    
-
+#booking-hubspot-form select, #booking-hubspot-form input{
+    background-color: white !important;
+}
 @media (min-width: 870px) {
     #booking-form-container{
         padding-top: 3rem !important;
