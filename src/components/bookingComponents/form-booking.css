@@ -177,7 +177,7 @@ align-items: center !important;
 }
 @media (min-width: 900px) {
     #booking-hubspot-form{
-        padding: 5rem; 
+        padding: 5rem ; 
     }
 }
 @media (min-width: 950px) {
