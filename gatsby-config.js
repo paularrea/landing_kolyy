@@ -5,6 +5,14 @@ module.exports = {
     author: `Pau Larrea`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-SE04FQZZ51",
+        ],
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-scroll-reveal`,
     {
