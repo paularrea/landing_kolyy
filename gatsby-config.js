@@ -4,6 +4,7 @@ module.exports = {
     description: `Kolyy`,
     author: `Pau Larrea`,
   },
+  
   plugins: [
     {
       resolve: `gatsby-plugin-google-gtag`,
