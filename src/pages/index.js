@@ -8,10 +8,10 @@ const IndexPage = () => {
     window.scrollTo(0, 0 );
   }, []);
   return (
-    <Layout>
+    <>
       <Seo title="Collar para cuidar mi perro" />
       <Home/>
-    </Layout>
+    </>
   );
 };
 

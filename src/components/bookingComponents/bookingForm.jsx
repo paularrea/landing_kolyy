@@ -15,12 +15,9 @@ const BookingForm = () => {
   return (
     <div style={{textAlign:'center', padding:'2rem 0'}} id="booking-form-container">
       <span className={title_span} data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
-        Formulario de inscripción a la lista
+        <h2>Formulario de inscripción a la lista</h2>
       </span>
       <div
-        data-sal="slide-up"
-        data-sal-delay="100"
-        data-sal-duration="1000"
         id="booking-hubspot-form"
       ></div>
     </div>

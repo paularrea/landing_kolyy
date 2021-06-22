@@ -1,6 +1,6 @@
 .title_span{
     color: #30AAAA;
-    font-size: 18px;
+    font-size: 48px;
     font-weight: 700 !important;
     margin-bottom: 1rem;
 }
@@ -57,9 +57,15 @@
     text-align: center;
     margin-top: 2rem;
     .div_img_flex{
+        box-shadow:4px 8px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 24px;
+        background-color: #F9F9F9;
         text-align: center;
         width: 80%;
-        margin-bottom: 4rem;
+        height: auto;
+        width: 90vw;
+        padding: 1rem;
+        margin-bottom: 2rem;
          .logo_container{
              margin: 0 auto;
              width: auto;
@@ -155,8 +161,10 @@
             width: 100%;
             margin-bottom: 4rem;
             .div_img_flex{
-                width: 25%;
+                width: 30%;
+                height: 300px;
                 margin-bottom: 0;
+                padding: 2rem;
                  .logo_container{
                      margin: 0 auto;
                      width: auto;
