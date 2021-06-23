@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
 import Home from "./collar-para-cuidar-mi-perro"
 
