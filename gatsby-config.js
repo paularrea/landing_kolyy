@@ -19,6 +19,12 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-583PZMR",
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-scroll-reveal`,
     {
