@@ -6,6 +6,33 @@ module.exports = {
   },
   
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-HYQKXZ0WY9",
+        ],
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          exclude: ["/preview/**", "/do-not-track/me/too/"],
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true,
+        id: 2376127, 
+        sv: 6,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-583PZMR",
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-scroll-reveal`,
     {
