@@ -12,6 +12,19 @@ module.exports = {
         id: "GTM-583PZMR",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-HYQKXZ0WY9",
+        ],
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          exclude: ["/preview/**", "/do-not-track/me/too/"],
+        },
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-scroll-reveal`,
     {
