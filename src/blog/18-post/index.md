@@ -4,7 +4,7 @@ date: 2021-06-29
 path: /Nuevo-post
 featured: true
 collection: curiosidades
-featuredImage: ./0perrosperdidos.png
+featuredImage: ./Captura de pantalla 2021-06-09 a las 16.20.04.png
 tags: ["Curiosidades"]
 type: "blog"
 ---
