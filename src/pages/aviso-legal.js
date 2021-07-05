@@ -9,7 +9,7 @@ const AvisoLegal = () => {
   }, []);
   return (
     <Layout>
-      <div className={container}>
+      <div className={container} >
         <h2>Aviso legal</h2>
         <p>
           Este aviso legal regula las condiciones de uso (en adelante,
