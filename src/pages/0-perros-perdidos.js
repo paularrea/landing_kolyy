@@ -14,7 +14,7 @@ import Placa from "../components/0perrosPerdidosComponents/placa";
 import App from "../components/0perrosPerdidosComponents/app";
 import FollowersKolyy from "../components/0perrosPerdidosComponents/followersKolyy";
 
-const zeroPerrosPerdidos = () => {
+const CeroPerrosPerdidos = () => {
   return (
     <Layout>
       <Seo title="Iniciativa #0perrosperdidos" />
@@ -78,4 +78,4 @@ const zeroPerrosPerdidos = () => {
   );
 };
 
-export default zeroPerrosPerdidos;
+export default CeroPerrosPerdidos;

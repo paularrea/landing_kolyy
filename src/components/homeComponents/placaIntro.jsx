@@ -20,7 +20,7 @@ const PlacaIntro = () => {
             Ya hemos identificado a más de 10.000 perros y seguiremos trabajando
             para encontrarlos a todos. Consigue tu placa y súmate al reto.
           </p>
-          <Link to="/zero-perros-perdidos">
+          <Link to="/0-perros-perdidos">
             <button
               data-sal="slide-up"
               data-sal-delay="100"

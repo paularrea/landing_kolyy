@@ -4,7 +4,6 @@ import React from "react";
 import MediaQuery from "react-responsive";
 import DesktopHeader from "./components/DesktopHeader";
 // import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
-
 import { navBar, burger, flex_nav_btn } from "./header.module.scss";
 import Logo from "./components/logo";
 import Burger from "./components/burger";

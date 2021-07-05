@@ -129,7 +129,7 @@ const Chronology = () => {
                   perro se pierda, placas de identificación con código QR y las
                   regalamos para que lleguen a todos los hogares.
                 </p>{" "}
-                <Link to="/zero-perros-perdidos">
+                <Link to="/0-perros-perdidos">
                   <button
                     style={{
                       marginTop: "1rem",
