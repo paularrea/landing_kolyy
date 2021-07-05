@@ -61,8 +61,8 @@ const Burger = () => {
           </Link>
 
           <Link
-            id="0-perros-perdidos"
-            to="/0-perros-perdidos"
+            id="0perrosperdidos"
+            to="/0perrosperdidos"
             className="menu-item"
           >
             <div

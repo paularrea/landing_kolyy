@@ -37,7 +37,7 @@ const DesktopHeader = () => {
       const currentURL = window.location.href;
       if (currentURL.indexOf("collar-perro-gps") > -1) {
         setActiveCollar(true);
-      } else if (currentURL.indexOf("0-perros-perdidos") > -1) {
+      } else if (currentURL.indexOf("0perrosperdidos") > -1) {
         setActivePlacas(true);
       } else if (currentURL.indexOf("mundo-kolyy") > -1) {
         setActiveAbout(true);
@@ -94,8 +94,8 @@ const DesktopHeader = () => {
           </Link>
 
           <Link
-            id="0-perros-perdidos"
-            to="/0-perros-perdidos"
+            id="0perrosperdidos"
+            to="/0perrosperdidos"
             className={activePlacas && active}
           >
             {/* <FormattedMessage id="nav.placa" /> */}

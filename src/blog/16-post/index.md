@@ -1,7 +1,7 @@
 ---
 title: Nuestra iniciativa
 date: 2021-06-02
-path: /0perrosperdidos
+path: /iniciativa-0perrosperdidos
 featured: true
 collection: salud
 featuredImage: ./0perrosperdidos.png
