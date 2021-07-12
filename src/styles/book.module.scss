@@ -1,8 +1,21 @@
 .title_span{
-    color: #30AAAA;
-    font-size: 48px;
-    font-weight: 700 !important;
-    margin-bottom: 1rem;
+    text-align: center;
+    h2{
+        width: 90%;
+        margin: 0 auto;
+        color: #1F1F1F;
+        font-size: 35px;
+        font-weight: 700 !important;
+        margin-bottom: 1rem;
+    }
+    p{
+        color: #1F1F1F;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 16.94px;
+        font-weight: 400 !important;
+    }
 }
 .bg_img{
     background-color: #c4c4c421;
@@ -34,13 +47,31 @@
     }
 }
 }
-.container_first{
-    padding-top: 3rem;
+.flex_bookings{
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F1F1;
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .img_features{
+            width: 80%;
+        }
+        & > img{
+            width: 100%;
+            margin-top: 1rem;
+        }
+    }
 }
-.container, .container_first{
+.container{
     .section{
     width: 90%;
-     .container_first{
+     .flex_bookings{
         padding-top: 6rem;
     }
     margin: 0 auto;
@@ -126,9 +157,6 @@
 
 
 @media (min-width: 700px) {
-    .container_first{
-        padding-top: 6rem;
-    }
     span{
         color: #30AAAA;
         font-size: 18px;
@@ -146,6 +174,7 @@
     }
     .container, .container_first{
         .section{
+            padding: 6rem 0;
             h2{
                 margin: 0 auto;
                 width: 70vw;
@@ -208,171 +237,225 @@
         }
     }
 }
+
 @media (min-width: 900px) {
-    .container, .container_first{
+
+    .container{
         padding: 2rem; 
     }
-     .container_first{
+     .flex_bookings{
+        padding: 0 2rem;
         padding-top: 6rem;
+    }
+    .title_span{
+        text-align: left;
+        h2{
+            width: 100%;
+            padding-left: 1rem;
+            margin: 0;
+            color: #1F1F1F;
+            font-size: 48px;
+            font-weight: 700 !important;
+            margin-bottom: 1rem;
+        }
+        p{
+            margin: 0;
+            padding-left: 1rem;
+            color: #1F1F1F;
+            font-size: 18px;
+            line-height: 21.78px;
+            font-weight: 400 !important;
+        }
     }
 }
 @media (min-width: 950px) {
-    .container, .container_first{
+    .container{
         padding: 2rem; 
     }
-     .container_first{
-        padding-top: 6rem;
-    }
+    .flex_bookings{
+        padding: 0 2rem;
+       padding-top: 6rem;
+   }
 }
 @media (min-width: 1100px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 5rem; 
     }
-     .container_first{
+    .flex_bookings{
         padding-top: 8rem;
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+       .form{
+           width: 45%;
+       }
+        .image{
+            width: 55%;
+            & > img{
+                width: 60%;
+            }  
+        }
+        
     }
 }
 @media (min-width: 1600px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 10rem; 
     }
-     .container_first{
+     .flex_bookings{
+        padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 1800px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 15rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 2000px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 15rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 2200px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 25rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 2400px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 30rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 2600px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 35rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 2800px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 40rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 3000px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 50rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 3200px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 60rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 3400px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 65rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 3600px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 70rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 3800px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 75rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 4000px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 80rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 4200px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 85rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 4400px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 90rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 4600px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 95rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 4800px) {
-    .container, .container_first{
+    .container{
         padding: 2rem 100rem; 
     }
-     .container_first{
+     .flex_bookings{
+            padding: 0 2rem;
         padding-top: 8rem;
     }
 }
 @media (min-width: 5000px) {
  
-  .container_first{
+  .flex_bookings{
         padding-top: 8rem;
-    }   .container, .container_first{
+    }   .container{
         padding: 2rem 110rem; 
 }
 }

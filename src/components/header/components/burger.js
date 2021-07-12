@@ -95,7 +95,7 @@ const Burger = () => {
               tabIndex={0}
             >
               {" "}
-              ¿Qué es Kolyy?
+              Mundo Kolyy
               <img src={menuArrow} alt="About" />
             </div>
           </Link>

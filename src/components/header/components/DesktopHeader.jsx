@@ -108,7 +108,7 @@ const DesktopHeader = () => {
             className={activeAbout && active}
           >
             {/* <FormattedMessage id="nav.about" /> */}
-            ¿Qué es kolyy?
+            Mundo Kolyy
           </Link>
         </nav>
         <div>

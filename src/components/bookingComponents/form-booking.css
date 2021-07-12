@@ -41,7 +41,7 @@ input[type=text], input[type=button] {
     font-size: 400;
 }
 #booking-hubspot-form{
-    padding: 2rem; 
+    padding: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,14 +132,9 @@ position: relative;
 @media (min-width: 870px) {
     #booking-form-container{
         padding-top: 3rem !important;
+        margin: 0 !important;
     }
-    #hsForm_cefecb98-7975-4597-b869-2d999834cbd2{
-        width: 75%;
-        margin: 0 auto;
-    }
-    #booking-hubspot-form{
-        padding: 5rem 2rem; 
-    }
+
     #form-container>p{
         text-align: center;
         padding: 2rem 0;
@@ -151,9 +146,7 @@ position: relative;
         margin: .5rem 0;
         margin-bottom: 1rem;
     }
-    .hs-button{
-        margin: 2rem 0 !important;
-    }
+
     .actions{
         justify-content: flex-start;
      }
@@ -175,114 +168,4 @@ flex-direction: row !important;
 justify-content: left !important;
 align-items: center !important;
 
-}
-@media (min-width: 900px) {
-    #booking-hubspot-form{
-        padding: 5rem ; 
-    }
-}
-@media (min-width: 950px) {
-    #booking-hubspot-form{
-        padding: 5rem; 
-    }
-}
-@media (min-width: 1100px) {
-    #booking-hubspot-form{
-        padding: 5rem 2rem; 
-    }
-}
-@media (min-width: 1300px) {
-    #booking-hubspot-form{
-        padding: 5rem; 
-    }
-}
-@media (min-width: 1600px) {
-    #booking-hubspot-form{
-        padding: 5rem; 
-    }
-}
-@media (min-width: 1800px) {
-    #booking-hubspot-form{
-        padding: 5rem 10rem; 
-    }
-}
-@media (min-width: 2000px) {
-    #booking-hubspot-form{
-        padding: 5rem 15rem; 
-    }
-}
-@media (min-width: 2200px) {
-    #booking-hubspot-form{
-        padding: 5rem 25rem; 
-    }
-}
-@media (min-width: 2400px) {
-    #booking-hubspot-form{
-        padding: 5rem 30rem; 
-    }
-}
-@media (min-width: 2600px) {
-    #booking-hubspot-form{
-        padding: 5rem 35rem; 
-    }
-}
-@media (min-width: 2800px) {
-    #booking-hubspot-form{
-        padding: 5rem 40rem; 
-    }
-}
-@media (min-width: 3000px) {
-    #booking-hubspot-form{
-        padding: 5rem 50rem; 
-    }
-}
-@media (min-width: 3200px) {
-    #booking-hubspot-form{
-        padding: 5rem 60rem; 
-    }
-}
-@media (min-width: 3400px) {
-    #booking-hubspot-form{
-        padding: 5rem 65rem; 
-    }
-}
-@media (min-width: 3600px) {
-    #booking-hubspot-form{
-        padding: 5rem 70rem; 
-    }
-}
-@media (min-width: 3800px) {
-    #booking-hubspot-form{
-        padding: 5rem 75rem; 
-    }
-}
-@media (min-width: 4000px) {
-    #booking-hubspot-form{
-        padding: 5rem 80rem; 
-    }
-}
-@media (min-width: 4200px) {
-    #booking-hubspot-form{
-        padding: 5rem 85rem; 
-    }
-}
-@media (min-width: 4400px) {
-    #booking-hubspot-form{
-        padding: 5rem 90rem; 
-    }
-}
-@media (min-width: 4600px) {
-    #booking-hubspot-form{
-        padding: 5rem 95rem; 
-    }
-}
-@media (min-width: 4800px) {
-    #booking-hubspot-form{
-        padding: 5rem 100rem; 
-    }
-}
-@media (min-width: 5000px) {
-    #booking-hubspot-form{
-        padding: 5rem 110rem; 
-}
 }

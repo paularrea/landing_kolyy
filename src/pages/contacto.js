@@ -18,10 +18,7 @@ const Questions = () => {
       <ContactImg>
         <div className={bg_img}>
           <div data-sal="fade" data-sal-delay="100" data-sal-duration="1000" className={content}>
-            <h2>Estamos conectados</h2>
-            <p>
-              No dudes en ponerte en contacto con nosotros para cualquier duda.
-            </p>
+            <h2>¿Tienes alguna pregunta?</h2>
           </div>
         </div>
       </ContactImg>

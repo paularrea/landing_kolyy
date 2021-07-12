@@ -9,7 +9,7 @@ import mockup from "../../images/app-zero-perros-perdidos.jpg";
 
 const App = () => {
   return (
-    <div className={container} style={{ backgroundColor: "#AFD0D0" }} >
+    <div className={container} style={{ backgroundColor: "#AFD0D0" }}>
       <div className={flex_container}>
         <div className={text}>
           <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
@@ -24,10 +24,12 @@ const App = () => {
             data-sal-delay="100"
             data-sal-duration="1000"
             href="https://app.kolyy.com/"
-            target='__blank'
-            rel='noopener noreferrer'
+            target="__blank"
+            rel="noopener noreferrer"
           >
-            <button> <a style={{color:'white'}}>Entra</a></button>
+            <button>
+              <a style={{ color: "white" }}>Registrarme</a>
+            </button>
           </a>
         </div>
         <div

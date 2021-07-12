@@ -62,10 +62,10 @@ const Blog = ({ data }) => {
             className={content}
           >
             <h2>
-              Todo lo que necesitas <br /> para cuidar de él
+              Descubre y aprende <br /> todo sobre nuestros perros
             </h2>
-            <p>
-              Suscríbete a nuestra newsletter y no te pierdas ningún consejo.{" "}
+            <p style={{color:'white'}}>
+            Un contenido quincenal para convertirte en un experto.
             </p>
             <SubscribeComponent />
           </div>

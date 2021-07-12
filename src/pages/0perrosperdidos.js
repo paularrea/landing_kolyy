@@ -17,7 +17,7 @@ import FollowersKolyy from "../components/0perrosPerdidosComponents/followersKol
 const CeroPerrosPerdidos = () => {
   return (
     <Layout>
-      <Seo title="Iniciativa #0perrosperdidos"  />
+      <Seo title="Iniciativa #0perrosperdidos" />
       <ZeroPPImg>
         <div className={bg_img}>
           <div
@@ -33,6 +33,16 @@ const CeroPerrosPerdidos = () => {
             <p>
               Mantener a tu perro a salvo <br /> no cuesta nada.
             </p>
+            <a
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-duration="1000"
+              href="https://app.kolyy.com/"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              <button>Unirme al reto</button>
+            </a>
           </div>
         </div>
       </ZeroPPImg>
