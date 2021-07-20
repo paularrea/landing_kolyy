@@ -20,7 +20,7 @@ const BookingBanner = () => {
             </Link>
           </div>
         </div>
-      </MediaQuery>
+      </MediaQuery >
       <MediaQuery minWidth={700}>
       <div className={banner_container}>
           <img
