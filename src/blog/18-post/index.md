@@ -1,7 +1,11 @@
 ---
 title: Mejores juegos para perros con estrés
 date: 2021-07-12
+<<<<<<< HEAD
 path: /mejores-juegos-para-perros-con-estres.jpeg
+=======
+path: /mejores-juegos-para-perros-con-estres
+>>>>>>> d89aae1868f669f14e25ce344df8b7e7575a5585
 featured: true
 collection: educacion
 featuredImage: ./mejores-juegos-para-perros-con-estres.jpeg
@@ -34,7 +38,11 @@ Los perros llevan pocos años siendo puramente animales de compañía, hasta aho
 A parte de eso, este tipo de juegos también mejoran la relación con su familia o propietario, permitiendo  a ambas partes disfrutar de un tiempo juntos interesante y de calidad.
 
 
+<<<<<<< HEAD
 #### Dos grandes ejemplos de juegos mentales:
+=======
+Dos grandes ejemplos de juegos mentales:
+>>>>>>> d89aae1868f669f14e25ce344df8b7e7575a5585
 
 #### Juegos de olfato: 
 Los perros tienen el olfato muy desarrollado y pueden sacar mucha información solo con este instinto, por eso este juego es perfecto en casos terapéuticos, ya que no solo se cansan sino que quedan muy satisfechos.
