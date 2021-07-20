@@ -23,6 +23,7 @@ import {
 } from "./template.module.scss";
 import ShareComponent from "./components/shareComponent";
 import RelatedDoggipedia from "./components/relatedDoggipedia";
+import BookingBanner from "../components/banners/bookingBanner";
 
 const DoggipediaPost = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
@@ -58,6 +59,7 @@ const DoggipediaPost = ({ data, pageContext }) => {
               </MediaQuery>
             </div>
           </div>
+          <BookingBanner/>
         </div>
         <h2 style={{ margin: "1rem 0 0 0" }}>{title}</h2>
         <div style={{ paddingTop: "0" }} className={text}>

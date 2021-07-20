@@ -20,6 +20,7 @@ import {
 } from "./template.module.scss";
 import ShareComponent from "./components/shareComponent";
 import RelatedBlogPosts from "./components/relatedBlogPosts";
+import BookingBanner from "../components/banners/bookingBanner";
 
 const BlogPost = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
@@ -51,6 +52,7 @@ const BlogPost = ({ data, pageContext }) => {
               </MediaQuery>
             </div>
           </div>
+          <BookingBanner/>
         </div>
         <Img fluid={featuredImgFluid} />
         <div className={flex_just_mobile} >
