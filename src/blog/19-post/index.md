@@ -1,6 +1,6 @@
 ---
 title: El primer collar inteligente para perros
-date: 2021-07-12
+date: 2021-07-21
 <<<<<<< HEAD
 path: /El-primer-collar-inteligente-para-perros.png
 =======
