@@ -25,9 +25,11 @@ Para nosotros el collar y la app son herramientas con las que empoderar a los cu
 
 Desde la app podrás definir tus propios objetivos de actividad, apuntarte a retos y conseguir logros mientras descubres nuevas rutas y grupos con los que compartir aficiones. Conectarás con kolyers cerca de ti y podrás compartir con ellos la actividad de tu perro.
 
+
 #### ¿Y el localizador GPS?
 
 En kolyy sabemos que las dos principales preocupaciones para alguien que comparte su vida con un perro son el miedo a que enferme o a que se pierda, por eso estamos desarrollando una solución todo en uno. El collar lleva incorporado un localizador GPS que permite a tiempo real encontrar o localizar a tu perro al instante. Con esta función además podrás dibujar zonas de seguridad para que la app te avise en el caso de que tu perro salga de ellas.
+
 
 #### Y, a todo esto, ¿cómo puede mejorar la calidad y esperanza de vida de mi perro?
 
