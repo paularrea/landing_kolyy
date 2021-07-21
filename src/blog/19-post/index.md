@@ -2,13 +2,13 @@
 title: El primer collar inteligente para perros
 date: 2021-07-12
 <<<<<<< HEAD
-path: /El-primer-collar-inteligente-para.perros.png
+path: /El-primer-collar-inteligente-para-perros.png
 =======
-path: /El-primer-collar-inteligente-para.perros.png
+path: /El-primer-collar-inteligente-para-perros.png
 >>>>>>> d89aae1868f669f14e25ce344df8b7e7575a5585
 featured: true
 collection: salud
-featuredImage: ./El-primer-collar-inteligente-para.perros.png
+featuredImage: ./El-primer-collar-inteligente-para-perros.png
 tags: ["Curiosidades"]
 type: "blog"
 ---
