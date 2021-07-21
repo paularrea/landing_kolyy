@@ -1,15 +1,11 @@
 ---
-title: El primer collar inteligente para perros
+title: El primer collar inteligente
 date: 2021-07-21
-<<<<<<< HEAD
-path: /El-primer-collar-inteligente-para-perros.png
-=======
-path: /El-primer-collar-inteligente-para-perros.png
->>>>>>> d89aae1868f669f14e25ce344df8b7e7575a5585
-featured: true
+path: /el-primer-collar-inteligente
 collection: salud
-featuredImage: ./El-primer-collar-inteligente-para-perros.png
-tags: ["Curiosidades"]
+featured: true
+featuredImage: ./el-primer-collar-inteligente-para-perros.jpg
+tags: ["Salud"]
 type: "blog"
 ---
 
@@ -29,9 +25,7 @@ Para nosotros el collar y la app son herramientas con las que empoderar a los cu
 
 Desde la app podrás definir tus propios objetivos de actividad, apuntarte a retos y conseguir logros mientras descubres nuevas rutas y grupos con los que compartir aficiones. Conectarás con kolyers cerca de ti y podrás compartir con ellos la actividad de tu perro.
 
-<<<<<<< HEAD
 #### ¿Y el localizador GPS?
-=======
 
 En kolyy sabemos que las dos principales preocupaciones para alguien que comparte su vida con un perro son el miedo a que enferme o a que se pierda, por eso estamos desarrollando una solución todo en uno. El collar lleva incorporado un localizador GPS que permite a tiempo real encontrar o localizar a tu perro al instante. Con esta función además podrás dibujar zonas de seguridad para que la app te avise en el caso de que tu perro salga de ellas.
 
