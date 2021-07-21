@@ -32,8 +32,6 @@ Desde la app podrás definir tus propios objetivos de actividad, apuntarte a ret
 <<<<<<< HEAD
 #### ¿Y el localizador GPS?
 =======
-Dos grandes ejemplos de juegos mentales:
->>>>>>> d89aae1868f669f14e25ce344df8b7e7575a5585
 
 En kolyy sabemos que las dos principales preocupaciones para alguien que comparte su vida con un perro son el miedo a que enferme o a que se pierda, por eso estamos desarrollando una solución todo en uno. El collar lleva incorporado un localizador GPS que permite a tiempo real encontrar o localizar a tu perro al instante. Con esta función además podrás dibujar zonas de seguridad para que la app te avise en el caso de que tu perro salga de ellas.
 
