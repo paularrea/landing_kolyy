@@ -13,36 +13,53 @@ tags: ["Curiosidades"]
 type: "blog"
 ---
 
-Hace cuestión de días anunciábamos en nuestras redes la nueva web de kolyy y, con ella, la posibilidad de apuntarse a una lista privada para reservar el collar inteligente, pero ¿qué significa exactamente un “collar inteligente”? ¿Qué puedes hacer con él? Y sobretodo, ¿cómo puede mejorar la vida de tu perro?
-
-En este artículo queremos dar respuesta a todas esas preguntas siendo muy honestos tanto en las posibilidades que ofrecerá el collar como en los objetivos de futuro que nos proponemos:
-
-
-#### ¿Qué significa ‘un collar inteligente’?
-
-En kolyy no hablamos nunca de nuestro collar como un dispositivo con localizador GPS porque va mucho más allá. El collar kolyy registra, aprende y reporta, de forma sencilla y divertida, la información que necesitas conocer sobre tu perro para cuidar de su salud y bienestar. Dicho en otras palabras, recoge todos los datos en cuanto a actividad (pasos, distancia recorrida, tiempo, etc) y salud (ciclos de sueño, movimiento, temperatura y rascado) y los analiza para que tú puedas controlar el estado de tu amigo en todo momento.
+Tendemos a pensar que los perros no sufren de enfermedades psicológicas, quizás porque ese tipo de enfermedades las creemos muy “humanas”, como demasiado complejas para un animal. 
+Si nos pusiéramos en la piel de un perro siendo personas, sería muy normal entender que una vida de encierro parcial en una casa que no es ni nuestra, sin objetivos, retos, responsabilidades y con, posiblemente, una mala o nefasta comunicación con el propietario, no es una vida que desearíamos tener. Sería más que aceptado por todos entender que esa persona sufriera una depresión o tuviera problemas de ansiedad... Pero esa es la realidad que viven muchos perros y que no tengan la capacidad de conceptualizarlo o verbalizarlo no significa que no lo sientan.
 
 
-#### ¿Qué más puedo hacer con el collar’?
+#### La pregunta entonces es, ¿mi perro sufre ansiedad o estrés, ¿cómo lo sé y qué puedo hacer para ayudarlo?
 
-Para nosotros el collar y la app son herramientas con las que empoderar a los cuidadores de los animales (hasta el momento perros) ya que no sirven únicamente para medir la actividad del perro, sino que motivan a las personas a llevar una vida mejor junto a sus amigos peludos. Las activa e inspira a cumplir objetivos y a vivir experiencias saludables compartiéndolas con sus perros. 
+El estrés se puede identificar porque es un problema de malestar permanente en el perro que se caracteriza por un estado de nerviosismo muy desagradable que nunca acaba de irse. 
+Al no ser suficientemente estimulados, los perros más activos tienden a sufrir una sobre-excitación, lo que significa que toda esa energía que no están gastando sale en forma de:
 
-Desde la app podrás definir tus propios objetivos de actividad, apuntarte a retos y conseguir logros mientras descubres nuevas rutas y grupos con los que compartir aficiones. Conectarás con kolyers cerca de ti y podrás compartir con ellos la actividad de tu perro.
+Alteraciones fisiológicas: Pérdida del apetito, pérdida de pelo, diarrea, vómitos, enfermedades…
+Alteraciones emocionales: Ansiedad, depresión, miedo…
+Alteraciones de conducta: Huida, tirar mucho de la correa, agresividad, romper cosas en casa…
+
+Nuestros perros buscan sobreponerse de alguna forma a ese problema y buscan una salida para satisfacer esa necesidad de estimulación que no les estamos dando.
+
+
+#### ¿Por qué son tan beneficiosos los juegos mentales?
+
+Si hablamos de estimulación y de liberar energía rápidamente pensamos en ejercicio al aire libre como solución pero lo mejor que podemos hacer en los casos de estrés y ansiedad son los juegos mentales.
+¿Por qué? Porque este tipo de juegos cansan mucho más a nuestro perro, ya que no es un ejercicio puramente físico, y lo estimulan de una forma a la que no están acostumbrados.
+
+Los perros llevan pocos años siendo puramente animales de compañía, hasta ahora eran pastores, cazadores o hasta luchadores. Tenían una responsabilidad y un reto que debían solucionar y este es el tipo de estimulación que debemos darles.
+A parte de eso, este tipo de juegos también mejoran la relación con su familia o propietario, permitiendo  a ambas partes disfrutar de un tiempo juntos interesante y de calidad.
+
 
 <<<<<<< HEAD
-#### ¿Y el localizador GPS?
+#### Dos grandes ejemplos de juegos mentales:
 =======
 Dos grandes ejemplos de juegos mentales:
 >>>>>>> d89aae1868f669f14e25ce344df8b7e7575a5585
 
-En kolyy sabemos que las dos principales preocupaciones para alguien que comparte su vida con un perro son el miedo a que enferme o a que se pierda, por eso estamos desarrollando una solución todo en uno. El collar lleva incorporado un localizador GPS que permite a tiempo real encontrar o localizar a tu perro al instante. Con esta función además podrás dibujar zonas de seguridad para que la app te avise en el caso de que tu perro salga de ellas.
+#### Juegos de olfato: 
+Los perros tienen el olfato muy desarrollado y pueden sacar mucha información solo con este instinto, por eso este juego es perfecto en casos terapéuticos, ya que no solo se cansan sino que quedan muy satisfechos.
 
-#### Y, a todo esto, ¿cómo puede mejorar la calidad y esperanza de vida de mi perro?
+¿Cómo funciona? 
+. Prepara y esconde trozos de comida por la casa. La primera vez que sea en sitios sencillos y lo vas complicando según vaya avanzando.
+. Da el pistoletazo de salida con una órden fácil como un “¡busca!” y déjalo jugar durante 10 o 20 minutos.
+. Intenta ponerlo cada día más difícil pero siguiendo un poco el recorrido que el mismo perro hace, ya que si un día le dejas el premio detrás del sofá, al día siguiente empezará por el mismo sitio que lo dejaste la última vez.
+Con este ejercicio tan sencillo tu perro se cansará más que con un paseo de dos horas.
 
-¿Te has preguntado alguna vez por qué los perros siguen teniendo la misma esperanza de vida que hace miles de años? Mientras que las personas hemos invertido mucho tiempo en investigar acerca de cómo mejorar la salud humana, la esperanza de vida de los perros se ha mantenido intacta a lo largo de estos años. Las pocas opciones en cuanto a sistema sanitario animal, los costes que suponen los veterinarios y la dificil detección de algunas enfermedades en los perros hace que muchos de ellos acaben siendo sacrificados. 
+#### El kong: 
+Seguro que habrás oído hablar de este juguete, se trata de un juguete relleno que sirve tanto para entretener como para ser una alternativa de alimentación ansiosa. 
 
-En kolyy creemos que la solución está en la prevención y en agilizar la detección de posibles problemas. Por eso hemos desarrollado un collar que registra y analiza contínuamente, para controlar si hay alguna anomalía en su cuerpo y que tú puedas actuar antes de que sea demasiado tarde.
+Este juego consiste en utilizar cualquier juguete relleno que hay en el mercado y meterle dentro comida casera o deshidratada, una vez mezclada con agua. También lo puedes hacer con premios de vez en cuando.
 
-A parte de buscar mejorar su esperanza de vida, con el collar también queremos ofrecerles esa conexión tan necesaria y satisfactoria con sus familias. Esa conexión que se construye compartiendo experiencias y consiguiendo logros juntos. Porque no se trata de alargarles la vida sino de que puedan disfrutarla con nosotros tanto como lo hacemos nosotros con ellos.
+Este sistema es una forma válida de alimentar a tu perro, de forma que trabaje para comer y se divierta un poco más. Es ideal también para estimular al perro incluso cuando no estás o no puedes estar muy pendiente de él.
+
+Son actividades muy sencillas que no requieren de un gran esfuerzo y que, en cambio, os darán grandes resultados a los dos así que os invitamos a que las provéis y nos digáis qué tal os funcionan.
 
 
