@@ -2,7 +2,7 @@
     position: fixed;
     right: 0;
     z-index: 99999;
-    bottom:.2rem;
+    bottom:0;
     background-color: #F9F9F9;
     display: flex;
     flex-direction: column;
@@ -10,9 +10,9 @@
     justify-content: center;
     width: 100vw;
     max-width: 450px;
-    height: 100px;
+    height: 120px;
     padding: 1rem 0;
-    border-radius: 21px;
+    border-radius: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     .flex_container{
         display: flex;
@@ -23,7 +23,7 @@
     width: 162px;
     }
     h3{
-        padding: 0 1rem 1rem 1rem;
+        padding: 1rem;
         font-weight: bold;
         font-size: 14px;
         line-height: 17px;
@@ -37,10 +37,31 @@
         line-height: 15px;
         padding: 8px 20px;
     }
+    .close_banner{
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        right: -.5rem;
+        img{
+            width: 10px;
+            height: 10px;
+        }
+
+    }
 }
 
 @media (min-width: 700px) {
     .banner_container{
+        .close_banner{
+            background-color: transparent;
+            position: absolute;
+            top: 0;
+            right: -1.5rem;
+            img{
+                width: 15px;
+                height: 15px;
+            }
+        }
         position: fixed;
         right: 0;
         z-index: 99999;
