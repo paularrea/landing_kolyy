@@ -5,7 +5,7 @@ path: /como-cepillar-los-dientes-perro
 featured: true
 collection: salud
 featuredImage: ./cepillar-dientes-perro.jpeg
-tags: ["Curiosidades"]
+tags: ["Salud"]
 type: "blog"
 ---
 
