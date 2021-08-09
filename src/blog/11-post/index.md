@@ -5,7 +5,7 @@ path: /mi-perro-tira-de-la-correa
 featured: true
 collection: educacion
 featuredImage: ./mi-perro-tira-de-la-correa.jpeg
-tags: ["Curiosidades"]
+tags: ["Educacion"]
 type: "blog"
 ---
 
