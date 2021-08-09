@@ -45,7 +45,12 @@ Con esta entretenida técnica no solo conseguirás más fácilmente que el perro
 
 Otro de los principales dolores de cabeza para los padres primerizos es conseguir que el perro responda a su nombre. Para ello, te recomendamos la técnica del pilla-pilla.
 
-El juego consiste en llamar a tu perro por su nombre y salir corriendo lo más rápido que puedas en una dirección opuesta a la del perro. Las primeras veces será muy importante asehgurarte de que el perro te está mirando cuando lo hagas y cuando veas que te responde podrás practicar este juego mientras él no te esté mirando.
+El juego consiste en llamar a tu perro por su nombre y salir corriendo lo más rápido que puedas en una dirección opuesta a la del perro. Las primeras veces será muy importante asegurarte de que el perro te está mirando cuando lo hagas y cuando veas que te responde podrás practicar este juego mientras él no te esté mirando.
 
 Estas dos técnicas son especialmente juguetonas y te ayudarán a conseguir que tu perro acuda a tu llamada de forma mucho más eficaz ya sea un cachorro o un adulto.
+
+
+#### ¡Gracias por leer nuestro blog!
+
+Si te ha gustado este artículo❤, puedes compartirlo por email o redes sociales con otras personas amantes de los perros que les pueda gustar.
 
