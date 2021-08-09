@@ -5,7 +5,7 @@ path: /con-que-frequencia-deberías-bañar-a-tu-perro
 collection: salud
 featured: true
 featuredImage: ./perros-bañandose.jpeg
-tags: ["Curiosidades"]
+tags: ["Salud"]
 type: "blog"
 ---
 
