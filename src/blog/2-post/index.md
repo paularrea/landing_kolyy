@@ -2,10 +2,10 @@
 title: Cómo saber si mi perro sufre estrés
 date: 2021-02-02
 path: /como-saber-si-mi-perro-sufre-estres
-collection: salud
+collection: educacion
 featured: true
 featuredImage: ./perro-estrés.jpeg
-tags: ["Curiosidades"]
+tags: ["Educacion"]
 type: "blog"
 ---
 
