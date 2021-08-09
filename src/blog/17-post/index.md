@@ -5,7 +5,7 @@ path: /oruga-procesionaria
 featured: true
 collection: salud
 featuredImage: ./oruga.jpeg
-tags: ["Curiosidades"]
+tags: ["Salud"]
 type: "blog"
 ---
 
