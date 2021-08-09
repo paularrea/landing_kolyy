@@ -5,7 +5,7 @@ path: /mejores-juegos-para-perros-con-estres
 featured: true
 collection: educacion
 featuredImage: ./mejores-juegos-para-perros-con-estres.jpeg
-tags: ["Curiosidades"]
+tags: ["Educacion"]
 type: "blog"
 ---
 
