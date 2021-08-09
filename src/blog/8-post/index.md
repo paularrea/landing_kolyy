@@ -5,7 +5,7 @@ path: /amistad-entre-perros-gatos
 featured: true
 collection: educacion
 featuredImage: ./perros-gatos.jpeg
-tags: ["Curiosidades"]
+tags: ["Educacion"]
 type: "blog"
 ---
 
