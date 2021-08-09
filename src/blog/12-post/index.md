@@ -5,7 +5,7 @@ path: /perro-sobrepeso
 featured: true
 collection: salud
 featuredImage: ./perro-sobrepeso.jpeg
-tags: ["Curiosidades"]
+tags: ["Salud"]
 type: "blog"
 ---
 
