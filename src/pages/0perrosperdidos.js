@@ -24,7 +24,7 @@ const CeroPerrosPerdidos = () => {
             data-sal="fade"
             data-sal-delay="100"
             data-sal-duration="1000"
-            className={content}
+            className={content} 
           >
             <h2>
               Un reto:
