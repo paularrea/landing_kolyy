@@ -101,14 +101,49 @@ const Doggipedia = ({ data }) => {
   );
 };
 
+// export const query = graphql`
+//   query DoggipediaQuery {
+//     allMarkdownRemark(
+//       sort: { fields: [frontmatter___date], order: DESC }
+//       filter: { frontmatter: { type: { eq: "doggipedia" } } }
+//     ) {
+//       edges {
+//         node {
+//           frontmatter {
+//             title
+//             path
+//             date(formatString: "YYYY MMMM Do")
+//             featuredImage {
+//               childImageSharp {
+//                 fluid(maxWidth: 800) {
+//                   ...GatsbyImageSharpFluid
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
+
 export const query = graphql`
-  query DoggipediaQuery {
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { type: { eq: "doggipedia" } } }
     ) {
       edges {
         node {
+          excerpt
+          fields {
+            slug
+          }
           frontmatter {
             title
             path

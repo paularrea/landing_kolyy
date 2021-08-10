@@ -1,7 +1,7 @@
 ---
 title: El primer collar inteligente
 date: 2021-07-21
-path: /el-primer-collar-inteligente
+path: /el-primer-collar-inteligente-para-perros
 collection: salud
 featured: true
 featuredImage: ./el-primer-collar-inteligente-para-perros.jpg

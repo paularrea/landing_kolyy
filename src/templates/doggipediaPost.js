@@ -26,7 +26,7 @@ import RelatedDoggipedia from "./components/relatedDoggipedia";
 import BookingBanner from "../components/banners/bookingBanner";
 
 const DoggipediaPost = ({ data, pageContext }) => {
-  const { next, prev } = pageContext;
+  const { next, previous } = pageContext;
   const { markdownRemark } = data;
   const title = markdownRemark.frontmatter.title;
   const intro = markdownRemark.frontmatter.intro;
@@ -59,7 +59,7 @@ const DoggipediaPost = ({ data, pageContext }) => {
               </MediaQuery>
             </div>
           </div>
-          <BookingBanner/>
+          <BookingBanner />
         </div>
         <h2 style={{ margin: "1rem 0 0 0" }}>{title}</h2>
         <div style={{ paddingTop: "0" }} className={text}>
@@ -98,11 +98,11 @@ const DoggipediaPost = ({ data, pageContext }) => {
             <div>
               <img src={prevIcon} alt="Anterior" />
             </div>
-            {next && <Link to={next.frontmatter.path}>Anterior raza</Link>}
+            {previous && <Link to={previous.fields.slug}>Anterior raza</Link>}
           </div>
           <div className={barra}></div>
           <div className={link}>
-            {prev && <Link to={prev.frontmatter.path}>Siguiente raza</Link>}
+            {next && <Link to={next.fields.slug}>Siguiente raza</Link>}
             <div>
               <img src={nextIcon} alt="Siguiente" />
             </div>
@@ -117,9 +117,38 @@ const DoggipediaPost = ({ data, pageContext }) => {
   );
 };
 
+// export const query = graphql`
+//   query($pathSlug: String!) {
+//     markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
+//       html
+//       frontmatter {
+//         title
+//         path
+//         pelo
+//         peso
+//         aseo
+//         intro
+//         featuredImage {
+//           childImageSharp {
+//             fluid(maxWidth: 800) {
+//               ...GatsbyImageSharpFluid
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
+
 export const query = graphql`
-  query($pathSlug: String!) {
-    markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
+  query DoggipediaPostSlug($slug: String!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
       html
       frontmatter {
         title

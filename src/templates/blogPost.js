@@ -23,7 +23,7 @@ import RelatedBlogPosts from "./components/relatedBlogPosts";
 import BookingBanner from "../components/banners/bookingBanner";
 
 const BlogPost = ({ data, pageContext }) => {
-  const { next, prev } = pageContext;
+  const { previous, next } = pageContext
   const { markdownRemark } = data;
   const title = markdownRemark.frontmatter.title;
   const path = markdownRemark.frontmatter.path;
@@ -52,10 +52,10 @@ const BlogPost = ({ data, pageContext }) => {
               </MediaQuery>
             </div>
           </div>
-          <BookingBanner/>
+          <BookingBanner />
         </div>
         <Img fluid={featuredImgFluid} />
-        <div className={flex_just_mobile} >
+        <div className={flex_just_mobile}>
           <div className={go_back}>
             <div>
               <img src={prevIcon} alt="Anterior" />
@@ -76,11 +76,11 @@ const BlogPost = ({ data, pageContext }) => {
             <div>
               <img src={prevIcon} alt="Anterior" />
             </div>
-            {next && <Link to={next.frontmatter.path}>Anterior</Link>}
+            {previous && <Link to={previous.fields.slug}>Anterior</Link>}
           </div>
           <div className={barra}></div>
           <div className={link}>
-            {prev && <Link to={prev.frontmatter.path}>Siguiente</Link>}
+            {next && <Link to={next.fields.slug}>Siguiente</Link>}
             <div>
               <img src={nextIcon} alt="Siguiente" />
             </div>
@@ -95,9 +95,33 @@ const BlogPost = ({ data, pageContext }) => {
   );
 };
 
+// export const query = graphql`
+//   query($pathSlug: String!) {
+//     markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
+//       html
+//       frontmatter {
+//         title
+//         path
+//         featuredImage {
+//           childImageSharp {
+//             fluid(maxWidth: 800) {
+//               ...GatsbyImageSharpFluid
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
 export const query = graphql`
-  query($pathSlug: String!) {
-    markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
+  query BlogPostSlug($slug: String!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
       html
       frontmatter {
         title

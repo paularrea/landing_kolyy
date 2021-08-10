@@ -10,13 +10,12 @@ const MobileCarousel = ({posts}) => {
   return (
     <div className={carousel}>
       {posts.map((edge) => {
-        const { frontmatter } = edge.node;
+        const { frontmatter, fields } = edge.node;
         return (
-          <div className={doggi_card} key={frontmatter.path}>
-            <Link to={frontmatter.path}>
+          <div className={doggi_card} key={fields && fields.slug}>
+            <Link to={fields && fields.slug}>
               <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
             </Link>
-            <Link to={frontmatter.path}></Link>
           </div>
         );
       })}

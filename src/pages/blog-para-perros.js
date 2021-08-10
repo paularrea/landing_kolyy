@@ -64,8 +64,8 @@ const Blog = ({ data }) => {
             <h2>
               Descubre y aprende <br /> todo sobre nuestros perros
             </h2>
-            <p style={{color:'white'}}>
-            Un contenido quincenal para convertirte en un experto.
+            <p style={{ color: "white" }}>
+              Un contenido quincenal para convertirte en un experto.
             </p>
             <SubscribeComponent />
           </div>
@@ -90,11 +90,11 @@ const Blog = ({ data }) => {
           <Grid>
             <Row>
               {posts.slice(0, 3).map((edge) => {
-                const { frontmatter } = edge.node;
+                const { fields, frontmatter } = edge.node;
                 return (
                   <Col md={4} sm={12} xs={12}>
-                    <div className={post} key={frontmatter.path}>
-                      <Link to={frontmatter.path}>
+                    <div className={post} key={fields.slug}>
+                      <Link to={fields.slug}>
                         <Img
                           fluid={
                             frontmatter.featuredImage.childImageSharp.fluid
@@ -102,7 +102,7 @@ const Blog = ({ data }) => {
                         />
                         <h5>{frontmatter.title}</h5>
                       </Link>
-                      <Link to={frontmatter.path}>
+                      <Link to={fields.slug}>
                         <button>Leer más</button>
                       </Link>
                     </div>
@@ -118,14 +118,49 @@ const Blog = ({ data }) => {
   );
 };
 
+// export const query = graphql`
+//   query blogQuery {
+//     allMarkdownRemark(
+//       sort: { fields: [frontmatter___date], order: DESC }
+//       filter: { frontmatter: { type: { eq: "blog" } } }
+//     ) {
+//       edges {
+//         node {
+//           frontmatter {
+//             title
+//             path
+//             date(formatString: "YYYY MMMM Do")
+//             featuredImage {
+//               childImageSharp {
+//                 fluid(maxWidth: 800) {
+//                   ...GatsbyImageSharpFluid
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
+
 export const query = graphql`
-  query blogQuery {
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { type: { eq: "blog" } } }
     ) {
       edges {
         node {
+          excerpt
+          fields {
+            slug
+          }
           frontmatter {
             title
             path

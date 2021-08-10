@@ -10,13 +10,12 @@ const DesktopCarousel = ({ posts }) => {
   return (
     <OwlCarousel className="owl-theme" mouseDrag touchDrag items={5} loop margin={10} nav={true} dots={false}>
       {posts.map((edge) => {
-        const { frontmatter } = edge.node;
+        const { frontmatter, fields } = edge.node;
         return (
-          <div className='item' key={frontmatter.path}>
-            <Link to={frontmatter.path}>
+          <div className='item' key={fields && fields.slug}>
+            <Link to={fields && fields.slug}>
               <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
             </Link>
-            <Link to={frontmatter.path}></Link>
           </div>
         );
       })}
