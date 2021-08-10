@@ -39,11 +39,6 @@ En kolyy creemos que la solución está en la prevención y en agilizar la detec
 
 A parte de buscar mejorar su esperanza de vida, con el collar también queremos ofrecerles esa conexión tan necesaria y satisfactoria con sus familias. Esa conexión que se construye compartiendo experiencias y consiguiendo logros juntos. Porque no se trata de alargarles la vida sino de que puedan disfrutarla con nosotros tanto como lo hacemos nosotros con ellos.
 
-<<<<<<< HEAD:src/blog/el-primer-collar-inteligente-para-perros/index.md
-¿Estás interesado en conseguir el collar? Apúntate en la lista privada y te enterarás antes que nadie de su lanzamiento y de cómo conseguirlo. Asegúrate tu collar apuntándote [aquí](https://kolyy.com/es/reserva-collar-kolyy).
-||||||| 5b7cb3d:src/blog/19-post/index.md
-
-=======
 ¿Estás interesado en conseguir el collar? Apúntate en la lista privada y te enterarás antes que nadie de su lanzamiento y de cómo conseguirlo. 
 Asegúrate tu collar apuntándote <b>[aquí](https://kolyy.com/es/reserva-collar-kolyy)</b>.
->>>>>>> e2ce767746fb965c0c6be75b029b3cbf0fc658b1:src/blog/19-post/index.md
+
