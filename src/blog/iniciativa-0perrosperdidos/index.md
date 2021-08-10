@@ -5,7 +5,7 @@ path: /iniciativa-0perrosperdidos
 featured: true
 collection: salud
 featuredImage: ./0perrosperdidos.png
-tags: ["Curiosidades"]
+tags: ["Salud"]
 type: "blog"
 ---
 

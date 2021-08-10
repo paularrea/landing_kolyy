@@ -5,7 +5,7 @@ path: /que-hacer-para-que-reconozca-su-nombre
 featured: true
 collection: educacion
 featuredImage: ./perro-nombre.jpeg
-tags: ["Curiosidades"]
+tags: ["Educacion"]
 type: "blog"
 ---
 

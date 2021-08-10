@@ -5,7 +5,7 @@ path: /por-que-se-rasca-mi-perro
 featured: true
 collection: salud
 featuredImage: ./perro-rascado.jpeg
-tags: ["Curiosidades"]
+tags: ["Salud"]
 type: "blog"
 ---
 

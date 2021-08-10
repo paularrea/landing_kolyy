@@ -5,7 +5,7 @@ path: /perro-leishmaniosis
 featured: true
 collection: salud
 featuredImage: ./perro-leishmaniosis.jpeg
-tags: ["Curiosidades"]
+tags: ["Salud"]
 type: "blog"
 ---
 

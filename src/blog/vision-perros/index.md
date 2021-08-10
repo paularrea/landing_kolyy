@@ -5,7 +5,7 @@ path: /vision-perros
 featured: true
 collection: salud
 featuredImage: ./vision-perros.jpeg
-tags: ["Curiosidades"]
+tags: ["Salud"]
 type: "blog"
 ---
 

@@ -5,7 +5,7 @@ path: /como-saber-la-cantidad-de-comida-para-mi-perro
 featured: true
 collection: salud
 featuredImage: ./perro-comiendo.jpeg
-tags: ["Curiosidades"]
+tags: ["Salud"]
 type: "blog"
 ---
 
