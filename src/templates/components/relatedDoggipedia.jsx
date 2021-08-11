@@ -21,13 +21,17 @@ const RelatedDoggipedia = () => {
       ) {
         edges {
           node {
+            excerpt
+            fields {
+              slug
+            }
             frontmatter {
               title
               path
               date(formatString: "YYYY MMMM Do")
               featuredImage {
                 childImageSharp {
-                  fluid(maxWidth: 1000) {
+                  fluid(maxWidth: 800) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -38,6 +42,8 @@ const RelatedDoggipedia = () => {
       }
     }
   `);
+
+  
 
   const posts = data.all.edges;
 

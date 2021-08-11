@@ -20,7 +20,7 @@ const PageLinks = () => {
       <div>
         <h5>Protege</h5>
         <p>
-          <Link to="/zero-perros-perdidos">#0perrosperdidos</Link>
+          <Link to="/0perrosperdidos">#0perrosperdidos</Link>
         </p>
         <p>
           <a rel="noopener noreferrer" target="​_blank" href="https://app.kolyy.com/">Iniciar sesión</a>
@@ -29,28 +29,28 @@ const PageLinks = () => {
       <div>
         <h5>Conoce a tu perro</h5>
         <p>
-          <Link to="/perro-yorkshire-terrier">Yorkshire Terrier</Link>
+          <Link to="/yorkshire-terrier">Yorkshire Terrier</Link>
         </p>
         <p>
-          <Link to="/perro-chihuahua">Chihuahua</Link>
+          <Link to="/chihuahua">Chihuahua</Link>
         </p>
         <p>
-          <Link to="/perro-labrador-retriever">Labrador Retriever</Link>
+          <Link to="/labrador-retriever">Labrador Retriever</Link>
         </p>
         <p>
-          <Link to="/perro-pastor-aleman">Pastor Alemán</Link>
+          <Link to="/pastor-aleman">Pastor Alemán</Link>
         </p>
         <p>
-          <Link to="/perro-bull-terrier">Bull terrier</Link>
+          <Link to="/bull-terrier">Bull terrier</Link>
         </p>
         <p>
-          <Link to="/perro-caniche">Caniche</Link>
+          <Link to="/caniche">Caniche</Link>
         </p>
         <p>
-          <Link to="/perro-bichon-maltes">Bichón Maltés</Link>
+          <Link to="/bichon-maltes">Bichón Maltés</Link>
         </p>
         <p>
-          <Link to="/perro-border-collie">Border Collie</Link>
+          <Link to="/border-collie">Border Collie</Link>
         </p>
       </div>
       <div>

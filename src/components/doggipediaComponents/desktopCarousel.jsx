@@ -8,7 +8,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const DesktopCarousel = ({ posts }) => {
   return (
-    <OwlCarousel className="owl-theme" mouseDrag touchDrag items={5} loop margin={10} nav={true} dots={false}>
+    <OwlCarousel className="owl-theme" items={5} loop margin={10} nav={true} dots={false}>
       {posts.map((edge) => {
         const { frontmatter, fields } = edge.node;
         return (
