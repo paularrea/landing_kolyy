@@ -8,7 +8,6 @@ featuredImage: ./claves-para-hacer-senderismo-con-tu-perro.jpeg
 tags: ["Curiosidades"]
 type: "blog"
 ---
-
 La montaña es siempre una buena opción. Flores, árboles, olores, fauna... Si para nosotros ya es una aventura gratificante, para los perros es como un regalo del cielo. 
 
 Por eso desde kolyy te animamos a que te lleves a tu perro contigo cuando vayas a hacer senderismo o cualquier excursión por la montaña con estos consejos:
