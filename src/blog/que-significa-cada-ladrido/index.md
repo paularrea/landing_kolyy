@@ -66,4 +66,4 @@ También se puede dar un caso completamente diferente, si el perro está en una 
 #### Ladridos de perro viejo
 Al hacerse mayores, los perros también sufren de disfunción cognitiva como los humanos y pueden desorientarse o sentirse vulnerables con facilidad. Estos perros utilizarán el ladrido más frecuentemente y será confuso para el humano averiguar la causa o el problema.
 
-En estos casos lo mejor es tener en cuenta de que tu perro está sufriendo demencia y no reñirlo por molestarte. Simplemente necesita que lo tranquilices y le hagas sentir seguro.
+En estos casos lo mejor es tener en cuenta que tu perro está sufriendo demencia y no reñirlo por molestarte. Simplemente necesita que lo tranquilices y le hagas sentir seguro.
