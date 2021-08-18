@@ -1,6 +1,6 @@
 ---
 title: Qué significa cada ladrido
-date: 2021-08-18
+date: 2021-08-17
 path: /que-significa-cada-ladrido
 featured: true
 collection: educacion
