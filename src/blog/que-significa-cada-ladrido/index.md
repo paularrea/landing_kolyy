@@ -54,7 +54,7 @@ En este caso tu perro está demandando compañía y deberás tratar su ansiedad 
 Al igual que los jugadores de fútbol o baloncesto, los perros también se comunican en el juego y lo hacen vocalmente. Este tipo de ladridos se caracterizan por ser muy breves y fuertes y se les escapan por la emoción o para motivar una persecución.
 
 #### Ladridos compulsivos
-Los que ladran a prácticamente todo: ruidos, gente que pasea por la calle, pájaros, bicicletas... Estos ladridos se dan normalmente en perros que estan sufriendo algún tipo de problema emocional y normalmente es porque viven con una sensación de miedo. Para solucionarlo deberemos visitar a un especialista que nos ayude a entender la causa de este comportamiento.
+Los que ladran a prácticamente todo: ruidos, gente que pasea por la calle, pájaros, bicicletas... Estos ladridos se dan normalmente en perros que estan sufriendo algún tipo de problema emocional y son debidos a una sensación de miedo. Para solucionarlo deberemos visitar a un especialista que nos ayude a entender la causa de este comportamiento.
 
 Otra causa que provocaría este tipo de ladridos es el aburrimiento. En estos casos deberemos entretenerlo y estimularlo física y mentalmente.
 
