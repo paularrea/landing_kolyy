@@ -8,7 +8,6 @@ featuredImage: ./que-significa-cada-ladrido.jpeg
 tags: ["Educacion"]
 type: "blog"
 ---
-
 Está claro que los perros y los humanos no tenemos el mismo lenguaje pero sabemos entendernos cuando queremos decirnos algo. Los perros, por su lado, tienen varias formas de comunicación y el ladrido, junto con el lenguaje corporal, es una de ellas.
 
 Con el tiempo hemos ido relacionando el ladrido con un solo significado: el de alerta o enfado. Pero esta forma de comunicación oral puede ser consecuencia de varios sentimientos o puede estar indicándonos otros síntomas. 
