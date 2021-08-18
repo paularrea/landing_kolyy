@@ -1,7 +1,7 @@
 ---
-title: ¿Con qué frequencia deberías bañar a tu perro?
+title: ¿Con qué frecuencia deberías bañar a tu perro?
 date: 2021-02-03
-path: /con-que-frequencia-deberías-bañar-a-tu-perro
+path: /con-que-frecuencia-deberías-bañar-a-tu-perro
 collection: salud
 featured: true
 featuredImage: ./perros-bañandose.jpeg
