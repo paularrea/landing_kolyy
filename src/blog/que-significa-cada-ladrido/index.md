@@ -16,7 +16,7 @@ Con el tiempo hemos ido relacionando el ladrido con un solo significado: el de a
 #### Para empezar, no siempre es signo de enfado
 
 Tu perro puede ladrar para alertar del peligro, para exigir atención o comida, para expresar su frustración, ansiedad o miedo, o para saludarte cuando llegas a casa. A veces, los perros ladran mientras juegan; otras veces, quiere decir que están aburridos.
-Además, otras causas del ladrido pueden ser la necesidad de proteger sus recursos, como su comida o juguetes.
+Además, otra causa del ladrido puede ser la necesidad de proteger sus recursos, como su comida o juguetes.
 
 Pero entonces, ¿estamos malinterpretando todo lo que nos dicen? Y, ¿cómo desciframos cada ladrido? 
 
@@ -46,7 +46,7 @@ Son, probablemente, los ladridos más molestos de todos. Los hacen cada vez que 
 Estos seguro que ya los conoces... Son los ladridos del perro guardián. Salen a la luz cuando tu perro  está intentando avisarte de la llegada de un extraño o de cualquier otro estímulo desconocido e inesperado. Empiezan con sonidos agudos y breves que acaban en ladridos rápidos hasta que el estímulo desaparece.
 
 #### Ladridos por soledad
-Si tu perro sufre de ansiedad por separación estos son los ladridos que vocalizará cada vez que te vayas. Este tipo de ladridos siempre incluyen sollozos y hasta auillidos. 
+Si tu perro sufre de ansiedad por separación estos son los ladridos que vocalizará cada vez que te vayas. Este tipo de ladridos siempre incluyen sollozos y hasta aullidos. 
 En este caso tu perro está demandando compañía y deberás tratar su ansiedad por separación como solución para que no lloriquee cada vez que te marches.
 
 #### Ladridos juguetones
