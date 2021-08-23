@@ -8,7 +8,7 @@ featuredImage: ./claves-para-hacer-senderismo-con-tu-perro.jpeg
 tags: ["Curiosidades"]
 type: "blog"
 ---
-La montaña es siempre una buena opción. Flores, árboles, olores, fauna... Si para nosotros ya es una aventura gratificante, para los perros es como un regalo del cielo. 
+La montaña es siempre una buena opción. Flores, árboles, olores, fauna... Si para nosotros ya es una aventura gratificante, para los perros es como un regalo caído del cielo. 
 
 Por eso desde kolyy te animamos a que te lleves a tu perro contigo cuando vayas a hacer senderismo o cualquier excursión por la montaña con estos consejos:
 
@@ -18,7 +18,7 @@ Por eso desde kolyy te animamos a que te lleves a tu perro contigo cuando vayas 
 #### 1. Elige una ruta apta para él
 A la hora de elegir la excursión ten en cuenta la raza, edad y estado físico de tu perro. No es necesario que sea un border collie perfectamente entrenado para que pueda subir la montaña, pero si tu perro está acostumbrado a paseos cortos hasta el parque del lado de casa, una ruta de tres horas le supondrá un esfuerzo agónico. Acostúmbralo a hacer deporte de forma paulatina.
 
-A parte de su estado físico, debes tener en cuenta la raza. Las braquicéfalas (bulldog frandés, bulldog inglés, pekinés, boxer, carlino, sharpei, boston terrier, etc) suelen tener problemas de respiración y no es aconsejable que hagan grandes esfuerzos.
+A parte de su estado físico, debes tener en cuenta la raza. Las razas braquicéfalas (bulldog frandés, bulldog inglés, pekinés, boxer, carlino, sharpei, boston terrier, etc) suelen tener problemas de respiración y no es aconsejable que hagan grandes esfuerzos.
 
 
 #### 2. Estudia el terreno
@@ -41,7 +41,7 @@ Para proteger a tu peludo de las pulgas o garrapatas del campo puedes ponerle un
 Para asegurarte del bienestar de tu amigo, al volver, tendrás que revisar concienzudamente el pelo de tu perro, palpando en todas las zonas para detectar si ha cogido alguna garrapata. 
 
 
-#### 5. Parásitos, no
+#### 5. Sigue las normas
 En campos o, sobretodo, Parques Naturales, es obligatorio llevar a los perros atados con la correa para evitar asustar a las especies autóctonas: cabras montesas, rebecos, lobos, osos, etc. Si no obedeces esta norma, te pueden multar.
 
 Con estos pocos consejos vuestra incursión en la montaña será tanto divertida como segura.
