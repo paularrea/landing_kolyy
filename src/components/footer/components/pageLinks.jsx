@@ -29,28 +29,28 @@ const PageLinks = () => {
       <div>
         <h5>Conoce a tu perro</h5>
         <p>
-          <Link to="/yorkshire-terrier">Yorkshire Terrier</Link>
+          <Link to="/perro-yorkshire-terrier">Yorkshire Terrier</Link>
         </p>
         <p>
-          <Link to="/chihuahua">Chihuahua</Link>
+          <Link to="/perro-chihuahua">Chihuahua</Link>
         </p>
         <p>
-          <Link to="/labrador-retriever">Labrador Retriever</Link>
+          <Link to="/perro-labrador-retriever">Labrador Retriever</Link>
         </p>
         <p>
-          <Link to="/pastor-aleman">Pastor Alemán</Link>
+          <Link to="/perro-pastor-aleman">Pastor Alemán</Link>
         </p>
         <p>
-          <Link to="/bull-terrier">Bull terrier</Link>
+          <Link to="/perro-bull-terrier">Bull terrier</Link>
         </p>
         <p>
-          <Link to="/caniche">Caniche</Link>
+          <Link to="/perro-caniche">Caniche</Link>
         </p>
         <p>
-          <Link to="/bichon-maltes">Bichón Maltés</Link>
+          <Link to="/perro-bichon-maltes">Bichón Maltés</Link>
         </p>
         <p>
-          <Link to="/border-collie">Border Collie</Link>
+          <Link to="/perro-border-collie">Border Collie</Link>
         </p>
       </div>
       <div>

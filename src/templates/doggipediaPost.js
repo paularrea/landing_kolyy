@@ -24,6 +24,7 @@ import {
 import ShareComponent from "./components/shareComponent";
 import RelatedDoggipedia from "./components/relatedDoggipedia";
 import BookingBanner from "../components/banners/bookingBanner";
+import RelatedBlogPosts from "./components/relatedBlogPosts";
 
 const DoggipediaPost = ({ data, pageContext }) => {
   const { next, previous } = pageContext;
@@ -111,6 +112,10 @@ const DoggipediaPost = ({ data, pageContext }) => {
         <div className={related_container}>
           <h3>También te puede interesar...</h3>
           <RelatedDoggipedia />
+        </div>
+        <div className={related_container}>
+          <h3>Otros artículos interesantes...</h3>
+          <RelatedBlogPosts />
         </div>
       </div>
     </Layout>

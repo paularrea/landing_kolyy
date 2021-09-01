@@ -3,7 +3,7 @@ title: Labrador Retriever
 date: 2020-03-01
 path: /perro-labrador-retriever
 featured: true
-featuredImage: ./labrador-retriever.png
+featuredImage: ./perro-labrador-retriever.png
 tags: ["Curiosidades"]
 intro: "Afables, flexibles y fieles, así es la raza que sigue enamorando a las familias desde 1825."
 pelo: "Grueso / Cepillado semanal"

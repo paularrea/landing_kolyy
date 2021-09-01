@@ -3,7 +3,7 @@ title: Yorkshire terrier
 date: 2019-04-06
 path: /perro-yorkshire-terrier
 featured: true
-featuredImage: ./yorkshire-terrier.png
+featuredImage: ./perro-yorkshire-terrier.png
 tags: ["Curiosidades"]
 intro: "Una raza de gran inteligencia y personalidad muy marcada. Aún y ser tan pequeño siempre va con la cabeza bien alta."
 pelo: "Largo / Necesita cepillado diario"

@@ -3,7 +3,7 @@ title: Caniche
 date: 2019-04-02
 path: /perro-caniche
 featured: true
-featuredImage: ./caniche.png
+featuredImage: ./perro-caniche.png
 tags: ["Curiosidades"]
 intro: "Inteligente, sensible y delicado, 
 un caramelo para la aristocracia."

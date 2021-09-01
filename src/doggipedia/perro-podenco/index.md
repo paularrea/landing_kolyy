@@ -3,7 +3,7 @@ title: Podenco
 date: 2021-07-13
 path: /perro-podenco
 featured: true
-featuredImage: ./podenco.png
+featuredImage: ./perro-podenco.png
 intro: "Sensible, cariñoso y muy familiar, así es como se sobrevive a más de 3.000 años."
 tags: ["Curiosidades"]
 pelo: "Corto y duro / Cepillado semanal"

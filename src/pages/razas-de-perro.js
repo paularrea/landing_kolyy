@@ -3,7 +3,6 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
 import loadable from "@loadable/component";
-import MediaQuery from "react-responsive";
 import {
   container,
   bg_img,
@@ -12,37 +11,51 @@ import {
 } from "../styles/blog.module.scss";
 
 import searchIcon from "../images/icons/search.png";
-import MobileCarousel from "../components/doggipediaComponents/mobileCarousel";
+import CarouselComponent from "../components/doggipediaComponents/Carousel";
 
 const DesktopCarousel = loadable(() =>
   import("../components/doggipediaComponents/desktopCarousel")
 );
 
 const Doggipedia = ({ data }) => {
-  const [state, setState] = useState({
-    filteredPosts: [],
-    query: "",
-  });
+  const [searchDog, setSearchDog] = useState("");
 
-  const allPosts = data.allMarkdownRemark.edges;
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  const handleInputChange = (event) => {
-    const query = event.target.value;
-    const filteredPosts = allPosts.filter((post) => {
-      const { title } = post.node.frontmatter;
-      return title.toLowerCase().includes(query.toLowerCase());
-    });
-    setState({
-      query,
-      filteredPosts,
-    });
+  const handleChange = (event) => {
+    setSearchDog(event.target.value);
   };
+  const allPosts = data.allMarkdownRemark.edges;
+  const posts = !searchDog
+    ? allPosts
+    : allPosts.filter((post) => {
+        const { title } = post.node.frontmatter;
+        return title.toLowerCase().includes(searchDog.toLocaleLowerCase());
+      });
+  console.log(posts, "posts");
+  // const [state, setState] = useState({
+  //   filteredPosts: [],
+  //   query: "",
+  // });
 
-  const posts = state.query ? state.filteredPosts : allPosts;
+  // const allPosts = data.allMarkdownRemark.edges;
+
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
+
+  // console.log(state, 'query')
+  // const handleInputChange = (event) => {
+  //   const query = event.target.value;
+  //   const filteredPosts = allPosts.filter((post) => {
+  //     const { title } = post.node.frontmatter;
+  //     return title.toLowerCase().includes(query.toLowerCase());
+  //   });
+  //   setState({
+  //     query,
+  //     filteredPosts,
+  //   });
+  // };
+
+  // const posts = state.query === "" ? allPosts : state.filteredPosts;
 
   return (
     <Layout>
@@ -71,8 +84,10 @@ const Doggipedia = ({ data }) => {
               type="text"
               aria-label="Buscar"
               placeholder="Buscar"
-              value={state.query}
-              onChange={handleInputChange}
+              // value={state.query}
+              // onChange={handleInputChange}
+              value={searchDog}
+              onChange={handleChange}
             />
             <img src={searchIcon} alt="search" />
           </div>
@@ -83,19 +98,9 @@ const Doggipedia = ({ data }) => {
         data-sal-delay="100"
         data-sal-duration="1000"
         className={container}
+        style={{ marginTop: "2rem" }}
       >
-        <MediaQuery minWidth={751}>
-          <div
-            style={{
-              padding: "3rem",
-            }}
-          >
-            <DesktopCarousel posts={posts} />
-          </div>
-        </MediaQuery>
-        <MediaQuery maxWidth={750}>
-          <MobileCarousel posts={posts} />
-        </MediaQuery>
+        <CarouselComponent allPosts={allPosts} posts={posts} />
       </div>
     </Layout>
   );

@@ -3,7 +3,7 @@ title: Beagle
 date: 2020-04-01
 path: /perro-beagle
 featured: true
-featuredImage: ./beagle.png
+featuredImage: ./perro-beagle.png
 tags: ["Curiosidades"]
 intro: "Una de las razas más comunes y apreciadas sin duda, quizás por su afán de complacer a su familia."
 pelo: "Corto / suave"

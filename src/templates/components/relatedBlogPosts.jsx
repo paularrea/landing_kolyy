@@ -39,7 +39,7 @@ const RelatedBlogPosts = () => {
     const allPosts = (
         <Grid>
           <Row>
-            {data.all.edges.map((edge) => {
+            {data.all.edges.slice(0, 3).map((edge) => {
               const { frontmatter } = edge.node;
               return (
                 <Col md={4} sm={6} xs={6}>
@@ -49,9 +49,6 @@ const RelatedBlogPosts = () => {
                         fluid={frontmatter.featuredImage.childImageSharp.fluid}
                       />
                       <h5>{frontmatter.title}</h5>
-                    </Link>
-                    <Link to={frontmatter.path}>
-                      <button>Leer más</button>
                     </Link>
                   </div>
                 </Col>

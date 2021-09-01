@@ -3,7 +3,7 @@ title: Bichón Maltés
 date: 2019-04-10
 path: /perro-bichon-maltes
 featured: true
-featuredImage: ./bichon-maltes.png
+featuredImage: ./perro-bichon-maltes.png
 tags: ["Curiosidades"]
 intro: "Inteligente, dulce, protector y una máquina 
 de ladrar a todo lo desconocido."

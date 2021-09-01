@@ -3,7 +3,7 @@ title: Bull terrier
 date: 2019-04-04
 path: /perro-bull-terrier
 featured: true
-featuredImage: ./bull-terrier.png
+featuredImage: ./perro-bull-terrier.png
 tags: ["Curiosidades"]
 intro: "Cariñosos, dependientes y con mucho sentido del humor. Todo lo contrario a lo que parecen físicamente."
 pelo: "Corto / Cepillado 1 vez a la semana"

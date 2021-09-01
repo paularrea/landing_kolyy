@@ -3,7 +3,7 @@ title: Pinscher miniatura
 date: 2021-07-13
 path: /perro-pinscher-miniatura
 featured: true
-featuredImage: ./pinscher-miniatura.png
+featuredImage: ./perro-pinscher-miniatura.png
 intro: "Independiente, valiente y un poco terco. La única raza de perro miniatura sin problemas de salud asociados."
 tags: ["Curiosidades"]
 pelo: "Corto / Cepillado cada dos semanas"

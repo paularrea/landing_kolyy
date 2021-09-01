@@ -3,7 +3,7 @@ title: Pastor alemán
 date: 2019-04-01
 path: /perro-pastor-aleman
 featured: true
-featuredImage: ./pastor-aleman.png
+featuredImage: ./perro-pastor-aleman.png
 intro: "Inteligente y con muchas de aprender, uno de esos alumnos que quiere sacar matrícula de honor en clase."
 tags: ["Curiosidades"]
 pelo: "Medio - Largo / Cepillado de 2 o 3 veces por semana"

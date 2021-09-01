@@ -3,7 +3,7 @@ title: Chihuahua
 date: 2020-04-01
 path: /perro-chihuahua
 featured: true
-featuredImage: ./chihuahua.png
+featuredImage: ./perro-chihuahua.png
 tags: ["Curiosidades"]
 intro: "Una raza que parece no tener conciencia de su tamaño a la hora de pelear con otras razas." 
 pelo: "Suave / Cepillado de 2 o 3 veces por semana"

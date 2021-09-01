@@ -3,7 +3,7 @@ title: American Staffordshire
 date: 2020-07-08
 path: /perro-american-staffordshire 
 featured: true
-featuredImage: ./american-staffordshire.png
+featuredImage: ./perro-american-staffordshire.png
 tags: ["Curiosidades"]
 intro: "Un claro ejemplo de que no se debe juzgar un libro por su tapa, aunque si un día te encuentras en una pelea con este perro, mejor que esté de tu lado." 
 pelo: "Corto / Cepillado semanal"

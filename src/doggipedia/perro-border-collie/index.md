@@ -3,7 +3,7 @@ title: Border Collie
 date: 2020-07-08
 path: /perro-border-collie
 featured: true
-featuredImage: ./border-collie.png
+featuredImage: ./perro-border-collie.png
 tags: ["Curiosidades"]
 intro: "El superdotado de clase que si te despistas te arma el gran jaleo." 
 pelo: "Corto y medio / Cepillado semanal"
