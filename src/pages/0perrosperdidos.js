@@ -17,7 +17,7 @@ import FollowersKolyy from "../components/0perrosPerdidosComponents/followersKol
 const CeroPerrosPerdidos = () => {
   return (
     <Layout>
-      <Seo title="Iniciativa #0perrosperdidos" />
+      <Seo title="Iniciativa #0perrosperdidos"  />
       <ZeroPPImg>
         <div className={bg_img}>
           <div
