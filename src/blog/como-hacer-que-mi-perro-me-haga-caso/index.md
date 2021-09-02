@@ -1,10 +1,10 @@
 ---
 title: ¿Cómo hacer que mi perro me haga caso?
 date: 2021-08-09
-path: /como-hacer-que-tu-perro-responda-a-tu-llamada
+path: /como-hacer-que-mi-perro-me-haga-caso
 collection: educacion
 featured: true
-featuredImage: ./como-hacer-que-tu-perro-responda-a-tu-llamada.jpeg
+featuredImage: ./como-hacer-que-mi-perro-me-haga-caso.jpeg
 tags: ["Educacion"]
 type: "blog"
 ---
