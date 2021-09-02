@@ -90,7 +90,7 @@ const Blog = ({ data }) => {
           <Grid>
             <Row>
               {posts.slice(0, 3).map((edge) => {
-                const { fields, frontmatter } = edge.node;
+                const { fields, frontmatter } = edge.node ;
                 return (
                   <Col md={4} sm={12} xs={12}>
                     <div className={post} key={fields.slug}>
