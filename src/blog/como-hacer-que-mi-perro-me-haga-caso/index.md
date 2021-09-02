@@ -50,7 +50,7 @@ El juego consiste en llamar a tu perro por su nombre y salir corriendo lo más r
 Estas dos técnicas son especialmente juguetonas y te ayudarán a conseguir que tu perro acuda a tu llamada de forma mucho más eficaz ya sea un cachorro o un adulto.
 
 
+
 #### ¡Gracias por leer nuestro blog!
 
 Si te ha gustado este artículo❤, puedes compartirlo por email o redes sociales con otras personas amantes de los perros que les pueda gustar.
-
