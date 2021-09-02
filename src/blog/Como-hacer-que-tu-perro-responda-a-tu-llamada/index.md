@@ -4,7 +4,7 @@ date: 2021-08-09
 path: /como-hacer-que-tu-perro-responda-a-tu-llamada
 collection: educacion
 featured: true
-featuredImage: ./perro-responda-a-tu-llamada.jpeg
+featuredImage: ./como-hacer-que-tu-perro-responda-a-tu-llamada.jpeg
 tags: ["Educacion"]
 type: "blog"
 ---
