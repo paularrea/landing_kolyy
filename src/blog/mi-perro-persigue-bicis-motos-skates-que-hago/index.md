@@ -30,7 +30,7 @@ Para conseguir resultados en cualquier actividad de educación debes empezar sie
 No tenemos porqué quedarnos solo con el acercamiento, si observas que tu perro ya no le tiene miedo al objeto puedes integrarlo de forma creativa a tus juegos o ejercicios diarios con tu perro. Haz que suba y baje del monopatín o esconde una pelota debajo para que la encuentre. Sin duda cambiará su mentalidad ante este tipo de objetos.
 
 
-#### 5 aspectos a tener en cuenta antes de trabajar esta conducta
+#### 4 aspectos a tener en cuenta antes de trabajar esta conducta
 
 Antes de ponerte a trabajar con tu perro para superar esta conducta ten en cuenta estos aspectos:
 
