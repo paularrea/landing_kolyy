@@ -13,11 +13,13 @@ Un problema al que se enfrentan muchas de las personas que conviven con perros e
 En este artículo te damos unas pautas para entender por qué pasa y cómo puedes trabajar esto con tu perro.
 
 
+
 #### ¿Por qué sale corriendo mi perro detrás de una bici o skate en movimiento?
 
 Esta es una situación bastante común según qué razas como los pastores alemanes o los border collie, que tienen el instinto de persecución muy adquirido genéticamente, pero no es el único motivo.
 
 Tu perro puede responder con este instinto debido a un exceso de estrés. Cuando nuestros perros no están relajados son más sensibles a utilizar el instinto y a dejarse llevar por las emociones en vez de usar el razonamiento o educación adquirida. Otro motivo por el cuál tu perro puede ladrar o salir corriendo detrás de un objeto en movimiento es el miedo. En estos casos verás este tipo de conducta desde pequeños.
+
 
 
 #### ¿Cómo puedo ayudarlo a superar esta conducta?
