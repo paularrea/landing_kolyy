@@ -10,6 +10,8 @@ type: "blog"
 ---
 Un problema al que se enfrentan muchas de las personas que conviven con perros es el miedo a salir a pasear porque su perro se altera con el movimiento y puede provocar un accidente saliendo detrás de cualquier bici, patinete o persona. 
 
+En este artículo te damos unas pautas para entender por qué pasa y cómo puedes trabajar esto con tu perro.
+
 
 #### ¿Por qué sale corriendo mi perro detrás de una bici o skate en movimiento?
 
@@ -28,6 +30,7 @@ Para conseguir resultados en cualquier actividad de educación debes empezar sie
 
 #### 3. Conviértelo en parte de su juego
 No tenemos porqué quedarnos solo con el acercamiento, si observas que tu perro ya no le tiene miedo al objeto puedes integrarlo de forma creativa a tus juegos o ejercicios diarios con tu perro. Haz que suba y baje del monopatín o esconde una pelota debajo para que la encuentre. Sin duda cambiará su mentalidad ante este tipo de objetos.
+
 
 
 #### 4 aspectos a tener en cuenta antes de trabajar esta conducta
