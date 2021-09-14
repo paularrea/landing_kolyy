@@ -24,17 +24,17 @@ Pero ¿y si te encuentras con la situación delante de tus ojos? ¿qué debes te
 
 - <b>Acércate con mucho cuidado</b> ya que el animal podría estar asustado y reaccionar de forma agresiva. No te apresures a cogerlo, es importante que te acerques poco a poco y evitando los movimientos repentinos. Utiliza tonos de voz suaves y evita hablar con un tono amenazante. 
 
-- <b>Ofrécele comida o agua como reclamo</b>. Si lleva horas en la calle, estará hambriento y tendrá sed. Intenta lanzarle comida lejos de ti y poco a poco ir lanzándola más cerca.
+- <b>Ofrécele comida o agua como reclamo</b>. Si lleva horas en la calle, estará hambriento y tendrá sed. Intenta lanzarle comida lejos de ti y, poco a poco, más cerca.
 
 - <b>Comprueba si lleva placa o microchip</b>. Muchos animales perdidos llevan collar, placa identificativa o un microchip que no puedes ver hasta que no acudes al veterinario. 
-En caso de no tener ningún tipo de identificación, <b>acude a la policía local</b>.
+
 
 
 #### En caso de tener una chapa o microchip
 
-La mayoría de perros perdidos llevan placas de identificación o microchips. Existen dos tipos de placas, las que llevan los datos de contacto del propietario escritas y las chapas que cuentan con un código QR. En las primeras sólo deberás llamar al número de contacto y esperar que la información esté actualizada o que el propietario te responda. En el caso de las placas con código QR, deberás escanear el código con la cámara de tu móvil para encontrar la información de contacto.
+La mayoría de perros perdidos llevan placas de identificación o microchips. Existen dos tipos de placas, las que llevan los datos de contacto del propietario escritas y las que cuentan con un código QR. En las primeras sólo deberás llamar al número de contacto y esperar a que la información esté actualizada o que el propietario te responda. En el caso de las placas con código QR, deberás escanear el código con la cámara de tu móvil para encontrar la información de contacto.
 
-(En kolyy hemos iniciado una campaña con el objetivo de conseguir los #0perrosperdidos y hemos diseñado nuestra propia placa QR para ayudar a proteger al máximo número de perros posible. Consigue la tuya <b>[aquí](https://app.kolyy.com/)</b>.
+(En kolyy hemos iniciado una campaña con el objetivo de conseguir los #0perrosperdidos y hemos diseñado nuestra propia placa QR para ayudar a proteger al máximo número de perros posible. Consigue la tuya <b>[aquí](https://app.kolyy.com/)</b>).
 
 Como alternativa para identificar a los perros también existen los microchips. Estos no los puedes detectar a simple vista así que, si ves que no tienes ninguna otra forma de contactar con su propietario, deberás llevar al perro a la clínica veterinaria más cercana para comprobar gratuitamente si tiene microchip y así localizar a los propietarios. Si tiene el microchip, el veterinario puede acceder a sus datos y ponerse en contacto con el propietario.
 
@@ -45,5 +45,6 @@ En este caso y si no puedes acudir a un veterinario, puedes quedarte con el perr
 
 Otra opción es llamar a la Policía local, a la Guardia Civil o al Ayuntamiento. Si el propietario está buscando a su perro, es probable que llame a las autoridades locales para dar el aviso del extravío. Si no hay señales de vida por parte de su familia contactaran con una perrera municipal o con una protectora.
 
-Si decides ayudar al perro por tu cuenta puedes optar por hacerte cargo temporalmente de él mientras difundes información sobre su desaparición o ayudándolo a encontrar un nuevo hogar mediante carteles o tus propias redes sociales. Como última opción y si puedes hacerte cargo de él y la convivencia funciona ¡podrías plantearte adoptarlo! 
+Si decides ayudar al perro por tu cuenta puedes optar por hacerte cargo temporalmente de él mientras difundes información sobre su desaparición o lo ayudas a encontrar un nuevo hogar mediante carteles o tus propias redes sociales. 
+Como última opción, y si puedes hacerte cargo de él y la convivencia funciona, ¡podrías plantearte adoptarlo! 
 Eso sí, siempre que puedas comprometerte y asegurarle una buena vida. ☺️
