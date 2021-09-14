@@ -29,6 +29,7 @@ Pero ¿y si te encuentras con la situación delante de tus ojos? ¿qué debes te
 - <b>Comprueba si lleva placa o microchip</b>. Muchos animales perdidos llevan collar, placa identificativa o un microchip que no puedes ver hasta que no acudes al veterinario. 
 
 
+ ![image](https://user-images.githubusercontent.com/86353387/133217406-fb3d70fc-4d18-4e59-9177-dd0d8146ce7d.png)
 
 #### En caso de tener una chapa o microchip
 
