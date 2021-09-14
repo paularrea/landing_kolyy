@@ -45,6 +45,6 @@ En este caso y si no puedes acudir a un veterinario, puedes quedarte con el perr
 Otra opción es llamar a la Policía local, a la Guardia Civil o al Ayuntamiento. Si el propietario está buscando a su perro, es probable que llame a las autoridades locales para dar el aviso del extravío. Si no hay señales de vida por parte de su familia contactaran con una perrera municipal o con una protectora.
 
 Si decides ayudar al perro por tu cuenta puedes optar por hacerte cargo temporalmente de él mientras difundes información sobre su desaparición o lo ayudas a encontrar un nuevo hogar mediante carteles o tus propias redes sociales. 
-Como última opción, y si puedes hacerte cargo de él y la convivencia funciona, ¡podrías plantearte adoptarlo! 
 
+Como última opción, y si puedes hacerte cargo de él y la convivencia funciona, ¡podrías plantearte adoptarlo! 
 Eso sí, siempre que puedas comprometerte y asegurarle una buena vida. ☺️
