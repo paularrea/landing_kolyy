@@ -46,4 +46,5 @@ Otra opción es llamar a la Policía local, a la Guardia Civil o al Ayuntamiento
 
 Si decides ayudar al perro por tu cuenta puedes optar por hacerte cargo temporalmente de él mientras difundes información sobre su desaparición o lo ayudas a encontrar un nuevo hogar mediante carteles o tus propias redes sociales. 
 Como última opción, y si puedes hacerte cargo de él y la convivencia funciona, ¡podrías plantearte adoptarlo! 
+
 Eso sí, siempre que puedas comprometerte y asegurarle una buena vida. ☺️
