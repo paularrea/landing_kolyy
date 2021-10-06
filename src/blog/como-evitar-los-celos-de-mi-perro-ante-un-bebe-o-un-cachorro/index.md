@@ -21,10 +21,15 @@ Esto no pasa exclusivamente con la llegada de un “hermano” canino a la casa,
 Sabemos que nuestro perro está experimentando esta emoción cuando:
 
 - Ladra cuando te acercas al otro miembro y se interpone entre él y tú.
+
 - Orina dentro de casa o destroza juguetes y/o su cama como llamada de atención y para marcar su territorio.
+
 - Mira al otro miembro con desconfianza o lo gruñe.
+
 - Se vuelve posesivo y no se separa de ti.
+
 - Vuelve a mostrar su carácter habitual tras la ausencia del nuevo miembro.
+
 - Lloriquea sin motivo aparente.
 
 
