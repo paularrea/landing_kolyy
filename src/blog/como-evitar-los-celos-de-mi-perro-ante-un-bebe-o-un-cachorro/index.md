@@ -4,7 +4,7 @@ date: 2021-10-06
 path: /como-evitar-los-celos-de-mi-perro-ante-un-bebe-o-un-cachorro
 collection: educacion
 featured: true
-featuredImage: ./perro-estrés.jpeg
+featuredImage: ./como-evitar-los-celos-de-mi-perro-ante-un-bebe-o-un-cachorro.jpeg
 tags: ["Educacion"]
 type: "blog"
 ---
