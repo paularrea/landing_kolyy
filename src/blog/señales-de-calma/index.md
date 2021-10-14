@@ -1,14 +1,13 @@
 ---
 title: Señales de calma: ¿entiendes lo que te dice tu perro?
 date: 2021-10-14
-path: /señales-de-calma
-collection: educacion
+path: /senales-de-calma
 featured: true
-featuredImage: ./Señales-de-calma-¿entiendes-lo-que-te-dice-tu-perro?.jpeg
+collection: educacion
+featuredImage: ./Senales-de-calma-entiendes-lo-que-te-dice-tu-perro.jpeg
 tags: ["Educacion"]
 type: "blog"
 ---
-
 Aunque no cuente con la verbalización, el perro puede presumir de un lenguaje basado en señales y movimientos bastante rico y de comprensión universal. A diferencia de los humanos, cualquier perro de Japón entiende a la perfección los símbolos de un perro occidental, si los dos han tenido un buen proceso de aprendizaje y sociabilización en sus primeros meses de vida.
 
 Algo tan fundamental como mover la cara o lamerse el hocico es señal clara del estado de ánimo del perro y de su percepción ante una situación en concreto. Este lenguaje es aprendido cuando son pequeños y se inicia junto a su madre y hermanos, quienes le enseñan y le orientan correctamente. Gracias a ello, se traspasa a todos los seres de esta especie de forma natural pero en el caso de los humanos es necesario un poco de atención, ya que, por lo general, nosotros tendemos a entendernos con la palabra y no somos tan suspicaces a los movimientos o al lenguaje corporal como los animales.
