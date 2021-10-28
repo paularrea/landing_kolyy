@@ -37,7 +37,7 @@ const CeroPerrosPerdidos = () => {
               data-sal="slide-up"
               data-sal-delay="100"
               data-sal-duration="1000"
-              href="https://app.kolyy.com/"
+              href="https://shop.kolyy.com/"
               target="__blank"
               rel="noopener noreferrer"
             >
