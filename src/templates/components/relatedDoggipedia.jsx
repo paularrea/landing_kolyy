@@ -1,14 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import loadable from "@loadable/component";
 import { posts_content, post_flex } from "../../styles/blog.module.scss";
-import MediaQuery from "react-responsive";
-import MobileCarousel from "../../components/doggipediaComponents/mobileCarousel";
 import CarouselComponent from "../../components/doggipediaComponents/Carousel";
-
-const DesktopCarousel = loadable(() =>
-  import("../../components/doggipediaComponents/desktopCarousel")
-);
 
 const RelatedDoggipedia = () => {
   const data = useStaticQuery(graphql`

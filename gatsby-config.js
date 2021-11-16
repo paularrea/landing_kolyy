@@ -1,10 +1,12 @@
+require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
     title: `Kolyy`,
     description: `Kolyy`,
     author: `Pau Larrea`,
   },
-  
+
   plugins: [
     {
       resolve: "gatsby-plugin-google-tagmanager",
@@ -15,9 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          "G-HYQKXZ0WY9",
-        ],
+        trackingIds: ["G-HYQKXZ0WY9"],
         pluginConfig: {
           head: false,
           respectDNT: true,
@@ -37,8 +37,8 @@ module.exports = {
               maxWidth: 590,
             },
           },
-        ]
-      }
+        ],
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -50,6 +50,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-scroll-reveal`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

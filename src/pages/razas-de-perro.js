@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
-import loadable from "@loadable/component";
 import {
   container,
   bg_img,
@@ -12,10 +11,6 @@ import {
 
 import searchIcon from "../images/icons/search.png";
 import CarouselComponent from "../components/doggipediaComponents/Carousel";
-
-const DesktopCarousel = loadable(() =>
-  import("../components/doggipediaComponents/desktopCarousel")
-);
 
 const Doggipedia = ({ data }) => {
   const [searchDog, setSearchDog] = useState("");
@@ -30,33 +25,6 @@ const Doggipedia = ({ data }) => {
         const { title } = post.node.frontmatter;
         return title.toLowerCase().includes(searchDog.toLocaleLowerCase());
       });
-  console.log(posts, "posts");
-  // const [state, setState] = useState({
-  //   filteredPosts: [],
-  //   query: "",
-  // });
-
-  // const allPosts = data.allMarkdownRemark.edges;
-
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
-
-  // console.log(state, 'query')
-  // const handleInputChange = (event) => {
-  //   const query = event.target.value;
-  //   const filteredPosts = allPosts.filter((post) => {
-  //     const { title } = post.node.frontmatter;
-  //     return title.toLowerCase().includes(query.toLowerCase());
-  //   });
-  //   setState({
-  //     query,
-  //     filteredPosts,
-  //   });
-  // };
-
-  // const posts = state.query === "" ? allPosts : state.filteredPosts;
-
   return (
     <Layout>
       <Seo title="Razas de perro" />

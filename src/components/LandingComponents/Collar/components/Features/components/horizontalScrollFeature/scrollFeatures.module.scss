@@ -1,0 +1,19 @@
+.container{
+    padding: 6rem 0 4rem 0;
+    box-shadow: inset -2px -10px 15px whitesmoke;
+    h2{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 300;
+        padding-bottom: 1.5rem;
+    }
+    .flex_scroll{
+        display: flex;
+        overflow-x: scroll;
+        width: auto;
+        img{
+            padding: 1rem;
+        }
+    }
+}

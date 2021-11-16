@@ -1,7 +1,11 @@
 import React, { useEffect } from "react";
+import About from "../components/LandingComponents/About/About";
+import Contact from "../components/LandingComponents/Contact/Contact";
+import Intro from "../components/LandingComponents/Collar/Intro";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
-import SectionScroll from "../components/homeComponents/scrollSections/sectionScroll";
+import Specifications from "../components/LandingComponents/Specifications/Specifications";
+// import SectionScroll from "../components/homeComponents/scrollSections/sectionScroll";
 
 const Home = () => {
   useEffect(() => {
@@ -10,7 +14,11 @@ const Home = () => {
   return (
     <Layout>
       <Seo title="Collar para cuidar mi perro" />
-      <SectionScroll />
+      {/* <SectionScroll /> */}
+      <Intro />
+      <About />
+      <Specifications />
+      <Contact />
     </Layout>
   );
 };

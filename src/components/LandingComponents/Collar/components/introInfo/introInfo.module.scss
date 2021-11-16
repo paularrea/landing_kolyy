@@ -1,0 +1,27 @@
+@import "../../../../../styles/variables.scss";
+.flex_container{
+    background-color: $greenKolyy;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    div{
+        padding: 0 .5rem;
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        width:auto;
+        b{
+            font-weight: 500;
+        }
+        img{
+            padding-right: .5rem;
+        }
+        p,b{
+            width: auto;
+            font-size: 12px;
+        }
+    }
+}

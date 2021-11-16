@@ -1,0 +1,52 @@
+@import "../../../styles/variables.scss";
+
+.container{
+    padding: 2.5rem 0 0 0;
+    text-align: center;
+    h2{
+        font-size: 40px;
+        font-weight: 300;
+        padding-bottom: 1.5rem;
+    }
+    p{
+        margin: 0 auto;
+        max-width: 310px;
+    }
+    img{
+        margin-top: 2rem;
+    }
+    .green_container{
+        padding: 2rem 1rem;
+        background-color: $greenKolyy;
+        color: white;
+        .flex_container{
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            div{
+                width: 60%;
+                padding: 1rem;
+                h3{
+                    font-size: 34px;
+                    font-weight: 800;
+                    padding-bottom: .7rem;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-left: 1rem;
+                }
+                .flex_div{
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    img{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
