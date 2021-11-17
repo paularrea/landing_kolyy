@@ -42,7 +42,7 @@ La artrosis en perros puede ser difícil de detectar en sus primeras etapas y, a
 - Dolor al acariciar o tocar
 - Dificultad para adoptar una postura para orinar o defecar.
 - Pérdida de masa muscular en las extremidades y la columna.
-- 
+
 Si sospechas que tu perro puede presentar alguno de estos signos, es importante que un veterinario especialista en el campo lo evalúe. 
 
 
