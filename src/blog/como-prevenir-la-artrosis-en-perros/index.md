@@ -17,30 +17,32 @@ La osteoartritis, también conocida como enfermedad degenerativa de las articula
 #### Factores de riesgo de la artrosis en perros
 Cualquier perro puede desarrollar artrosis, especialmente a medida que envejece. Pero existen algunos factores que pueden predisponer a tu perro a esta condición, como por ejemplo:
 
-	•	Razas grandes o gigantes, como pastores alemanes, labradores y Golden retrievers
-	•	Obesidad
-	•	Edad, particularmente perros de mediana edad a mayores.
-	•	Estrés repetitivo y en exceso de actividades atléticas como agilidad, flyball o buceo
-	•	Lesiones como fracturas o desgarros de ligamentos.
-	•	Diagnósticos previos de displasia de cadera o codo
-	•	Infecciones que afectan las articulaciones, como la enfermedad de Lyme.
-	•	Nutrición inadecuada
-	•	Mala conformación
-	•	Genética
+- Razas grandes o gigantes, como pastores alemanes, labradores y Golden retrievers
+- Obesidad
+- Edad, particularmente perros de mediana edad a mayores.
+- Estrés repetitivo y en exceso de actividades atléticas como agilidad, flyball o buceo
+- Lesiones como fracturas o desgarros de ligamentos.
+- Diagnósticos previos de displasia de cadera o codo
+- Infecciones que afectan las articulaciones, como la enfermedad de Lyme.
+- Nutrición inadecuada
+- Mala conformación
+- Genética
+
 Si tu perro está predispuesto a desarrollar artrosis, es especialmente importante mantenerse al día con visitas regulares de bienestar al especialista veterinario en la materia. También, puede ayudar que tu perro mantenga un peso saludable y un estilo de vida activo.
 
 
 #### Signos de artrosis en perros
 La artrosis en perros puede ser difícil de detectar en sus primeras etapas y, a menudo, los síntomas no se hacen evidentes hasta que la articulación afectada está gravemente dañada. Algunos perros también pueden ser muy estoicos y ocultarán su dolor hasta que se vuelva severo. Por lo tanto, es importante monitorear a los perros de mediana edad a mayores y a los predispuestos a la artrosis para detectar signos tempranos de enfermedad articular. Algunos signos pueden ser:
 
-	•	Rigidez, cojera, cojera o dificultad para levantarse
-	•	Letargo
-	•	Renuncia a correr, saltar o jugar
-	•	Aumento de peso
-	•	Irritabilidad o cambios de comportamiento.
-	•	Dolor al acariciar o tocar
-	•	Dificultad para adoptar una postura para orinar o defecar.
-	•	Pérdida de masa muscular en las extremidades y la columna.
+- Rigidez, cojera, cojera o dificultad para levantarse
+- Letargo
+- Renuncia a correr, saltar o jugar
+- Aumento de peso
+- Irritabilidad o cambios de comportamiento.
+- Dolor al acariciar o tocar
+- Dificultad para adoptar una postura para orinar o defecar.
+- Pérdida de masa muscular en las extremidades y la columna.
+- 
 Si sospechas que tu perro puede presentar alguno de estos signos, es importante que un veterinario especialista en el campo lo evalúe. 
 
 
