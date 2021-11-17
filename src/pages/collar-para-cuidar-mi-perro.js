@@ -15,6 +15,7 @@ const Home = () => {
     <Layout>
       <Seo title="Collar para cuidar mi perro" />
       <SectionScroll />
+      
       {/* <Intro />
       <About />
       <Specifications />
