@@ -19,7 +19,6 @@ const Home = () => {
       <About />
       <Specifications />
       <Contact /> */}
-      
     </Layout>
   );
 };

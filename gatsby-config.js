@@ -27,6 +27,7 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-scroll-reveal`,
+    `gatsby-plugin-anchor-links`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
