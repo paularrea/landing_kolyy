@@ -1,6 +1,6 @@
 ---
-title: Nuestros perros también se hacen mayores… ¿Cómo prevenir la artrosis?
-date: 2021-08-18
+title: Cómo prevenir la artrosis en perros
+date: 2021-11-17
 path: /como-prevenir-la-artrosis-en-perros
 featured: true
 collection: salud
