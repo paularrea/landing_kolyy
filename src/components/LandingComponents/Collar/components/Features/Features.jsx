@@ -1,10 +1,10 @@
 import React from "react";
 import { container } from "./features.module.scss";
-import FeaturesImg from "./components/FeaturesImg";
 import FeatureSwapper from "./components/FeatureSwapper/FeatureSwapper";
 import ScrollFeatures from "./components/horizontalScrollFeature/ScrollFeatures";
 import BgImgFeatures from "./components/bgImgFeatures/bgImgFeatures";
 import Sponsors from "./components/Sponsors";
+import ArrowsImg from "./components/ArrowsImg/ArrowsImg";
 
 const Features = () => {
   return (
@@ -15,7 +15,7 @@ const Features = () => {
           Un collar diseñado para satisfacer a los amantes de los perros en el
           crecimiento, seguimiento y el desarrollo de su vida.
         </p>
-        <FeaturesImg />
+        <ArrowsImg />
       </div>
       <Sponsors/>
       <BgImgFeatures />

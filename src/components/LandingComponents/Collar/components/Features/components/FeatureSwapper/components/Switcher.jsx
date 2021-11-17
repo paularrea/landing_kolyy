@@ -2,8 +2,6 @@ import React from "react";
 import {
   tabs,
   tab,
-  selectedTab,
-  tabTitle,
   grayIcon,
 } from "../swapper.module.scss";
 import locationIcon from "../../../../../../../../images/icons/location_icon.png";
