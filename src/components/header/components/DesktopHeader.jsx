@@ -15,11 +15,9 @@ import {
   button_header,
 } from "../header.module.scss";
 import Logo from "./logo";
+import SubHeader from "./SubHeader/SubHeader";
 
 const DesktopHeader = () => {
-  const [activeCollar, setActiveCollar] = useState(false);
-  const [activePlacas, setActivePlacas] = useState(false);
-  const [activeAbout, setActiveAbout] = useState(false);
   const [activeBlog, setActiveBlog] = useState(false);
   const [activeDoggipedia, setActiveDoggipedia] = useState(false);
   const [activeQuestions, setActiveQuestions] = useState(false);
@@ -35,13 +33,7 @@ const DesktopHeader = () => {
     };
     const isActive = () => {
       const currentURL = window.location.href;
-      if (currentURL.indexOf("collar-perro-gps") > -1) {
-        setActiveCollar(true);
-      } else if (currentURL.indexOf("0perrosperdidos") > -1) {
-        setActivePlacas(true);
-      } else if (currentURL.indexOf("mundo-kolyy") > -1) {
-        setActiveAbout(true);
-      } else if (currentURL.indexOf("blog-para-perros") > -1) {
+      if (currentURL.indexOf("blog-para-perros") > -1) {
         setActiveBlog(true);
       } else if (currentURL.indexOf("contacto") > -1) {
         setActiveQuestions(true);
@@ -61,12 +53,14 @@ const DesktopHeader = () => {
           to="/razas-de-perro"
           className={activeDoggipedia && active_white}
         >
-          {/* <FormattedMessage id="nav.blog" /> */}
           Conoce a tu perro
         </Link>
 
-        <Link id="blog" to="/blog-para-perros" className={activeBlog && active_white}>
-          {/* <FormattedMessage id="nav.blog" /> */}
+        <Link
+          id="blog"
+          to="/blog-para-perros"
+          className={activeBlog && active_white}
+        >
           Blog
         </Link>
         <Link
@@ -74,7 +68,6 @@ const DesktopHeader = () => {
           to="/contacto"
           className={activeQuestions && active_white}
         >
-          {/* <FormattedMessage id="nav.questions" /> */}
           Pregúntanos
         </Link>
       </nav>
@@ -83,55 +76,19 @@ const DesktopHeader = () => {
           <Link id="logo" to="/collar-para-cuidar-mi-perro">
             <Logo />
           </Link>
-
-          <Link
-            id="collar-perro"
-            to="/collar-perro-gps"
-            className={activeCollar && active}
-          >
-            {/* <FormattedMessage id="nav.collar" /> */}
-            Collar
-          </Link>
-
-          <Link
-            id="0perrosperdidos"
-            to="/0perrosperdidos"
-            className={activePlacas && active}
-          >
-            {/* <FormattedMessage id="nav.placa" /> */}
-            #0perrosperdidos
-          </Link>
-
-          <Link
-            id="sobre-nosotros"
-            to="/mundo-kolyy"
-            className={activeAbout && active}
-          >
-            {/* <FormattedMessage id="nav.about" /> */}
-            Mundo Kolyy
-          </Link>
         </nav>
         <div>
-          <a
-            className={login_link}
-            href="https://app.kolyy.com/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            {" "}
-            {/* <FormattedMessage id="nav.login" /> */}
-            <button style={{ backgroundColor: "#D9DADD", color: "black", fontSize:'16px' }}>
-              Inicia sesión
-            </button>
-          </a>
-          <Link id="reserva" to="/reserva-collar-kolyy">
-            <button className={button_header}>
-              {/* <FormattedMessage id="nav.book" /> */}
-              Reserva
-            </button>
+          <button style={{ backgroundColor: "transparent" }}>
+            <p style={{ color: "#30AAAA", fontSize: "14px" }}>
+              <b>Ahorra el 30%</b>
+            </p>
+          </button>
+          <Link to="/checkoutPage">
+            <button>Comprar Ya</button>
           </Link>
         </div>
       </div>
+      <SubHeader />
     </header>
   );
 };

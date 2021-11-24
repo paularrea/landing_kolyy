@@ -8,6 +8,7 @@ import { navBar, burger, flex_nav_btn } from "./header.module.scss";
 import Logo from "./components/logo";
 import Burger from "./components/burger";
 import SubHeader from "./components/SubHeader/SubHeader";
+import Checkout from "../../Stripe/checkout";
 
 const Header = () => (
   <>
@@ -20,16 +21,19 @@ const Header = () => (
             </Link>
           </div>
           <div className={flex_nav_btn}>
-            <button>
-              <Link
-                style={{ color: "white" }}
-                id="book"
-                to="/reserva-collar-kolyy"
+            <button style={{ backgroundColor: "transparent" }}>
+              <p
+                style={{
+                  color: "#30AAAA",
+                  fontSize: "14px",
+                }}
               >
-                {/* <FormattedMessage id="nav.book" /> */}
-                Reserva
-              </Link>
+                <b>Ahorra el 30%</b>
+              </p>
             </button>
+            <Link to="/checkoutPage">
+              <button>Comprar Ya</button>
+            </Link>
             <div className={burger}>
               <Burger />
             </div>
@@ -39,9 +43,7 @@ const Header = () => (
       </header>
     </MediaQuery>
     <MediaQuery minWidth={900}>
-      {/* <div className={big_container}> */}
       <DesktopHeader />
-      {/* </div> */}
     </MediaQuery>
   </>
 );

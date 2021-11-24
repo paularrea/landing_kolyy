@@ -1,4 +1,6 @@
-require("dotenv").config();
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
   siteMetadata: {
@@ -14,6 +16,14 @@ module.exports = {
         id: "GTM-583PZMR",
       },
     },
+    // {
+    //   resolve: `gatsby-source-stripe`,
+    //   options: {
+    //     objects: ["Price"],
+    //     secretKey: process.env.STRIPE_SECRET_KEY,
+    //     downloadFiles: false,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
