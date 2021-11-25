@@ -6,7 +6,7 @@ import {
   img,
   desk_container,
 } from "../earlyKolyyerBanner.module.scss";
-import EarlyImg from "./earlyImg";
+import EarlyImg from "./EarlyImg";
 import EarlyImgDesk from "./EarlyImgDesk";
 import Title from "./Title";
 import Text from "./Text";
