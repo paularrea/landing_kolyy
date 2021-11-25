@@ -3,9 +3,6 @@
     transition: background-color 0.5s ease-in;
     text-align: center;
     color: white;
-    section{
-        padding-bottom: 10rem;
-    }
     .flex_container{
         padding: 0 5vw;
         display: block;
@@ -43,6 +40,9 @@
 
 @media (min-width: 870px) {
     .container{
+        section{
+            padding-bottom: 3rem;
+        }
         padding: 4rem 5vw;
         .flex_container{
             display: flex;

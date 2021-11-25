@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { graphql, Link } from "gatsby";
 import SubscribeComponent from "../components/blogComponents/subscribeComponent";
 import Layout from "../components/layout/layout";
-import { Grid, Row, Col } from "react-flexbox-grid";
 import Seo from "../components/seo";
+import { Grid, Row, Col } from "react-flexbox-grid";
 import Img from "gatsby-image";
 import {
   span,

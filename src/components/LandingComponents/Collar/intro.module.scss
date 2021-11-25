@@ -35,7 +35,6 @@
         position: absolute;
         bottom: .5rem;
         right: 0;
-        left: 0;
         margin: auto;
     }
 }
@@ -59,12 +58,6 @@
     .abs_img{
         bottom: -6rem;
         max-width: 850px;
-    }
-    .abs_info{
-        z-index: 2;
-        position: absolute;
-        top: 135px;
-        right: 3px !important;
     }
 }
 }

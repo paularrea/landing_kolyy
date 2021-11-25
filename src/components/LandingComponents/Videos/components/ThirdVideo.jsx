@@ -1,12 +1,17 @@
-import React from 'react'
-import {video_container} from "../videos.module.scss"
+import React from "react";
+import { video_container, abs_div } from "../videos.module.scss";
+import BgVideo3 from "./BgVideo3";
 
 const FirstVideo = () => {
-    return (
-        <div className={video_container}>
-            <h1>VIDEO 3</h1>
+  return (
+    <BgVideo3>
+      <div className={video_container}>
+        <div className={abs_div}>
+          <h1>ANTICÍPATE A POSIBLES PROBLEMAS DE SALUD.</h1>
         </div>
-    )
-}
+      </div>
+    </BgVideo3>
+  );
+};
 
-export default FirstVideo
+export default FirstVideo;

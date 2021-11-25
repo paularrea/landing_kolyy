@@ -1,12 +1,10 @@
 @import "../../../../../styles/variables.scss";
 .flex_container{
-    position: absolute;
-    right: 0;
-    bottom: 0;
     background-color: transparent;
     display: flex;
-    width: auto;
+    width: 100%;
     max-width: 350px;
+    text-align: right;
     justify-content: space-between;
     align-items: center;
     padding: .5rem;

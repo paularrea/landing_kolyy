@@ -5,7 +5,6 @@ import Intro from "../components/LandingComponents/Collar/Intro";
 import Specifications from "../components/LandingComponents/Specifications/Specifications";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
-// import SectionScroll from "../components/homeComponents/scrollSections/sectionScroll";
 
 const Home = () => {
   useEffect(() => {
@@ -14,7 +13,6 @@ const Home = () => {
   return (
     <Layout>
       <Seo title="Collar para cuidar mi perro" />
-      {/* <SectionScroll />*/}
       <Intro />
       <Specifications />
       <About />

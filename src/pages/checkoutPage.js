@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+import Layout from "../components/layout/layout";
+import Seo from "../components/seo";
 import StripeCheckout from "../Stripe/checkout";
+import Compra from "../components/compra/Compra"
 
 const CheckoutPage = () => {
   const [product, setProduct] = useState(null);
@@ -9,7 +12,8 @@ const CheckoutPage = () => {
   };
 
   return (
-    <div>
+    <Layout>
+      <Seo title="Blog" />
       <button
         value="price_1JxBsrAajQ6vOHCP0zfJ1TwW"
         onClick={selectProductOnCick}
@@ -22,8 +26,9 @@ const CheckoutPage = () => {
       >
         blue
       </button>
+      <Compra/>
       {product && <StripeCheckout productID={product} />}
-    </div>
+      </Layout>
   );
 };
 
