@@ -17,7 +17,7 @@ import {
 import Logo from "./logo";
 import SubHeader from "./SubHeader/SubHeader";
 
-const DesktopHeader = () => {
+const DesktopHeader = ({isInLanding}) => {
   const [activeBlog, setActiveBlog] = useState(false);
   const [activeDoggipedia, setActiveDoggipedia] = useState(false);
   const [activeQuestions, setActiveQuestions] = useState(false);
@@ -83,12 +83,12 @@ const DesktopHeader = () => {
               <b>Ahorra el 30%</b>
             </p>
           </button>
-          <Link to="/checkoutPage">
+          <Link to="/comprar-collar-kolyy">
             <button>Comprar Ya</button>
           </Link>
         </div>
       </div>
-      <SubHeader />
+      {isInLanding && <SubHeader />}
     </header>
   );
 };

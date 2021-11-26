@@ -5,6 +5,7 @@ import Intro from "../components/LandingComponents/Collar/Intro";
 import Specifications from "../components/LandingComponents/Specifications/Specifications";
 import Layout from "../components/layout/layout";
 import Seo from "../components/seo";
+import SubHeader from "../components/header/components/SubHeader/SubHeader";
 
 const Home = () => {
   useEffect(() => {

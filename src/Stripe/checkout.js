@@ -3,7 +3,7 @@ import { getStripe } from "./Stripe";
 
 const buttonStyles = {
   fontSize: "12px",
-  fontWeight:300,
+  fontWeight: 300,
   textAlign: "center",
   color: "white",
   padding: ".3rem 1rem",
@@ -16,17 +16,23 @@ const buttonDisabledStyles = {
   cursor: "not-allowed",
 };
 
-const Checkout = ({productID}) => {
+const Checkout = ({ productsID }) => {
   const [loading, setLoading] = useState(false);
 
   const redirectToCheckout = async (event) => {
     event.preventDefault();
     setLoading(true);
     const stripe = await getStripe();
-    console.log(stripe, 'stripe');
+    console.log(stripe, "stripe");
     const { error } = await stripe.redirectToCheckout({
       mode: "payment",
-      lineItems: [{ price: productID, quantity: 1 }],
+      lineItems: [
+        { price: productsID[0], quantity: 1 },
+        { price: productsID[1], quantity: 2 },
+      ],
+      discounts: [{
+        coupon: 'kolyy_40_discount',
+      }],
       successUrl: `http://localhost:8000/page-2/`,
       cancelUrl: `http://localhost:8000/`,
     });

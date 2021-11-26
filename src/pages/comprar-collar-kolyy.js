@@ -5,15 +5,16 @@ import StripeCheckout from "../Stripe/checkout";
 import Compra from "../components/compra/Compra"
 
 const CheckoutPage = () => {
-  const [product, setProduct] = useState(null);
+  const [products, setProducts] = useState(['price_1JxBsrAajQ6vOHCP0zfJ1TwW','price_1JnJZmAajQ6vOHCPazd021Mg']);
 
   const selectProductOnCick = (e) => {
-    setProduct(e.target.value);
+    setProducts(e.target.value);
   };
 
   return (
     <Layout>
-      <Seo title="Blog" />
+      <Seo title="Compra" />
+      <Compra/>
       <button
         value="price_1JxBsrAajQ6vOHCP0zfJ1TwW"
         onClick={selectProductOnCick}
@@ -26,8 +27,7 @@ const CheckoutPage = () => {
       >
         blue
       </button>
-      <Compra/>
-      {product && <StripeCheckout productID={product} />}
+      {products && <StripeCheckout productsID={products} />}
       </Layout>
   );
 };

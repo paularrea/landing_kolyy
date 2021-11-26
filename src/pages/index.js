@@ -1,17 +1,12 @@
-import React, { useEffect } from "react";
-import Seo from "../components/seo";
-import Home from "./collar-para-cuidar-mi-perro"
+import { useEffect } from "react";
+import { navigate } from "gatsby";
 
-const IndexPage = () => {
+export default () => {
   useEffect(() => {
-    window.scrollTo(0, 0 );
+    window.scrollTo(0, 0);
   }, []);
-  return (
-    <>
-      <Seo title="Collar para cuidar mi perro" />
-      <Home/>
-    </>
-  );
+  useEffect(() => {
+    navigate("/collar-para-cuidar-mi-perro");
+  }, []);
+  return null;
 };
-
-export default IndexPage;

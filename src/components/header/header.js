@@ -8,45 +8,47 @@ import { navBar, burger, flex_nav_btn } from "./header.module.scss";
 import Logo from "./components/logo";
 import Burger from "./components/burger";
 import SubHeader from "./components/SubHeader/SubHeader";
-import Checkout from "../../Stripe/checkout";
 
-const Header = () => (
-  <>
-    <MediaQuery maxWidth={900}>
-      <header>
-        <div className={navBar}>
-          <div>
-            <Link to="/collar-para-cuidar-mi-perro">
-              <Logo />
-            </Link>
-          </div>
-          <div className={flex_nav_btn}>
-            <button style={{ backgroundColor: "transparent" }}>
-              <p
-                style={{
-                  color: "#30AAAA",
-                  fontSize: "14px",
-                }}
-              >
-                <b>Ahorra el 30%</b>
-              </p>
-            </button>
-            <Link to="/checkoutPage">
-              <button>Comprar Ya</button>
-            </Link>
-            <div className={burger}>
-              <Burger />
+const Header = () => {
+  const isInLanding = window.location.href.indexOf("collar-para-cuidar-mi-perro") > -1;
+  return (
+    <>
+      <MediaQuery maxWidth={900}>
+        <header>
+          <div className={navBar}>
+            <div>
+              <Link to="/collar-para-cuidar-mi-perro">
+                <Logo />
+              </Link>
+            </div>
+            <div className={flex_nav_btn}>
+              <button style={{ backgroundColor: "transparent" }}>
+                <p
+                  style={{
+                    color: "#30AAAA",
+                    fontSize: "14px",
+                  }}
+                >
+                  <b>Ahorra el 30%</b>
+                </p>
+              </button>
+              <Link to="/comprar-collar-kolyy">
+                <button>Comprar Ya</button>
+              </Link>
+              <div className={burger}>
+                <Burger />
+              </div>
             </div>
           </div>
-        </div>
-        <SubHeader />
-      </header>
-    </MediaQuery>
-    <MediaQuery minWidth={900}>
-      <DesktopHeader />
-    </MediaQuery>
-  </>
-);
+          {isInLanding && <SubHeader />}
+        </header>
+      </MediaQuery>
+      <MediaQuery minWidth={900}>
+        <DesktopHeader isInLanding={isInLanding} />
+      </MediaQuery>
+    </>
+  );
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
