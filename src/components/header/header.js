@@ -1,6 +1,6 @@
+import React, { useState, useEffect } from "react";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
-import React from "react";
 import MediaQuery from "react-responsive";
 import DesktopHeader from "./components/DesktopHeader";
 // import { FormattedMessage, injectIntl } from "gatsby-plugin-intl";
@@ -10,7 +10,15 @@ import Burger from "./components/burger";
 import SubHeader from "./components/SubHeader/SubHeader";
 
 const Header = () => {
-  const isInLanding = window.location.href.indexOf("collar-para-cuidar-mi-perro") > -1;
+  const [isInLanding, setIsInLanding] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const url = window.location.href;
+      url.indexOf("collar-para-cuidar-mi-perro") > -1 && setIsInLanding(true);
+    }
+  }, []);
+
   return (
     <>
       <MediaQuery maxWidth={900}>
