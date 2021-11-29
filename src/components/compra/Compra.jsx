@@ -1,9 +1,10 @@
 import React from "react";
 import { container, info } from "./compra.module.scss";
-import Cards from "../compra/components/cards/Cards"
+import Cards from "../compra/components/cards/Cards";
 import EarlyKolyyerBanner from "../LandingComponents/Collar/components/EarlyKolyyer/EarlyKolyyerBanner";
 import IntroInfo from "../LandingComponents/Collar/components/introInfo/IntroInfo";
 import CustomCollar from "./components/custom/CustomCollar";
+import List from "./components/List/List";
 
 const Compra = () => {
   return (
@@ -16,9 +17,10 @@ const Compra = () => {
       <div className={info}>
         <IntroInfo />
       </div>
-      <Cards />
       <EarlyKolyyerBanner />
-      <CustomCollar/>
+      <Cards />
+      <List />
+      <CustomCollar />
     </div>
   );
 };
