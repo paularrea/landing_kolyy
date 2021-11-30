@@ -20,24 +20,25 @@
     color: white;
     width: 100vw;
     .flex_container{
-        margin: 0 5vw;
+        width: 100%;
+        padding: 0 5vw;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         .title{
+            width: 40%; 
             h2{
             font-size: 20px !important;
             font-weight: 800 !important;
             line-height: 22.1px !important;  
-            width: 50vw; 
             }
         }
         .text{
+            width: 40%; 
             p{
             font-size: 14px;
             font-weight: 300;
             line-height: 16.94px; 
-            width: 40vw; 
             }
         }
     }

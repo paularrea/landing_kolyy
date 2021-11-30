@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import MediaQuery from "react-responsive";
 import GoogleAppleConnect from "./components/GoogleAppleConntect/GoogleAppleConnect";
 import Switcher from "./components/Switcher";
-import ScrollFeatures from "../horizontalScrollFeature/ScrollFeatures";
 import {
   container,
   hide,
@@ -79,7 +78,6 @@ const FeatureSwapper = () => {
           </div>
         ))}
       </MediaQuery>
-      <ScrollFeatures />
     </div>
   );
 };

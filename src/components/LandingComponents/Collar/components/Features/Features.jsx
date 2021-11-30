@@ -20,6 +20,7 @@ const Features = () => {
      <Sponsors/>
       <BgImgFeatures />
       <FeatureSwapper />
+      <ScrollFeatures/>
     </>
   );
 };

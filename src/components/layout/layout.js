@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header
-        siteTitle={data.site.siteMetadata?.title || `Collar inteligente Kolyy`}
+        siteTitle={`Collar inteligente Kolyy`}
       />
       <main className={page}>{children}</main>
       <Footer />
