@@ -11,7 +11,7 @@ import {
   button,
   ahorro
 } from "./custom.module.scss";
-import Button from "../Button";
+import Checkout from "../../../../Stripe/checkout"
 import TechSwapper from "../../../LandingComponents/Specifications/components/TechSwapper/TechSwapper";
 import ColorButtons from "./components/ColorButtons";
 import SizeButtons from "./components/SizeButtons";
@@ -41,7 +41,7 @@ const CustomCollarDesk = ({ selected, showCollar, addSizeToSelected }) => {
             </h3>
             <p className={iva}>IVA incl.</p>
             <div className={button}>
-              <Button />
+              <Checkout selected={selected}/>
             </div>
           </div>
         </div>

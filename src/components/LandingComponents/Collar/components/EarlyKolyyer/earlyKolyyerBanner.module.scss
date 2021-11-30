@@ -21,7 +21,7 @@
     width: 100vw;
     .flex_container{
         width: 100%;
-        padding: 0 5vw;
+        padding: 0 5vw !important;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -44,7 +44,7 @@
     }
     
     .selling_bar_container{
-        margin: .5rem auto;
+        margin: .5rem 5vw;
         .total_bar{
             width: 90vw;
             height: 20px;
