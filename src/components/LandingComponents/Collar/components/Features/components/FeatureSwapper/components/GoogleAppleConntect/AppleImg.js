@@ -1,14 +1,14 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-const AppStoreImg = () => {
+const AppleImg = () => {
   return (
     <StaticImage
       placeholder="blurred"
-      src="../../../../../../../../../images/appStoreImg.png"
+      src="../../../../../../../../../images/AppStoreImg.png"
       alt="Encuentra Kolyy app en App Store"
     />
   );
 };
 
-export default AppStoreImg;
+export default AppleImg;

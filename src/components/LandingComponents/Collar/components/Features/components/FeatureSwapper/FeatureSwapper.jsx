@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import MediaQuery from "react-responsive";
-import mockupActivity from "../../../../../../../images/mockupActivity.png";
-import mockupHealth from "../../../../../../../images/mockupHealth.png";
-import mockupLocation from "../../../../../../../images/mockupLocation.png";
 import GoogleAppleConnect from "./components/GoogleAppleConntect/GoogleAppleConnect";
 import Switcher from "./components/Switcher";
-import ScrollFeatures from "../horizontalScrollFeature/ScrollFeatures"
+import ScrollFeatures from "../horizontalScrollFeature/ScrollFeatures";
 import {
   container,
   hide,
   tabInfo,
   flex_container,
 } from "./swapper.module.scss";
+import MockupActivity from "./components/img/MockupActivity";
+import MockupHealth from "./components/img/MockupHealth";
+import MockupLocation from "./components/img/MockupLocation";
 
 const FeatureSwapper = () => {
   const [selected, setSelectedTab] = useState(1);
@@ -26,7 +26,7 @@ const FeatureSwapper = () => {
           perro.
         </p>
       ),
-      img: mockupActivity,
+      img: <MockupActivity />,
       index: 1,
     },
     {
@@ -37,7 +37,7 @@ const FeatureSwapper = () => {
           <b>consultas 24h.</b>
         </p>
       ),
-      img: mockupHealth,
+      img: <MockupHealth />,
       index: 2,
     },
     {
@@ -50,7 +50,7 @@ const FeatureSwapper = () => {
           Cobertura por todo el territorio <b>nacional.</b>
         </p>
       ),
-      img: mockupLocation,
+      img: <MockupLocation />,
       index: 3,
     },
   ];
@@ -61,23 +61,25 @@ const FeatureSwapper = () => {
       <Switcher selected={selected} setSelectedTab={setSelectedTab} />
       <MediaQuery minWidth={900}>
         <div className={flex_container}>
-          {selectedTab.map((item) => (
-            <div className={tabInfo}>
-              {item.text}
-              <img src={item.img} alt={item.text} />
-            </div>
-          ))}
+          {selectedTab.map((item) => {
+            return (
+              <div className={tabInfo}>
+                {item.text}
+                <div>{item.img}</div>
+              </div>
+            );
+          })}
         </div>
       </MediaQuery>
       <MediaQuery maxWidth={899}>
         {selectedTab.map((item) => (
           <div className={selected === item.index ? tabInfo : hide}>
             {item.text}
-            <img src={item.img} alt={item.text} />
+            <div>{item.img}</div>
           </div>
         ))}
       </MediaQuery>
-      <ScrollFeatures/>
+      <ScrollFeatures />
     </div>
   );
 };
