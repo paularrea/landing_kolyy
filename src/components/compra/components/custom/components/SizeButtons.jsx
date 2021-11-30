@@ -11,7 +11,7 @@ const SizeButtons = ({ addSizeToSelected, selected }) => {
     <div className={buttons_container}>
       <div className={flex_title}>
         <p>2</p>
-        <h5>Paso 2: tamaño:</h5>
+        <h5>Paso 2: tamaño</h5>
       </div>
       <div className={buttons}>
         <button

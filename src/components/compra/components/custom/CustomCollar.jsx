@@ -67,7 +67,7 @@ const CustomCollar = () => {
   }, [chooseSize]);
 
   return (
-    <>
+    <div id='buy-collar'>
     <MediaQuery maxWidth={870}>
          {chooseColor && (
         <div style={{ background: selected.bgColor }} className={container}>
@@ -82,7 +82,7 @@ const CustomCollar = () => {
    <MediaQuery minWidth={870}>
      <CustomCollarDesk selected={selected} showCollar={showCollar} addSizeToSelected={addSizeToSelected}/>
    </MediaQuery>
-    </>
+    </div>
   );
 };
 

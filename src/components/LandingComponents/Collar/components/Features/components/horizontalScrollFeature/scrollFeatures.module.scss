@@ -15,8 +15,8 @@
         width: auto;
         .img{
             padding: 1rem;
-            max-width: 245px;
-            max-height: 245px;
+           min-width: 245px !important;
+           min-height: 245px !important;
         }
     }
 }

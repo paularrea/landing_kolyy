@@ -30,19 +30,14 @@ const Burger = () => {
           </div>
         </Link>
         <div className="flex-btns">
-          <Link id="reserva" to="/reserva-collar-kolyy">
+          <Link id="reserva" to="/comprar-collar-kolyy">
             <button>
-              Reserva
+              Compra
             </button>
           </Link>
-          <a href="https://app.kolyy.com/" rel="noreferrer" target="_blank">
-            <button className="gray">
-              Inicia sesión
-            </button>
-          </a>
         </div>
         <nav className="bm-item-list">
-          <Link className="menu-item" id="collar-perro" to="/collar-perro-gps">
+          <Link className="menu-item" id="collar-perro" to="/">
             <div
               role="link"
               className="anchor-div"
@@ -60,45 +55,6 @@ const Burger = () => {
             </div>
           </Link>
 
-          <Link
-            id="0perrosperdidos"
-            to="/0perrosperdidos"
-            className="menu-item"
-          >
-            <div
-              role="link"
-              className="anchor-div"
-              onClick={() => {
-                closeMenu();
-              }}
-              onKeyDown={() => {
-                closeMenu();
-              }}
-              tabIndex={0}
-            >
-              {" "}
-              #0perrosperdidos
-              <img src={menuArrow} alt="iniciativa #0perrosPerdidos" />
-            </div>
-          </Link>
-
-          <Link id="sobre-nosotros" to="/mundo-kolyy" className="menu-item">
-            <div
-              role="link"
-              className="anchor-div"
-              onClick={() => {
-                closeMenu();
-              }}
-              onKeyDown={() => {
-                closeMenu();
-              }}
-              tabIndex={0}
-            >
-              {" "}
-              Mundo Kolyy
-              <img src={menuArrow} alt="About" />
-            </div>
-          </Link>
           <Link id="razas-de-perro" to="/razas-de-perro" className="menu-item">
             <div
               role="link"
@@ -151,9 +107,6 @@ const Burger = () => {
             </div>
           </Link>
         </nav>
-        {/* <div className="language-container">
-          <Language />
-        </div> */}
       </Menu>
     </>
   );

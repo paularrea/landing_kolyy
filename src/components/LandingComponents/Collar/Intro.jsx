@@ -18,7 +18,9 @@ const Intro = () => {
         </div>
       </div>
       <div style={{zIndex:9999999}}>
+      <div style={{backgroundColor:'#1D1D21'}}>
       <EarlyKolyyerBanner />
+      </div>
       </div>
       <Features />
     </>

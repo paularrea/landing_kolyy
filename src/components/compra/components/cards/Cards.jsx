@@ -8,11 +8,12 @@ import {
   text,
   decimal,
   flex,
-  ahorro
+  ahorro,
 } from "./cards.module.scss";
 import OneCollar from "./img/OneCollar";
 import TwoCollar from "./img/TwoCollar";
 import ThreeCollar from "./img/ThreeCollar";
+import { Link } from "react-scroll";
 
 const Cards = () => {
   const cardsCollection = [
@@ -71,7 +72,15 @@ const Cards = () => {
                   </p>
                 </h3>
                 <p>IVA incl.</p>
-                <button className={button}>Comprar</button>
+                <Link
+                  activeClass="active"
+                  to="buy-collar"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                >
+                  <button className={button}>Comprar</button>
+                </Link>
               </div>
             </div>
           );

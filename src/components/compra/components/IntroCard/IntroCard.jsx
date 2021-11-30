@@ -9,18 +9,23 @@ import {
   info_container,
   text,
   abs,
-  btn_container
+  btn_container,
 } from "./introCard.module.scss";
+import { Link } from "react-scroll";
+import SubscriptionModal from "./components/SubscriptionModal";
 
 const IntroCard = () => {
   return (
     <div className={container}>
-      <div className={img}><ImgIntroCard /></div>
+      <div className={img}>
+        <ImgIntroCard />
+      </div>
       <div className={abs}>
         <div className={info_container}>
           <h4>
             Collar kolyy + plan de suscripción <span>?</span>
           </h4>
+          <SubscriptionModal/>
           <section className={flex}>
             <div>
               <h3>
@@ -45,7 +50,15 @@ const IntroCard = () => {
         </div>
         <IntroInfo />
         <div className={btn_container}>
-          <Button />
+          <Link
+            activeClass="active"
+            to="buy-collar"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            <Button />
+          </Link>
         </div>
       </div>
     </div>

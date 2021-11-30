@@ -1,6 +1,6 @@
 require("dotenv").config({
   path: `.env`,
- })
+});
 
 module.exports = {
   siteMetadata: {
@@ -33,6 +33,13 @@ module.exports = {
           respectDNT: true,
           exclude: ["/preview/**", "/do-not-track/me/too/"],
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-modal-routing`,
+      options: {
+        appElement: "#___gatsby",
+        modalProps: {},
       },
     },
     `gatsby-transformer-remark`,

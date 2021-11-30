@@ -11,3 +11,9 @@
         text-align: center;
     }
 }
+
+@media (min-width: 870px) {
+    .top_banner{
+        padding: calc(100px + 1rem) 1rem 1rem 1rem;
+    }
+}
