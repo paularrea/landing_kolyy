@@ -26,5 +26,14 @@
             text-align: left;
         }   
     }
- 
+}
+
+@media (min-width: 870px) {
+    .list_container{
+        margin: 8rem auto 8rem auto;
+        flex-direction: row;
+        div{
+            max-width: 310px;
+        }
+    }
 }

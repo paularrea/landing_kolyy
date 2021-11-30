@@ -59,14 +59,6 @@ const FeatureSwapper = () => {
       <GoogleAppleConnect />
       <h2>Todos los detalles en tu mano</h2>
       <Switcher selected={selected} setSelectedTab={setSelectedTab} />
-      <MediaQuery maxWidth={900}>
-        {selectedTab.map((item) => (
-          <div className={selected === item.index ? tabInfo : hide}>
-            {item.text}
-            <img src={item.img} alt={item.text} />
-          </div>
-        ))}
-      </MediaQuery>
       <MediaQuery minWidth={900}>
         <div className={flex_container}>
           {selectedTab.map((item) => (
@@ -76,6 +68,14 @@ const FeatureSwapper = () => {
             </div>
           ))}
         </div>
+      </MediaQuery>
+      <MediaQuery maxWidth={899}>
+        {selectedTab.map((item) => (
+          <div className={selected === item.index ? tabInfo : hide}>
+            {item.text}
+            <img src={item.img} alt={item.text} />
+          </div>
+        ))}
       </MediaQuery>
       <ScrollFeatures/>
     </div>

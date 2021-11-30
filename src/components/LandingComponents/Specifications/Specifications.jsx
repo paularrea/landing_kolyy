@@ -7,7 +7,6 @@ import {
 } from "./specifications.module.scss";
 import TechSwapper from "./components/TechSwapper/TechSwapper";
 import TechImg from "./components/TechImg";
-import PackagingComponent from "./components/Packaging/PackagingComponent";
 import ColorSwapper from "./components/ColorSwapper/ColorSwapper";
 import Videos from "../Videos/Videos";
 import MediaQuery from "react-responsive";
@@ -47,7 +46,6 @@ const Specifications = () => {
         </section>
       </div>
       <Videos />
-      <PackagingComponent />
     </>
   );
 };

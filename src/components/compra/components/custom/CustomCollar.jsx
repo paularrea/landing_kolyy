@@ -14,6 +14,8 @@ import YellowCollar from "../../../LandingComponents/Specifications/components/C
 import ColorButtons from "./components/ColorButtons";
 import SizeButtons from "./components/SizeButtons";
 import { product_id } from "../../../../Stripe/products";
+import MediaQuery from "react-responsive";
+import CustomCollarDesk from "./CustomCollarDesk";
 
 const CustomCollar = () => {
   const [chooseColor, setChooseColor] = useState("black");
@@ -66,15 +68,20 @@ const CustomCollar = () => {
 
   return (
     <>
-      {chooseColor && (
+    <MediaQuery maxWidth={870}>
+         {chooseColor && (
         <div style={{ background: selected.bgColor }} className={container}>
           <div className={img}>{selected.img}</div>
           <h3>Personaliza tu Kolyy</h3>
-          <ColorButtons showCollar={showCollar} />
-          <SizeButtons addSizeToSelected={addSizeToSelected} />
+          <ColorButtons selected={selected} showCollar={showCollar} />
+          <SizeButtons selected={selected} addSizeToSelected={addSizeToSelected} />
           <SelectedOptions selected={selected} />
         </div>
       )}
+    </MediaQuery>
+   <MediaQuery minWidth={870}>
+     <CustomCollarDesk selected={selected} showCollar={showCollar} addSizeToSelected={addSizeToSelected}/>
+   </MediaQuery>
     </>
   );
 };
