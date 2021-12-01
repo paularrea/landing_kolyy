@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { container } from "./compra.module.scss";
 import Cards from "../compra/components/cards/Cards";
 import EarlyKolyyerBanner from "../LandingComponents/Collar/components/EarlyKolyyer/EarlyKolyyerBanner";
@@ -8,6 +8,8 @@ import IntroCard from "./components/IntroCard/IntroCard";
 import TopBanner from "./components/banner/TopBanner";
 
 const Compra = () => {
+  const [selected, setSelected] = useState({});
+
   return (
     <>
       <TopBanner />
@@ -21,7 +23,10 @@ const Compra = () => {
         <EarlyKolyyerBanner />
         <Cards />
         <List />
-        <CustomCollar />
+        <CustomCollar
+          selected={selected}
+          setSelected={setSelected}
+        />
       </div>
     </>
   );

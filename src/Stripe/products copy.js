@@ -1,5 +1,4 @@
 export const products_30_off = (selected) => {
-  console.log(selected, 'inside prd')
   if (selected.color === "black") {
     switch (selected.size) {
       case "S":

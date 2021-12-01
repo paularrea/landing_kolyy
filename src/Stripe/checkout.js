@@ -2,16 +2,17 @@ import React, { useState } from "react";
 import { getStripe } from "./Stripe";
 import { button } from "./stripe.module.scss";
 
-const Checkout = ({ selected }) => {
+const Checkout = ({ productsToCheckout, finished }) => {
   const [loading, setLoading] = useState(false);
-  
+  console.log(finished, 'finsihed')
+
   const redirectToCheckout = async (event) => {
     event.preventDefault();
     setLoading(true);
     const stripe = await getStripe();
     const { error } = await stripe.redirectToCheckout({
       mode: "payment",
-      lineItems: [{ price: selected.id, quantity: 1 }],
+      lineItems: productsToCheckout,
       successUrl: `http://localhost:8000/page-2/`,
       cancelUrl: `http://localhost:8000/comprar-collar-kolyy/`,
     });
@@ -25,10 +26,10 @@ const Checkout = ({ selected }) => {
     <button
       className={button}
       style={{
-        backgroundColor: selected && !selected.id && "gray",
-        boxShadow: selected && !selected.id && "0px 0px 13px gray",
+        backgroundColor: !finished && "gray",
+        boxShadow: !finished && "0px 0px 13px gray",
       }}
-      disabled={loading && selected.id ? true : false}
+      disabled={loading && !finished ? true : false}
       onClick={redirectToCheckout}
     >
       Comprar
